@@ -1,1 +1,71 @@
-<p>footer works!</p>
+<footer>
+    <section class="footer">
+
+        <div class="main-div">
+            <div class="logo-div">
+                <img
+                    src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ed760990-d166-4b24-a7e3-46eae5fad75c_Mont%20Everest%20Masala%20%2810%29.png" />
+            </div>
+
+            <div class="contact">
+                <h3>Quick Contact</h3>
+                <div class="info">
+                    <a href="https://maps.app.goo.gl/S73RHQWJ3rkgEgKS7">
+                        <!-- <img src="../../assets/new_images/map.png" /> -->
+                        1999 Mont-Royal Ave E, Montreal, Quebec H2H 1J4, Canada
+                    </a>
+                    <a href="tel:1 913-575-8381">
+                        <!-- <img src="../../assets/new_images/call.png" /> -->
+                        1 913-575-8381
+                    </a>
+                    <a href="mailTo:restaurants@tryantler.com">
+                        <!-- <img src="../../assets/new_images/mail.png" /> -->
+                        restaurants@tryantler.com
+                    </a>
+                </div>
+            </div>
+
+            <div class="social-div">
+                <h3>Connect Us</h3>
+                <div class="social">
+
+                    <a href="https://www.facebook.com/mont.everestmontreal/">
+                        <img
+                            src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/47b9f578-8c7f-4207-bef0-39af12a546a7_fb.png" />
+                    </a>
+
+                    <a href="https://www.instagram.com/monteverestmasala/">
+                        <img
+                            src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/7fa7828a-7233-4d86-8202-8546c5130380_insta.png" />
+                    </a>
+
+                    <a href="https://www.yelp.ca/biz/mont-everest-masala-montr%C3%A9al">
+                        <img
+                            src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ce09b0f1-e380-4832-a4a9-d3143f1137ce_yelp-removebg-preview.png" />
+                    </a>
+
+                    <a
+                        href="https://www.google.com/search?q=Mont+Everest+Masala+1999+Mont-Royal+Ave+E%2C+Montreal%2C+Quebec+H2H+1J4%2C+Canada&rlz=1C1CHBF_enIN1083IN1083&oq=Mont+Everest+Masala%091999+Mont-Royal+Ave+E%2C+Montreal%2C+Quebec+H2H+1J4%2C+Canada&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBBzI2M2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8">
+                        <img
+                            src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/d6b11212-cf58-4a21-bad4-2d50653020db_google-removebg-preview.png" />
+                    </a>
+                </div>
+            </div>
+
+            <div class="links">
+                <h3>Quick Links</h3>
+                <p>
+                    <a *ngFor="let link of links" [routerLink]="link.url">
+                        {{link.name}}
+                    </a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="closing-section">
+        <div>
+            © 2024 Mont Everest Masala. All Rights Reserved
+        </div>
+    </section>
+</footer>

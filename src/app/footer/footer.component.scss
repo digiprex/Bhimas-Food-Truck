@@ -1,0 +1,211 @@
+footer {
+    background: #281006;
+    font-family: "Poppins", sans-serif;
+    display: grid;
+    gap: 20px;
+
+    section.footer {
+        padding: 5rem 2rem;
+        display: grid;
+        gap: 20px;
+        // border-top: 1px solid #fff;
+
+        .main-div {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+
+            .logo-div {
+                display: flex;
+                justify-content: start;
+
+                img {
+                    width: 200px;
+                }
+            }
+
+            .links {
+                width: 33%;
+                display: grid;
+                gap: 20px;
+                height: fit-content;
+
+                h3 {
+                    margin: 0;
+                    color: #fff;
+                    font-size: 18px;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                    text-align: center;
+                    font-family: "Fraunces", serif;
+                }
+
+                p {
+                    display: grid;
+                    gap: 10px;
+
+                    a {
+                        color: #fff;
+                        font-size: 14px;
+                        font-weight: 400;
+                        text-align: center;
+                        text-decoration: none;
+                    }
+                }
+            }
+
+            .social-div {
+                width: 33%;
+                display: grid;
+                gap: 20px;
+                height: fit-content;
+
+                h3 {
+                    margin: 0;
+                    color: #fff;
+                    font-size: 18px;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                    text-align: center;
+                    font-family: "Fraunces", serif;
+                }
+
+                .social {
+                    display: flex;
+                    gap: 20px;
+                    align-items: center;
+                    justify-content: center;
+
+                    a {
+                        img {
+                            width: 3rem;
+                        }
+                    }
+                }
+            }
+
+            .contact {
+                width: 33%;
+                display: grid;
+                gap: 20px;
+                height: fit-content;
+
+                h3 {
+                    margin: 0;
+                    color: #fff;
+                    font-size: 18px;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                    font-family: "Fraunces", serif;
+                }
+
+                .info {
+                    display: grid;
+                    gap: 20px;
+
+                    a {
+                        display: flex;
+                        gap: 10px;
+                        align-items: center;
+                        color: #fff;
+                        font-size: 14px;
+                        font-weight: 400;
+                        text-decoration: none;
+
+                        img {
+                            width: 4rem;
+                        }
+                    }
+                }
+
+
+            }
+        }
+    }
+
+    section.closing-section {
+        padding: 3%;
+
+        div {
+            color: #fff;
+            font-size: 14px;
+            font-weight: 400;
+            text-align: center;
+        }
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+    footer {
+
+        section.footer {
+            padding: 10px;
+
+            .logo-div {
+                justify-content: center;
+
+                img {
+                    margin: auto;
+                }
+            }
+
+            .main-div {
+                justify-content: center;
+                flex-flow: wrap-reverse;
+                gap: 30px;
+
+                .links {
+                    width: 100%;
+                }
+
+                .services {
+                    width: 100%;
+                }
+
+                .social-div {
+                    width: 100% !important;
+                    display: grid;
+                    gap: 20px;
+                    height: fit-content;
+
+                    h3 {}
+
+                    .social {
+                        display: flex;
+                        gap: 20px;
+                        align-items: center;
+                        justify-content: center;
+
+                        a {
+                            img {
+                                width: 3rem;
+                            }
+                        }
+                    }
+                }
+
+                .contact {
+                    width: 100%;
+
+                    h3 {
+                        text-align: center;
+                    }
+
+                    .info {
+                        a {
+                            justify-content: center;
+                            display: grid;
+                            text-align: center;
+
+                            img {
+                                margin: auto;
+                            }
+                        }
+                    }
+
+
+                }
+            }
+        }
+    }
+}

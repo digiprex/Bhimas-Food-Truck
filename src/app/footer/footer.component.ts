@@ -6,5 +6,19 @@ import { Component } from '@angular/core';
   styleUrls: ['./footer.component.scss']
 })
 export class FooterComponent {
-
+  public links = [
+    {
+      "name": "Home",
+      "url": "/home"
+    },
+    {
+      "name": "About Us",
+      "url": "/about"
+    },
+    {
+      "name": "Contact Us",
+      "url": "/contact",
+      "external": true
+    },
+  ];
 }

@@ -1,0 +1,98 @@
+.navbar {
+    top: 0px;
+    // position: sticky;
+    margin-bottom: 0px;
+    background-color: #fff;
+    border-bottom: 0px;
+    padding: 20px;
+
+    .container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .navbar-header {
+            a {
+                img {
+                    width: 110px;
+                }
+            }
+
+            .navbar-toggle {
+
+                .icon-bar {
+                    background-color: #F4F4F4;
+                }
+
+                .material-icons-outlined {
+                    color: #F4F4F4;
+                }
+            }
+        }
+
+        .navbar-collapse {
+
+            .navbar-nav {
+                display: flex;
+                justify-content: end;
+                align-items: center;
+                float: none;
+                gap: 30px;
+
+                li {
+                    list-style-type: none;
+
+                    a {
+                        color: #000;
+                        font-weight: 400;
+                        font-size: 16px;
+                        font-family: "Fraunces", serif;
+                        text-decoration: none;
+                    }
+                }
+
+                .external {
+                    button {
+                        border-radius: 8px;
+                        background: #402218;
+                        padding: 10px 20px;
+                        color: #FFF;
+                        text-align: center;
+                        font-size: 16px;
+                        font-weight: 500;
+                        border: none;
+                    }
+
+                    button:hover {
+                        background: #fff;
+                        color: #402218;
+                    }
+                }
+
+                .active a {
+                    color: #402218;
+                    border-bottom: 2px solid #402218;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+    .navbar {
+        .container {
+
+            .navbar-collapse {
+
+                .navbar-nav {
+                    display: grid;
+                    justify-content: start;
+                    float: left;
+                    padding: 20px;
+                }
+            }
+        }
+    }
+}
