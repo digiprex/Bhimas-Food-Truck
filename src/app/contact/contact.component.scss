@@ -1,48 +1,23 @@
 main {
-    background-color: #0E0E0E;
 
     section.home-banner {
-        background-image: url('https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/964d5a6d-f217-4086-84bc-00d7d1b1fd12_95.jpg');
+        background: linear-gradient(rgb(0 0 0 / 30%), rgb(0 0 0 / 30%)), url("https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/964d5a6d-f217-4086-84bc-00d7d1b1fd12_95.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        padding: 13%;
+        padding: 10rem;
+        display: grid;
+        justify-content: center;
+        gap: 20px;
+        height: 50vh;
+        align-items: center;
 
-        @keyframes slideUpFade {
-            0% {
-                opacity: 0;
-                transform: translateY(100px);
-            }
-
-            50% {
-                opacity: 0;
-                transform: translateY(200px);
-            }
-
-            100% {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        .content-section {
-            position: absolute;
-            top: 40%;
-            left: 0;
-            margin: auto;
-            right: 0;
-            width: 70%;
+        h1 {
+            font-family: "Fraunces", serif;
+            font-size: 30px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+            text-transform: uppercase;
+            color: #fff;
             text-align: center;
-            animation: slideUpFade 1.5s ease forwards;
-
-            h1 {
-                text-align: center;
-                color: #fff;
-                font-size: 50px;
-                font-weight: 400;
-                font-family: "Fraunces", serif;
-                margin: auto;
-                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-            }
         }
     }
 
@@ -154,18 +129,6 @@ main {
 // Mobile
 @media only screen and (max-device-width: 480px) {
     main {
-
-        section.home-banner {
-
-            .content-section {
-                position: absolute;
-                top: 35%;
-
-                h1 {
-                    font-size: 20px;
-                }
-            }
-        }
 
         section.information {
             flex-direction: column;
