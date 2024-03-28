@@ -27,16 +27,16 @@ export class ServicesService {
     return this.http.post(`${this.apiUrl}/checkout/checkout`, requestBody);
   }
 
-  montSubmission(data: any): Observable<any> {
+  contactFormSubmission(data: any): Observable<any> {
     let requestBody = {
-      fullName: data.firstName,
-      phone: data.phone,
+      firstName: data.firstName,
+      lastName: data.lastName,
       email: data.email,
-      message: data.message,
-      type: 'Contact Us',
+      phone: data.phone,
+      message: data.message
     };
     return this.http.post(
-      `https://submit-form.com/${this.formCode}`,
+      `https://submit-form.com/yv1cmUhty`,
       requestBody
     );
   }

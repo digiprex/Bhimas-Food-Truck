@@ -1,7 +1,7 @@
 main {
 
     section.home-banner {
-        background: linear-gradient(rgb(0 0 0 / 30%), rgb(0 0 0 / 30%)), url("https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/1551033b-67ed-4c6b-a1db-991004f3d984.png");
+        background: linear-gradient(rgb(0 0 0 / 30%), rgb(0 0 0 / 30%)), url("https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/bf24b3b6-aeba-41d8-a861-079cf06fc2fa_95-min.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         padding: 10rem;
@@ -137,7 +137,11 @@ main {
                 font-size: 14px;
                 color: #fff;
                 font-family: "Fraunces", serif;
-                border-radius: 4px;
+                text-transform: uppercase;
+            }
+
+            .submit {
+                background-color: #52b963;
             }
         }
     }
@@ -178,13 +182,6 @@ main {
                         gap: 10px;
                     }
                 }
-
-                button {
-                    width: 100%;
-                }
-            }
-
-            .success {
 
                 button {
                     width: 100%;

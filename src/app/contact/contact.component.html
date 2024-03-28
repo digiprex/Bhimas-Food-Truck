@@ -39,22 +39,22 @@
     </section>
 
     <section class="form">
-        <h2>QUICK CONTACT</h2>
-        <form [formGroup]="contactDetails" *ngIf="!success">
-            <input type="text" name="firstName" placeholder="First Name" required formControlName="firstName" />
-            <input type="text" name="lastName" placeholder="Last Name" required formControlName="lastName" />
-
-
-            <input type="number" name="phone" placeholder="Phone" required formControlName="phone" />
-            <input type="email" name="email" placeholder="Email" required formControlName="email" />
-
-
-            <input type="text" name="address" placeholder="Message" required formControlName="message" />
+        <form [formGroup]="userdetails">
+            <h2>CONTACT US</h2>
+            <div>
+                <input name="firstName" placeholder="First Name" required formControlName="firstName" />
+                <input name="lastName" placeholder="Last Name" required formControlName="lastName" />
+            </div>
             <div>
                 <button type="submit" [disabled]="!contactDetails.valid" (click)="montsubmitForm()">
                     SUBMIT
                 </button>
             </div>
+            <textarea type="text" class="control-form" name="message" placeholder="Message"
+                formControlName="message"></textarea>
+            <button *ngIf="!success" type="submit">SEND</button>
+            <button *ngIf="success" class="submit">Submitted</button>
+
         </form>
 
         <div class="success" *ngIf="success">
