@@ -1,10 +1,12 @@
 .navbar {
     top: 0px;
-    // position: sticky;
+    position: absolute;
     margin-bottom: 0px;
-    background: #281006;
+    background: transparent;
     border-bottom: 0px;
     padding: 20px;
+    width: 100%;
+    font-family: "Belleza", sans-serif;
 
     .container {
         width: 100%;
@@ -12,17 +14,18 @@
         .navbar-header {
             a {
                 img {
-                    width: 150px;
+                    width: 100px;
                 }
             }
 
             .navbar-toggle {
+                border: none;
 
                 .icon-bar {
                     background-color: #F4F4F4;
                 }
 
-                .material-icons-outlined {
+                .material-symbols-outlined {
                     color: #F4F4F4;
                 }
             }
@@ -42,7 +45,7 @@
                         font-weight: 400;
                         font-size: 16px;
                         text-transform: uppercase;
-                        font-family: "Fraunces", serif;
+                        text-shadow: 4px 4px 20px rgb(0 0 0 / 80%);
                     }
                 }
 
@@ -54,7 +57,7 @@
                         color: #FFF;
                         text-align: center;
                         font-size: 16px;
-                        font-weight: 500;
+                        font-weight: 600;
                         border: none;
                     }
 
@@ -66,7 +69,6 @@
 
                 .active a {
                     color: #a6674a;
-                    border-bottom: 2px solid #a6674a;
                     font-weight: 600;
                     background-color: transparent;
                 }
@@ -80,6 +82,8 @@
         .container {
 
             .navbar-collapse {
+                background: rgb(0 0 0 / 71%);
+                border-color: black;
 
                 .navbar-nav {
                     display: grid;
