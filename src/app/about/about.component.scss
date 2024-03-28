@@ -1,139 +1,122 @@
 main {
-    background-color: #0E0E0E;
 
     section.home-banner {
-        background-image: url('https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f9fbb75d-a8ce-49b4-9925-3cf4851a41d0_97.jpg');
+        background: linear-gradient(rgb(0 0 0 / 30%), rgb(0 0 0 / 30%)), url("https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f9fbb75d-a8ce-49b4-9925-3cf4851a41d0_97.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        padding: 13%;
+        padding: 10rem;
+        display: grid;
+        justify-content: center;
+        gap: 20px;
+        height: 50vh;
+        align-items: center;
 
-        @keyframes slideUpFade {
-            0% {
-                opacity: 0;
-                transform: translateY(100px);
-            }
-
-            50% {
-                opacity: 0;
-                transform: translateY(200px);
-            }
-
-            100% {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        .content-section {
-            position: absolute;
-            top: 40%;
-            left: 0;
-            margin: auto;
-            right: 0;
-            width: 70%;
-            text-align: center;
-            animation: slideUpFade 1.5s ease forwards;
-
-            h1 {
-                text-align: center;
-                color: #fff;
-                font-size: 50px;
-                font-weight: 400;
-                font-family: "Fraunces", serif;
-                margin: auto;
-                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-            }
+        h1 {
+            font-family: "Fraunces", serif;
+            font-size: 30px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+            text-transform: uppercase;
+            color: #fff;
         }
     }
 
     section.aboutus {
-        background-color: #fff;
-        padding: 5%;
+        padding: 10rem;
         display: flex;
         justify-content: space-between;
         gap: 40px;
         align-items: center;
 
-        .aboutus-content {
+        .content {
             width: 50%;
             display: grid;
             gap: 20px;
 
             h5 {
-                text-align: start;
-                font-size: 50px;
+                font-size: 30px;
                 color: #865439;
                 font-weight: 100;
                 margin: 0;
-                font-family: "Dancing Script", cursive;
+                font-family: "Great Vibes", cursive;
             }
 
-            p {
-                font-size: 20px;
-                color: #5f5f5f;
-                font-weight: 200;
-                line-height: 35px;
+            h2 {
+                color: #000;
+                font-size: 40px;
+                font-weight: 400;
+                margin: 0;
                 font-family: "Fraunces", serif;
             }
 
-            button {
-                width: 50%;
-                cursor: pointer;
-                background-color: transparent;
-                padding: 15px 35px;
-                font-size: 16px;
+            p {
+                font-size: 14px;
+                color: #5f5f5f;
                 font-weight: 400;
-                color: #865439;
-                border: none;
-                font-family: monospace;
-                border: 1px solid #865439;
-                border-radius: 5px;
-
-                &:hover {
-                    background-color: #865439;
-                    color: #fff;
-                }
+                font-family: "DM Sans", sans-serif;
             }
         }
 
-        .aboutus-image {
+        .image {
             width: 50%;
-            display: flex;
 
             img {
                 width: 100%;
-                height: 70vh;
-                object-fit: cover;
+            }
+        }
+    }
+
+    section.seafood-banner {
+        background-image: url("https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/9c5f5bb2-cbdd-4ed4-880d-7785ea30fc90_Banner.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+        background-position: center;
+
+        .heading {
+            width: 60%;
+            margin: auto;
+
+            h5 {
+                text-align: center;
+                font-size: 80px;
+                color: #fff;
+                font-weight: 100;
+                margin: 0;
+                font-family: "Great Vibes", cursive;
             }
         }
     }
 
     section.information {
-        background-color: #FFF;
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 5%;
+        padding: 10rem;
 
         div {
             width: 33%;
+            display: grid;
+            gap: 20px;
 
             svg {
                 display: flex;
                 margin: auto;
                 background-color: #FFF9F7;
-                padding: 15px;
                 border-radius: 50%;
             }
 
             h3 {
                 text-align: center;
                 color: #000;
-                font-size: 21px;
+                font-size: 20px;
                 font-weight: 400;
                 font-family: "Fraunces", serif;
                 text-transform: uppercase;
-                line-height: 40px;
+                margin: 0;
             }
 
             a {
@@ -149,329 +132,40 @@ main {
             }
         }
     }
-
-    section.seafood-banner {
-        background-image: url('https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/751185ff-3363-4d83-b83f-99bd709aa2cc_Banner.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding: 5%;
-
-        .seafood-heading {
-            margin: auto;
-            padding: 15%;
-
-            h5:nth-child(1) {
-                text-align: start;
-                font-size: 100px;
-                color: #fff;
-                font-weight: 100;
-                margin: 0;
-                font-family: "Dancing Script", cursive;
-            }
-
-            h5:nth-child(2) {
-                text-align: end;
-                font-size: 100px;
-                color: #fff;
-                font-weight: 100;
-                margin: 0;
-                font-family: "Dancing Script", cursive;
-            }
-        }
-    }
-
-    section.ratings {
-        background-color: #fff;
-        padding: 5%;
-
-        .item-container {
-            display: flex;
-            width: 100%;
-            justify-content: center;
-            gap: 30px;
-            margin-top: 50px;
-
-            div {
-                width: 33%;
-
-                h3 {
-                    text-align: center;
-                    color: #5f5f5f;
-                    line-height: 1.25rem;
-                    font-size: 60px;
-                    font-weight: 400;
-                    font-family: "Fraunces", serif;
-                    line-height: 40px;
-                    margin-top: 8px;
-                }
-
-                p {
-                    text-align: center;
-                    color: #5f5f5f;
-                    font-size: 16px;
-                    font-weight: lighter;
-                    font-family: monospace;
-                }
-            }
-        }
-    }
-
-    section.testimonials {
-        .our-clients {
-            background: #fff;
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            align-items: center;
-            padding: 30px 0;
-
-            hr {
-                content: "";
-                width: 60px;
-                height: 2px;
-                margin-left: auto;
-                margin-right: auto;
-                border-width: 4px;
-                color: #fff;
-            }
-
-            .main-container {
-                position: relative;
-                width: 100%;
-                height: 55vh;
-                overflow: hidden;
-
-                .item-1,
-                .item-2,
-                .item-3 {
-                    position: absolute;
-                    display: block;
-                    top: 2em;
-                    left: 5rem;
-                    width: 60%;
-                    font-size: 2em;
-                    animation-duration: 20s;
-                    animation-timing-function: ease-in-out;
-                    animation-iteration-count: infinite;
-                    display: grid;
-
-                    .review {
-                        text-align: center;
-                        margin: auto;
-
-                        h5 {
-                            text-align: center;
-                            color: #000;
-                            font-size: 21px;
-                            font-weight: 400;
-                            margin: 0;
-                            font-family: "Fraunces", serif;
-                        }
-
-                        img {
-                            width: 15%;
-                            margin: auto;
-                        }
-
-                        p {
-                            text-align: center;
-                            color: #2d2d2d;
-                            font-size: 18px;
-                            font-weight: 400;
-                            margin: 0;
-                            font-family: "Fraunces", serif;
-                        }
-                    }
-                }
-
-                .item-1 {
-                    animation-name: anim-1;
-                }
-
-                .item-2 {
-                    animation-name: anim-2;
-                }
-
-                .item-3 {
-                    animation-name: anim-3;
-                }
-
-                @keyframes anim-1 {
-
-                    0%,
-                    8.3% {
-                        left: -100%;
-                        opacity: 0;
-                    }
-
-                    8.3%,
-                    25% {
-                        left: 20%;
-                        opacity: 1;
-                    }
-
-                    33.33%,
-                    100% {
-                        left: 110%;
-                        opacity: 0;
-                    }
-                }
-
-                @keyframes anim-2 {
-
-                    0%,
-                    33.33% {
-                        left: -100%;
-                        opacity: 0;
-                    }
-
-                    41.63%,
-                    58.29% {
-                        left: 20%;
-                        opacity: 1;
-                    }
-
-                    66.66%,
-                    100% {
-                        left: 110%;
-                        opacity: 0;
-                    }
-                }
-
-                @keyframes anim-3 {
-
-                    0%,
-                    66.66% {
-                        left: -100%;
-                        opacity: 0;
-                    }
-
-                    74.96%,
-                    91.62% {
-                        left: 20%;
-                        opacity: 1;
-                    }
-
-                    100% {
-                        left: 110%;
-                        opacity: 0;
-                    }
-                }
-            }
-        }
-    }
 }
 
 // Mobile
 @media only screen and (max-device-width: 480px) {
     main {
 
-        section.home-banner {
-
-            .content-section {
-                position: absolute;
-                top: 35%;
-
-                h1 {
-                    font-size: 20px;
-                }
-            }
-        }
-
         section.aboutus {
-            padding: 5rem 2rem;
+            padding: 10rem 2rem;
             display: grid;
             justify-content: center;
 
-            .aboutus-content {
+            .content {
                 width: 100%;
-
-                h5 {
-                    font-size: 35px;
-                }
-
-                h2 {
-                    font-size: 22px;
-                }
-
-                p {
-                    font-size: 16px;
-                }
-
-                button {
-                    width: 100%;
-                }
             }
 
-            .aboutus-image {
+            .image {
                 width: 100%;
-
-                img {
-                    width: 100%;
-                }
             }
-
         }
 
         section.information {
-            flex-direction: column;
-            padding: 10px;
+            display: grid;
+            gap: 20px;
+            padding: 10rem 2rem;
 
             div {
                 width: 100%;
-                height: 100%;
-
-                svg {}
-
-                h3 {}
-
-                a {
-
-                    p {}
-                }
             }
         }
 
         section.seafood-banner {
-            padding: 10%;
 
-            .seafood-heading {
-                margin: auto;
-                padding: 5%;
-
-                h5:nth-child(1) {
-                    text-align: start;
-                    font-size: 35px;
-                }
-
-                h5:nth-child(2) {
-                    font-size: 35px;
-                }
-            }
-        }
-
-        section.ratings {
-            padding: 10px;
-
-            .item-container {
-                display: flex;
-                flex-direction: column;
-
-                div {
-                    width: 100%;
-
-                    h3 {}
-
-                    p {}
-                }
-            }
-        }
-
-        section.testimonials {
-            .our-clients {
-                .main-container {
-                    height: 85vh;
-                }
+            .heading {
+                width: 100%;
             }
         }
     }
