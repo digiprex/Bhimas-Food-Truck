@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
 import { ServicesService } from '../services.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-contact',
@@ -8,27 +9,28 @@ import { ServicesService } from '../services.service';
   styleUrls: ['./contact.component.scss']
 })
 export class ContactComponent {
+  public successMsg: boolean = false;
   public success = false;
 
-  userdetails = new FormGroup({
+  contactDetails = new FormGroup({
     firstName: new FormControl(""),
     lastName: new FormControl(""),
-    email: new FormControl(""),
     phone: new FormControl(""),
-    message: new FormControl()
+    email: new FormControl(""),
+    message: new FormControl("")
   });
 
-  constructor(private appService: ServicesService) { }
+  constructor(private servicesService: ServicesService, private router: Router) { }
 
-  contactFormSubmission() {
+  montsubmitForm() {
     let body = {
-      firstName: this.userdetails.value.firstName,
-      lastName: this.userdetails.value.lastName,
-      email: this.userdetails.value.email,
-      phone: this.userdetails.value.phone,
-      message: this.userdetails.value.message
+      firstName: this.contactDetails.value.firstName,
+      lastName: this.contactDetails.value.lastName,
+      phone: this.contactDetails.value.phone,
+      email: this.contactDetails.value.email,
+      message: this.contactDetails.value.message
     }
-    this.appService.contactFormSubmission(body).subscribe(result => {
+    this.servicesService.montSubmission(body).subscribe(result => {
       this.success = true;
     });
   }
