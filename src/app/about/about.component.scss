@@ -13,7 +13,7 @@ main {
 
         h1 {
             font-family: "Fraunces", serif;
-            font-size: 30px;
+            font-size: 40px;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
             text-transform: uppercase;
             color: #fff;
@@ -62,14 +62,16 @@ main {
 
             img {
                 width: 100%;
+                height: 70vh;
+                object-fit: cover;
             }
         }
     }
 
     section.seafood-banner {
-        background-image: url("https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/9c5f5bb2-cbdd-4ed4-880d-7785ea30fc90_Banner.png");
+        background-image: url("https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ae898928-ae5a-4833-8da5-f58bf3e2082e_Banner.png");
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
         padding: 10rem;
         display: flex;
         justify-content: center;
@@ -96,7 +98,7 @@ main {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 10rem;
+        padding: 3rem 10rem;
 
         div {
             width: 33%;
@@ -156,7 +158,7 @@ main {
         section.information {
             display: grid;
             gap: 20px;
-            padding: 10rem 2rem;
+            padding: 10px;
 
             div {
                 width: 100%;
@@ -164,9 +166,15 @@ main {
         }
 
         section.seafood-banner {
+            background-size: cover;
+            padding: 5rem;
 
             .heading {
                 width: 100%;
+
+                h5 {
+                    font-size: 45px;
+                }
             }
         }
     }

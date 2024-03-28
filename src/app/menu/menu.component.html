@@ -1,13 +1,17 @@
 <main>
     <app-navbar></app-navbar>
-    <div class="cart-floater" (click)="cartPage()">
+    <section class="menu-banner">
+        <h1>Our Menu</h1>
+    </section>
+
+    <section class="cart-floater" (click)="cartPage()">
         <div>
             <i class="material-symbols-outlined"> shopping_cart </i>
             <span>{{ this.cart.length }}</span>
         </div>
-    </div>
+    </section>
 
-    <div class="mainMenu">
+    <section class="mainMenu">
         <div class="options-tab">
             <div *ngFor="let item of categories; let i = index">
                 <button class="abc" [ngClass]="{ highlight: selectedCategory == i }" (click)="getDiv(i, item)">
@@ -55,7 +59,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <app-footer></app-footer>
 </main>
