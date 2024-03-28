@@ -9,7 +9,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 export class ServicesService {
   public data: any;
   public apiUrl =
-  'https://yejrescws7.execute-api.ap-south-1.amazonaws.com/staging';
+    'https://yejrescws7.execute-api.ap-south-1.amazonaws.com/staging';
 
   constructor(private http: HttpClient) {
     this.data = monteverestcomData;
@@ -19,7 +19,7 @@ export class ServicesService {
     return this.data[key];
   }
 
-  cartCheckout(data:any): Observable<any> {
+  cartCheckout(data: any): Observable<any> {
     let requestBody = {
       user: data.user,
       cart: data.cart,
@@ -29,5 +29,19 @@ export class ServicesService {
       totalCartValue: data.totalCartValue,
     };
     return this.http.post(`${this.apiUrl}/checkout/checkout`, requestBody);
+  }
+
+  contactFormSubmission(data: any): Observable<any> {
+    let requestBody = {
+      firstName: data.firstName,
+      lastName: data.lastName,
+      email: data.email,
+      phone: data.phone,
+      message: data.message
+    };
+    return this.http.post(
+      `https://submit-form.com/yv1cmUhty`,
+      requestBody
+    );
   }
 }

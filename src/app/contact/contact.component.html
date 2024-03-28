@@ -39,7 +39,7 @@
     </section>
 
     <section class="form">
-        <form action="https://submit-form.com/yv1cmUhty">
+        <form [formGroup]="userdetails">
             <h2>CONTACT US</h2>
             <div>
                 <input name="firstName" placeholder="First Name" required formControlName="firstName" />
@@ -51,7 +51,8 @@
             </div>
             <textarea type="text" class="control-form" name="message" placeholder="Message"
                 formControlName="message"></textarea>
-            <button type="submit">SEND</button>
+            <button *ngIf="!success" type="submit">SEND</button>
+            <button *ngIf="success" class="submit">Submitted</button>
         </form>
     </section>
 
