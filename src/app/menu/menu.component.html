@@ -1,13 +1,13 @@
 <main>
     <app-navbar></app-navbar>
-    <!-- <div class="cart-floater" (click)="cartPage()">
-      <div>
-        <i class="material-symbols-outlined"> shopping_cart </i>
-        <span>{{ this.cart.length }}</span>
-      </div>
-    </div> -->
+    <div class="cart-floater" (click)="cartPage()">
+        <div>
+            <i class="material-symbols-outlined"> shopping_cart </i>
+            <span>{{ this.cart.length }}</span>
+        </div>
+    </div>
 
-    <div class="mainMenu main-bg">
+    <div class="mainMenu">
         <div class="options-tab">
             <div *ngFor="let item of categories; let i = index">
                 <button class="abc" [ngClass]="{ highlight: selectedCategory == i }" (click)="getDiv(i, item)">
@@ -35,21 +35,21 @@
                                 <div class="heading3">
                                     <div class="items-main-div">
                                         <h3>{{ p.itemName }}</h3>
-                                        <span>&#36;{{ p.itemPrice }}</span>
+                                        <span>&#x24;{{ p.itemPrice }}</span>
                                     </div>
-                                    <p>{{ p.itemDecription }}</p>
+                                    <p>{{ p.itemDescription }}</p>
                                 </div>
                             </div>
-                            <!-- <div class="utility">
-                  <button>
-                    <span (click)="subQuantity(p)"> - </span>
-                    <input type="text" value="{{ p.quantity }}" />
-                    <span (click)="addQuantity(p)"> + </span>
-                  </button>
-                  <button [disabled]="p.quantity == 0" (click)="addToCart(p, product)">
-                    Add to Cart
-                  </button>
-                </div> -->
+                            <div class="utility">
+                                <button>
+                                    <span (click)="subQuantity(p)"> - </span>
+                                    <input type="text" value="{{ p.quantity }}" />
+                                    <span (click)="addQuantity(p)"> + </span>
+                                </button>
+                                <button [disabled]="p.quantity == 0" (click)="addToCart(p, product)">
+                                    Add to Cart
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>

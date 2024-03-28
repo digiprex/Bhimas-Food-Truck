@@ -1,0 +1,53 @@
+<main>
+
+    <app-navbar></app-navbar>
+    <div class="label">
+        <div>
+            <h3>
+                Checkout
+            </h3>
+            <h4><a href="/">Home > </a><span>Checkout</span></h4>
+        </div>
+    </div>
+
+    <div class="checkout-section" *ngIf="!successMsg">
+        <h3>CONTACT INFORMATION</h3>
+        <form [formGroup]="userDetails">
+            <div>
+                <input type="text" name="firstName" placeholder="FirstName" required formControlName="firstName" />
+                <input type="text" name="lastName" placeholder="LastName" required formControlName="lastName" />
+            </div>
+            <div>
+                <input type="number" name="phone" placeholder="Phone" required formControlName="phone" />
+                <input type="email" name="email" placeholder="Email" required formControlName="email" />
+            </div>
+            <div>
+                <input type="text" name="address" placeholder="Address" required formControlName="address" />
+                <input type="text" name="city" placeholder="City" required formControlName="city" />
+            </div>
+            <div>
+                <input type="text" name="state" placeholder="State" required formControlName="state" />
+                <input type="text" name="country" placeholder="Country" required formControlName="country" />
+            </div>
+            <div>
+                <input type="tel" name="pincode" placeholder="Pincode" required formControlName="pincode" />
+            </div>
+            <div class="checkout-btn">
+                <button (click)="checkout()" [disabled]="userDetails.invalid">Checkout!</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="success-section" *ngIf="successMsg">
+        <h3>Thank You!</h3>
+        <p>Order is placed. You'll soon recieve the details on mail.</p>
+        <span class="material-symbols-outlined">
+            check_circle
+        </span>
+        <button routerLink="/">
+            Home
+        </button>
+    </div>
+
+    <app-footer></app-footer>
+</main>

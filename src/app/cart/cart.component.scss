@@ -1,0 +1,179 @@
+main {
+    margin-top: 30px;
+
+    .label-section {
+        background-image: url("https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/4408c698-9c41-470b-8964-f620365f1cfd_Restaurant-banner.jpeg");
+        background-size: cover;
+        padding: 11rem 5rem;
+
+        div {
+            justify-content: center;
+            background: #00000040;
+            text-align: center;
+
+            h3 {
+                color: white;
+                font-size: 50px;
+                font-weight: 600;
+            }
+
+            h4 {
+                a {
+                    color: #ffffff;
+                    font-size: 15px;
+                }
+
+                span {
+                    font-size: 15px;
+                    color: #ffcd00;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+
+    .cart-section {
+        padding: 10%;
+        display: grid;
+        gap: 20px;
+        width: 100%;
+
+        .empty-cart-div {
+            text-align: center;
+            font-size: 20px;
+            font-weight: 600;
+            color: #adadad;
+        }
+
+        .item-div {
+            display: grid;
+            grid-template-columns: 20% 40% 10% 10% 10%;
+            gap: 20px;
+            align-items: center;
+
+            div {
+                width: 100%;
+                position: relative;
+                padding: 10px;
+
+                img {
+                    width: 100%;
+                }
+
+                span {
+                    position: absolute;
+                    width: 3rem;
+                    height: 3rem;
+                    top: 0px;
+                    background: #ff9933;
+                    border-radius: 50%;
+                    display: flex;
+                    right: 0;
+                    justify-content: center;
+                    align-items: center;
+                    color: #ffffff;
+                }
+            }
+
+            h3 {
+                font-family: "helvetica neue";
+                font-size: 22px;
+                font-weight: 600;
+                margin: 0px;
+                text-align: center;
+                text-transform: lowercase;
+            }
+
+            h3::first-letter {
+                text-transform: uppercase;
+            }
+
+            p {
+                margin: 0px;
+            }
+
+            button:nth-child(4) {
+                display: flex;
+                background-color: transparent;
+                border: 1px solid lightgray;
+                align-items: center;
+                justify-content: space-around;
+                border-radius: 4px;
+
+                span {}
+
+                input {
+                    width: 100%;
+                    border: none;
+                    text-align: center;
+                }
+            }
+
+            .material-symbols-outlined {
+                color: #FF9933;
+                display: flex;
+                justify-content: end;
+                cursor: pointer;
+                font-variation-settings:
+                    'FILL' 1,
+                    'wght' 400,
+                    'GRAD' 0,
+                    'opsz' 48
+            }
+        }
+
+        .price-div {
+            display: flex;
+            justify-content: end;
+
+            p {
+                font-weight: 600;
+
+                span {
+                    font-weight: 900;
+                    color: #FF9933;
+                    font-size: 20px;
+                }
+            }
+        }
+
+        .continue-div {
+            display: flex;
+            justify-content: end;
+
+            button {
+                border: 2px solid #FF9933;
+                width: 30%;
+                background: #FF9933;
+                color: white;
+                border-radius: 4px;
+                padding: 10px;
+            }
+
+            button:disabled {
+                background: #fac086;
+                border: 2px solid #fac086;
+            }
+        }
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+    main {
+        .cart-section {
+            padding: 5%;
+
+            .item-div {
+                display: grid;
+                grid-template-columns: 25% 30% 10% 15% 10%;
+                gap: 10px;
+            }
+
+            .continue-div {
+                button {
+                    width: 50%;
+                }
+            }
+        }
+    }
+}

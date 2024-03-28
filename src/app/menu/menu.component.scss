@@ -42,24 +42,6 @@ main {
         color: white;
     }
 
-    .restType {
-        justify-content: center;
-        display: flex;
-        padding: 40px 20px 20px 20px;
-
-        button {
-            background-color: transparent;
-            border: 2px solid 77bc1f;
-            font-size: 18px;
-            padding: 10px 20px;
-            margin: 0px 10px;
-
-            a {
-                color: #ffffff;
-            }
-        }
-    }
-
     .mainMenu {
         padding-top: 35px;
 
@@ -91,28 +73,7 @@ main {
             }
         }
 
-        .searchbar {
-            position: absolute;
-            right: 45px;
-
-            input {
-                border-radius: 4px;
-                padding: 6px;
-            }
-
-            button {
-                padding: 6px;
-                background: transparent;
-                border: none;
-
-                i {
-                    vertical-align: bottom;
-                }
-            }
-        }
-
         .options-tab {
-            margin-top: 100px;
             display: flex;
             flex-wrap: wrap;
             border: none;
