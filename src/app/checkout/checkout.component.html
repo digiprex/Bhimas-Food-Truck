@@ -1,17 +1,17 @@
 <main>
 
     <app-navbar></app-navbar>
-    <div class="label">
+    <section class="label-section">
         <div>
             <h3>
                 Checkout
             </h3>
             <h4><a href="/">Home > </a><span>Checkout</span></h4>
         </div>
-    </div>
+    </section>
 
-    <div class="checkout-section" *ngIf="!successMsg">
-        <h3>CONTACT INFORMATION</h3>
+    <section class="checkout-section" *ngIf="!successMsg">
+        <h3>CHECKOUT INFORMATION</h3>
         <form [formGroup]="userDetails">
             <div>
                 <input type="text" name="firstName" placeholder="FirstName" required formControlName="firstName" />
@@ -36,9 +36,9 @@
                 <button (click)="checkout()" [disabled]="userDetails.invalid">Checkout!</button>
             </div>
         </form>
-    </div>
+    </section>
 
-    <div class="success-section" *ngIf="successMsg">
+    <section class="success-section" *ngIf="successMsg">
         <h3>Thank You!</h3>
         <p>Order is placed. You'll soon recieve the details on mail.</p>
         <span class="material-symbols-outlined">
@@ -47,7 +47,7 @@
         <button routerLink="/">
             Home
         </button>
-    </div>
+    </section>
 
     <app-footer></app-footer>
 </main>

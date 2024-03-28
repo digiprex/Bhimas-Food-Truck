@@ -29,14 +29,12 @@ export class CheckoutComponent {
 
   constructor(private servicesService: ServicesService, private router: Router) { }
   ngOnInit(): void {
-    // this.loadStripe();
     this.cart = JSON.parse(localStorage.getItem('cart') as string);
     this.totalPrice = JSON.parse(localStorage.getItem('totalPrice') as string);
   }
 
   checkout() {
     let loc = localStorage.getItem('location');
-    let email = this.servicesService.getContentData('email');
 
     let body = {
       user: {

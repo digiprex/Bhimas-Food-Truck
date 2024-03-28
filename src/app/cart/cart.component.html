@@ -1,22 +1,22 @@
 <main>
     <app-navbar></app-navbar>
-    <div class="label-section">
+    <section class="label-section">
         <div>
             <h3>
                 Cart
             </h3>
             <h4><a href="/">Home > </a><span>Cart</span></h4>
         </div>
-    </div>
+    </section>
 
-    <div class="cart-section" *ngIf="totalPrice !== 0">
+    <section class="cart-section" *ngIf="totalPrice !== 0">
         <div *ngFor="let item of cart; let j = index" class="item-div">
             <div>
                 <img [src]="item.itemIcon" alt="">
                 <span>{{item.itemQuantity}}</span>
             </div>
             <h3>{{item.itemName}}</h3>
-            <p>{{item.itemPrice}}</p>
+            <p>&#x24;{{item.itemPrice}}</p>
             <button>
                 <span (click)="subQuantity(item, j)">
                     -
@@ -36,9 +36,9 @@
         <div class="continue-div">
             <button [disabled]="totalPrice == 0" (click)="checkoutPage()">Continue to Checkout</button>
         </div>
-    </div>
+    </section>
 
-    <div class="cart-section" *ngIf="totalPrice == 0">
+    <section class="cart-section" *ngIf="totalPrice == 0">
         <div class="empty-cart-div">
             Your Cart is Empty.
         </div>
@@ -48,7 +48,7 @@
         <div class="continue-div">
             <button [disabled]="totalPrice == 0" (click)="checkoutPage()">Continue to Checkout</button>
         </div>
-    </div>
+    </section>
 
     <app-footer></app-footer>
 </main>
