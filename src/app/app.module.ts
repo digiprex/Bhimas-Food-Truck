@@ -34,7 +34,7 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
     PostsComponent,
     GalleryComponent,
     CartComponent,
-    CheckoutComponent
+    CheckoutComponent,
     TestimonialsComponent
   ],
   imports: [
