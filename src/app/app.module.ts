@@ -11,6 +11,7 @@ import { MenuComponent } from './menu/menu.component';
 import { AboutComponent } from './about/about.component';
 import { BlogsComponent } from './blogs/blogs.component';
 import { PostsComponent } from './posts/posts.component';
+import { GalleryComponent } from './gallery/gallery.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { PostsComponent } from './posts/posts.component';
     MenuComponent,
     AboutComponent,
     BlogsComponent,
-    PostsComponent
+    PostsComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,

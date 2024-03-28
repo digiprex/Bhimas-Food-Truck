@@ -16,6 +16,14 @@ export class FooterComponent {
       "url": "/about"
     },
     {
+      "name": "Menu",
+      "url": "/menu"
+    },
+    {
+      "name": "Gallery",
+      "url": "/gallery"
+    },
+    {
       "name": "Contact Us",
       "url": "/contact",
       "external": true

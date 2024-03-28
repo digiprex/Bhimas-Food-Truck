@@ -2,20 +2,17 @@
     top: 0px;
     // position: sticky;
     margin-bottom: 0px;
-    background-color: #fff;
+    background: #281006;
     border-bottom: 0px;
     padding: 20px;
 
     .container {
         width: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
 
         .navbar-header {
             a {
                 img {
-                    width: 110px;
+                    width: 150px;
                 }
             }
 
@@ -38,24 +35,21 @@
                 justify-content: end;
                 align-items: center;
                 float: none;
-                gap: 30px;
 
                 li {
-                    list-style-type: none;
-
                     a {
-                        color: #000;
+                        color: #fff;
                         font-weight: 400;
                         font-size: 16px;
+                        text-transform: uppercase;
                         font-family: "Fraunces", serif;
-                        text-decoration: none;
                     }
                 }
 
                 .external {
                     button {
                         border-radius: 8px;
-                        background: #402218;
+                        background: #a6674a;
                         padding: 10px 20px;
                         color: #FFF;
                         text-align: center;
@@ -66,14 +60,15 @@
 
                     button:hover {
                         background: #fff;
-                        color: #402218;
+                        color: #a6674a;
                     }
                 }
 
                 .active a {
-                    color: #402218;
-                    border-bottom: 2px solid #402218;
+                    color: #a6674a;
+                    border-bottom: 2px solid #a6674a;
                     font-weight: 600;
+                    background-color: transparent;
                 }
             }
         }
