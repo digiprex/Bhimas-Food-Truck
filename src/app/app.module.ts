@@ -16,6 +16,7 @@ import { CartComponent } from './cart/cart.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClient, HttpClientModule } from "@angular/common/http";
+import { TestimonialsComponent } from './testimonials/testimonials.component';
 
 export function HttpLoaderFactory(httpClient: HttpClient) {
 }
@@ -34,6 +35,7 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
     GalleryComponent,
     CartComponent,
     CheckoutComponent
+    TestimonialsComponent
   ],
   imports: [
     BrowserModule,

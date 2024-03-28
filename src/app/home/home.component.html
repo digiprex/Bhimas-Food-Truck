@@ -3,28 +3,146 @@
 
     <section class="home-banner">
         <ng-image-slider [images]="homesSliderImage" [infinite]="true" [autoSlide]="1" [imagePopup]="false"
-            [imageSize]="{ width: '100%', height: '80%' }" slideImage="1" #nav [animationSpeed]="3">
+            [showArrow]="false" [imageSize]="{ width: '100%', height: '100%' }" slideImage="1" #nav
+            [animationSpeed]="3">
         </ng-image-slider>
-        <div class="content-section">
-            <h1>Mont Everest Masala</h1>
+    </section>
+
+    <section class="about">
+        <div class="image">
+            <img
+                src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/1db8435e-6b4f-40a7-90c6-dd9bf03cfddd_40-min.jpg">
+        </div>
+        <div class="content">
+            <h5>Our Story</h5>
+            <h2>About Us</h2>
+            <p>"At Mont Everest Masala, we bring the vibrant flavors of the Himalayas straight to your plate. With a
+                rich heritage rooted in authentic Nepalese and Indian culinary traditions, our spices are carefully
+                sourced and blended to perfection, capturing the essence of the majestic mountains. Each bite is a
+                journey through the spice-laden trails of Everest, offering a tantalizing fusion of aromatic spices and
+                exquisite flavors. From our aromatic masalas to our signature blends, we strive to deliver an
+                unforgettable dining experience that celebrates the diversity and depth of Himalayan cuisine. Welcome to
+                Mont Everest Masala, where every meal is a peak experience.
+                "</p>
+        </div>
+        <div class="image">
+            <img
+                src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/c8bad7e7-a698-4bff-94d9-e11540355f7c_41-min.jpg">
+        </div>
+    </section>
+
+    <section class="seafood-banner">
+        <div class="heading">
+            <h5>Our Unique Seafood Dishes</h5>
+        </div>
+    </section>
+
+    <section class="special-dishes">
+        <div class="inner-dishes">
+            <h2>SPECIAL DISHES</h2>
+            <h5>Peoples Choice</h5>
+
+            <div class="item-container">
+                <div>
+                    <img src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e84dc878-db18-4168-83e5-b91d680a8e7e_41.jpg"
+                        alt="">
+                    <h3>Garlic Naan</h3>
+                    <p>CA$4.50</p>
+                </div>
+                <div>
+                    <img src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/c2b4ace7-f528-4234-a839-128528b87e2f_42.jpg"
+                        alt="">
+                    <h3>Mango Milk Shake</h3>
+                    <p>CA$4.99</p>
+                </div>
+                <div>
+                    <img src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/06b522e8-6c57-497e-b14e-41e5f74ab22e_38.jpg"
+                        alt="">
+                    <h3>Fish Curry</h3>
+                    <p>CA$20.99</p>
+                </div>
+                <div>
+                    <img src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/d6f90bae-96f6-41f3-823a-c2232f8ed5e3_2.jpg"
+                        alt="">
+                    <h3>LAMB VINDALOO</h3>
+                    <p>CA$20.99</p>
+                </div>
+            </div>
+            <a>
+                <button>
+                    View Our Menu &#8594;
+                </button>
+            </a>
         </div>
     </section>
 
     <section class="aboutus">
-        <div class="aboutus-image">
-            <img
-                src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/4bbca137-70e1-4a71-b42f-dbd4e6787626_about-img.png">
-        </div>
-        <div class="aboutus-content">
+        <div class="floater"></div>
+        <div class="content">
             <h5>Our Story</h5>
             <h2>GOOD FOOD, DRINKS & <br>
                 COMPANY. </h2>
             <p>Join us at the table as you dine for the perfect meal.</p>
-            <button>MORE ABOUT US &#8594;</button>
+            <a><button>MORE ABOUT US &#8594;</button></a>
+        </div>
+        <div class="image">
+            <img
+                src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/4bbca137-70e1-4a71-b42f-dbd4e6787626_about-img.png">
         </div>
     </section>
 
-    <section class="our-restaurent">
+    <section class="gallery">
+        <div *ngFor="let img of imageUrls">
+            <img [src]="img" />
+        </div>
+    </section>
+
+    <app-testimonials></app-testimonials>
+
+    <section class="information">
+        <a>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path
+                    d="M2.29001 7.77998V17.51C2.29001 19.41 3.64001 20.19 5.28001 19.25L7.63001 17.91C8.14001 17.62 8.99001 17.59 9.52001 17.86L14.77 20.49C15.3 20.75 16.15 20.73 16.66 20.44L20.99 17.96C21.54 17.64 22 16.86 22 16.22V6.48998C22 4.58998 20.65 3.80998 19.01 4.74998L16.66 6.08998C16.15 6.37998 15.3 6.40998 14.77 6.13998L9.52001 3.51998C8.99001 3.25998 8.14001 3.27998 7.63001 3.56998L3.30001 6.04998C2.74001 6.36998 2.29001 7.14998 2.29001 7.77998V7.77998Z"
+                    stroke="#A6674A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M8.56 4V17" stroke="#A6674A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                </path>
+                <path d="M15.73 6.62012V20.0001" stroke="#A6674A" stroke-width="1.5" stroke-linecap="round"
+                    stroke-linejoin="round"></path>
+            </svg>
+            <h3>CONTACT US</h3>
+            <p>1999 Mont-Royal Ave E, Montreal, Quebec H2H 1J4, Canada</p>
+        </a>
+
+        <a href="tel:1 913-575-8381">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path
+                    d="M21.97 18.33C21.97 18.69 21.89 19.06 21.72 19.42C21.55 19.78 21.33 20.12 21.04 20.44C20.55 20.98 20.01 21.37 19.4 21.62C18.8 21.87 18.15 22 17.45 22C16.43 22 15.34 21.76 14.19 21.27C13.04 20.78 11.89 20.12 10.75 19.29C9.58811 18.4401 8.49169 17.5041 7.47 16.49C6.45877 15.472 5.5261 14.3789 4.68 13.22C3.86 12.08 3.2 10.94 2.72 9.81C2.24 8.67 2 7.58 2 6.54C2 5.86 2.12 5.21 2.36 4.61C2.6 4 2.98 3.44 3.51 2.94C4.15 2.31 4.85 2 5.59 2C5.87 2 6.15 2.06 6.4 2.18C6.66 2.3 6.89 2.48 7.07 2.74L9.39 6.01C9.57 6.26 9.7 6.49 9.79 6.71C9.88 6.92 9.93 7.13 9.93 7.32C9.93 7.56 9.86 7.8 9.72 8.03C9.59 8.26 9.4 8.5 9.16 8.74L8.4 9.53C8.29 9.64 8.24 9.77 8.24 9.93C8.24 10.01 8.25 10.08 8.27 10.16C8.3 10.24 8.33 10.3 8.35 10.36C8.53 10.69 8.84 11.12 9.28 11.64C9.73 12.16 10.21 12.69 10.73 13.22C11.27 13.75 11.79 14.24 12.32 14.69C12.84 15.13 13.27 15.43 13.61 15.61C13.66 15.63 13.72 15.66 13.79 15.69C13.87 15.72 13.95 15.73 14.04 15.73C14.21 15.73 14.34 15.67 14.45 15.56L15.21 14.81C15.46 14.56 15.7 14.37 15.93 14.25C16.16 14.11 16.39 14.04 16.64 14.04C16.83 14.04 17.03 14.08 17.25 14.17C17.47 14.26 17.7 14.39 17.95 14.56L21.26 16.91C21.52 17.09 21.7 17.3 21.81 17.55C21.91 17.8 21.97 18.05 21.97 18.33V18.33Z"
+                    stroke="#A6674A" stroke-width="1.5" stroke-miterlimit="10"></path>
+                <path d="M18.5 9C18.5 8.4 18.03 7.48 17.33 6.73C16.69 6.04 15.84 5.5 15 5.5" stroke="#A6674A"
+                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M22 9C22 5.13 18.87 2 15 2" stroke="#A6674A" stroke-width="1.5" stroke-linecap="round"
+                    stroke-linejoin="round"></path>
+            </svg>
+            <h3>LET'S TALK</h3>
+            <p>1 913-575-8381</p>
+        </a>
+
+        <a href="mailTo:test@gmail.com">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path
+                    d="M1 13V19C1 19.5304 1.21071 20.0391 1.58579 20.4142C1.96086 20.7893 2.46957 21 3 21H21C21.5304 21 22.0391 20.7893 22.4142 20.4142C22.7893 20.0391 23 19.5304 23 19V13"
+                    stroke="#A6674A" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square"></path>
+                <path
+                    d="M23 8V5C23 4.46957 22.7893 3.96086 22.4142 3.58579C22.0391 3.21071 21.5304 3 21 3H3C2.46957 3 1.96086 3.21071 1.58579 3.58579C1.21071 3.96086 1 4.46957 1 5V8L12 14L23 8Z"
+                    stroke="#A6674A" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square"></path>
+            </svg>
+            <h3>TICKETS INFO</h3>
+            <p>test@gmail.com</p>
+        </a>
+    </section>
+
+    <!-- <section class="our-restaurent">
         <div class="heading-div">
             <h2>OUR RESTAURANT</h2>
             <h5>Quality Products</h5>
@@ -54,48 +172,9 @@
                 <p>Cursus mattis molestie a iaculis at erat pellentesque adipiscing commodo.</p>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <section class="seafood-banner">
-        <div class="seafood-heading">
-            <h5>Our Unique </h5>
-            <h5>Seafood Dishes</h5>
-        </div>
-    </section>
-
-    <section class="special-dishes">
-        <h2>SPECIAL DISHES</h2>
-        <h5>Peoples Choice</h5>
-
-        <div class="item-container">
-            <div>
-                <img src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e84dc878-db18-4168-83e5-b91d680a8e7e_41.jpg"
-                    alt="">
-                <h3>Garlic Naan</h3>
-                <p>CA$4.50</p>
-            </div>
-            <div>
-                <img src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/c2b4ace7-f528-4234-a839-128528b87e2f_42.jpg"
-                    alt="">
-                <h3>Mango Milk Shake</h3>
-                <p>CA$4.99</p>
-            </div>
-            <div>
-                <img src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/06b522e8-6c57-497e-b14e-41e5f74ab22e_38.jpg"
-                    alt="">
-                <h3>Fish Curry</h3>
-                <p>CA$20.99</p>
-            </div>
-            <div>
-                <img src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/d6f90bae-96f6-41f3-823a-c2232f8ed5e3_2.jpg"
-                    alt="">
-                <h3>LAMB VINDALOO</h3>
-                <p>CA$20.99</p>
-            </div>
-        </div>
-    </section>
-
-    <section class="services">
+    <!-- <section class="services">
         <h2>EXQUISITE SERVICES</h2>
         <h5>Cafe Experience</h5>
 
@@ -154,146 +233,7 @@
                 </div>
             </div>
         </div>
-    </section>
-
-    <section class="testimonials">
-        <div class="our-clients">
-
-            <div class="main-container">
-                <div class="item-1">
-                    <div class="review">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="42" viewBox="0 0 48 42" fill="none">
-                            <path
-                                d="M20.2449 13.7277C20.2449 25.4828 14.1497 34.7345 1.95918 41.4828L0 38.3808C7.29252 32.6121 10.9388 26.1359 10.9388 18.9522C8.43537 18.9522 6.09524 18.1359 3.91837 16.5032C1.85034 14.8706 0.816327 12.6937 0.816327 9.97263C2.34014 7.68691 4.78912 5.67331 8.16326 3.93182C11.5374 2.08148 14.8027 0.993037 17.9592 0.666504C19.483 5.12909 20.2449 9.48283 20.2449 13.7277ZM48 13.7277C48 25.4828 41.9048 34.7345 29.7143 41.4828L27.7551 38.3808C35.0476 32.6121 38.6939 26.1359 38.6939 18.9522C36.1905 18.9522 33.8503 18.1359 31.6735 16.5032C29.6054 14.8706 28.5714 12.6937 28.5714 9.97263C30.0952 7.68691 32.5442 5.67331 35.9184 3.93182C39.2925 2.08148 42.5578 0.993037 45.7143 0.666504C47.2381 5.12909 48 9.48283 48 13.7277Z"
-                                fill="#A6674A"></path>
-                        </svg>
-                        
-                        <h5>I recently had the pleasure of dining at this exquisite Indian restaurant,
-                            and it was nothing short of a delightful experience. Every vegetarian dish I tried was
-                            bursting
-                            with authentic flavors, perfectly capturing the essence of traditional Indian cuisine. What
-                            stood out the most was the restaurant’s flexibility in customizing dishes according to
-                            personal
-                            taste preferences, a rare find that shows their commitment to customer satisfaction.</h5>
-                        <img
-                            src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/871e8e6b-eb9a-4aaa-857f-98c63d3cb863_testimonial.png" />
-                        <p>Sanket Patel</p>
-                    </div>
-                </div>
-
-                <div class="item-2">
-                    <div class="review">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="42" viewBox="0 0 48 42" fill="none">
-                            <path
-                                d="M20.2449 13.7277C20.2449 25.4828 14.1497 34.7345 1.95918 41.4828L0 38.3808C7.29252 32.6121 10.9388 26.1359 10.9388 18.9522C8.43537 18.9522 6.09524 18.1359 3.91837 16.5032C1.85034 14.8706 0.816327 12.6937 0.816327 9.97263C2.34014 7.68691 4.78912 5.67331 8.16326 3.93182C11.5374 2.08148 14.8027 0.993037 17.9592 0.666504C19.483 5.12909 20.2449 9.48283 20.2449 13.7277ZM48 13.7277C48 25.4828 41.9048 34.7345 29.7143 41.4828L27.7551 38.3808C35.0476 32.6121 38.6939 26.1359 38.6939 18.9522C36.1905 18.9522 33.8503 18.1359 31.6735 16.5032C29.6054 14.8706 28.5714 12.6937 28.5714 9.97263C30.0952 7.68691 32.5442 5.67331 35.9184 3.93182C39.2925 2.08148 42.5578 0.993037 45.7143 0.666504C47.2381 5.12909 48 9.48283 48 13.7277Z"
-                                fill="#A6674A"></path>
-                        </svg>
-                        <h5>I am basically from Toronto, recently visited Montreal city along with my
-                            family and tried Indian food at this wonderful restaurant, I can say food was so good especially
-                            butter chicken and tandoori chicken were simply amazing. Butter nan’s were so freshly made as I
-                            can literally feel them like i was eating nan’s in India.</h5>
-                        <img
-                            src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/871e8e6b-eb9a-4aaa-857f-98c63d3cb863_testimonial.png" />
-                        <p>Chandana Reddy</p>
-                    </div>
-                </div>
-
-                <div class="item-3">
-                    <div class="review">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="42" viewBox="0 0 48 42" fill="none">
-                            <path
-                                d="M20.2449 13.7277C20.2449 25.4828 14.1497 34.7345 1.95918 41.4828L0 38.3808C7.29252 32.6121 10.9388 26.1359 10.9388 18.9522C8.43537 18.9522 6.09524 18.1359 3.91837 16.5032C1.85034 14.8706 0.816327 12.6937 0.816327 9.97263C2.34014 7.68691 4.78912 5.67331 8.16326 3.93182C11.5374 2.08148 14.8027 0.993037 17.9592 0.666504C19.483 5.12909 20.2449 9.48283 20.2449 13.7277ZM48 13.7277C48 25.4828 41.9048 34.7345 29.7143 41.4828L27.7551 38.3808C35.0476 32.6121 38.6939 26.1359 38.6939 18.9522C36.1905 18.9522 33.8503 18.1359 31.6735 16.5032C29.6054 14.8706 28.5714 12.6937 28.5714 9.97263C30.0952 7.68691 32.5442 5.67331 35.9184 3.93182C39.2925 2.08148 42.5578 0.993037 45.7143 0.666504C47.2381 5.12909 48 9.48283 48 13.7277Z"
-                                fill="#A6674A"></path>
-                        </svg>
-                        <h5>I did a veg party order and all our guests were pretty happy with it. Pretty tasty
-                            like home made authentic food, i would definable recommend and also will order in future as
-                            well</h5>
-                        <img
-                            src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/871e8e6b-eb9a-4aaa-857f-98c63d3cb863_testimonial.png" />
-                        <p>Sandy</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="information">
-        <div>
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                <path
-                    d="M2.29001 7.77998V17.51C2.29001 19.41 3.64001 20.19 5.28001 19.25L7.63001 17.91C8.14001 17.62 8.99001 17.59 9.52001 17.86L14.77 20.49C15.3 20.75 16.15 20.73 16.66 20.44L20.99 17.96C21.54 17.64 22 16.86 22 16.22V6.48998C22 4.58998 20.65 3.80998 19.01 4.74998L16.66 6.08998C16.15 6.37998 15.3 6.40998 14.77 6.13998L9.52001 3.51998C8.99001 3.25998 8.14001 3.27998 7.63001 3.56998L3.30001 6.04998C2.74001 6.36998 2.29001 7.14998 2.29001 7.77998V7.77998Z"
-                    stroke="#A6674A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                <path d="M8.56 4V17" stroke="#A6674A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                </path>
-                <path d="M15.73 6.62012V20.0001" stroke="#A6674A" stroke-width="1.5" stroke-linecap="round"
-                    stroke-linejoin="round"></path>
-            </svg>
-
-            <h3>CONTACT US</h3>
-            <a>
-                <p>1999 Mont-Royal Ave E, Montreal, Quebec H2H 1J4, Canada</p>
-            </a>
-        </div>
-
-        <div>
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                <path
-                    d="M21.97 18.33C21.97 18.69 21.89 19.06 21.72 19.42C21.55 19.78 21.33 20.12 21.04 20.44C20.55 20.98 20.01 21.37 19.4 21.62C18.8 21.87 18.15 22 17.45 22C16.43 22 15.34 21.76 14.19 21.27C13.04 20.78 11.89 20.12 10.75 19.29C9.58811 18.4401 8.49169 17.5041 7.47 16.49C6.45877 15.472 5.5261 14.3789 4.68 13.22C3.86 12.08 3.2 10.94 2.72 9.81C2.24 8.67 2 7.58 2 6.54C2 5.86 2.12 5.21 2.36 4.61C2.6 4 2.98 3.44 3.51 2.94C4.15 2.31 4.85 2 5.59 2C5.87 2 6.15 2.06 6.4 2.18C6.66 2.3 6.89 2.48 7.07 2.74L9.39 6.01C9.57 6.26 9.7 6.49 9.79 6.71C9.88 6.92 9.93 7.13 9.93 7.32C9.93 7.56 9.86 7.8 9.72 8.03C9.59 8.26 9.4 8.5 9.16 8.74L8.4 9.53C8.29 9.64 8.24 9.77 8.24 9.93C8.24 10.01 8.25 10.08 8.27 10.16C8.3 10.24 8.33 10.3 8.35 10.36C8.53 10.69 8.84 11.12 9.28 11.64C9.73 12.16 10.21 12.69 10.73 13.22C11.27 13.75 11.79 14.24 12.32 14.69C12.84 15.13 13.27 15.43 13.61 15.61C13.66 15.63 13.72 15.66 13.79 15.69C13.87 15.72 13.95 15.73 14.04 15.73C14.21 15.73 14.34 15.67 14.45 15.56L15.21 14.81C15.46 14.56 15.7 14.37 15.93 14.25C16.16 14.11 16.39 14.04 16.64 14.04C16.83 14.04 17.03 14.08 17.25 14.17C17.47 14.26 17.7 14.39 17.95 14.56L21.26 16.91C21.52 17.09 21.7 17.3 21.81 17.55C21.91 17.8 21.97 18.05 21.97 18.33V18.33Z"
-                    stroke="#A6674A" stroke-width="1.5" stroke-miterlimit="10"></path>
-                <path d="M18.5 9C18.5 8.4 18.03 7.48 17.33 6.73C16.69 6.04 15.84 5.5 15 5.5" stroke="#A6674A"
-                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                <path d="M22 9C22 5.13 18.87 2 15 2" stroke="#A6674A" stroke-width="1.5" stroke-linecap="round"
-                    stroke-linejoin="round"></path>
-            </svg>
-
-            <h3>LET'S TALK</h3>
-            <a href="tel:1 913-575-8381">
-                <p>1 913-575-8381</p>
-            </a>
-        </div>
-
-        <div>
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                <path
-                    d="M1 13V19C1 19.5304 1.21071 20.0391 1.58579 20.4142C1.96086 20.7893 2.46957 21 3 21H21C21.5304 21 22.0391 20.7893 22.4142 20.4142C22.7893 20.0391 23 19.5304 23 19V13"
-                    stroke="#A6674A" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square"></path>
-                <path
-                    d="M23 8V5C23 4.46957 22.7893 3.96086 22.4142 3.58579C22.0391 3.21071 21.5304 3 21 3H3C2.46957 3 1.96086 3.21071 1.58579 3.58579C1.21071 3.96086 1 4.46957 1 5V8L12 14L23 8Z"
-                    stroke="#A6674A" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square"></path>
-            </svg>
-
-            <h3>TICKETS INFO</h3>
-            <a href="mailTo:test@gmail.com">
-                <p>test@gmail.com</p>
-            </a>
-        </div>
-
-        <div>
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                <g clip-path="url(#clip0)">
-                    <path d="M23.25 9H0.75" stroke="#A6674A" stroke-width="2" stroke-miterlimit="10"></path>
-                    <path
-                        d="M21 3H3C1.75736 3 0.75 4.00736 0.75 5.25V20.25C0.75 21.4926 1.75736 22.5 3 22.5H21C22.2426 22.5 23.25 21.4926 23.25 20.25V5.25C23.25 4.00736 22.2426 3 21 3Z"
-                        stroke="#A6674A" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square"></path>
-                    <path d="M6 0.75V5.25" stroke="#A6674A" stroke-width="2" stroke-miterlimit="10"
-                        stroke-linecap="square"></path>
-                    <path d="M18 0.75V5.25" stroke="#A6674A" stroke-width="2" stroke-miterlimit="10"
-                        stroke-linecap="square"></path>
-                </g>
-                <defs>
-                    <clipPath id="clip0">
-                        <rect width="24" height="24" fill="white"></rect>
-                    </clipPath>
-                </defs>
-            </svg>
-
-            <h3>EVENT DETAILS</h3>
-            <a>
-                <p>Lorem ipsum is simply dummy text printing</p>
-            </a>
-        </div>
-    </section>
-
+    </section> -->
 
     <app-footer></app-footer>
 </main>
