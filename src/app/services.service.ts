@@ -27,7 +27,7 @@ export class ServicesService {
     return this.http.post(`${this.apiUrl}/checkout/checkout`, requestBody);
   }
 
-  contactFormSubmission(data: any): Observable<any> {
+  montSubmission(data: any): Observable<any> {
     let requestBody = {
       firstName: data.firstName,
       lastName: data.lastName,
