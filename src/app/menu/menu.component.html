@@ -1,5 +1,9 @@
 <main>
     <app-navbar></app-navbar>
+    <meta name="title" content="Veg & Non-Vegetarian Restaurant In Montreal | Mont Everest Masala">
+    <meta name="description"
+        content="Indulge in a culinary journey at Mont Everest Masala with a diverse menu featuring soups, salads, appetisers, seafood delights, biryanis, and vegetarian dishes!">
+
     <section class="home-banner">
         <h1>Our Menu</h1>
     </section>
@@ -30,11 +34,11 @@
                         <img [src]="p.icon" />
                     </div>
                     <div class="content">
-                            <div class="title">
-                                <h3>{{ p.itemName }}</h3>
-                                <span>&#x24;{{ p.itemPrice }}</span>
-                            </div>
-                            <p>{{ p.itemDescription }}</p>
+                        <div class="title">
+                            <h3>{{ p.itemName }}</h3>
+                            <span>&#x24;{{ p.itemPrice }}</span>
+                        </div>
+                        <p>{{ p.itemDescription }}</p>
                     </div>
                     <div class="utility">
                         <button>
