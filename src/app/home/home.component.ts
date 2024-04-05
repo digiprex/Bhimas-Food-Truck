@@ -52,35 +52,35 @@ export class HomeComponent {
 
   homesSliderImage = [
     {
-      "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/46722a89-2ebc-473d-a809-74cf029deebf_2-min.jpg",
-      "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/46722a89-2ebc-473d-a809-74cf029deebf_2-min.jpg",
+      "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f017f08c-e79d-4d1b-a186-0a7d1d2f8f87_1.jpeg",
+      "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f017f08c-e79d-4d1b-a186-0a7d1d2f8f87_1.jpeg",
       "title": "Mont Everest Masala"
     },
     {
-      "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/4603f764-ea2d-420b-a541-7e29a01d0cdf_3-min.jpg",
-      "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/4603f764-ea2d-420b-a541-7e29a01d0cdf_3-min.jpg",
+      "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/0e63bb92-976d-4cd9-a6fa-3a52c2775342_2.jpeg",
+      "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/0e63bb92-976d-4cd9-a6fa-3a52c2775342_2.jpeg",
       "title": "Mont Everest Masala"
     },
     {
-      "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e48ec343-db94-4bd7-b447-254fe6ecec38_4-min.jpg",
-      "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e48ec343-db94-4bd7-b447-254fe6ecec38_4-min.jpg",
+      "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/0c0f148f-4204-490d-91a5-844925a9ab54_3.jpeg",
+      "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/0c0f148f-4204-490d-91a5-844925a9ab54_3.jpeg",
       "title": "Mont Everest Masala"
     },
     {
-      "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f8d82d24-719e-43fd-8661-94939e1adcac_1-min.jpg",
-      "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f8d82d24-719e-43fd-8661-94939e1adcac_1-min.jpg",
+      "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/7bf3dca5-1c78-4e10-9107-1c06a475f39b_4.jpeg",
+      "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/7bf3dca5-1c78-4e10-9107-1c06a475f39b_4.jpeg",
       "title": "Mont Everest Masala"
     }
   ];
 
   imageUrls: string[] = [
-    'https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/726e3321-7545-46e3-bb53-2b77b107a3b0_1.jpg',
-    'https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/d5946320-c194-4eb8-841e-853eb3db74a0_2.jpg',
-    'https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/03583aaa-61db-471b-b9ed-e6d623d82a1c_3.jpg',
-    'https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/063b1689-d93f-4afe-8f11-7ee5b0b1758c_4.jpg',
-    'https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/862d1247-5e52-4e17-804f-9326fe2e93d3_5.jpg',
-    'https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/a665e61f-aa5f-4d13-b8c0-14d4c7bcf98f_6.jpg',
-    'https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/8808eb0c-5bc2-4776-a2ad-a595d5f4dbb9_7.jpg',
-    'https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/5dbc3eda-347a-4acc-8e9d-5797c2526b12_8.jpg'
+    'https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/8b75ad7d-d689-468f-b8f9-1293f486461d_g1-min.jpg',
+    'https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/8298b8e6-51fb-4caf-9d2e-7849ec9970b3_g2-min.jpg',
+    'https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/fec10328-001e-499c-8425-de843aa34b6c_g3-min.jpg',
+    'https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/8624cae1-e426-4740-be47-298dca4543d8_g4-min.jpg',
+    'https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ed268b16-63bc-44fe-816f-411812e5e1b5_g5-min.jpg',
+    'https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/b9b5411b-498a-42b8-a031-d3f2b2a6dbf0_g6-min.jpg',
+    'https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/03dd14b2-e3ce-4cc5-a9d9-a18720479f16_g7-min.jpg',
+    'https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/567fe314-3358-47d6-866b-9c5d860ddb08_g8-min.jpg'
   ];
 }
