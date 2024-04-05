@@ -42,7 +42,7 @@
     </section>
 
     <section class="form">
-        <form [formGroup]="userdetails">
+        <form [formGroup]="contactDetails" *ngIf="!success">
             <h2>CONTACT US</h2>
             <div>
                 <input name="firstName" placeholder="First Name" required formControlName="firstName" />
