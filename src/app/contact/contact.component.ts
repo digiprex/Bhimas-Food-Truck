@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
-import { ServicesService } from '../services.service';
 import { Router } from '@angular/router';
+import { AppService } from '../app.service';
 
 @Component({
   selector: 'app-contact',
@@ -20,7 +20,7 @@ export class ContactComponent {
     message: new FormControl("")
   });
 
-  constructor(private servicesService: ServicesService, private router: Router) { }
+  constructor(private appService: AppService, private router: Router) { }
 
   montsubmitForm() {
     let body = {
@@ -30,7 +30,7 @@ export class ContactComponent {
       email: this.contactDetails.value.email,
       message: this.contactDetails.value.message
     }
-    this.servicesService.montSubmission(body).subscribe(result => {
+    this.appService.contactformSubmission(body).subscribe(result => {
       this.success = true;
     });
   }

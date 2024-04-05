@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { ServicesService } from '../services.service';
 import { Router } from '@angular/router';
 
 @Component({
@@ -911,11 +910,12 @@ export class MenuComponent {
         ]
     };
 
-    constructor(private servicesService: ServicesService, private router: Router) {
+    constructor(private router: Router) {
         this.menu = this.menuMasterData['menu'][0];
         this.categories = this.menuMasterData['menu'][0].superCategory[0].category;
         this.host = this.host[this.host.length - 1];
     }
+
     ngOnInit(): void {
         this.getDiv(0, this.categories[0]);
     }
@@ -930,7 +930,6 @@ export class MenuComponent {
     subQuantity(item: any) {
         item.quantity = item.quantity < 1 ? 0 : item.quantity - 1;
     }
-
     addToCart(item: any, category: any) {
         localStorage.setItem('location', this.host)
         this.cart.push({
@@ -953,6 +952,5 @@ export class MenuComponent {
             this.selectedCategory = index;
             this.router.navigate([`/menu/${this.host}`]);
         }
-
     }
 }
