@@ -110,6 +110,8 @@ main {
                 color: #fff;
                 font-family: "Fraunces", serif;
                 border-radius: 4px;
+                width: fit-content;
+                margin: auto;
             }
 
             button:disabled {
@@ -138,6 +140,8 @@ main {
                 color: #fff;
                 font-family: "Fraunces", serif;
                 text-transform: uppercase;
+                width: fit-content;
+                margin: auto;
             }
 
             .submit {

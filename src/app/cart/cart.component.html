@@ -1,12 +1,7 @@
 <main>
     <app-navbar></app-navbar>
-    <section class="label-section">
-        <div>
-            <h3>
-                Cart
-            </h3>
-            <h4><a href="/">Home > </a><span>Cart</span></h4>
-        </div>
+    <section class="home-banner">
+        <h1>Cart</h1>
     </section>
 
     <section class="cart-section" *ngIf="totalPrice !== 0">
@@ -30,10 +25,9 @@
                 delete
             </span>
         </div>
-        <div class="price-div">
+
+        <div class="bottom">
             <p>Total Price: <span>&#x24;{{totalPrice}}</span></p>
-        </div>
-        <div class="continue-div">
             <button [disabled]="totalPrice == 0" (click)="checkoutPage()">Continue to Checkout</button>
         </div>
     </section>
@@ -41,12 +35,6 @@
     <section class="cart-section" *ngIf="totalPrice == 0">
         <div class="empty-cart-div">
             Your Cart is Empty.
-        </div>
-        <div class="price-div">
-            <p>Total Price: <span>&#36;{{totalPrice}}</span></p>
-        </div>
-        <div class="continue-div">
-            <button [disabled]="totalPrice == 0" (click)="checkoutPage()">Continue to Checkout</button>
         </div>
     </section>
 

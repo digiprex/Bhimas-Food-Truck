@@ -43,18 +43,16 @@
             <h2>CONTACT US</h2>
             <div>
                 <input name="firstName" placeholder="First Name" required formControlName="firstName" />
-                <input name="lastName" placeholder="Last Name" required formControlName="lastName" />
+                <input name="lastName" placeholder="Last Name" formControlName="lastName" />
             </div>
             <div>
-                <button type="submit" [disabled]="!contactDetails.valid" (click)="montsubmitForm()">
-                    SUBMIT
-                </button>
+                <input name="email" placeholder="Email" required formControlName="email" />
+                <input name="phone" placeholder="Phone" required formControlName="phone" />
             </div>
             <textarea type="text" class="control-form" name="message" placeholder="Message"
                 formControlName="message"></textarea>
             <button *ngIf="!success" type="submit">SEND</button>
             <button *ngIf="success" class="submit">Submitted</button>
-
         </form>
 
         <div class="success" *ngIf="success">

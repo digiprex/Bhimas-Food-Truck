@@ -52,23 +52,23 @@ export class HomeComponent {
 
   homesSliderImage = [
     {
-      "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/3a63eefc-ff14-43cb-9b4b-9ffc0e0a464f_96-min.jpg",
-      "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/3a63eefc-ff14-43cb-9b4b-9ffc0e0a464f_96-min.jpg",
+      "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/46722a89-2ebc-473d-a809-74cf029deebf_2-min.jpg",
+      "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/46722a89-2ebc-473d-a809-74cf029deebf_2-min.jpg",
       "title": "Mont Everest Masala"
     },
     {
-      "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/78f9fdc9-1965-444d-8608-ce3c6843095e_97-min.jpg",
-      "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/78f9fdc9-1965-444d-8608-ce3c6843095e_97-min.jpg",
+      "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/4603f764-ea2d-420b-a541-7e29a01d0cdf_3-min.jpg",
+      "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/4603f764-ea2d-420b-a541-7e29a01d0cdf_3-min.jpg",
       "title": "Mont Everest Masala"
     },
     {
-      "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/feee1caa-943a-4fed-b8c5-c8a2eeb11d26_94-min.jpg",
-      "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/feee1caa-943a-4fed-b8c5-c8a2eeb11d26_94-min.jpg",
+      "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e48ec343-db94-4bd7-b447-254fe6ecec38_4-min.jpg",
+      "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e48ec343-db94-4bd7-b447-254fe6ecec38_4-min.jpg",
       "title": "Mont Everest Masala"
     },
     {
-      "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/bf24b3b6-aeba-41d8-a861-079cf06fc2fa_95-min.jpg",
-      "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/bf24b3b6-aeba-41d8-a861-079cf06fc2fa_95-min.jpg",
+      "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f8d82d24-719e-43fd-8661-94939e1adcac_1-min.jpg",
+      "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f8d82d24-719e-43fd-8661-94939e1adcac_1-min.jpg",
       "title": "Mont Everest Masala"
     }
   ];

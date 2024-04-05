@@ -38,7 +38,8 @@ main {
                 color: #865439;
                 font-weight: 100;
                 margin: 0;
-                font-family: "Great Vibes", cursive;
+                letter-spacing: 4px;
+                font-family: "Allura", cursive;
             }
 
             h2 {
@@ -89,7 +90,7 @@ main {
                 color: #fff;
                 font-weight: 100;
                 margin: 0;
-                font-family: "Great Vibes", cursive;
+                font-family: "Allura", cursive;
             }
         }
     }
@@ -140,9 +141,14 @@ main {
 // Mobile
 @media only screen and (max-device-width: 480px) {
     main {
+        section.home-banner {
+            padding: 2rem;
+
+            h1 {}
+        }
 
         section.aboutus {
-            padding: 10rem 2rem;
+            padding: 5rem 2rem;
             display: grid;
             justify-content: center;
 
@@ -173,7 +179,7 @@ main {
                 width: 100%;
 
                 h5 {
-                    font-size: 45px;
+                    font-size: 60px;
                 }
             }
         }

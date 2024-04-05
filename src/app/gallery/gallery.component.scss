@@ -13,7 +13,7 @@ main {
 
         h1 {
             font-family: "Fraunces", serif;
-            font-size: 30px;
+            font-size: 40px;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
             text-transform: uppercase;
             color: #fff;
@@ -42,9 +42,13 @@ main {
 // Mobile
 @media only screen and (max-device-width: 480px) {
     main {
-
+        section.home-banner {
+            padding: 2rem;
+    
+            h1 {}
+        }
         section.gallery {
-            padding: 10rem 2rem;
+            padding: 5rem 2rem;
 
             div {
                 width: 47%;
