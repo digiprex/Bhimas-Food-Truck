@@ -1,47 +1,30 @@
 main {
-    font-family: "Fraunces", serif;
 
-    section.label-section {
-        background-image: url("https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/797ca874-2e0c-4d1a-a488-4197df0b754c.jpg");
+    section.home-banner {
+        background: linear-gradient(rgb(0 0 0 / 30%), rgb(0 0 0 / 30%)), url("https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/78f9fdc9-1965-444d-8608-ce3c6843095e_97-min.jpg");
+        background-repeat: no-repeat;
         background-size: cover;
-        padding: 11rem 5rem;
+        padding: 10rem;
+        display: grid;
+        justify-content: center;
+        gap: 20px;
+        height: 50vh;
+        align-items: center;
 
-        div {
-            justify-content: center;
-            background: #00000040;
+        h1 {
+            font-family: "Fraunces", serif;
+            font-size: 40px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+            text-transform: uppercase;
+            color: #fff;
             text-align: center;
-            padding: 10px;
-
-            h3 {
-                color: white;
-                font-size: 50px;
-                font-weight: 600;
-                font-family: "Fraunces", serif;
-                margin: 0px;
-            }
-
-            h4 {
-                a {
-                    color: #ffffff;
-                    font-size: 15px;
-                    font-family: "Fraunces", serif;
-                }
-
-                span {
-                    font-size: 15px;
-                    color: #fff;
-                    font-weight: 700;
-                    font-family: "Fraunces", serif;
-                }
-            }
         }
     }
 
     section.checkout-section {
-        padding: 7%;
+        padding: 10rem;
         display: grid;
         gap: 20px;
-        width: 100%;
 
         form {
             display: grid;
@@ -73,7 +56,7 @@ main {
                     font-family: "Fraunces", serif;
                     border-radius: 4px;
                 }
-    
+
                 button:disabled {
                     background-color: transparent;
                     border: 1px solid #865439;
@@ -116,6 +99,21 @@ main {
             color: #fff;
             font-family: "Fraunces", serif;
             border-radius: 4px;
+        }
+    }
+}
+
+// Mobile
+@media only screen and (max-device-width: 480px) {
+    main {
+        section.home-banner {
+            padding: 2rem;
+
+            h1 {}
+        }
+
+        section.checkout-section {
+            padding: 5rem 2rem;
         }
     }
 }

@@ -1,7 +1,7 @@
 main {
 
-    section.menu-banner {
-        background-image: linear-gradient(rgb(0 0 0 / 30%), rgb(0 0 0 / 30%)), url("https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/28139eed-d695-4579-8366-2920bfa502cf_94.jpg");
+    section.home-banner {
+        background: linear-gradient(rgb(0 0 0 / 30%), rgb(0 0 0 / 30%)), url("https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/feee1caa-943a-4fed-b8c5-c8a2eeb11d26_94-min.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         padding: 10rem;
@@ -13,7 +13,7 @@ main {
 
         h1 {
             font-family: "Fraunces", serif;
-            font-size: 30px;
+            font-size: 40px;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
             text-transform: uppercase;
             color: #fff;
@@ -65,55 +65,26 @@ main {
     }
 
     section.mainMenu {
-        padding-top: 35px;
-
-        .menu-image {
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-            padding: 5%;
-
-            .image-section1 {
-                width: 50%;
-                display: flex;
-
-                img {
-                    width: 100%;
-                    object-fit: contain;
-                }
-            }
-
-            .image-section2 {
-                width: 35%;
-                display: grid;
-                justify-content: end;
-
-                img {
-                    width: 100%;
-                    object-fit: contain;
-                }
-            }
-        }
+        padding: 5rem;
+        display: grid;
+        gap: 40px;
 
         .options-tab {
             display: flex;
             flex-wrap: wrap;
-            border: none;
-            padding: 10px;
             justify-content: center;
+            gap: 10px;
 
             div {
                 display: flex;
-                margin-top: auto;
-                margin-bottom: auto;
+                margin: auto 0;
+                gap: 10px;
 
                 button {
-                    margin: 10px;
                     background: transparent;
                     border: 1px solid #865439;
                     padding: 10px;
                     font-family: "Fraunces", serif;
-                    font-size: 15px;
 
                     a {
                         font-size: 16px;
@@ -123,27 +94,36 @@ main {
             }
         }
 
-        .png {
-            display: flex;
-        }
+        .menu-tab {
+            padding: 2rem;
+            display: grid;
+            gap: 40px;
 
-        .main-container {
-            display: flex;
-            -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-            justify-content: center;
+            h3 {
+                color: #000;
+                font-size: 30px;
+                font-weight: 400;
+                text-transform: uppercase;
+                margin: 0;
+                font-family: "Fraunces", serif;
+                text-align: center;
+            }
 
-            .inner-container {
-                flex: 0 0 22%;
-                max-width: 30%;
-                padding: 10px;
-                margin: 10px;
-                border-radius: 8px;
-                border: 1px solid rgb(173 151 151 / 50%);
-                box-shadow: rgb(0 0 0 / 10%) 0px 0.063rem 1.875rem 0px;
+            .main-container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 20px;
 
-                .Main1 {
-                    .image-container {
+                .inner-container {
+                    width: 22%;
+                    padding: 10px;
+                    border-radius: 8px;
+                    border: 1px solid rgb(173 151 151 / 50%);
+                    box-shadow: rgb(0 0 0 / 10%) 0px 0.063rem 1.875rem 0px;
+                    display: grid;
+
+                    .image {
                         display: block;
                         overflow: hidden;
                         position: relative;
@@ -171,57 +151,46 @@ main {
                         }
                     }
 
-                    .content-container {
-                        padding: 0px;
-                        width: 100%;
-                        justify-content: space-between;
-                        display: flow-root;
-                        margin: 10px 0px;
-                        font-family: "Fraunces", serif;
+                    .content {
+                        display: grid;
+                        gap: 10px;
 
-                        .heading3 {
-                            display: grid;
+                        .title {
+                            display: flex;
                             gap: 10px;
+                            justify-content: space-between;
+                            align-items: center;
+                            font-family: "Fraunces", serif;
 
-                            .items-main-div {
-                                display: flex;
-                                gap: 20px;
-                                justify-content: space-between;
-                                align-items: center;
-
-                                h3 {
-                                    letter-spacing: 1px;
-                                    color: #000;
-                                    padding: 10px;
-                                    font-size: 18px;
-                                    font-weight: bold;
-                                    text-transform: capitalize;
-                                }
-
-                                span {
-                                    color: #000;
-                                    line-height: 15px;
-                                    font-size: 16px;
-                                    letter-spacing: 1px;
-                                    font-weight: bolder;
-                                    font-family: "Fraunces", serif;
-                                }
+                            h3 {
+                                letter-spacing: 1px;
+                                color: #000;
+                                font-size: 18px;
+                                font-weight: bold;
+                                text-transform: capitalize;
                             }
 
-                            p {
+                            span {
+                                color: #000;
                                 font-size: 16px;
-                                color: #5f5f5f;
-                                font-weight: 400;
-                                font-family: "DM Sans", sans-serif;
-                                text-align: start;
+                                letter-spacing: 1px;
+                                font-weight: bold;
                             }
+                        }
+
+                        p {
+                            font-size: 14px;
+                            color: #5f5f5f;
+                            font-weight: 400;
+                            font-family: "DM Sans", sans-serif;
+                            text-align: start;
                         }
                     }
 
                     .utility {
                         display: flex;
                         justify-content: space-between;
-                        gap: 20px;
+                        gap: 10px;
 
                         button:nth-child(1) {
                             display: flex;
@@ -231,8 +200,6 @@ main {
                             align-items: center;
                             justify-content: space-around;
                             border-radius: 4px;
-
-                            span {}
 
                             input {
                                 width: inherit;
@@ -259,175 +226,7 @@ main {
                             color: #865439;
                         }
                     }
-
-                    .description {
-                        color: #7e7e7e;
-                        font-size: 13px;
-                        font-weight: 500;
-                        font-family: Cinzel, serif;
-                        margin-top: 4px;
-                        text-align: center;
-                    }
-
-                    h4 {
-                        text-align: center;
-                        font-size: 16px;
-                        font-family: Cinzel, serif;
-                        font-weight: 600;
-                    }
                 }
-            }
-        }
-
-        .outer-container {
-            column-count: 2;
-            margin-top: 40px;
-            padding-bottom: 70px;
-
-            .inner-container {
-                border-style: solid;
-                border-width: 1px 1px 1px 1px;
-                border-color: #eeeeee;
-                box-shadow: 8px 18px 37px -15px rgb(0 0 0 / 58%);
-                transition: background 0.3s, border 0.3s, border-radius 0.3s,
-                    box-shadow 0.3s;
-                margin: 0px 20px 0px 0px;
-                padding: 0px 40px 40px 40px;
-                gap: 20px;
-                display: grid;
-
-                .main-container {
-                    display: flex;
-                    width: 100%;
-                    justify-content: space-between;
-                    align-items: center;
-
-                    .itemPrice-section {
-                        width: 10%;
-                        display: flex;
-                        justify-content: end;
-
-                        h3 {
-                            font-size: 19px;
-                            text-transform: uppercase;
-                            font-weight: 600;
-                            font-family: Cinzel, serif;
-                            text-align: left;
-                            word-break: break-word;
-                            width: 50%;
-                            font-family: "Fraunces", serif;
-                            letter-spacing: 2px;
-                        }
-
-                        p {
-                            font-size: 14px;
-                            color: #5f5f5f;
-                            font-weight: 400;
-                            font-family: "DM Sans", sans-serif;
-                            text-align: center;
-                            margin-bottom: 20px;
-                        }
-                    }
-
-                    .itemName-section {
-                        width: 90%;
-
-                        span {
-                            font-size: 20px;
-                            font-weight: 600;
-                        }
-
-                        .utility {
-                            display: flex;
-                            justify-content: space-between;
-                            gap: 20px;
-
-                            button:nth-child(1) {
-                                display: flex;
-                                background-color: transparent;
-                                border: 1px solid lightgray;
-                                width: 30%;
-                                align-items: center;
-                                justify-content: space-around;
-                                border-radius: 4px;
-
-                                input {
-                                    width: inherit;
-                                    border: none;
-                                    text-align: center;
-                                    background-color: #f1edde;
-                                }
-                            }
-
-                            button:nth-child(2) {
-                                border: 2px solid #263a00;
-                                width: 50%;
-                                background: #263a00;
-                                color: white;
-                                border-radius: 4px;
-                                padding: 10px;
-                                font-family: "Fraunces", serif;
-                            }
-
-                            button:nth-child(2):disabled {
-                                background: #263a00;
-                                border: 2px solid #263a00;
-                                font-family: "Fraunces", serif;
-                            }
-                        }
-                    }
-
-                    .price-box {
-                        display: grid;
-                        width: 50%;
-                        grid-gap: 10px;
-                        gap: 10px;
-                        justify-content: end;
-                        align-items: center;
-
-                        p {
-                            font-weight: 600;
-                            display: flex;
-
-                            span {
-                                font-weight: 400;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-
-        .exp {
-            // padding-left: 80px;
-            // padding-right: 80px;
-            padding: 5%;
-
-            .category-tab {
-                display: flex;
-                justify-content: space-between;
-
-                .tab {
-                    display: flex;
-
-                    button {
-                        margin-top: auto;
-                        margin-bottom: auto;
-                        border-radius: 50%;
-                        font-size: 30px;
-                        background-color: transparent;
-                        padding: 0px 14px;
-                    }
-                }
-            }
-
-            h3 {
-                color: #000;
-                font-size: 30px;
-                font-weight: 400;
-                text-transform: uppercase;
-                margin: 0;
-                font-family: "Fraunces", serif;
             }
         }
     }
@@ -435,120 +234,49 @@ main {
 
 @media only screen and (max-device-width: 480px) {
     main {
+        section.home-banner {
+            padding: 2rem;
 
-        section.menu-banner {
-            background-image: linear-gradient(rgb(0 0 0 / 30%), rgb(0 0 0 / 30%)), url("https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/28139eed-d695-4579-8366-2920bfa502cf_94.jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            padding: 5rem;
-            display: grid;
-            justify-content: center;
-            gap: 20px;
-            height: 50vh;
-            align-items: center;
-
-            h1 {
-                font-family: "Fraunces", serif;
-                font-size: 30px;
-                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-                text-transform: uppercase;
-                color: #fff;
-                text-align: center;
-            }
+            h1 {}
         }
 
-
         section.mainMenu {
-            padding-top: 35px;
+            padding: 5rem 2rem;
 
-            .menu-image {
-                width: 100%;
-                display: flex;
-                justify-content: space-between;
-                padding: 5%;
+            .menu-tab {
+                padding: 0;
 
-                .image-section1 {
-                    width: 50%;
-                    display: flex;
+                .main-container {
+                    gap: 10px;
 
-                    img {
-                        width: 100%;
-                        object-fit: contain;
-                    }
-                }
+                    .inner-container {
+                        width: 47%;
+                        padding: 10px;
 
-                .image-section2 {
-                    width: 35%;
-                    display: grid;
-                    justify-content: end;
+                        .content {
 
-                    img {
-                        width: 100%;
-                        object-fit: contain;
-                    }
-                }
-            }
+                            .title {
+                                display: grid;
 
-            .options-tab {
-                display: flex;
-                flex-wrap: wrap;
-                border: none;
-                padding: 10px;
-                justify-content: center;
+                                h3 {
+                                    text-align: start;
+                                }
+                            }
+                        }
 
-                div {
-                    display: flex;
-                    margin-top: auto;
-                    margin-bottom: auto;
+                        .utility {
+                            display: grid;
 
-                    button {
-                        margin: 5px;
-                        padding: 8px;
+                            button:nth-child(1) {
+                                width: 100%;
+                            }
 
-                        a {
-                            font-size: 16px;
-                            color: #000;
+                            button:nth-child(2) {
+                                width: 100%;
+                            }
                         }
                     }
                 }
-            }
-
-            .png {
-                display: flex;
-            }
-
-            .main-container {
-                display: flex;
-                flex-direction: column;
-
-                .inner-container {
-                    max-width: 100%;
-                }
-            }
-
-            .outer-container {
-                column-count: 2;
-                margin-top: 40px;
-                padding-bottom: 70px;
-
-                .inner-container {}
-            }
-
-            .exp {
-                padding: 5%;
-
-                .category-tab {
-                    display: flex;
-                    justify-content: space-between;
-
-                    .tab {
-                        display: flex;
-
-                        button {}
-                    }
-                }
-
-                h3 {}
             }
         }
     }

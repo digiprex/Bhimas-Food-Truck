@@ -1,6 +1,10 @@
 <main>
     <app-navbar></app-navbar>
-    <section class="menu-banner">
+    <meta name="title" content="Veg & Non-Vegetarian Restaurant In Montreal | Mont Everest Masala">
+    <meta name="description"
+        content="Indulge in a culinary journey at Mont Everest Masala with a diverse menu featuring soups, salads, appetisers, seafood delights, biryanis, and vegetarian dishes!">
+
+    <section class="home-banner">
         <h1>Our Menu</h1>
     </section>
 
@@ -21,40 +25,30 @@
             </div>
         </div>
 
-        <div class="exp">
-            <div id="{{ product.routeName }}" *ngIf="product">
-                <div class="category-tab">
-                    <div>
-                        <h3>{{ product.categoryName }}</h3>
-                    </div>
-                </div>
+        <div class="menu-tab" id="{{ product.routeName }}" *ngIf="product">
+            <h3>{{ product.categoryName }}</h3>
 
-                <div class="main-container">
-                    <div class="inner-container" *ngFor="let p of product.items">
-                        <div class="Main1">
-                            <div class="image-container">
-                                <img [src]="p.icon" />
-                            </div>
-                            <div class="content-container">
-                                <div class="heading3">
-                                    <div class="items-main-div">
-                                        <h3>{{ p.itemName }}</h3>
-                                        <span>&#x24;{{ p.itemPrice }}</span>
-                                    </div>
-                                    <p>{{ p.itemDescription }}</p>
-                                </div>
-                            </div>
-                            <div class="utility">
-                                <button>
-                                    <span (click)="subQuantity(p)"> - </span>
-                                    <input type="text" value="{{ p.quantity }}" />
-                                    <span (click)="addQuantity(p)"> + </span>
-                                </button>
-                                <button [disabled]="p.quantity == 0" (click)="addToCart(p, product)">
-                                    Add to Cart
-                                </button>
-                            </div>
+            <div class="main-container">
+                <div class="inner-container" *ngFor="let p of product.items">
+                    <div class="image">
+                        <img [src]="p.icon" />
+                    </div>
+                    <div class="content">
+                        <div class="title">
+                            <h3>{{ p.itemName }}</h3>
+                            <span>&#x24;{{ p.itemPrice }}</span>
                         </div>
+                        <p>{{ p.itemDescription }}</p>
+                    </div>
+                    <div class="utility">
+                        <button>
+                            <span (click)="subQuantity(p)"> - </span>
+                            <input type="text" value="{{ p.quantity }}" />
+                            <span (click)="addQuantity(p)"> + </span>
+                        </button>
+                        <button [disabled]="p.quantity == 0" (click)="addToCart(p, product)">
+                            Add to Cart
+                        </button>
                     </div>
                 </div>
             </div>

@@ -1,5 +1,8 @@
 <main>
     <app-navbar></app-navbar>
+    <meta name="title" content="Contact Best Restaurant In Montreal | Mont Everest Masala | Reach Us Today">
+    <meta name="description"
+        content="Mont Everest Masala in Montreal serves the best South Indian cuisine. Explore a menu brimming with veg and non-veg delights. Satisfaction awaits!">
 
     <section class="home-banner">
         <div class="content-section">
@@ -41,20 +44,18 @@
     <section class="form">
         <form [formGroup]="contactDetails" *ngIf="!success">
             <h2>CONTACT US</h2>
-
-            <input name="firstName" placeholder="First Name" required formControlName="firstName" />
-            <input name="lastName" placeholder="Last Name" required formControlName="lastName" />
-
-            <input name="phone" placeholder="Phone Number" required formControlName="phone" />
-            <input name="email" placeholder="Email Id" required formControlName="email" />
-            <input name="message" placeholder="Message" required formControlName="message" />
-
             <div>
-                <button type="submit" [disabled]="!contactDetails.valid" (click)="montsubmitForm()">
-                    SUBMIT
-                </button>
+                <input name="firstName" placeholder="First Name" required formControlName="firstName" />
+                <input name="lastName" placeholder="Last Name" formControlName="lastName" />
             </div>
-
+            <div>
+                <input name="email" placeholder="Email" required formControlName="email" />
+                <input name="phone" placeholder="Phone" required formControlName="phone" />
+            </div>
+            <textarea type="text" class="control-form" name="message" placeholder="Message"
+                formControlName="message"></textarea>
+            <button *ngIf="!success" type="submit">SEND</button>
+            <button *ngIf="success" class="submit">Submitted</button>
         </form>
 
         <div class="success" *ngIf="success">

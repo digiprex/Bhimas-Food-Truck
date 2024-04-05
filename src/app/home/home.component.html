@@ -1,6 +1,10 @@
 <main>
     <app-navbar></app-navbar>
 
+    <meta name="title" content="Best South Indian Food In Montreal | Mont Everest Masala">
+    <meta name="description"
+        content="Savor the finest South Indian cuisine at Mont Everest Masala in Montreal. Discover a delectable blend of veg and non-veg specialties. Taste excellence!">
+
     <section class="home-banner">
         <ng-image-slider [images]="homesSliderImage" [infinite]="true" [autoSlide]="1" [imagePopup]="false"
             [showArrow]="false" [imageSize]="{ width: '100%', height: '100%' }" slideImage="1" #nav
@@ -14,8 +18,11 @@
                 src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/1db8435e-6b4f-40a7-90c6-dd9bf03cfddd_40-min.jpg">
         </div>
         <div class="content">
-            <h5>Our Story</h5>
-            <h2>About Us</h2>
+            <div>
+                <h5>Our Story</h5>
+                <h2>About Us</h2>
+            </div>
+
             <p>"At Mont Everest Masala, we bring the vibrant flavors of the Himalayas straight to your plate. With a
                 rich heritage rooted in authentic Nepalese and Indian culinary traditions, our spices are carefully
                 sourced and blended to perfection, capturing the essence of the majestic mountains. Each bite is a
@@ -33,14 +40,16 @@
 
     <section class="seafood-banner">
         <div class="heading">
-            <h5>Our Unique Seafood Dishes</h5>
+            <h5>Our Unique <br> Seafood Dishes</h5>
         </div>
     </section>
 
     <section class="special-dishes">
         <div class="inner-dishes">
-            <h2>SPECIAL DISHES</h2>
-            <h5>Peoples Choice</h5>
+            <div>
+                <h5>Peoples Choice</h5>
+                <h2>SPECIAL DISHES</h2>
+            </div>
 
             <div class="item-container">
                 <div>
@@ -79,9 +88,12 @@
     <section class="aboutus">
         <div class="floater"></div>
         <div class="content">
-            <h5>Our Story</h5>
-            <h2>GOOD FOOD, DRINKS & <br>
-                COMPANY. </h2>
+            <div>
+                <h5>Our Story</h5>
+                <h2>GOOD FOOD, DRINKS & <br>
+                    COMPANY. </h2>
+            </div>
+
             <p>Join us at the table as you dine for the perfect meal.</p>
             <a><button>MORE ABOUT US &#8594;</button></a>
         </div>
