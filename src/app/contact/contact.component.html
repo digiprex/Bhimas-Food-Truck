@@ -42,7 +42,7 @@
     </section>
 
     <section class="form">
-        <form [formGroup]="contactDetails" *ngIf="!success">
+        <form [formGroup]="contactDetails">
             <h2>CONTACT US</h2>
             <div>
                 <input name="firstName" placeholder="First Name" required formControlName="firstName" />
@@ -54,18 +54,9 @@
             </div>
             <textarea type="text" class="control-form" name="message" placeholder="Message"
                 formControlName="message"></textarea>
-            <button *ngIf="!success" type="submit">SEND</button>
+            <button (click)="montsubmitForm()" *ngIf="!success" type="submit">SEND</button>
             <button *ngIf="success" class="submit">Submitted</button>
         </form>
-
-        <div class="success" *ngIf="success">
-            <span class="material-icons-outlined">
-                check_circle
-            </span>
-            <button routerLink="/">
-                Home >
-            </button>
-        </div>
     </section>
 
     <app-footer></app-footer>

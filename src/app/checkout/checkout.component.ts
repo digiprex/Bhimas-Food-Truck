@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
-import { ServicesService } from '../services.service';
 import { Router } from '@angular/router';
+import { AppService } from '../app.service';
 
 @Component({
   selector: 'app-checkout',
@@ -27,7 +27,7 @@ export class CheckoutComponent {
     otp: new FormControl("")
   });
 
-  constructor(private servicesService: ServicesService, private router: Router) { }
+  constructor(private appService: AppService, private router: Router) { }
   ngOnInit(): void {
     this.cart = JSON.parse(localStorage.getItem('cart') as string);
     this.totalPrice = JSON.parse(localStorage.getItem('totalPrice') as string);
@@ -55,7 +55,7 @@ export class CheckoutComponent {
       totalCartValue: this.totalPrice
     }
     console.log(body);
-    this.servicesService.cartCheckout(body).subscribe((res: any) => {
+    this.appService.cartCheckout(body).subscribe((res: any) => {
       this.successMsg = true;
       localStorage.clear();
     })

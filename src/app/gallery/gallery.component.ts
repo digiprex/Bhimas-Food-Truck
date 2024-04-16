@@ -7,16 +7,16 @@ import { Component } from '@angular/core';
 })
 export class GalleryComponent {
   imageUrls: string[] = [
-    'https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/726e3321-7545-46e3-bb53-2b77b107a3b0_1.jpg',
-    'https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/d5946320-c194-4eb8-841e-853eb3db74a0_2.jpg',
-    'https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/03583aaa-61db-471b-b9ed-e6d623d82a1c_3.jpg',
-    'https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/063b1689-d93f-4afe-8f11-7ee5b0b1758c_4.jpg',
-    'https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/862d1247-5e52-4e17-804f-9326fe2e93d3_5.jpg',
-    'https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/a665e61f-aa5f-4d13-b8c0-14d4c7bcf98f_6.jpg',
-    'https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/8808eb0c-5bc2-4776-a2ad-a595d5f4dbb9_7.jpg',
-    'https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/5dbc3eda-347a-4acc-8e9d-5797c2526b12_8.jpg',
-    'https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/752c529f-5234-4801-be9a-3ab8d497754f_9.jpg',
-    'https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/6a9223bd-d327-481a-8232-f77599d377c0_10.jpg',
-    'https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/78c1b507-14ed-459f-a382-a9de63aa3e93_11.jpg'
+    'https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/6d26126e-3e4c-4ea2-a9ac-f73856b5ece8_11.jpeg',
+    'https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ed05d82c-3283-4105-85a4-dd1401a70d0f_10.jpeg',
+    'https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/1791c7ae-ab17-4fd3-bc5a-177d95920025_9.jpeg',
+    'https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f240e707-e582-40da-8e89-ee4d8f1ed7f5_8.jpeg',
+    'https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/b711c04a-25bc-4bc2-967d-f5c66211b496_7.jpeg',
+    'https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/a2f5a607-5b4b-4134-93eb-7f4fa5bb8a1f_6.jpeg',
+    'https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/cfcdb294-1dd3-46e4-a9ad-51107fa0fffe_5.jpeg',
+    'https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/06f3863a-1f0b-46e7-9696-77961762760f_4.jpeg',
+    'https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/54e87998-7887-49ee-9afc-1570da1f7909_3.jpeg',
+    'https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/c0a23738-b91e-4ac4-9c72-08063a07d8a9_2.jpeg',
+    'https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/697d2028-da0e-4506-b008-7d8709614ffb_1.jpeg'
   ];
 }

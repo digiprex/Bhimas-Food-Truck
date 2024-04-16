@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { ServicesService } from '../services.service';
 import { Router } from '@angular/router';
 
 @Component({
@@ -11,20 +10,7 @@ export class CartComponent {
   public cart: any;
   public totalPrice = 0;
 
-  constructor(private servicesService: ServicesService, private router: Router) { }
-
-  // ngOnInit() {
-  //   // this.cart = JSON.parse(localStorage.getItem('cart'));
-  //   const cartItem = localStorage.getItem('cart');
-  //   if (typeof cartItem === 'string') {
-  //       this.cart = JSON.parse(cartItem);
-  //       this.generateTotalPrice();
-
-  //   } else {
-  //     this.generateTotalPrice();
-  //   }
-
-  // }
+  constructor(private router: Router) { }
 
   ngOnInit() {
     this.cart = JSON.parse(localStorage.getItem('cart') as string);
@@ -43,7 +29,6 @@ export class CartComponent {
   }
 
   subQuantity(item: any, index: any) {
-
     if (item.itemQuantity !== 0) {
       this.cart[index].itemQuantity = this.cart[index].itemQuantity - 1;
       this.generateTotalPrice();

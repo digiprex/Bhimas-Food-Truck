@@ -5,15 +5,11 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 @Injectable({
   providedIn: 'root'
 })
-export class ServicesService {
-  public data: any;
-  public formCode = "yv1cmUhty";
-  public apiUrl =
-    'https://yejrescws7.execute-api.ap-south-1.amazonaws.com/staging';
 
-  constructor(private http: HttpClient) {
+export class AppService {
+  public apiUrl = 'https://yejrescws7.execute-api.ap-south-1.amazonaws.com/staging';
 
-  }
+  constructor(private http: HttpClient) { }
 
   cartCheckout(data: any): Observable<any> {
     let requestBody = {
@@ -27,17 +23,13 @@ export class ServicesService {
     return this.http.post(`${this.apiUrl}/checkout/checkout`, requestBody);
   }
 
-  montSubmission(data: any): Observable<any> {
+  contactformSubmission(data: any): Observable<any> {
     let requestBody = {
-      firstName: data.firstName,
-      lastName: data.lastName,
-      email: data.email,
-      phone: data.phone,
-      message: data.message
+      ...data,
+      type: 'Contact Us'
     };
     return this.http.post(
-      `https://submit-form.com/yv1cmUhty`,
-      requestBody
+      `https://submit-form.com/yv1cmUhty`, requestBody
     );
   }
 }

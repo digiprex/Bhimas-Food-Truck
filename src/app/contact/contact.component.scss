@@ -1,7 +1,7 @@
 main {
 
     section.home-banner {
-        background: linear-gradient(rgb(0 0 0 / 30%), rgb(0 0 0 / 30%)), url("https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/bf24b3b6-aeba-41d8-a861-079cf06fc2fa_95-min.jpg");
+        background: linear-gradient(rgb(0 0 0 / 30%), rgb(0 0 0 / 30%)), url("https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/35a4b3b0-c56c-4703-b190-6ffa6aa0aedc_contact-banner.jpeg");
         background-repeat: no-repeat;
         background-size: cover;
         padding: 10rem;
@@ -76,19 +76,18 @@ main {
             font-family: "Fraunces", serif;
             width: 50%;
             margin: auto;
+            gap: 10px;
 
             div {
                 display: flex;
                 justify-content: center;
-                margin-top: 15px;
+                gap: 10px;
 
                 input:nth-child(1) {
-                    margin-right: 5px;
                     width: 50%;
                 }
 
                 input:nth-child(2) {
-                    margin-right: 5px;
                     width: 50%;
                 }
             }
@@ -99,7 +98,6 @@ main {
                 border: 1px solid lightgray;
                 width: 100%;
                 padding: 10px;
-                margin: 10px;
             }
 
             button {
@@ -119,33 +117,9 @@ main {
                 border: 1px solid #865439;
                 color: #865439;
             }
-        }
-
-        .success {
-            display: grid;
-            justify-content: center;
-            margin-top: 30px;
-
-            span {
-                font-size: 50px;
-                color: #4bb543;
-                margin-bottom: 30px;
-            }
-
-            button {
-                border: 1px solid #865439;
-                padding: 10px 20px;
-                background: #865439;
-                font-size: 14px;
-                color: #fff;
-                font-family: "Fraunces", serif;
-                text-transform: uppercase;
-                width: fit-content;
-                margin: auto;
-            }
 
             .submit {
-                background-color: #52b963;
+                background-color: #4bb543 !important;
             }
         }
     }
@@ -157,7 +131,7 @@ main {
 
         section.home-banner {
             padding: 2rem;
-    
+
             h1 {}
         }
 
