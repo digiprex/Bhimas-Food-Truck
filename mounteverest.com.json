@@ -1,0 +1,831 @@
+{
+    "logo": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/3a5196d0-e38c-4076-9ce3-752e5f4d7372.webp",
+    "brandName": "Mont Everest Masala",
+    "address": "1999 Mont-Royal Ave E, Montreal, Quebec H2H 1J4, Canada",
+    "contact": "514-521-6999",
+    "type": "template1039",
+    "social": {
+        "twitter": "",
+        "insta": "https://www.instagram.com/mont_everest_masala/",
+        "fb": "https://www.facebook.com/mont.everestmontreal",
+        "onlinelink": "https://order.online/business/mont-everest-masala-394875",
+        "yelp": "https://www.yelp.ca/biz/mont-everest-masala-montr%C3%A9al",
+        "routerLink1": "/post/chilliPaneer",
+        "routerLink2": "/post/chickenBiryani",
+        "routerLink3": "/post/fishCurry",
+        "routerLink4": "/post/dalMakhani",
+        "routerLink5": "/post/tomatoSoup",
+        "google": "https://www.google.com/search?q=Mont+Everest+Masala+%7C+Indian+Restaurant+%7C+Curries+%7C+Butter+Chicken+%7C+Tandoori+%7C+Montreal&stick=H4sIAAAAAAAA_xWMsQoCMRAFK8XPWAT7iKdeLD0sLK4RC9t3yYrBI4FNIlfc1_ilrt0wDLNarjdmapyz2wHPwTLvwfZkprZpDx7OM4zho919F48-xUKXDwvnQj0yRtBM1-gDIt1Uogo0mamrIoGz0rmWwkLdK7g3RxV3RJ-SBMX_TxjjD02JOomEAAAA&hl=en-GB&mat=CeWKO8XImeNeElcB8pgkaM-C2nVHvANx-mwPfT-FsIxqnAspztyQYe3GTFb8of3zfYST3yCG0cJxuMvXTyXWoaqnDKj3bF_ly7CadDAOBEleynXk326bQQuVhU9TUwTPiBA&authuser=0"
+    },
+    "css": {
+        "exp":"padding:0px;",
+        "price":"width:75px;",
+        "divCss":"paading:10px;",
+        "logoSize": "width: 100px; height: 100px; object-fit: contain;",
+        "headerCss": "margin-right: 25px;"
+    },
+    "popup": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f5de9217-a176-4c96-ba3e-5752841cf92a.webp",
+    "navbar": {
+        "links": [
+            {
+                "text": "Home",
+                "link": "/home",
+                "type": "internal"
+            },
+            {
+                "text": "Menu",
+                "link": "/menu/all",
+                "type": "internal"
+            },
+            {
+                "text": "About",
+                "link": "/about-us",
+                "type": "internal"
+            },
+            {
+                "text": "Contact Us",
+                "link": "/contact-us",
+                "type": "internal"
+            },
+            {
+                "text": "Blogs",
+                "link": "/blog",
+                "type": "internal"
+            },
+            {
+                "text": "Order Online",
+                "link": "https://order.online/business/mont-everest-masala-394875",
+                "type": "external"
+            }
+        ]
+    },
+    "hero": {
+        "aboutHeading":"Our Story",
+        "backgroundImg": "../../assets/pics/darkTheme/background-img.jpg",
+        "heading": "Discover Royalty",
+        "subheading": "",
+        "cta": [
+            {
+                "text": "",
+                "link": ""
+            }
+        ]
+    },
+    "story": {
+        "heading": "New Indian restaurant in town serving delicious mouth watering unique flavours of India Vegan, vegetarian and non-vegetarian options available. Customizable according to customer requests or allergies. Take-out and dine-in.",
+        "subheading": "LOVE FOR FOOD",
+        "content": "The food at Flavors of India Dining is the kind that many of us at the restaurant grew up enjoying. The clay-oven-cooked meats and vegetables from our tandoor, the exotic seasonings in our masala and vindaloo dishes, the fragrant soups and biryanis. Everything, right down to the chai and kulfi that may finish your meal are served with the same care and attention as a home-cooked meal.",
+        "contactUs": "Contact Us",
+        "contactUsPara": "We are open for dine-in, takeout, and delivery and look forward to serving you.",
+        "latest": "THE LATEST",
+        "blogImg1": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/dd52a744-a3e0-445c-923a-6ba11b57d1a3.webp",
+        "blogHeading1": "Chilli Paneer",
+        "blogPara1": "Chilli Paneer, a beloved dish tantalizing taste buds with its fiery kick and succulent texture, has become a staple in the culinary landscape, particularly in the Indian subcontinent. This delectable creation finds its roots in the fascinating fusion of Indian and Chinese cuisines, showcasing the culinary diversity that arises when two rich culinary traditions come together.",
+        "blogImg2": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/11ea4753-85a1-4f45-b065-e12785c0c6db.webp",
+        "blogHeading2": "Chicken Biryani",
+        "blogPara2": "Chicken Biryani, a fragrant and flavorful dish that has captured the hearts and taste buds of millions, boasts a rich and diverse heritage that spans centuries. While the exact origin of this beloved dish is a subject of debate among culinary historians, one thing is certain: chicken biryani has evolved into a cultural icon cherished across the Indian subcontinent and beyond.",
+        "blogImg3": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/6465ac93-5ac4-4ca4-849e-5435c1567496.webp",
+        "blogHeading3": "Fish Curry",
+        "blogPara3": "Embarking on a culinary journey doesn&#39;t always require an extensive list of ingredients and hours spent in the kitchen. Sometimes, all it takes is a handful of key components to create a dish that delights the taste buds and transports you to distant lands.",
+        "blogImg4": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/25e0e481-5497-4450-bc38-6e8a7b3a9aa3.webp",
+        "blogHeading4": "Daal Makhani",
+        "blogPara4": "Dal Makhani, a quintessential North Indian dish, has won hearts around the globe with its rich, creamy texture and aromatic blend of spices. While the traditional recipe boasts a symphony of flavors, the judicious use of flavor enhancers can take this dish to new culinary heights.",
+        "blogImg5": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/48e2102a-4f47-4e67-bd60-996a54483501.webp",
+        "blogHeading5": "Tomato Soup",
+        "blogPara5": "Few culinary experiences rival the comforting aroma of a simmering pot of tomato soup on a chilly day. Yet, the success of this classic dish often hinges on a crucial decision: the choice of tomatoes. With a plethora of varieties available, selecting the right tomatoes can elevate your soup from ordinary to extraordinary."
+    },
+    "reservation": {
+        "heading": "Visit us for A Royal Dining Experience",
+        "subheading": "AMBIANCE TO COMPLEMENT THE ROYAL MEAL",
+        "content": ""
+    },
+    "openingTimes": [
+        {
+            "Monday": "12:00PM - 10:00PM",
+            "Tuesday": "Closed",
+            "Wednesday": "12:00PM - 10:00PM",
+            "Thursday": "12:00PM - 10:00PM",
+            "Friday": "12:00PM - 10:00PM",
+            "Saturday": "12:00PM - 10:00PM",
+            "Sunday": "12:00PM - 10:00PM"
+        }
+    ],
+    "slider": [
+        {
+            "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ffe3e61e-c949-4f37-949b-90328fd00467.webp",
+            "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ffe3e61e-c949-4f37-949b-90328fd00467.webp"
+        },
+        {
+            "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/b9ba24da-c5ae-440a-9a69-1f843ee0a9c0.webp",
+            "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/b9ba24da-c5ae-440a-9a69-1f843ee0a9c0.webp"
+        }
+    ],
+    "menu": [
+        {
+            "backgroundImg": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/9c824b92-fc33-4056-b12c-086c5088660c.jpg",
+            "heading": "",
+            "subheading": "",
+            "menu": [
+                {
+                    "superCategory": [
+                        {
+                            "category": [
+                                {
+                                    "categoryName": "Appetizers",
+                                    "side": "left",
+                                    "items": [
+                                        {
+                                            "itemName": "Veggie Samosa (2 pcs) Vegetarian",
+                                            "itemDescription": "Cumin infused potatoes & veggie medley wrapped in organic white flour pastry,...",
+                                            "itemPrice": "4.50",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Vegetarian Pakora",
+                                            "itemDescription": "Marinated veggies coated in a chickpea batter and deep fried",
+                                            "itemPrice": "4.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Onion Bhajia (4 pcs)",
+                                            "itemDescription": "Seasoned onions, coated in chickpea flour and deep fried.",
+                                            "itemPrice": "4.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Meat Samosa (2 pcs)",
+                                            "itemDescription": "Spiced minced chicken and spinach wrapped in organic white flour pastry,...",
+                                            "itemPrice": "5.50",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Cauliflower Pakora (6 pcs)",
+                                            "itemDescription": "Marinated cauliflower florets coated in a chickpea batter and deep fri...",
+                                            "itemPrice": "4.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Chicken Pakora (6 pcs)",
+                                            "itemDescription": "Marinated chicken breast coated in chickpea batter and deep fried.",
+                                            "itemPrice": "5.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Shrimp Pakora (6 pcs)",
+                                            "itemDescription": "Marinated shrimp coated in chickpea batter and deep fried.",
+                                            "itemPrice": "7.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Fish Pakora (6 pcs)",
+                                            "itemDescription": "Marinated salmon coated in chickpea batter and deep fried.",
+                                            "itemPrice": "7.99",
+                                            "customization": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "categoryName": "Soups & salads",
+                                    "side": "right",
+                                    "items": [
+                                        {
+                                            "itemName": "Khira Raita",
+                                            "itemDescription": "Sliced cucumbers topped with homemade yoghurt.",
+                                            "itemPrice": "4.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Milligatawny Soup",
+                                            "itemDescription": "Yellow lentil soup with veggies & minced chicken tikka in a blend of s...",
+                                            "itemPrice": "4.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Mushroom Soup",
+                                            "itemDescription": "Shitake & Creamini mushrooms in a tomato base.",
+                                            "itemPrice": "4.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Kachumber Salad",
+                                            "itemDescription": "Diced onion, cucumber, carrot, tomatoes, mixed pepper, cilantro, pepper...",
+                                            "itemPrice": "4.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Tomato Soup",
+                                            "itemDescription": "Blended tomatoes with a touch of cream.",
+                                            "itemPrice": "4.99",
+                                            "customization": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "categoryName": "Tandoori",
+                                    "side": "left",
+                                    "items": [
+                                        {
+                                            "itemName": "House Mixed Grill",
+                                            "itemDescription": "Tandoori chicken, reshmi kebab, thangidi chicken, tandoori prawn & fish,...",
+                                            "itemPrice": "21.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Tandoori Cauliflower",
+                                            "itemDescription": "Florets of cauliflower marinated in homemade yoghurt, ginger, garlic, spices,...",
+                                            "itemPrice": "13.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Full Tandoori Chicken - 8 Pcs",
+                                            "itemDescription": "Chicken marinated in yoghurt, ginger, garlic, spices, and lime juice and...",
+                                            "itemPrice": "19.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Tandoori Fish (3 pcs)",
+                                            "itemDescription": "Boneless salmon marinated in homemade yoghurt, ginger, garlic, spices,...",
+                                            "itemPrice": "19.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Thangidi Kabab (4 pcs)",
+                                            "itemDescription": "Chicken legs marinated in homemade yoghurt, ginger, garlic, spices, and...",
+                                            "itemPrice": "17.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Paneer Tikka (6 pcs)",
+                                            "itemDescription": "Cubes of Indian cottage cheese marinated in homemade yoghurt, ginger, garlic,...",
+                                            "itemPrice": "15.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Half Tandoori Chicken - 4 Pc",
+                                            "itemPrice": "16.99",
+                                            "iustomization": []
+                                        },
+                                        {
+                                            "itemName": "Tandoori Prawn - 8 Pcs",
+                                            "itemPrice": "18.99",
+                                            "iustomization": []
+                                        },
+                                        {
+                                            "itemName": "Reshmi Kabab - 4 Pcs",
+                                            "itemPrice": "15.99",
+                                            "iustomization": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "categoryName": "Meat Delights",
+                                    "side": "left",
+                                    "items": [
+                                        {
+                                            "itemName": "Butter Chicken",
+                                            "itemDescription": "Chicken marinated and baked in the tandoor, then simmered in a creamy tomato...",
+                                            "itemPrice": "17.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Chicken Mughlai",
+                                            "itemDescription": "Cooked with a blend of spices in a creamy cashew gravy.",
+                                            "itemPrice": "16.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Chicken Tikka Masala",
+                                            "itemDescription": "Chicken marinated in homemade yogurt, ginger, garlic, spices, lime juice,...",
+                                            "itemPrice": "17.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Chicken Karahi",
+                                            "itemDescription": "Cooked with mixed peppers, onion, tomato, cilantro and fresh ginger, in...",
+                                            "itemPrice": "16.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Shahi Chicken",
+                                            "itemDescription": "Cooked in a creamy coconut milk and onion gravy with spices.",
+                                            "itemPrice": "16.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Chicken Vindaloo",
+                                            "itemDescription": "Chicken & potato simmered in a sour, tangy & spicy tamarind sauce.",
+                                            "itemPrice": "16.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Chicken Curry",
+                                            "itemDescription": "Traditional tomato and onion gravy with house's garam masala blend.",
+                                            "itemPrice": "16.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Chicken Saag",
+                                            "itemDescription": "Puréed spinach, onion, tomato, and a touch of cream with fresh ginger....",
+                                            "itemPrice": "16.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Chicken Madras",
+                                            "itemDescription": "Cooked in a gravy of coconut milk, yoghurt and a blend of south Indian...",
+                                            "itemPrice": "16.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Chilli Chicken",
+                                            "itemDescription": "Seasoned cubes of chicken deep fried and added to garlic, soya sauce &...",
+                                            "itemPrice": "16.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Lamb Mughlai",
+                                            "itemDescription": "Cooked with a blend of spices in a creamy cashew gravy.",
+                                            "itemPrice": "18.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Lamb Madras",
+                                            "itemDescription": "Cooked in a gravy of coconut milk, yoghurt and a blend of south Indian...",
+                                            "itemPrice": "18.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Beef Curry",
+                                            "itemDescription": "Traditional tomato and onion gravy with house's garam masala blend.",
+                                            "itemPrice": "17.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Lamb Shahi",
+                                            "itemDescription": "Cooked in a creamy coconut milk and onion gravy with spices.",
+                                            "itemPrice": "17.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Lamb Karahi",
+                                            "itemDescription": "Cooked with mixed peppers, onion, tomato, cilantro and fresh ginger, in...",
+                                            "itemPrice": "18.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Lamb Vindaloo",
+                                            "itemDescription": "Lamb & potato simmered in a sour, tangy & spicy tamarind sauce.",
+                                            "itemPrice": "18.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Beef Shahi",
+                                            "itemDescription": "Cooked in a creamy coconut milk and onion gravy with spices.",
+                                            "itemPrice": "16.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Beef Karahi",
+                                            "itemDescription": "Cooked with mixed peppers, onion, tomato, cilantro and fresh ginger, in...",
+                                            "itemPrice": "17.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Beef Madras",
+                                            "itemDescription": "Cooked in a gravy of coconut milk, yoghurt and a blend of south Indian...",
+                                            "itemPrice": "17.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Beef Mughlai",
+                                            "itemDescription": "Cooked with a blend of spices in a creamy cashew gravy.",
+                                            "itemPrice": "17.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Beef Saag",
+                                            "itemDescription": "Puréed spinach, onion, tomato, and a touch of cream with fresh ginger....",
+                                            "itemPrice": "17.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Beef Vindaloo",
+                                            "itemDescription": "Beef & potato simmered in a sour, tangy & spicy tamarind sauce.",
+                                            "itemPrice": "17.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Lamb Curry",
+                                            "itemDescription": "Traditional tomato and onion gravy with house's garam masala blend.",
+                                            "itemPrice": "18.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Lamb Saag",
+                                            "itemDescription": "Puréed spinach, onion, tomato, and a touch of cream with fresh ginger....",
+                                            "itemPrice": "18.99",
+                                            "customization": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "categoryName": "Seafood Delights",
+                                    "side": "left",
+                                    "items": [
+                                        {
+                                            "itemName": "Shrimp Shahi",
+                                            "itemDescription": "Tiger prawns cooked in a creamy coconut milk and onion gravy with spic...",
+                                            "itemPrice": "18.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Fish Curry",
+                                            "itemDescription": "Boneless salmon fish cooked in a tamarind sauce, with tomato, yoghurt,...",
+                                            "itemPrice": "18.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Shrimp Karahi",
+                                            "itemDescription": "Cooked with mixed peppers, onion, tomato, cilantro and fresh ginger, in...",
+                                            "itemPrice": "18.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Shrimp Vindaloo",
+                                            "itemDescription": "Tiger prawns and seasoned potato, simmered in a sour and tangy tamarind...",
+                                            "itemPrice": "18.99",
+                                            "customization": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "categoryName": "Vegetarian Dishes",
+                                    "side": "right",
+                                    "items": [
+                                        {
+                                            "itemName": "Daal Curry",
+                                            "itemDescription": "Split lentils cooked with tomato seasoned with spices and herbs in Hyderabadi...",
+                                            "itemPrice": "11.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Daal with Spinach",
+                                            "itemDescription": "Split lentils and spinach cooked with tomato seasoned with spices & herbs...",
+                                            "itemPrice": "11.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Aloo Gobi",
+                                            "itemDescription": "Cauliflower and potatoes cooked in onion, tomato and aromatic spices.",
+                                            "itemPrice": "12.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Baingan Bhartha Vegetarian",
+                                            "itemDescription": "Whole eggplant baked in tandoor, mashed and sauteed with onions, tomatoes,...",
+                                            "itemPrice": "13.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Channa Masala",
+                                            "itemDescription": "Chickpea cooked in tomato, spices and herbs to perfection.",
+                                            "itemPrice": "12.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Navrathan Curry",
+                                            "itemDescription": "9 vegetables: potato, baby corn, paneer, peas, beans, carrots, broccoli,...",
+                                            "itemPrice": "12.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Spinach Fry",
+                                            "itemDescription": "Spinach sauteed with garlic, onions, spices & lemon.",
+                                            "itemPrice": "13.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Chilli Paneer",
+                                            "itemDescription": "Deep-fried paneer added to garlic, soy sauce & child gravy with diced pepper,...",
+                                            "itemPrice": "14.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Palak Paneer",
+                                            "itemDescription": "Cottage cheese, spinach and tomato with a touch of cream.",
+                                            "itemPrice": "14.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Bhindi Masala",
+                                            "itemDescription": "Crisp okra prepared with fresh onions, tomatoes, spices and herbs.",
+                                            "itemPrice": "13.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Mutter Paneer",
+                                            "itemDescription": "Cottage cheese and green peas cooked in cream & tomato sauce.",
+                                            "itemPrice": "14.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Navrathan Moghlai",
+                                            "itemDescription": "9 vegetables: potato, baby corn, paneer, peas, beans, carrots, broccoli,...",
+                                            "itemPrice": "13.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Shahi Paneer",
+                                            "itemDescription": "Indian cottage cheese cooked in a creamy onion and coconut milk gravy and...",
+                                            "itemPrice": "14.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Paneer Tikka Masala",
+                                            "itemDescription": "Cooked in the tandoor, then add to a masala sauce with a mixture of peppers,...",
+                                            "itemPrice": "15.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Daal Makhani",
+                                            "itemDescription": "Whole black lentils cooked with tomato, cream and herbs in North Indian...",
+                                            "itemPrice": "14.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Paneer Makhani",
+                                            "itemDescription": "Cubes of cottage cheese simmered in a tomato and cream sauce.",
+                                            "itemPrice": "15.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Gobi Manchurian",
+                                            "itemDescription": "Made with cauliflower, corn flour, soy sauce, chili, ginger sauce, and...",
+                                            "itemPrice": "10.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Mango Cauliflower",
+                                            "itemDescription": "Made with cauliflower, mango, soy sauce, sweet pepper, corn flour, and...",
+                                            "itemPrice": "10.99",
+                                            "customization": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "categoryName": "Rice Dishes",
+                                    "side": "left",
+                                    "items": [
+                                        {
+                                            "itemName": "Plain Rice",
+                                            "itemDescription": "Superior quality basmati rice cooked to perfection.",
+                                            "itemPrice": "3.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Pulao Rice",
+                                            "itemDescription": "Basmati rice cooked with onion and Indian spices.",
+                                            "itemPrice": "4.50",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Jeera Rice",
+                                            "itemDescription": "Basmati rice tampered with cumin seeds.",
+                                            "itemPrice": "4.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Garlic Rice",
+                                            "itemDescription": "Basmati rice mixed with fried garlic, cilantro and herbs.",
+                                            "itemPrice": "4.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Saffron Rice",
+                                            "itemDescription": "Saffron-infused rice with a touch of cream.",
+                                            "itemPrice": "5.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Peas Pulao",
+                                            "itemDescription": "Flavoured basmati rice cooked with green peas, sautéed onion, mixed pepper ...",
+                                            "itemPrice": "5.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Vegetable Biryani",
+                                            "itemDescription": "Stewed vegetables mixed with basmati rice, herbs, cashews and spices.",
+                                            "itemPrice": "12.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Chicken Biryani",
+                                            "itemDescription": "Chicken meat cooked with herbs, basmati rice, nuts and spices.",
+                                            "itemPrice": "16.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Beef Biryani",
+                                            "itemDescription": "Beef meat cooked with herbs, basmati rice, nuts and spices.",
+                                            "itemPrice": "17.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Lamb Biryani",
+                                            "itemDescription": "Lamb meat cooked with herbs, basmati rice, nuts and spices.",
+                                            "itemPrice": "18.99",
+                                            "customization": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "categoryName": "Breads",
+                                    "side": "right",
+                                    "items": [
+                                        {
+                                            "itemName": "Plain Naan",
+                                            "itemDescription": "Traditional bread baked in tandoor.",
+                                            "itemPrice": "3.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Garlic Naan",
+                                            "itemDescription": "Tandoori bread topped with garlic, and cilantro.",
+                                            "itemPrice": "4.50",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Cheese Naan",
+                                            "itemDescription": "Tandoori bread stuffed with mozzarella & cheddar cheese and spices. Great...",
+                                            "itemPrice": "6.50",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Chilli Garlic Naan",
+                                            "itemDescription": "Tandoori bread is topped with garlic, red chilli flakes, and cilantro.",
+                                            "itemPrice": "4.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Plain Roti",
+                                            "itemDescription": "Whole wheat bread baked in tandoor.",
+                                            "itemPrice": "3.50",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Aloo Kulcha",
+                                            "itemDescription": "Bread stuffed with potatoes and spices.",
+                                            "itemPrice": "6.50",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Bhatura",
+                                            "itemDescription": "All-Purpose organic flour bread deep fried (bhatura).",
+                                            "itemPrice": "3.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Poori",
+                                            "itemDescription": "Whole wheat bread deep fried (poori).",
+                                            "itemPrice": "3.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Butter Naan",
+                                            "itemDescription": "Traditional bread baked in tandoor with butter (butter naan).",
+                                            "itemPrice": "3.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Butter Roti",
+                                            "itemDescription": "Whole wheat bread baked in tandoor.",
+                                            "itemPrice": "3.50",
+                                            "customization": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "categoryName": "Beverages",
+                                    "side": "left",
+                                    "items": [
+                                        {
+                                            "itemName": "Sweet Lassi",
+                                            "itemDescription": "Sweet- cool yoghurt drink infused with cardamom & sugar.",
+                                            "itemPrice": "4.75",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Salt Lassi",
+                                            "itemDescription": "Salt- cool yoghurt drink, infused with cumin & chat masala.",
+                                            "itemPrice": "4.75",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Masala Tea",
+                                            "itemDescription": "Indian milk tea infused with ginger and cardamom.",
+                                            "itemPrice": "4.50",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Apple Juice",
+                                            "itemPrice": "3.99",
+                                            "iustomization": []
+                                        },
+                                        {
+                                            "itemName": "Bag Tea",
+                                            "itemPrice": "3.99",
+                                            "iustomization": []
+                                        },
+                                        {
+                                            "itemName": "Mango Lassi",
+                                            "itemDescription": "Cool yoghurt drink blended with mango.",
+                                            "itemPrice": "4.75",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Mango Milk Shake",
+                                            "itemDescription": "",
+                                            "itemPrice": "4.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Orange Juice",
+                                            "itemDescription": "",
+                                            "itemPrice": "3.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Soft Drinks",
+                                            "itemDescription": "",
+                                            "itemPrice": "2.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Fiji Water",
+                                            "itemDescription": "",
+                                            "itemPrice": "3.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Juice",
+                                            "itemDescription": "",
+                                            "itemPrice": "3.99",
+                                            "customization": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "categoryName": "Side orders",
+                                    "side": "right",
+                                    "items": [
+                                        {
+                                            "itemName": "Mint Sauce",
+                                            "itemDescription": "",
+                                            "itemPrice": "3.00",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Homemade Yogurt",
+                                            "itemDescription": "",
+                                            "itemPrice": "3.00",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Tamarind Sauce",
+                                            "itemDescription": "",
+                                            "itemPrice": "3.00",
+                                            "customization": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "categoryName": "Desserts",
+                                    "side": "left",
+                                    "items": [
+                                        {
+                                            "itemName": "Ras Malai",
+                                            "itemDescription": "",
+                                            "itemPrice": "4.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Rice Pudding",
+                                            "itemDescription": "",
+                                            "itemPrice": "2.50",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Gulab Jamun",
+                                            "itemDescription": "",
+                                            "itemPrice": "4.50",
+                                            "customization": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -5,7 +5,7 @@
         content="Indulge in a culinary journey at Mont Everest Masala with a diverse menu featuring soups, salads, appetisers, seafood delights, biryanis, and vegetarian dishes!">
 
     <section class="home-banner">
-        <h1>Our Menu</h1>
+        <h1>{{ 'MENU.ourmenu' | translate }}</h1>
     </section>
 
     <section class="cart-floater" (click)="cartPage()">
@@ -17,16 +17,16 @@
 
     <section class="mainMenu">
         <div class="options-tab">
-            <div *ngFor="let item of categories; let i = index">
+            <div *ngFor="let item of ('MENU.category' | translate); let i = index">
                 <button class="abc" [ngClass]="{ highlight: selectedCategory == i }" (click)="getDiv(i, item)">
-                    {{ item.categoryName }}
+                    {{ item.categoryName | translate }}
                 </button>
                 <div>|</div>
             </div>
         </div>
 
         <div class="menu-tab" id="{{ product.routeName }}" *ngIf="product">
-            <h3>{{ product.categoryName }}</h3>
+            <h3>{{ product.categoryName | translate}}</h3>
 
             <div class="main-container">
                 <div class="inner-container" *ngFor="let p of product.items">
@@ -35,10 +35,10 @@
                     </div>
                     <div class="content">
                         <div class="title">
-                            <h3>{{ p.itemName }}</h3>
+                            <h3>{{ p.itemName | translate }}</h3>
                             <span>&#x24;{{ p.itemPrice }}</span>
                         </div>
-                        <p>{{ p.itemDescription }}</p>
+                        <p>{{ p.itemDescription | translate}}</p>
                     </div>
                     <div class="utility">
                         <button>
@@ -47,7 +47,7 @@
                             <span (click)="addQuantity(p)"> + </span>
                         </button>
                         <button [disabled]="p.quantity == 0" (click)="addToCart(p, product)">
-                            Add to Cart
+                            {{ 'MENU.addtocart' | translate }}
                         </button>
                     </div>
                 </div>

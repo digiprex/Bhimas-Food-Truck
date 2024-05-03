@@ -1,0 +1,25 @@
+.lang {
+   
+    z-index: 1014;
+    position: fixed;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+    top: 30px;
+    right: 0px;
+    label{
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    span {
+        text-align: center;
+        color: black;
+        margin-bottom: 2px;
+      
+    }
+    select{
+        border: none;
+    }
+}

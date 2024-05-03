@@ -6,30 +6,30 @@
 
     <section class="home-banner">
         <div class="content-section">
-            <h1>CONTACT US</h1>
+            <h1>{{ 'CONTACT.heading' | translate }}</h1>
         </div>
     </section>
 
     <section class="information">
         <div>
-            <h3>RESTAURANT LOCATION</h3>
+            <h3>{{ 'CONTACT.restaurantlocation' | translate }}</h3>
             <a href="https://maps.app.goo.gl/xdLgujNEezX29EsLA">
-                <p>1999 Mont-Royal Ave E,<br> Montreal, Quebec H2H 1J4, Canada</p>
+                <p>{{ 'CONTACT.address' | translate }}<br> {{ 'CONTACT.address2' | translate }}</p>
             </a>
         </div>
 
         <div>
-            <h3>BOOK YOUR TABLE</h3>
+            <h3>{{ 'CONTACT.booktable' | translate }}</h3>
             <a href="tel:+1 913-575-8381">
                 <p>+1 913-575-8381</p>
             </a>
         </div>
 
         <div>
-            <h3>OPENING HOURS</h3>
+            <h3>{{ 'CONTACT.openinghour' | translate }}</h3>
             <a>
-                <p>Wed - Mon : 12 AM - 10 PM</p>
-                <p>Tue : Closed</p>
+                <p>{{ 'CONTACT.timing' | translate }}</p>
+                <p>{{ 'CONTACT.closed' | translate }}</p>
             </a>
         </div>
     </section>
@@ -43,19 +43,19 @@
 
     <section class="form">
         <form [formGroup]="contactDetails">
-            <h2>CONTACT US</h2>
+            <h2>{{ 'CONTACT.formheading' | translate }}</h2>
             <div>
-                <input name="firstName" placeholder="First Name" required formControlName="firstName" />
-                <input name="lastName" placeholder="Last Name" formControlName="lastName" />
+                <input name="firstName" placeholder="{{ 'FORM.first' | translate }}" required formControlName="firstName" />
+                <input name="lastName" placeholder="{{ 'FORM.last' | translate }}" formControlName="lastName" />
             </div>
             <div>
-                <input name="email" placeholder="Email" required formControlName="email" />
-                <input name="phone" placeholder="Phone" required formControlName="phone" />
+                <input name="email" placeholder="{{ 'FORM.email' | translate }}" required formControlName="email" />
+                <input name="phone" placeholder="{{ 'FORM.phone' | translate }}" required formControlName="phone" />
             </div>
-            <textarea type="text" class="control-form" name="message" placeholder="Message"
+            <textarea type="text" class="control-form" name="message" placeholder="{{ 'FORM.message' | translate }}"
                 formControlName="message"></textarea>
-            <button (click)="montsubmitForm()" *ngIf="!success" type="submit">SEND</button>
-            <button *ngIf="success" class="submit">Submitted</button>
+            <button (click)="montsubmitForm()" *ngIf="!success" type="submit">{{ 'CONTACT.send' | translate }}</button>
+            <button *ngIf="success" class="submit">{{ 'CONTACT.submitted' | translate }}</button>
         </form>
     </section>
 

@@ -19,18 +19,11 @@
         </div>
         <div class="content">
             <div>
-                <h3>Our Story</h3>
-                <h4>About Us</h4>
+                <h3>{{ 'HOME.ourstory' | translate }}</h3>
+                <h4>{{ 'HOME.about' | translate }}</h4>
             </div>
 
-            <p>"At Mont Everest Masala, we bring the vibrant flavors of the Himalayas straight to your plate. With a
-                rich heritage rooted in authentic Nepalese and Indian culinary traditions, our spices are carefully
-                sourced and blended to perfection, capturing the essence of the majestic mountains. Each bite is a
-                journey through the spice-laden trails of Everest, offering a tantalizing fusion of aromatic spices and
-                exquisite flavors. From our aromatic masalas to our signature blends, we strive to deliver an
-                unforgettable dining experience that celebrates the diversity and depth of Himalayan cuisine. Welcome to
-                Mont Everest Masala, where every meal is a peak experience.
-                "</p>
+            <p>{{ 'HOME.aboutUs' | translate }}</p>
         </div>
         <div class="image">
             <img alt="about-right"
@@ -40,27 +33,27 @@
 
     <section class="seafood-banner">
         <div class="heading">
-            <h3>Our Unique <br> Seafood Dishes</h3>
+            <h3>{{ 'HOME.ourunique' | translate }}<br> {{ 'HOME.seafooddishes' | translate }}</h3>
         </div>
     </section>
 
     <section class="special-dishes">
         <div class="inner-dishes">
             <div>
-                <h3>Peoples Choice</h3>
-                <h4>SPECIAL DISHES</h4>
+                <h3>{{ 'HOME.peopleschoice' | translate }}</h3>
+                <h4>{{ 'HOME.specialdishes' | translate }}</h4>
             </div>
 
             <div class="item-container">
-                <div *ngFor="let item of dishes">
+                <div *ngFor="let item of ('HOME.dishes' | translate)">
                     <img alt="{{item.title}}" src="{{item.img}}">
-                    <h6>{{item.title}}</h6>
+                    <h6>{{item.title | translate}}</h6>
                     <p>{{item.price}}</p>
                 </div>
             </div>
             <a href="/menu">
                 <button>
-                    View Our Menu &#8594;
+                    {{ 'HOME.viewourmenu' | translate }} &#8594;
                 </button>
             </a>
         </div>
@@ -70,13 +63,13 @@
         <div class="floater"></div>
         <div class="content">
             <div>
-                <h3>Our Story</h3>
-                <h4>GOOD FOOD, DRINKS & <br>
-                    COMPANY. </h4>
+                <h3>{{ 'HOME.ourstory' | translate }}</h3>
+                <h4>{{ 'HOME.goodfood' | translate }} <br>
+                    {{ 'HOME.company' | translate }} </h4>
             </div>
 
-            <p>Join us at the table as you dine for the perfect meal.</p>
-            <a href="/about"><button>MORE ABOUT US &#8594;</button></a>
+            <p>{{ 'HOME.joinus' | translate }}</p>
+            <a href="/about"><button>{{ 'HOME.moreaboutus' | translate }} &#8594;</button></a>
         </div>
         <div class="image">
             <img alt="floater"
@@ -103,8 +96,8 @@
                 <path d="M15.73 6.62012V20.0001" stroke="#A6674A" stroke-width="1.5" stroke-linecap="round"
                     stroke-linejoin="round"></path>
             </svg>
-            <h3>CONTACT US</h3>
-            <p>1999 Mont-Royal Ave E, Montreal, Quebec H2H 1J4, Canada</p>
+            <h3>{{ 'HOME.contactus' | translate }}</h3>
+            <p>{{ 'HOME.address' | translate }}</p>
         </a>
 
         <a href="tel:1 913-575-8381">
@@ -117,7 +110,7 @@
                 <path d="M22 9C22 5.13 18.87 2 15 2" stroke="#A6674A" stroke-width="1.5" stroke-linecap="round"
                     stroke-linejoin="round"></path>
             </svg>
-            <h3>LET'S TALK</h3>
+            <h3>{{ 'HOME.letstalk' | translate }}</h3>
             <p>1 913-575-8381</p>
         </a>
 
@@ -130,7 +123,7 @@
                     d="M23 8V5C23 4.46957 22.7893 3.96086 22.4142 3.58579C22.0391 3.21071 21.5304 3 21 3H3C2.46957 3 1.96086 3.21071 1.58579 3.58579C1.21071 3.96086 1 4.46957 1 5V8L12 14L23 8Z"
                     stroke="#A6674A" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square"></path>
             </svg>
-            <h3>TICKETS INFO</h3>
+            <h3>{{ 'HOME.ticketinfo' | translate }}</h3>
             <p>test@gmail.com</p>
         </a>
     </section>
