@@ -24,9 +24,9 @@
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li routerLinkActive="active" *ngFor="let link of links">
-                    <a *ngIf="!link.external" [routerLink]="link.url">{{link.name}}</a>
-                    <a *ngIf="link.external" [href]="link.url">{{link.name}}</a>
+                <li routerLinkActive="active" *ngFor="let link of ('NAVBAR.links' | translate)">
+                    <a *ngIf="!link.external" [routerLink]="link.url">{{link.name | translate}}</a>
+                    <a *ngIf="link.external" [href]="link.url">{{link.name | translate}}</a>
                 </li>
             </ul>
         </div>

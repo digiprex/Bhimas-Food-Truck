@@ -7,7 +7,7 @@
         </div>
 
         <div class="social-div">
-            <h3>Connect Us</h3>
+            <h3>{{ 'FOOTER.heading' | translate }}</h3>
             <div class="social">
 
                 <a href="https://www.facebook.com/mont.everestmontreal/">
@@ -34,19 +34,19 @@
         </div>
 
         <div class="links">
-            <h3>Quick Links</h3>
+            <h3>{{ 'FOOTER.quicklinks' | translate }}</h3>
             <p>
-                <a *ngFor="let link of links" [routerLink]="link.url">
-                    {{link.name}}
+                <a *ngFor="let link of ('FOOTER.links' | translate)" [routerLink]="link.url">
+                    {{link.name | translate}}
                 </a>
             </p>
         </div>
 
         <div class="contact">
-            <h3>Contact Info</h3>
+            <h3>{{ 'FOOTER.contactinfo' | translate }}</h3>
             <div class="info">
                 <a href="https://maps.app.goo.gl/xdLgujNEezX29EsLA">
-                    1999 Mont-Royal Ave E, Montreal, Quebec H2H 1J4, Canada
+                    {{ 'FOOTER.address' | translate }}
                 </a>
                 <a href="tel:1 913-575-8381">
                     1 913-575-8381
@@ -57,7 +57,7 @@
 
     <section class="closing-section">
         <div>
-            © 2024 Mont Everest Masala. All Rights Reserved
+            {{ 'FOOTER.copyright' | translate }}
         </div>
     </section>
 </footer>

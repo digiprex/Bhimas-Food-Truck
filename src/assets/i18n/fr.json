@@ -947,6 +947,9 @@
       }
   ]
   },
+  "GALLERY":{
+    "gallery":"Notre galerie"
+  },
   "CONTACT": {
     "heading": "NOUS CONTACTER",
     "restaurantlocation": "EMPLACEMENT DU RESTAURANT",
@@ -983,5 +986,60 @@
   "state": "État",
   "country": "Pays",
   "pincode": "Code postal"
+},
+"NAVBAR":{
+  "links": [
+    {
+      "name": "Accueil",
+      "url": "/home"
+    },
+    {
+      "name": "À Propos",
+      "url": "/about"
+    },
+    {
+      "name": "Menu",
+      "url": "/menu"
+    },
+    {
+      "name": "Galerie",
+      "url": "/gallery"
+    },
+    {
+      "name": "Nous Contacter",
+      "url": "/contact",
+      "external": false
+    }
+  ]
+},
+"FOOTER": {
+  "heading": "Connectez-vous avec nous",
+  "quicklinks": "Liens rapides",
+  "links": [
+    {
+      "name": "Accueil",
+      "url": "/home"
+    },
+    {
+      "name": "À Propos",
+      "url": "/about"
+    },
+    {
+      "name": "Menu",
+      "url": "/menu"
+    },
+    {
+      "name": "Galerie",
+      "url": "/gallery"
+    },
+    {
+      "name": "Nous Contacter",
+      "url": "/contact",
+      "external": false
+    }
+  ],
+  "contactinfo": "Coordonnées",
+  "address": "1999, avenue Mont-Royal E, Montréal, Québec H2H 1J4, Canada",
+  "copyright": "© 2024 Mont Everest Masala. Tous droits réservés"
 }
   }
