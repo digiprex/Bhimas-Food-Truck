@@ -26,9 +26,13 @@ export class NavbarComponent implements OnInit {
     },
     {
       "name": "Contact Us",
-      "url": "/contact",
-      "external": false
+      "url": "/contact"
     },
+    {
+      "name": "Order Online",
+      "url": "https://order.online/store/mont-everest-masala-montr%C3%A9al-872851/?delivery=true&hideModal=true&redirected=true",
+      "external": true
+    }
   ]
   constructor() { }
 
