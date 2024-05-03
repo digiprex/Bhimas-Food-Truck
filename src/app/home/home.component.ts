@@ -1,5 +1,9 @@
-import { Component } from '@angular/core';
+import { Component ,Renderer2} from '@angular/core';
 import { NgImageSliderModule } from 'ng-image-slider';
+import { AppService } from '../app.service';
+import { Router } from '@angular/router';
+import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
+import { DomSanitizer } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-home',
@@ -10,11 +14,19 @@ export class HomeComponent {
   public website: any;
   public sliderImage: any;
   public templatetype: any;
+  public hero:any;
 
   ngOnInit(): void {
   }
 
-  constructor() {
+  // constructor() {
+  // }
+
+  constructor(private appService: AppService, private sanitizer: DomSanitizer, private router: Router, private formBuilder: FormBuilder, private renderer: Renderer2) {
+    this.templatetype = this.appService.getContentData('templatetype');
+    this.hero = this.appService.getContentData('hero');
+  
+    
   }
 
   homesSliderImage = [

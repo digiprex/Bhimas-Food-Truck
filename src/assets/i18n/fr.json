@@ -1,0 +1,987 @@
+{
+  "HOME": {
+    "welcome": "Bienvenue",
+    "about": "À Propos de Nous",
+    "aboutUs": "Chez Mont Everest Masala, nous vous apportons les saveurs vibrantes de l'Himalaya directement dans votre assiette. Avec un patrimoine riche enraciné dans les traditions culinaires authentiques népalaises et indiennes, nos épices sont soigneusement sourcées et mélangées à la perfection, capturant l'essence des majestueuses montagnes. Chaque bouchée est un voyage à travers les sentiers épicés de l'Everest, offrant une fusion tentante d'épices aromatiques et de saveurs exquises. De nos masalas aromatiques à nos mélanges signatures, nous nous efforçons de vous offrir une expérience culinaire inoubliable qui célèbre la diversité et la profondeur de la cuisine himalayenne. Bienvenue chez Mont Everest Masala, où chaque repas est une expérience de haut niveau.",
+    "ourunique": "Notre Unique",
+    "seafooddishes": "Plats de Fruits de Mer",
+    "specialdishes": "PLATS SPÉCIAUX",
+    "peopleschoice": "Choix du Peuple",
+    "dishes": [
+      {
+        "img": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/9e883c95-3303-4a18-8471-20ef470fde46_naan.jpg",
+        "title": "Naan à l'Ail",
+        "price": "CA$4.50"
+      },
+      {
+        "img": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/6c6839b1-55e1-48b5-bc54-8653aa87b619_shake.jpg",
+        "title": "Lassi à la Mangue",
+        "price": "CA$4.99"
+      },
+      {
+        "img": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/7b1dd4f8-7b65-4143-96b2-8bdbbbaa6b58_chicjen.jpg",
+        "title": "Curry de Poisson",
+        "price": "CA$20.99"
+      },
+      {
+        "img": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/60a4b55f-0191-49b2-a412-5c344fb036ac_booti.jpg",
+        "title": "VINDALOO D'AGNEAU",
+        "price": "CA$20.99"
+      }
+    ],
+    "viewourmenu": "Voir Notre Menu",
+    "ourstory": "Notre Histoire",
+    "goodfood": "BONNE NOURRITURE, BOISSONS &",
+    "company": "ENTREPRISE.",
+    "joinus": "Rejoignez-nous à table pour le repas parfait.",
+    "moreaboutus": "PLUS À PROPOS DE NOUS",
+    "contactus": "NOUS CONTACTER",
+    "address": "1999, avenue Mont-Royal E, Montréal, Québec H2H 1J4, Canada",
+    "letstalk": "PARLONS",
+    "ticketinfo": "INFO BILLETS"
+},
+  "ABOUT": {
+    "dish1": "FILET DE MORUE DE CORNOUAILLES",
+    "dish2": "SALADE RUBY",
+    "dish3": "SPAGHETTI AUX FRUITS DE MER",
+    "ourunique": "Notre Unique",
+    "seafooddishes": "Plats de Fruits de Mer"
+},
+  "TESTIMONIALS": {
+    "happycustomers": "Clients Satisfaits",
+    "ourguestbook": "NOTRE LIVRE D'OR",
+    "content": "J'ai récemment eu le plaisir de dîner dans ce restaurant indien exquis, et ce fut une expérience des plus agréables. Chaque plat végétarien que j'ai essayé débordait de saveurs authentiques, capturant parfaitement l'essence de la cuisine indienne traditionnelle. Ce qui m'a le plus marqué, c'est la flexibilité du restaurant à personnaliser les plats selon les préférences gustatives personnelles, une trouvaille rare qui montre leur engagement envers la satisfaction de la clientèle.",
+    "autor": "Sanket Patel",
+    "content2": "Je viens principalement de Toronto, j'ai récemment visité la ville de Montréal avec ma famille et j'ai essayé la cuisine indienne dans ce merveilleux restaurant. Je peux dire que la nourriture était si bonne, surtout le poulet au beurre et le poulet tandoori étaient tout simplement incroyables. Les naans au beurre étaient si fraîchement préparés que je pouvais littéralement les sentir comme si je mangeais des naans en Inde.",
+    "autor2": "Chandana Reddy",
+    "content3": "J'ai commandé un repas végétarien pour une fête et tous nos invités en étaient très satisfaits. Très savoureux comme de la nourriture authentique faite maison, je recommanderais certainement et je commanderai également à l'avenir.",
+    "author3": "Sandy"
+},
+  "MENU":{
+    "ourmenu":"Notre carte",
+    "addtocart":"Ajouter au panier",
+    "category": [
+      {
+          "categoryName": "Apéritifs",      
+            "items": [
+                {
+                    "itemName": "Samosa aux légumes",
+                    "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                    "itemDescription": "2 pièces. Pommes de terre infusées de cumin, mélange de légumes enveloppé dans une pâte de farine de blé biologique et frit.",
+                    "quantity": 1,
+                    "itemPrice": "4.50"
+                },
+                {
+                    "itemName": "Bhajia à l'oignon",
+                    "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                    "itemDescription": "4 pièces. Oignons assaisonnés enrobés de farine de pois chiches et frits.",
+                    "quantity": 1,
+                    "itemPrice": "4.99"
+                },
+                {
+                    "itemName": "Samosa à la viande",
+                    "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                    "itemDescription": "2 pièces. Poulet haché épicé et épinards enveloppés dans une pâte de farine de blé biologique et frits.",
+                    "quantity": 1,
+                    "itemPrice": "5.50"
+                },
+                {
+                    "itemName": "Pakora de poisson",
+                    "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                    "itemDescription": "Poissons marinés dans une pâte de pois chiches et frits.",
+                    "quantity": 1,
+                    "itemPrice": "7.99"
+                },
+                {
+                    "itemName": "Pakora aux légumes",
+                    "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                    "itemDescription": "Légumes marinés enrobés dans une pâte de pois chiches et frits.",
+                    "quantity": 1,
+                    "itemPrice": "4.99"
+                },
+                {
+                    "itemName": "Pakora au poulet",
+                    "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                    "itemDescription": "Poulet mariné enrobé dans une pâte de pois chiches et frit.",
+                    "quantity": 1,
+                    "itemPrice": "5.99"
+                },
+                {
+                    "itemName": "Pakora au chou-fleur",
+                    "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                    "itemDescription": "6 pièces. Bouquets de chou-fleur marinés enrobés dans une pâte de pois chiches et frits.",
+                    "quantity": 1,
+                    "itemPrice": "4.99"
+                },
+                {
+                    "itemName": "Pakora aux crevettes",
+                    "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                    "itemDescription": "6 pièces. Crevettes marinées enrobées dans une pâte de pois chiches et frites.",
+                    "quantity": 1,
+                    "itemPrice": "7.99"
+                },
+                {
+                    "itemName": "Gobi manchurian",
+                    "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                    "itemDescription": "",
+                    "quantity": 1,
+                    "itemPrice": "11.99"
+                },
+                {
+                    "itemName": "",
+                    "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                    "itemDescription": "",
+                    "quantity": 1,
+                    "itemPrice": "9.99"
+                },
+                {
+                    "itemName": "Poulet au piment",
+                    "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                    "itemDescription": "",
+                    "quantity": 1,
+                    "itemPrice": "16.99"
+                },
+                {
+                    "itemName": "Paneer au piment",
+                    "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                    "itemDescription": "",
+                    "quantity": 1,
+                    "itemPrice": "15.99"
+                }
+            ]
+      },
+      {
+          "categoryName": "Soupe et salade",
+          "items": [
+            {
+                "itemName": "Soupe Mulligatawny",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Soupe de lentilles jaunes avec des légumes et du poulet haché tikka dans un mélange d'épices.",
+                "quantity": 1,
+                "itemPrice": "4.99"
+            },
+            {
+                "itemName": "Soupe aux champignons",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Champignons shitake et cremini dans une base de tomate.",
+                "quantity": 1,
+                "itemPrice": "4.99"
+            },
+            {
+                "itemName": "Raita de concombre",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Concombres tranchés garnis de yaourt.",
+                "quantity": 1,
+                "itemPrice": "4.99"
+            },
+            {
+                "itemName": "Salade Kachumber",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Oignon, concombre, carotte, tomates, poivre mélangé, coriandre, poivre et jus de citron en dés.",
+                "quantity": 1,
+                "itemPrice": "4.99"
+            },
+            {
+                "itemName": "Soupe de tomate",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Tomates mélangées avec une touche de crème.",
+                "quantity": 1,
+                "itemPrice": "4.99"
+            }
+        ]
+      },
+      {
+          "categoryName": "Tandoori",
+          "items": [
+            {
+                "itemName": "Grillade Mixte Maison",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Poulet tandoori, kebab reshmi, poulet thangidi, crevettes et poisson tandoori, marinés dans du yaourt fait maison, du gingembre, de l'ail, des épices, du jus de citron et cuits au tandoor. Servi sur un lit d'oignons et de poivrons mélangés. Servi avec du naan.",
+                "quantity": 1,
+                "itemPrice": "23.99"
+            },
+            {
+                "itemName": "Poulet Tandoori Entier [8 PCS]",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Poulet mariné dans du yaourt, du gingembre, de l'ail, des épices, du jus de citron et cuit au tandoor. Servi sur un lit d'oignons et de poivrons mélangés.",
+                "quantity": 1,
+                "itemPrice": "22.99"
+            },
+            {
+                "itemName": "Paneer Tikka [6 PCS]",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "6 pièces. Cubes de fromage cottage indien marinés dans du yaourt, du gingembre, de l'ail, des épices, du jus de citron et cuits au tandoor. Servi sur un lit d'oignons et de poivrons mélangés.",
+                "quantity": 1,
+                "itemPrice": "16.99"
+            },
+            {
+                "itemName": "Kebab Thangidi [4 PCS]",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "4 pièces. Cuisses de poulet marinées dans du yaourt, du gingembre, de l'ail, des épices, de la pâte de noix de cajou et cuites au tandoor. Servi sur un lit d'oignons et de poivrons mélangés.",
+                "quantity": 1,
+                "itemPrice": "19.99"
+            },
+            {
+                "itemName": "Demi-Poulet Tandoori [4 PCS]",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "",
+                "quantity": 1,
+                "itemPrice": "19.99"
+            },
+            {
+                "itemName": "Chou-fleur Tandoori",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Bouquets de chou-fleur marinés dans du yaourt, du gingembre, de l'ail, des épices, du jus de citron et cuits au tandoor. Servi sur un lit d'oignons et de poivrons mélangés.",
+                "quantity": 1,
+                "itemPrice": "14.99"
+            },
+            {
+                "itemName": "Poisson Tandoori [3 PCS]",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "3 pièces. Saumon sans os mariné dans du yaourt fait maison, du gingembre, de l'ail, des épices, du jus de citron et cuit au tandoor. Servi sur un lit d'oignons et de poivrons mélangés. Livré avec un naan au beurre.",
+                "quantity": 1,
+                "itemPrice": "21.99"
+            },
+            {
+                "itemName": "Crevette Tandoori",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "",
+                "quantity": 1,
+                "itemPrice": "20.99"
+            },
+            {
+                "itemName": "Kebab Reshmi (4)",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "",
+                "quantity": 1,
+                "itemPrice": "17.99"
+            }
+        ]
+      },
+      {
+          "categoryName": "Délices de viande",
+          "items": [
+            {
+                "itemName": "Poulet au Beurre",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Poulet mariné et cuit au tandoor, puis mijoté dans une sauce tomate crémeuse.",
+                "quantity": 1,
+                "itemPrice": "19.99"
+            },
+            {
+                "itemName": "Poulet Tikka Masala",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Poulet mariné dans du yaourt, du gingembre, de l'ail, des épices, du jus de citron et cuit au tandoor, puis ajouté à une sauce masala avec tomate, oignon, gingembre, ail, poivre mélangé, coriandre et une touche de yaourt.",
+                "quantity": 1,
+                "itemPrice": "19.99"
+            },
+            {
+                "itemName": "Curry de Poulet",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "",
+                "quantity": 1,
+                "itemPrice": "18.99"
+            },
+            {
+                "itemName": "LAMB VINDALOO",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "",
+                "quantity": 1,
+                "itemPrice": "20.99"
+            },
+            {
+                "itemName": "Agneau Karahi",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Cuit avec des poivrons mélangés, des oignons, des tomates, de la coriandre et du gingembre frais dans une sauce masala, et une touche de yaourt.",
+                "quantity": 1,
+                "itemPrice": "20.99"
+            },
+            {
+                "itemName": "POULET MUGULAI",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "",
+                "quantity": 1,
+                "itemPrice": "18.99"
+            },
+            {
+                "itemName": "AGNEAU MUGULAI",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "",
+                "quantity": 1,
+                "itemPrice": "20.99"
+            },
+            {
+                "itemName": "Agneau SAAG",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "",
+                "quantity": 1,
+                "itemPrice": "20.99"
+            },
+            {
+                "itemName": "Poulet SAAG",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "",
+                "quantity": 1,
+                "itemPrice": "18.99"
+            },
+            {
+                "itemName": "Bœuf Vindaloo",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "",
+                "quantity": 1,
+                "itemPrice": "19.99"
+            },
+            {
+                "itemName": "POULET SHAHI",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "",
+                "quantity": 1,
+                "itemPrice": "18.99"
+            },
+            {
+                "itemName": "Bœuf Mugulai",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "",
+                "quantity": 1,
+                "itemPrice": "19.99"
+            },
+            {
+                "itemName": "POULET MADRAS",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "",
+                "quantity": 1,
+                "itemPrice": "18.99"
+            },
+            {
+                "itemName": "Curry d'Agneau",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "",
+                "quantity": 1,
+                "itemPrice": "20.99"
+            },
+            {
+                "itemName": "Poulet Karahi",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Cuit avec des poivrons mélangés, des oignons, des tomates, de la coriandre et du gingembre frais dans une sauce masala, et une touche de yaourt.",
+                "quantity": 1,
+                "itemPrice": "18.99"
+            },
+            {
+                "itemName": "AGNEAU SHAHI",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "",
+                "quantity": 1,
+                "itemPrice": "20.99"
+            },
+            {
+                "itemName": "AGNEAU MADRAS",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "",
+                "quantity": 1,
+                "itemPrice": "20.99"
+            },
+            {
+                "itemName": "POULET VINDALOO",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "",
+                "quantity": 1,
+                "itemPrice": "18.99"
+            },
+            {
+                "itemName": "Bœuf Karahi",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "",
+                "quantity": 1,
+                "itemPrice": "19.99"
+            },
+            {
+                "itemName": "Bœuf SAAG",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "",
+                "quantity": 1,
+                "itemPrice": "19.99"
+            },
+            {
+                "itemName": "Curry de Bœuf",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "",
+                "quantity": 1,
+                "itemPrice": "19.99"
+            },
+            {
+                "itemName": "BŒUF SHAHI",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "",
+                "quantity": 1,
+                "itemPrice": "18.99"
+            },
+            {
+                "itemName": "BŒUF MADRAS",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "",
+                "quantity": 1,
+                "itemPrice": "19.99"
+            }
+        ]
+      },
+      {
+          "categoryName": "Biryani",
+          "items": [
+            {
+                "itemName": "Assiette Grillades Mixtes Maison",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Choix de votre viande cuite aux herbes, riz basmati, noix et épices.",
+                "quantity": 1,
+                "itemPrice": ""
+            },
+            {
+                "itemName": "POULET",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "",
+                "quantity": 1,
+                "itemPrice": "13.99"
+            },
+            {
+                "itemName": "BŒUF",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "",
+                "quantity": 1,
+                "itemPrice": "14.99"
+            },
+            {
+                "itemName": "AGNEAU",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "",
+                "quantity": 1,
+                "itemPrice": "15.99"
+            },
+            {
+                "itemName": "CREVETTES",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "",
+                "quantity": 1,
+                "itemPrice": "16.99"
+            }
+        ]
+      },
+      {
+          "categoryName": "Délices de fruits de mer",
+          "items": [
+            {
+                "itemName": "Crevettes Karahi",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Cuit avec poivrons mélangés, oignon, tomate, coriandre et gingembre frais dans une sauce masala, et une touche de yogourt.",
+                "quantity": 1,
+                "itemPrice": "19.99"
+            },
+            {
+                "itemName": "Crevettes Vindaloo",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Crevettes tigres et pommes de terre assaisonnées mijotées dans une sauce tamarin aigre et épicée avec un mélange d'épices.",
+                "quantity": 1,
+                "itemPrice": "19.99"
+            },
+            {
+                "itemName": "Curry de Poisson",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Saumon sans os cuit dans une sauce tamarin avec tomate, yogourt, oignon et épices légères.",
+                "quantity": 1,
+                "itemPrice": "20.99"
+            },
+            {
+                "itemName": "Crevettes Shahi",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Crevettes tigres cuites dans une sauce crémeuse au lait de coco et aux oignons avec des épices.",
+                "quantity": 1,
+                "itemPrice": "19.99"
+            }
+        ]
+      },
+      {
+          "categoryName": "Plats végétariens",
+          "items": [
+            {
+                "itemName": "Haricots verts sautés",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Haricots verts sautés avec une touche de tomates, d'oignons et d'épices.",
+                "quantity": 1,
+                "itemPrice": "14.99"
+            },
+            {
+                "itemName": "Channa Aloo",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Pois chiches et pommes de terre cuits avec des poivrons, des oignons à feu doux avec une délicieuse sauce masala.",
+                "quantity": 1,
+                "itemPrice": "13.99"
+            },
+            {
+                "itemName": "Aloo Saag",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Épinards et pommes de terre cuits avec des tomates, des oignons, des herbes et une touche de crème.",
+                "quantity": 1,
+                "itemPrice": "13.99"
+            },
+            {
+                "itemName": "Palak Paneer",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Fromage cottage, épinards et tomates avec une touche de crème.",
+                "quantity": 1,
+                "itemPrice": "15.99"
+            },
+            {
+                "itemName": "Aloo Gobi",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Chou-fleur et pommes de terre cuits dans des oignons, des tomates et des épices aromatiques.",
+                "quantity": 1,
+                "itemPrice": "13.99"
+            },
+            {
+                "itemName": "Daal aux Épinards",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Lentilles fendues et épinards cuits avec des tomates assaisonnées avec des épices et des herbes à la mode hyderabadi.",
+                "quantity": 1,
+                "itemPrice": "12.99"
+            },
+            {
+                "itemName": "Baingan Bhartha",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Aubergine entière cuite au tandoor, écrasée et sautée avec des oignons, des tomates, une touche de crème et des herbes fraîches.",
+                "quantity": 1,
+                "itemPrice": "14.99"
+            },
+            {
+                "itemName": "PANEER MAKHANI",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Fromage cottage indien cuit dans une sauce crémeuse à l'oignon et au lait de coco avec des épices.",
+                "quantity": 1,
+                "itemPrice": "16.99"
+            },
+            {
+                "itemName": "PANEER TIKKA MASALA",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Fromage cottage indien mariné dans du yogourt, du gingembre, de l'ail, des épices et du jus de citron, puis ajouté à une sauce masala avec des tomates, des oignons, du gingembre, de l'ail, des poivrons mélangés, de la coriandre et une touche de yogourt.",
+                "quantity": 1,
+                "itemPrice": "16.99"
+            },
+            {
+                "itemName": "Friture d'épinards",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Épinards sautés à l'ail, aux oignons, aux épices et au citron.",
+                "quantity": 1,
+                "itemPrice": "14.99"
+            },
+            {
+                "itemName": "Aloo Mogulai",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Pommes de terre assaisonnées cuites avec un mélange d'épices dans une sauce crémeuse aux noix de cajou.",
+                "quantity": 1,
+                "itemPrice": "13.99"
+            },
+            {
+                "itemName": "Shahi Paneer",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Fromage cottage indien cuit dans une sauce crémeuse à l'oignon et au lait de coco avec des épices.",
+                "quantity": 1,
+                "itemPrice": "15.99"
+            },
+            {
+                "itemName": "Channa Masala",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Pois chiches cuits dans des tomates, des épices et des herbes à la perfection.",
+                "quantity": 1,
+                "itemPrice": "13.99"
+            },
+            {
+                "itemName": "Navarathan Mogulai",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "9 légumes : pomme de terre, maïs bébé, paneer, pois, haricots, carottes, brocoli, chou-fleur et champignons cuits avec un mélange d'épices dans une sauce crémeuse aux noix de cajou.",
+                "quantity": 1,
+                "itemPrice": "14.99"
+            },
+            {
+                "itemName": "DAAL MAKHANI",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Lentilles noires cuites avec des tomates, de la crème et des épices.",
+                "quantity": 1,
+                "itemPrice": "15.99"
+            },
+            {
+                "itemName": "Daal Curry",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Lentilles fendues cuites avec des tomates assaisonnées avec des épices et des herbes à la mode hyderabadi.",
+                "quantity": 1,
+                "itemPrice": "12.99"
+            },
+            {
+                "itemName": "Navrathan Curry",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "9 légumes : pomme de terre, maïs bébé, paneer, pois, haricots, carottes, brocoli, chou-fleur et champignons cuits avec un mélange d'épices dans une sauce curry.",
+                "quantity": 1,
+                "itemPrice": "13.99"
+            },
+            {
+                "itemName": "Bhendi Masala",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Okra croustillante préparée avec des oignons frais, des tomates, des épices et des herbes.",
+                "quantity": 1,
+                "itemPrice": "14.99"
+            },
+            {
+                "itemName": "Mutter Paneer",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Fromage cottage et petits pois cuits dans une sauce à la crème et à la tomate.",
+                "quantity": 1,
+                "itemPrice": "15.99"
+            }
+        ]
+      },
+      {
+          "categoryName": "Plats de riz",
+          "items": [
+            {
+                "itemName": "Riz à l'ail",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Riz basmati mélangé avec de l'ail frit, de la coriandre et des herbes.",
+                "quantity": 1,
+                "itemPrice": "4.99"
+            },
+            {
+                "itemName": "Riz au safran",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Riz infusé au safran avec une touche de crème.",
+                "quantity": 1,
+                "itemPrice": "5.99"
+            },
+            {
+                "itemName": "Riz au cumin",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Riz basmati tamisé avec des graines de cumin.",
+                "quantity": 1,
+                "itemPrice": "4.99"
+            },
+            {
+                "itemName": "Pulao aux pois",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Riz basmati aromatisé cuit avec des pois verts, des oignons sautés, des poivrons mélangés et du yaourt.",
+                "quantity": 1,
+                "itemPrice": "5.99"
+            },
+            {
+                "itemName": "Riz nature",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Riz basmati de qualité supérieure cuit à la perfection.",
+                "quantity": 1,
+                "itemPrice": "3.99"
+            },
+            {
+                "itemName": "Biryani aux légumes",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Légumes mijotés mélangés avec du riz basmati, des herbes, des noix de cajou et des épices.",
+                "quantity": 1,
+                "itemPrice": "12.99"
+            },
+            {
+                "itemName": "Riz Pulao",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Riz basmati cuit avec des oignons et des épices indiennes.",
+                "quantity": 1,
+                "itemPrice": "4.50"
+            }
+        ]
+      },
+      {
+          "categoryName": "Le pain",
+          "items": [
+            {
+                "itemName": "Naan à l'ail",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Pain tandoori garni d'ail et de coriandre.",
+                "quantity": 1,
+                "itemPrice": "4.50"
+            },
+            {
+                "itemName": "Naan au fromage",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Pain tandoori farci au mozzarella, cheddar et aux épices. Idéal pour les enfants.",
+                "quantity": 1,
+                "itemPrice": "6.50"
+            },
+            {
+                "itemName": "Aloo Kulcha",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Pain farci aux pommes de terre et aux épices.",
+                "quantity": 1,
+                "itemPrice": "6.50"
+            },
+            {
+                "itemName": "Naan à l'ail et au piment rouge",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Pain tandoori garni d'ail, de flocons de piment rouge et de coriandre.",
+                "quantity": 1,
+                "itemPrice": "4.99"
+            },
+            {
+                "itemName": "Roti au beurre",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Pain complet cuit au tandoor.",
+                "quantity": 1,
+                "itemPrice": "3.50"
+            },
+            {
+                "itemName": "Naan nature",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Pain traditionnel cuit au tandoor.",
+                "quantity": 1,
+                "itemPrice": "3.99"
+            },
+            {
+                "itemName": "Naan au beurre",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Pain traditionnel cuit au tandoor avec du beurre (naan au beurre).",
+                "quantity": 1,
+                "itemPrice": "3.99"
+            },
+            {
+                "itemName": "Roti nature",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Pain complet cuit au tandoor.",
+                "quantity": 1,
+                "itemPrice": "3.50"
+            },
+            {
+                "itemName": "Bhatura",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Pain à la farine tout usage frit (bhatura).",
+                "quantity": 1,
+                "itemPrice": "3.99"
+            },
+            {
+                "itemName": "Poori",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Pain complet frit (poori)",
+                "quantity": 1,
+                "itemPrice": "3.99"
+            }
+        ]
+      },
+      {
+          "categoryName": "Breuvages",
+          "items": [
+            {
+                "itemName": "Lassi : Mangue - Doux - Salé",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "",
+                "quantity": 1,
+                "itemPrice": "4.99"
+            },
+            {
+                "itemName": "Mango Milk Shake",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "",
+                "quantity": 1,
+                "itemPrice": "4.99"
+            },
+            {
+                "itemName": "Eau de Fiji",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "",
+                "quantity": 1,
+                "itemPrice": "3.99"
+            },
+            {
+                "itemName": "Jus",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "",
+                "quantity": 1,
+                "itemPrice": "3.99"
+            },
+            {
+                "itemName": "Thé Masala",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Thé au lait indien infusé avec du gingembre et de la cardamome.",
+                "quantity": 1,
+                "itemPrice": "4.50"
+            },
+            {
+                "itemName": "Thé",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "",
+                "quantity": 1,
+                "itemPrice": "3.99"
+            },
+            {
+                "itemName": "Boisson gazeuse",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "Coca-Cola - Coca-Cola Light - Nestea - Ginger Ale - Pepsi - Sprite - CPlus - Soda",
+                "quantity": 1,
+                "itemPrice": "2.99"
+            },
+            {
+                "itemName": "Petite",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "",
+                "quantity": 1,
+                "itemPrice": "2.99"
+            }
+        ]
+      },
+      {
+          "categoryName": "Ordres secondaires",
+          "items": [
+            {
+                "itemName": "RAITA",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "",
+                "quantity": 1,
+                "itemPrice": "3.50"
+            },
+            {
+                "itemName": "",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "",
+                "quantity": 1,
+                "itemPrice": "3.00"
+            },
+            {
+                "itemName": "Chutney à la menthe",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "",
+                "quantity": 1,
+                "itemPrice": "3.00"
+            },
+            {
+                "itemName": "Jeera papadam (2 pièces)",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "",
+                "quantity": 1,
+                "itemPrice": "1.00"
+            },
+            {
+                "itemName": "Yaourt fait maison",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "",
+                "quantity": 1,
+                "itemPrice": "3.00"
+            }
+        ]
+      },
+      {
+          "categoryName": "Dessert",
+          "items": [
+            {
+                "itemName": "Ras Malai",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "",
+                "quantity": 1,
+                "itemPrice": "4.99"
+            },
+            {
+                "itemName": "Pudding de riz",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "",
+                "quantity": 1,
+                "itemPrice": "2.50"
+            },
+            {
+                "itemName": "Gulab Jamun",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "",
+                "quantity": 1,
+                "itemPrice": "4.50"
+            }
+        ]
+      },
+      {
+          "categoryName": "Combinaisons",
+          "items": [
+            {
+                "itemName": "Végétarien",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "",
+                "quantity": 1,
+                "itemPrice": "15.99"
+            },
+            {
+                "itemName": "Choix de viande de poulet",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "",
+                "quantity": 1,
+                "itemPrice": "17.99"
+            },
+            {
+                "itemName": "Choix de viande de boeuf",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "",
+                "quantity": 1,
+                "itemPrice": "18.99"
+            },
+            {
+                "itemName": "Choix de viande d'agneau",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "",
+                "quantity": 1,
+                "itemPrice": "19.99"
+            },
+            {
+                "itemName": "Fruits de mer",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "",
+                "quantity": 1,
+                "itemPrice": "19.99"
+            },
+            {
+                "itemName": "Crevettes",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "",
+                "quantity": 1,
+                "itemPrice": "19.99"
+            },
+            {
+                "itemName": "Poisson",
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                "itemDescription": "",
+                "quantity": 1,
+                "itemPrice": "19.99"
+            }
+        ]
+      }
+  ]
+  },
+  "CONTACT": {
+    "heading": "NOUS CONTACTER",
+    "restaurantlocation": "EMPLACEMENT DU RESTAURANT",
+    "address": "1999, avenue Mont-Royal E,",
+    "address2": "Montréal, Québec H2H 1J4, Canada",
+    "booktable": "RÉSERVEZ VOTRE TABLE",
+    "openinghour": "HEURES D'OUVERTURE",
+    "timing": "Mer - Lun : 12h - 22h",
+    "closed": "Mar : Fermé",
+    "formheading": "CONTACTEZ-NOUS",
+    "send": "ENVOYER",
+    "submitted": "Envoyé"
+},
+"CART":{
+  "emptycart":"Votre panier est vide.",
+  "totalprice":"Prix ​​total:",
+  "checkout":"Continuer à payer"
+},
+"CHECKOUT": {
+  "heading": "INFORMATIONS DE PAIEMENT",
+  "checkout": "Paiement!",
+  "thanks": "Merci!",
+  "orderplaced": "La commande est passée. Vous recevrez bientôt les détails par e-mail.",
+  "home": "Accueil"
+},
+"FORM": {
+  "first": "Prénom",
+  "last": "Nom",
+  "phone": "Téléphone",
+  "email": "E-mail",
+  "message":"Message",
+  "address": "Adresse",
+  "city": "Ville",
+  "state": "État",
+  "country": "Pays",
+  "pincode": "Code postal"
+}
+  }

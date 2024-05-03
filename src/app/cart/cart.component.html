@@ -10,7 +10,7 @@
                 <img alt="quantity" [src]="item.itemIcon" alt="">
                 <span>{{item.itemQuantity}}</span>
             </div>
-            <h3>{{item.itemName}}</h3>
+            <h3>{{item.itemName | translate}}</h3>
             <p>&#x24;{{item.itemPrice}}</p>
             <button>
                 <span (click)="subQuantity(item, j)">
@@ -27,14 +27,14 @@
         </div>
 
         <div class="bottom">
-            <p>Total Price: <span>&#x24;{{totalPrice}}</span></p>
-            <button [disabled]="totalPrice == 0" (click)="checkoutPage()">Continue to Checkout</button>
+            <p>{{ 'CART.totalprice' | translate }} <span>&#x24;{{totalPrice}}</span></p>
+            <button [disabled]="totalPrice == 0" (click)="checkoutPage()">{{ 'CART.checkout' | translate }}</button>
         </div>
     </section>
 
     <section class="cart-section" *ngIf="totalPrice == 0">
         <div class="empty-cart-div">
-            Your Cart is Empty.
+            {{ 'CART.emptycart' | translate }}
         </div>
     </section>
 
