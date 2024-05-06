@@ -11,11 +11,11 @@ export class AppComponent {
   public web: any;
 
   constructor(private appService: AppService, public translate: TranslateService) {
-    translate.addLangs(['en', 'fr']);
-    translate.setDefaultLang('en');
+    translate.addLangs(['fr', 'en']);
+    translate.setDefaultLang('fr');
     let browserLang: any;
     browserLang = translate.getBrowserLang();
-    translate.use('en');
+    translate.use('fr');
 
   }
   title = 'Mont-Everest-Masala-Site';
