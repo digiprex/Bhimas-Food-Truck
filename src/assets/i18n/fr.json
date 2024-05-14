@@ -20,7 +20,7 @@
             },
             {
                 "img": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/7b1dd4f8-7b65-4143-96b2-8bdbbbaa6b58_chicjen.jpg",
-                "title": "Curry de Poisson",
+                "title": "Agneau Madras",
                 "price": "CA$20.99"
             },
             {
@@ -35,10 +35,10 @@
         "company": "ENTREPRISE.",
         "joinus": "Rejoignez-nous à table pour le repas parfait.",
         "moreaboutus": "PLUS À PROPOS DE NOUS",
-        "contactus": "NOUS CONTACTER",
+        "contactus": "EMPLACEMENT",
         "address": "1999, avenue Mont-Royal E, Montréal, Québec H2H 1J4, Canada",
         "letstalk": "PARLONS",
-        "ticketinfo": "INFO BILLETS"
+        "ticketinfo": "ENVOYEZ-NOUS UN EMAIL"
     },
     "ABOUT": {
         "dish1": "FILET DE MORUE DE CORNOUAILLES",

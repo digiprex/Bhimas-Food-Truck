@@ -20,7 +20,7 @@
         },
         {
           "img": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/7b1dd4f8-7b65-4143-96b2-8bdbbbaa6b58_chicjen.jpg",
-          "title": "Fish Curry",
+          "title": "Lamb Madras",
           "price": "CA$20.99"
         },
         {
@@ -35,10 +35,10 @@
       "company":"COMPANY.",
       "joinus":"Join us at the table as you dine for the perfect meal.",
       "moreaboutus":"MORE ABOUT US",
-      "contactus":"CONTACT US",
+      "contactus":"LOCATION",
       "address":"1999 Mont-Royal Ave E, Montreal, Quebec H2H 1J4, Canada",
       "letstalk":"LET'S TALK",
-      "ticketinfo":"TICKETS INFO"
+      "ticketinfo":"EMAIL US"
     },
     "ABOUT":{
       "dish1":"CORNISH COD FILLET",
