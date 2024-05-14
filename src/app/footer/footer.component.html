@@ -36,7 +36,7 @@
         <div class="links">
             <h3>{{ 'FOOTER.quicklinks' | translate }}</h3>
             <p>
-                <a *ngFor="let link of ('FOOTER.links' | translate)" [routerLink]="link.url">
+                <a *ngFor="let link of ('FOOTER.links' | translate)" [href]="link.url">
                     {{link.name | translate}}
                 </a>
             </p>
@@ -46,9 +46,17 @@
             <h3>{{ 'FOOTER.contactinfo' | translate }}</h3>
             <div class="info">
                 <a href="https://maps.app.goo.gl/xdLgujNEezX29EsLA">
+                    <img alt="address" src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/acd8dccd-4147-4c69-8039-eaaf9836ccf1_location_on_FILL0_wght400_GRAD0_opsz24%202.png" />
                     {{ 'FOOTER.address' | translate }}
                 </a>
+                
+                <a href="mailTo: monteverestmasala@gmail.com">
+                    <img alt="call" src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/9cabfeea-bfa5-4837-aaf8-a855d5364b91_mail_FILL0_wght400_GRAD0_opsz24%202.png" />
+                    monteverestmasala@gmail.com
+                </a>
+
                 <a href="tel:1 913-575-8381">
+                    <img alt="call" src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/58e871cd-fb0c-4799-9318-0e2c4839ca96_call_FILL0_wght400_GRAD0_opsz24%202.png" />
                     1 913-575-8381
                 </a>
             </div>
