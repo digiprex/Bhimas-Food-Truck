@@ -20,7 +20,8 @@ export class HomeComponent {
   ngOnInit(): void {
     this.meta.updateTag({ name: 'title', content: 'Best South Indian Food In Montreal | Mont Everest Masala' });
     this.meta.updateTag({ name: 'description', content: 'Savor the finest South Indian cuisine at Mont Everest Masala in Montreal. Discover a delectable blend of veg and non-veg specialties. Taste excellence!' });
-  }
+    this.meta.updateTag({ name: 'google-site-verification', content: 'nmoJPTBnvKusf3rNSRJlpKwJwj55XPHWmaK1FkxyoPI' });
+   }
 
   // constructor() {
   // }
