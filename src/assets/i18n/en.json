@@ -1014,6 +1014,10 @@
                 "url": "/gallery"
             },
             {
+                "name": "Blogs",
+                "url": "/blogs"
+            },
+            {
                 "name": "Contact Us",
                 "url": "/contact"
             },
@@ -1053,5 +1057,8 @@
         "contactinfo": "Contact Info",
         "address": "1999 Mont-Royal Ave E, Montreal, Quebec H2H 1J4, Canada",
         "copyright": "© 2024 Mont Everest Masala. All Rights Reserved"
+    },
+    "blogs": {
+        
     }
 }

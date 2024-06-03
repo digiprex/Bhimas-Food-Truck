@@ -25,6 +25,10 @@ export class NavbarComponent implements OnInit {
       "url": "/gallery"
     },
     {
+      "name": "Blogs",
+      "url": "/blogs"
+    },
+    {
       "name": "Contact Us",
       "url": "/contact"
     },
