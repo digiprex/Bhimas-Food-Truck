@@ -81,12 +81,12 @@ main {
 // Mobile
 @media only screen and (max-device-width: 480px) {
     main {
-        margin-top: 80px;
 
         .blog {
-            div {
+            .inner-blog {
                 div {
-                    width: 100%;
+                    max-width: 100%;
+                    flex: 0 0 100%;
                 }
             }
         }

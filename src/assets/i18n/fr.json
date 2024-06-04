@@ -1014,6 +1014,10 @@
                 "url": "/gallery"
             },
             {
+                "name": "Blogs",
+                "url": "/blogs"
+            },
+            {
                 "name": "Nous Contacter",
                 "url": "/contact"
             },
@@ -1045,6 +1049,10 @@
                 "url": "/gallery"
             },
             {
+                "name": "Blogs",
+                "url": "/blogs"
+            },
+            {
                 "name": "Nous Contacter",
                 "url": "/contact",
                 "external": false
@@ -1053,5 +1061,28 @@
         "contactinfo": "Coordonnées",
         "address": "1999, avenue Mont-Royal E, Montréal, Québec H2H 1J4, Canada",
         "copyright": "© 2024 Mont Everest Masala. Tous droits réservés"
+    },
+    "blogs": {
+        "blogheading1": "Comment préparer des Gulab Jamun authentiques à la maison",
+        "blogpara1": "Découvrez la recette étape par étape pour réaliser des Gulab Jamun authentiques, un dessert indien classique. Apprenez-en plus sur les ingrédients, la préparation et les variations comme le gâteau et la glace au Gulab Jamun. Parfait pour les fêtes et les célébrations.",
+        "blogbutton1": "LIRE LA SUITE",
+        "gulabheading1": "GULAB JAMUN",
+        "gulabheading2": "Réaliser des desserts traditionnels indiens : Une recette pour le Gulab Jamun",
+        "gulabpara1": "La cuisine indienne est réputée pour sa large gamme de desserts riches et variés, chacun offrant des saveurs et des textures uniques. Parmi ces délices, le Gulab Jamun occupe une place particulière. Ce dessert succulent est un incontournable des festivals, mariages et célébrations indiennes. Si vous avez la dent sucrée et un penchant pour la cuisine indienne, apprendre à préparer des Gulab Jamun est un must. Dans cet article de blog, nous vous guiderons à travers le processus de création de ces boulettes moelleuses imbibées de sirop, dans le confort de votre propre cuisine.",
+        "gulabpara2": "Le Gulab Jamun est essentiellement une boule de pâte frite, traditionnellement préparée à partir de solides de lait appelés khoya ou mawa, puis trempée dans un sirop de sucre parfumé à l'eau de rose et à la cardamome. Le nom Gulab Jamun lui-même est dérivé de mots persans et arabes, où Gulab signifie eau de rose et Jamun fait référence à un fruit de taille et de forme similaires. Cette friandise alléchante a une histoire riche et un goût unique qui laisse une impression durable à quiconque la savoure.",
+        "gulabpara3": "",
+        "gulabpara4": "",
+        "garlicNaanheading": "Préparer la pâte pour le meilleur naan à l'ail",
+        "garlicNaanpara2": "Il y a quelque chose de vraiment irrésistible à croquer dans un morceau de naan à l'ail moelleux et légèrement carbonisé, n'est-ce pas ? Ce délicieux pain plat indien est devenu un incontournable dans les cuisines du monde entier, et la clé de sa perfection réside dans la préparation de la pâte. Que vous soyez un cuisinier amateur ou un chef chevronné, maîtriser l'art de préparer la pâte à naan peut élever vos compétences culinaires vers de nouveaux sommets.",
+        "tandooriChickenheading": "Poulet entier tandoori",
+        "tandooriChickenpara": "Le poulet tandoori est un plat indien renommé, connu pour sa teinte rouge vif, son essence fumée et son profil de saveur robuste. Les origines de ce plat remontent à la région nord de l'Inde, en particulier au Pendjab. Le nom tandoori est dérivé de la méthode de cuisson elle-même, qui consiste à utiliser un tandoor, un four à argile centenaire.",
+        "masalaTeaheading": "Thé Masala",
+        "masalaTeapara": "Le poulet tandoori est un plat indien renommé, connu pour sa teinte rouge vif, son essence fumée et son profil de saveur robuste. Les origines de ce plat remontent à la région nord de l'Inde, en particulier au Pendjab. Le nom tandoori est dérivé de la méthode de cuisson elle-même, qui consiste à utiliser un tandoor, un four à argile centenaire. (texte dupliqué)",
+        "beefCurryheading": "Curry de boeuf",
+        "beefCurrypara": "Le curry de bœuf, avec son arôme alléchant et ses riches saveurs, est un délice culinaire qui satisfait aussi bien les amateurs de viande que les amateurs d'épices. Alors qu'une recette classique de curry de bœuf est déjà délicieuse en soi, il existe d'innombrables variantes qui peuvent porter ce plat à de nouveaux sommets de saveur et de plaisir. Ici, nous explorons des variations créatives et des améliorations pour rendre votre curry de bœuf encore plus délicieux.",
+        "cucumberSaladheading": "Salade de concombre",
+        "cucumberSaladpara": "Découvrez comment créer la salade de concombre parfaite avec des concombres croquants, des oignons rouges, de l'aneth frais et une vinaigrette acidulée. Apprenez des conseils de service et les bienfaits nutritionnels de ce plat hydratant et hypocalorique !",
+        "gulabpara4": "",
+        "gulabpara4": ""
     }
 }
