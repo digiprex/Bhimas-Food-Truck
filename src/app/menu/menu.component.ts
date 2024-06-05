@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
     selector: 'app-menu',
@@ -910,13 +911,15 @@ export class MenuComponent {
         ]
     };
 
-    constructor(private router: Router) {
+    constructor(private router: Router, private meta: Meta, private title: Title) {
         this.menu = this.menuMasterData['menu'][0];
         this.categories = this.menuMasterData['menu'][0].superCategory[0].category;
         this.host = this.host[this.host.length - 1];
     }
 
     ngOnInit(): void {
+        this.meta.updateTag({ name: 'title', content: 'Veg & Non-Vegetarian Restaurant In Montreal | Mont Everest Masala' });
+        this.meta.updateTag({ name: 'description', content: 'Indulge in a culinary journey at Mont Everest Masala with a diverse menu featuring soups, salads, appetisers, seafood delights, biryanis, and vegetarian dishes!' });
         this.getDiv(0, this.categories[0]);
     }
 

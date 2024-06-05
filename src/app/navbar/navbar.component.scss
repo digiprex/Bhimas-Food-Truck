@@ -37,6 +37,8 @@
                 justify-content: end;
                 align-items: center;
                 float: none;
+                margin-top: 10px;
+                margin-right: 50px;
 
                 li {
                     a {
@@ -79,6 +81,11 @@
 @media only screen and (max-device-width: 480px) {
     .navbar {
         .container {
+
+            .navbar-toggle {
+                margin-top: 20px;
+                margin-right: 50px;
+            }
 
             .navbar-collapse {
                 background: rgb(0 0 0 / 71%);

@@ -1,1 +1,552 @@
-<p>posts works!</p>
+<main *ngIf="host =='gulabJamun'">
+    <app-navbar></app-navbar>
+    <meta name="title" content="How to Make Authentic Gulab Jamun at Home | Traditional Indian Dessert Recipe">
+    <meta name="description"
+        content="Discover the step-by-step recipe for making authentic Gulab Jamun, a classic Indian dessert. Learn about the ingredients, preparation, and variations like Gulab Jamun cake and ice cream. Perfect for festivals and celebrations.">
+
+    <section class="home-banner"
+        style="background-image:linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 60%)), url({{hero.gulabJamun}});">
+        <h1>{{ 'blogs.gulabheading1' | translate }}</h1>
+    </section>
+
+    <div class="container">
+        <h1>{{ 'blogs.gulabheading2' | translate }}</h1>
+        <img
+            src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/b9eeccbe-d22d-49ae-bccb-50fde7a069e9_Gulab%20jamum.png" />
+        <div>
+            <p>{{ 'blogs.gulabpara1' | translate }}</p>
+            <p>{{ 'blogs.gulabpara2' | translate }}</p>
+            <p>{{ 'blogs.gulabpara3' | translate }}</p>
+
+            <p><span>{{ 'blogs.blogContent1' | translate }}:</span> <br>{{ 'blogs.blogContent2' | translate }}
+            </p>
+
+            <p>• {{ 'blogs.blogContent3' | translate }}</p>
+            <p>• {{ 'blogs.blogContent4' | translate }}</p>
+            <p>• {{ 'blogs.blogContent5' | translate }}</p>
+            <p>• {{ 'blogs.blogContent6' | translate }}</p>
+            <p>• {{ 'blogs.blogContent7' | translate }} </p>
+            <p>• {{ 'blogs.blogContent8' | translate }} </p>
+            <p>• {{ 'blogs.blogContent9' | translate }} </p>
+            <p>• {{ 'blogs.blogContent10' | translate }} </p>
+            <p>• {{ 'blogs.blogContent11' | translate }}</p>
+
+            <p> {{ 'blogs.blogContent12' | translate }}</p>
+
+            <span>{{ 'blogs.blogContent13' | translate }}</span>
+
+            <span>{{ 'blogs.blogContent14' | translate }}:</span>
+
+            <p>• {{ 'blogs.blogContent15' | translate }} </p>
+            <p>• {{ 'blogs.blogContent16' | translate }}</p>
+            <p>• {{ 'blogs.blogContent17' | translate }}</p>
+
+
+            <span> {{ 'blogs.blogContent18' | translate }}: </span>
+            <p>• {{ 'blogs.blogContent19' | translate }}</p>
+
+            <p><span> {{ 'blogs.blogContent20' | translate }}:</span></p>
+
+            <p>• {{ 'blogs.blogContent21' | translate }}</p>
+            <p>• {{ 'blogs.blogContent22' | translate }}</p>
+
+
+            <span> {{ 'blogs.blogContent23' | translate }} </span>
+            <p>• {{ 'blogs.blogContent24' | translate }}</p>
+
+
+            <span>{{ 'blogs.blogContent25' | translate }}: </span>
+            <p>• {{ 'blogs.blogContent26' | translate }}</p>
+
+            <span>{{ 'blogs.blogContent27' | translate }}:</span>
+
+            <p>• {{ 'blogs.blogContent28' | translate }}</p>
+
+            <span> {{ 'blogs.blogContent29' | translate }}</span>
+
+            <p> {{ 'blogs.blogContent30' | translate }}
+            </p>
+
+            <p><span> {{ 'blogs.blogContent31' | translate }}</span><br> {{ 'blogs.blogContent32' | translate }}</p>
+            <p>{{ 'blogs.blogContent33' | translate }}</p>
+
+            <p>{{ 'blogs.blogContent34' | translate }}</p>
+
+            <p><span>{{ 'blogs.blogContent35' | translate }}</span> <br> {{ 'blogs.blogContent36' | translate }}</p>
+
+            <p><span>{{ 'blogs.blogContent37' | translate }}
+                </span><br>{{ 'blogs.blogContent38' | translate }}</p>
+
+            <p>• {{ 'blogs.blogContent39' | translate }}</p>
+            <p>• {{ 'blogs.blogContent40' | translate }} </p>
+            <p>• {{ 'blogs.blogContent41' | translate }}</p>
+            <p>• {{ 'blogs.blogContent42' | translate }}
+            </p>
+
+            <p>{{ 'blogs.blogContent43' | translate }}</p>
+
+            <p>{{ 'blogs.blogContent45' | translate }}</p>
+        </div>
+    </div>
+
+    <app-footer></app-footer>
+</main>
+
+<main *ngIf="host =='garlicNaan'">
+    <app-navbar></app-navbar>
+    <meta name="title" content="Best Garlic Naan: Recipes, Variations, and Storage Tips">
+    <meta name="description"
+        content="Discover mouthwatering garlic naan recipes, creative variations, and expert storage tips to enjoy the best garlic naan at home or find the top spots in Montreal.">
+
+    <section class="home-banner"
+        style="background-image:linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 60%)), url({{hero.garlicNaan}});">
+        <h1>{{ 'blogs.naanheading' | translate }}</h1>
+    </section>
+
+    <div class="container" *ngFor="let item of ('BLOG' | translate); let i = index">
+        <h1>{{item.heading | translate}}</h1>
+        <img src="{{item.img}}" />
+        <div>
+
+            <p *ngFor="let g of item.para; let i = index">
+                <span *ngFor="let k of item.parahead; let j = index">
+                    <span *ngIf="i === j">{{ k | translate }}</span>
+                </span>
+                <br>
+                {{ g | translate }}
+            </p>
+
+        </div>
+    </div>
+
+    <app-footer></app-footer>
+</main>
+
+<main *ngIf="host =='tandooriChicken'">
+    <app-navbar></app-navbar>
+    <meta name="title" content="Authentic Whole Tandoori Chicken Recipe & Variations | Cooking Guide">
+    <meta name="description"
+        content="Discover authentic whole tandoori chicken at home with our step-by-step recipe guide. Explore delicious variations, nutrition facts, and cooking tips. Embark on a flavorful journey with this iconic Indian dish">
+
+    <section class="home-banner"
+        style="background-image:linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 60%)), url({{hero.tandooriChicken}});">
+        <h1>{{ 'blogs.chickenheading' | translate }}</h1>
+    </section>
+
+    <div class="container" *ngFor="let item of ('BLOG2' | translate); let i = index">
+        <h1>{{item.heading | translate}}</h1>
+        <img src="{{item.img}}" />
+
+        <div>
+
+            <p *ngFor="let g of item.para; let i = index">
+                <span *ngFor="let k of item.parahead; let j = index">
+                    <span *ngIf="i === j">{{ k | translate }}</span>
+                </span>
+                <br>
+                {{ g | translate }}
+            </p>
+
+        </div>
+    </div>
+
+    <app-footer></app-footer>
+</main>
+
+<main *ngIf="host =='masalaTea'">
+    <app-navbar></app-navbar>
+    <meta name="title" content="Mastering the Art of Masala Tea: A Flavorful Journey">
+    <meta name="description"
+        content="Explore the rich flavors and aromatic spices of masala tea with our comprehensive guide. Learn how to make masala tea at home, discover its benefits, and find the best masala tea recipes. Join us on a flavorful journey through the world of chai masala tea!.">
+
+    <section class="home-banner"
+        style="background-image:linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 60%)), url({{hero.masalaTea}});">
+        <h1>{{ 'blogs.teaheading' | translate }}</h1>
+    </section>
+
+    <div class="container" *ngFor="let item of ('BLOG3' | translate); let i = index">
+        <h1>{{item.heading | translate}}</h1>
+        <img src="{{item.img}}" />
+
+        <div>
+
+            <p *ngFor="let g of item.para; let i = index">
+                <span *ngFor="let k of item.parahead; let j = index">
+                    <span *ngIf="i === j">{{ k | translate }}</span>
+                </span>
+                <br>
+                {{ g | translate }}
+            </p>
+
+        </div>
+    </div>
+
+    <!-- <div class="container">
+        <h1>Exploring Masala Tea: Recipes, Benefits, and How to Make It</h1>
+        <img
+            src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/28b55e04-f3c7-4138-848b-bcc3d23d5ba5_masala%20tea.jpg" />
+        <div>
+
+            <p><span>Introduction to Masala Tea</span> <br>Masala tea, also known as chai masala tea, is a beloved
+                beverage originating from India. Its aromatic blend of spices, robust tea leaves, and comforting warmth
+                has made it a favorite choice for tea enthusiasts worldwide. In this comprehensive guide, we'll delve
+                into the rich flavours, explore the health benefits, and learn how to make this delightful concoction at
+                home.</p>
+
+            <p><span>The Tastes of Masala Tea</span> <br>At the heart of masala tea lies black tea, typically Assam or
+                Darjeeling tea, prized for its bold flavours and robustness. As you take your first sip, you'll
+                experience the earthy undertones of the tea, balanced by a subtle bitterness that forms the foundation
+                of this cherished beverage</p>
+
+            <p>The magic of masala tea lies in its aromatic spice blend. Common spices used include cardamom, cinnamon,
+                ginger, cloves, and black pepper. Each spice contributes its unique essence, creating a symphony of
+                flavours that dance on your palate. Whether it's the warmth of cinnamon, the citrusy notes of cardamom,
+                or the subtle kick of ginger, masala tea offers a delightful sensory experience with every sip.
+            </p>
+
+            <p><span>Health Benefits of Masala Tea</span> <br> Beyond its rich flavours, masala tea offers a range of
+                health benefits. The spices used in masala tea are packed with antioxidants and anti-inflammatory
+                properties, making it a soothing and nourishing beverage for the body and mind.</p>
+
+            <p>Cardamom, for example, is known for its digestive properties and can help alleviate digestive issues
+                such as bloating and indigestion. Ginger, another key ingredient in masala tea, has anti-nausea
+                properties and can aid in digestion and alleviate nausea.</p>
+
+            <p>Cinnamon, cloves, and black pepper are also rich in antioxidants, which help fight inflammation and
+                boost immunity. Additionally, the caffeine content in black tea provides a gentle energy boost, making
+                masala tea the perfect beverage to kickstart your day or provide a mid-afternoon pick-me-up.
+            </p>
+
+            <p><span>Masala Tea Recipe</span> <br>While masala tea is readily available at cafes and tea shops, making
+                it at home allows you to customize the blend to suit your taste preferences. Here's a simple recipe to
+                help you get started:</p>
+
+            <p><span>Masala Tea Ingredients:</span></p>
+
+            <p>• cups water</p>
+            <p>• 1cup milk</p>
+            <p>• teaspoons black tea leaves</p>
+            <p>• green cardamom pods, lightly crushed</p>
+            <p>• cinnamon stick</p>
+            <p>• inch piece of fresh ginger, grated</p>
+            <p>• cloves</p>
+            <p>• teaspoons sugar or honey (optional)</p>
+
+            <p><span>Instructions:</span></p>
+
+            <p>• Boil Water: Begin by bringing 2 cups of water to a boil in a saucepan.</p>
+
+            <p>• Add Ingredients: Once the water reaches a boil, add 2-3 teaspoons of black tea leaves, crushed green
+                cardamom pods, a cinnamon stick, grated fresh ginger, and cloves to the saucepan.</p>
+
+            <p>• Simmer: Reduce the heat and let the tea simmer for 3-4 minutes. This allows the flavours of the spices
+                to infuse into the water.</p>
+
+            <p>• Add Milk and Sweetener: After simmering, add 1 cup of milk to the saucepan. You can also add sugar or
+                honey according to your taste preference (optional). Simmer for an additional 2-3 minutes to blend the
+                flavors.</p>
+
+            <p>• Strain and Serve: Once the tea is ready, strain it into cups to remove the tea leaves and whole spices.
+                Serve the masala tea hot and enjoy</p>
+
+            <p>Feel free to adjust the spice levels and sweetness according to your preference. Experiment with
+                different spice combinations and proportions to create your perfect cup of masala tea.</p>
+
+
+            <p><span>Finding Masala Tea Near You</span><br>While making masala tea at home is a rewarding experience,
+                sometimes you crave the authentic flavours of a well-brewed cup from your favourite local tea shop or
+                cafe. Explore nearby tea houses and cafes to discover the best masala tea near you. Whether you prefer a
+                traditional preparation or a unique twist on this classic beverage, there's a delightful option waiting
+                to be savoured.</p>
+
+            <p>Masala tea is more than just a beverage—it's a sensory experience that delights the palate and nourishes
+                the body. With its rich flavours, aromatic spices, and health benefits, masala tea offers a delightful
+                respite from the ordinary. Whether you enjoy it hot or cold, at home or at your favourite cafe, embrace
+                the magic of masala tea and savour the joy it brings with every sip. Cheers to the aromatic wonders of
+                masala tea!
+            </p>
+        </div>
+    </div> -->
+
+    <app-footer></app-footer>
+</main>
+
+<main *ngIf="host =='beefCurry'">
+    <app-navbar></app-navbar>
+    <meta name="title" content="Elevate Your Beef Curry Experience: Delicious Variations and Nutritional Benefits">
+    <meta name="description"
+        content="Explore creative variations to enhance your beef curry, from marinating the meat to homemade curry pastes, and discover the nutritional benefits of this flavorful dish. Savour the rich flavours while reaping the health rewards!">
+
+    <section class="home-banner"
+        style="background-image:linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 60%)), url({{hero.beefCurry}});">
+        <h1>Beef Curry</h1>
+    </section>
+
+    <div class="container">
+        <h1>Beef Curry</h1>
+        <img
+            src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/42e862df-6710-4502-ba2b-6ed1eefe6506_Beef%20Curry%20.png" />
+        <div>
+
+            <p><span>Variations to Elevate Your Beef Curry Experience</span> <br>Beef curry, with its tantalizing aroma
+                and rich flavors, is a culinary delight that satisfies both meat enthusiasts and spice lovers alike.
+                While a classic beef curry recipe is already delicious on its own, there are countless variations that
+                can take this dish to new heights of flavor and enjoyment. Here, we explore some creative twists and
+                enhancements to make your beef curry even more delectable</p>
+
+            <p><span>Marinate the Beef for Extra Flavor</span><br> Before cooking your beef curry, consider marinating
+                the beef to infuse it with additional depth of flavor. Create a marinade using yogurt, ginger, garlic,
+                and a blend of spices such as cumin, coriander, and turmeric. Allowing the beef to soak in the marinade
+                for at least an hour, or even overnight in the refrigerator, will result in tender, flavorful meat that
+                enhances the overall taste of your curry.
+            </p>
+
+            <p><span>Homemade Curry Paste for Authenticity</span><br>Instead of relying on store-bought curry powder,
+                elevate your beef curry by making your own homemade curry paste. Toast and grind whole spices like cumin
+                seeds, coriander seeds, cardamom pods, and black peppercorns to release their aromatic oils and flavors.
+                Blend these spices with garlic, ginger, onions, and other aromatics to create a fragrant and authentic
+                curry paste that will elevate your dish to new heights.
+            </p>
+
+            <p><span>Creamy Coconut Milk for Indulgent Texture </span><br>For a luxurious and creamy texture, consider
+                adding coconut milk to your beef curry. The
+                richness of coconut milk complements the spices in the curry and adds a subtle sweetness to the dish.
+                Stir in the coconut milk towards the end of the cooking process to preserve its creamy texture and
+                delicate flavor, resulting in a velvety smooth curry that will tantalize your taste buds.
+            </p>
+
+            <p><span>Experiment with Alternative Ingredients
+                </span><br>Don't be afraid to experiment with alternative ingredients to add a unique twist to your beef
+                curry. Consider incorporating ingredients such as fruits, nuts, or even chocolate to create unexpected
+                flavor combinations. For example, adding diced pineapple or mango can add a touch of sweetness and
+                acidity, while cashews or almonds can provide a crunchy texture and nutty flavor. Get creative and let
+                your imagination run wild!
+            </p>
+
+            <p><span>Pairing Your Beef Curry with Complementary Foods
+                </span><br> To enhance your beef curry experience, consider pairing it with complementary foods that
+                accentuate its flavors and textures. Serve your beef curry with traditional accompaniments such as
+                fluffy basmati rice, naan bread, or roti for a satisfying and hearty meal. Alternatively, experiment
+                with fusion dishes by serving your beef curry over pasta, quinoa, or even mashed potatoes for a unique
+                and delicious twist.
+                <br> In conclusion, beef curry is a versatile and flavorful dish that lends itself to endless variations
+                and enhancements. Whether you're marinating the beef for extra flavor, making your own curry paste for
+                authenticity, adding creamy coconut milk for indulgent texture, experimenting with alternative
+                ingredients, or pairing your beef curry with complementary foods, there are countless ways to elevate
+                your curry experience. So, get creative in the kitchen and explore the delicious world of beef curry!
+            </p>
+
+            <p><span>Other Ways to Enjoy Your Beef Curry
+                </span><br>Beef curry is a beloved dish enjoyed by many around the world for its rich flavors and
+                comforting warmth. While enjoying beef curry in its traditional form is delightful, there are numerous
+                alternative ways to savor this culinary delight. Here are some creative ways to enjoy your beef curry
+                and take your taste buds on a tantalizing journey:
+            </p>
+
+            <p><span>Curry Burritos:</span> Transform your beef curry into a delicious filling for burritos. Wrap warm
+                tortillas around a generous serving of beef curry, and add toppings like shredded lettuce, diced
+                tomatoes, and a dollop of sour cream for a fusion of flavors that will satisfy your cravings.
+            </p>
+
+            <p><span>Curry Pizza:</span> <br> Step outside the box and try a beef curry pizza. Spread a layer of beef
+                curry sauce on a pre-made pizza crust, add your favorite toppings such as onions, bell peppers, and
+                mozzarella cheese, and bake until golden brown. The result is a fusion of Indian and Italian flavors
+                that will tantalize your taste buds. <br> In conclusion, while beef curry is delicious on its own, there
+                are countless creative ways to enjoy this versatile dish. Whether you're wrapping it in a burrito,
+                stuffing it in a pepper, or topping a pizza with it, these alternative preparations will take your beef
+                curry experience to a whole new level. So, embrace your culinary creativity and enjoy the incredible
+                flavors of beef curry in exciting and unexpected ways!
+            </p>
+
+            <p><span>Nutritional Benefits of Eating Beef Curry
+                </span> <br>Beef curry is not only delicious but also offers a range of nutritional benefits that can
+                contribute to a healthy diet. Packed with essential nutrients and spices, beef curry can be a nutritious
+                addition to your meal rotation when enjoyed in moderation. Here are some of the nutritional benefits of
+                eating beef curry:
+            </p>
+
+            <p><span>Protein: </span> <br> Beef is a rich source of high-quality protein, which is essential for
+                building and repairing tissues, maintaining muscle mass, and supporting overall growth and development.
+                Protein also helps keep you feeling full and satisfied, making it an important component of a balanced
+                diet.
+            </p>
+
+            <p><span> Vitamins and Minerals: </span> <br> Beef curry contains a variety of vitamins and minerals that
+                are vital for good health. Beef is particularly rich in B vitamins such as niacin, vitamin B12, and
+                vitamin B6, which play important roles in energy metabolism, brain function, and red blood cell
+                production. Additionally, beef provides important minerals like iron, zinc, and selenium, which are
+                involved in various physiological processes such as oxygen transport, immune function, and antioxidant
+                defense</p>
+
+            <p><span>Healthy Fats: </span> <br> While beef can be higher in saturated fat, it also contains
+                monounsaturated fats, which are considered heart-healthy fats. When consumed in moderation, these fats
+                can help lower bad cholesterol levels and reduce the risk of heart disease. Lean cuts of beef, such as
+                sirloin or tenderloin, are lower in saturated fat and can be part of a healthy diet when paired with
+                plenty of vegetables and whole grains.
+            </p>
+
+            <p><span>Spices:</span> <br> Many traditional beef curry recipes include a variety of spices such as
+                turmeric, cumin, coriander, and cinnamon. These spices not only add flavor and aroma to the dish but
+                also offer numerous health benefits. For example, turmeric contains curcumin, a powerful antioxidant and
+                anti-inflammatory compound that has been shown to reduce inflammation, improve digestion, and support
+                overall health.</p>
+
+            <p><span>Vegetables :</span> <br>Beef curry often includes vegetables such as onions, tomatoes, and peppers,
+                which add important vitamins, minerals, and dietary fiber to the dish. Vegetables are low in calories
+                and high in nutrients, making them an excellent addition to any meal. Including plenty of vegetables in
+                your beef curry can help you meet your daily recommended intake of these important nutrients.</p>
+
+            <p>In conclusion, beef curry can be a nutritious and delicious part of a balanced diet when enjoyed in
+                moderation. With its high protein content, an abundance of vitamins and minerals, healthy fats, and the
+                inclusion of beneficial spices and vegetables, beef curry offers a range of health benefits. As always,
+                it's important to choose lean cuts of beef and balance your meal with plenty of vegetables and whole
+                grains for optimal nutrition. So, go ahead and savor the flavors of beef curry while reaping the
+                nutritional rewards!
+            </p>
+        </div>
+    </div>
+
+    <app-footer></app-footer>
+</main>
+
+<main *ngIf="host =='cucumberSalad'">
+    <app-navbar></app-navbar>
+    <meta name="title" content="Fresh and Flavorful Cucumber Salad: A Refreshing Summer Side Dish">
+    <meta name="description"
+        content="Discover how to create the perfect cucumber salad with crisp cucumbers, red onions, fresh dill, and a tangy dressing. Learn serving tips and the nutritional benefits of this hydrating and low-calorie dish!">
+
+    <section class="home-banner"
+        style="background-image:linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 60%)), url({{hero.cucumberSalad}});">
+        <h1>Cucumber Salad</h1>
+    </section>
+
+    <div class="container">
+        <h1>Cucumber Salad</h1>
+        <img
+            src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/81e0f191-23f2-4a03-a606-1f1db30cbeed_Cucumber%20Salad%20.jpg" />
+        <div>
+
+            <p>Cucumber salad is a perfect addition to any meal, especially during the hot summer months. Its crisp,
+                cool, and refreshing nature makes it a popular choice for picnics, barbecues, or simply as a healthy
+                side dish. To create the perfect cucumber salad, you'll need to gather the freshest and most flavorful
+                ingredients. Here's a guide to what you'll need and why each component is essential for a delicious
+                dish.
+            </p>
+
+            <p><span>Cucumbers: </span> Start with fresh, crunchy cucumbers. Opt for English cucumbers or Persian
+                cucumbers for a
+                milder flavour and fewer seeds.</p>
+
+            <p><span>Fresh Dill: </span>Dill is the quintessential herb for cucumber salad, providing a burst of
+                fresh, aromatic flavor. Chopped dill leaves are a must for this recipe.
+            </p>
+
+            <p><span>Vinegar : </span>White wine vinegar or rice vinegar works well to enhance the salad's
+                tanginess. A bit of acidity brightens the flavors.
+            </p>
+
+            <p><span>Olive Oil :</span> A drizzle of high-quality extra-virgin olive oil will provide a smooth,
+                mellow contrast to the vinegar.</p>
+
+            <p><span>Salt and Pepper :</span><br> Season with salt and pepper to taste, enhancing the overall flavor
+                profile of the salad.</p>
+
+            <p><span>Sugar (Optional): </span>A pinch of sugar can balance the acidity and create a harmonious flavor
+                balance.
+            </p>
+
+            <p>As you gather these ingredients, make sure they are at their freshest to maximize the salad's appeal.
+                Once you have everything ready, you're on your way to crafting a simple yet delightful cucumber salad
+                that's sure to please your taste buds and keep you cool on those scorching summer days.</p>
+
+            <p><span>Dicing the Cucumber :</span> <br>Cucumbers are the unsung heroes of the vegetable world. They are
+                crisp, refreshing, and versatile, making them a perfect addition to salads, sandwiches, and even as a
+                crunchy snack. One of the most popular ways to prepare cucumbers is by dicing them. Dicing cucumbers not
+                only adds a burst of fresh flavor to your dishes but also enhances their visual appeal.
+            </p>
+            <p>To dice a cucumber, start by washing it thoroughly and removing the ends. Then, you can either peel the
+                cucumber or leave the skin on, depending on your preference. Next, slice the cucumber into rounds and
+                stack them neatly. Finally, make even vertical and horizontal cuts, creating perfectly uniform cucumber
+                cubes.</p>
+            <p>Diced cucumbers not only add a delightful crunch to your salads but also absorb the flavors of dressings
+                and seasonings. So, whether you're making a Greek salad, a refreshing cucumber salsa, or just want a
+                healthy snack, dicing the cucumber is the way to go. Give it a try, and you'll discover a whole new
+                world of culinary possibilities with this humble vegetable.
+            </p>
+
+            <p><span>Serving Tips for the Perfect Summer Side
+                </span></p>
+            <p>Summer is all about outdoor gatherings, barbecues, and enjoying delicious meals in the warm sunshine.
+                When it comes to creating the perfect summer side dish, a few simple serving tips can elevate your
+                culinary creation and impress your guests. Whether you're grilling, picnicking, or hosting a backyard
+                party, here are some serving tips to ensure your summer sides shine.
+            </p>
+
+            <p><span>Serve Chilled:</span> Keep your side dishes cool and refreshing by serving them chilled. Whether
+                it's a pasta salad, coleslaw, or fruit salad, a cold side is the ideal choice for a hot summer day.
+            </p>
+
+            <p><span>Embrace Color: </span>Summer is synonymous with vibrant, fresh produce. Create visually appealing
+                sides by using a variety of colorful fruits and vegetables. The more colorful your dish, the more
+                enticing it looks. </p>
+
+            <p><span>Garnish with Fresh Herbs:</span> Add a burst of flavor and aroma by garnishing your side dishes
+                with fresh herbs like basil, mint, or cilantro. Herbs not only enhance the taste but also provide a pop
+                of color.
+            </p>
+
+            <p><span>Use Bright, Light Dressings:</span> Opt for light and zesty dressings like vinaigrettes or
+                citrus-based options to keep your summer sides feeling refreshing rather than heavy.
+            </p>
+
+            <p><span>Present Creatively:</span> Elevate your presentation by using decorative platters or bowls, and
+                consider using edible flowers or decorative skewers to make your dishes stand out.
+            </p>
+
+            <p><span>Offer Variety:</span> Provide a selection of sides to cater to different tastes and dietary
+                preferences. Include options like a quinoa salad, a fruit platter, and a grilled vegetable medley.
+            </p>
+
+            <p><span>Keep It Bite-Sized:</span> Serve your summer sides in bite-sized portions, making it easier for
+                guests to enjoy a little of everything without feeling overwhelmed.
+                By following these serving tips, you'll ensure that your summer sides not only taste fantastic but also
+                add to the overall enjoyment of your summer gatherings. These small details can make a big difference,
+                leaving a lasting impression on your friends and family.
+            </p>
+
+            <p><span>Nutrition Facts: Benefits of Cucumber Salad
+                </span>Cucumber salad is a refreshing and nutritious dish that offers a plethora of health benefits.
+                This simple yet delicious dish consists of sliced cucumbers, often combined with other vegetables and
+                dressed with various seasonings. Here are some of the advantages of adding cucumber salad to your diet.
+            </p>
+
+            <p><span>Hydration :</span> Cucumbers are primarily composed of water, making cucumber salad an excellent
+                choice to stay hydrated, especially on hot days.</p>
+
+
+            <p><span>Low in Calories :</span> Cucumber salad is a low-calorie option, making it a great choice for
+                those looking to manage their weight.</p>
+
+
+            <p><span>Antioxidants :</span> Cucumbers contain antioxidants like flavonoids and tannins, which can help
+                protect your cells from damage.</p>
+
+
+            <p><span>Digestive Health :</span> The fiber in cucumbers supports digestive health and can help prevent
+                constipation.</p>
+
+
+            <p><span>Skin Benefits :</span> Cucumbers are known for their skincare benefits. The silica in cucumbers
+                promotes healthy skin and hair.</p>
+
+
+            <p><span>Versatile :</span> Cucumber salad can be customized with various ingredients, from tomatoes to
+                onions and herbs, allowing you to create a dish tailored to your taste.
+                Incorporating cucumber salad into your meals can be a simple and tasty way to boost your health and add
+                a burst of freshness to your diet.
+            </p>
+        </div>
+    </div>
+
+    <app-footer></app-footer>
+</main>

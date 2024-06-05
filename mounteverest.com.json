@@ -42,15 +42,15 @@
                 "text": "About",
                 "link": "/about-us",
                 "type": "internal"
+            },   
+            {
+                "text": "Blogs",
+                "link": "/blogs",
+                "type": "internal"
             },
             {
                 "text": "Contact Us",
                 "link": "/contact-us",
-                "type": "internal"
-            },
-            {
-                "text": "Blogs",
-                "link": "/blog",
                 "type": "internal"
             },
             {
@@ -70,7 +70,13 @@
                 "text": "",
                 "link": ""
             }
-        ]
+        ],
+        "gulabJamun":"https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/b9eeccbe-d22d-49ae-bccb-50fde7a069e9_Gulab%20jamum.png",
+        "garlicNaan":"https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/50ca5460-97bb-43e8-ae27-6fd3d7a5f718_Garlic%20Naan%20.png",
+        "tandooriChicken":"https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/83a4b583-4469-40a9-a208-1aec0d94eb0d_Whole%20Tandoori%20Chicken.jpg",
+        "masalaTea":"https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/28b55e04-f3c7-4138-848b-bcc3d23d5ba5_masala%20tea.jpg",
+        "beefCurry":"https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/42e862df-6710-4502-ba2b-6ed1eefe6506_Beef%20Curry%20.png",
+        "cucumberSalad": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/81e0f191-23f2-4a03-a606-1f1db30cbeed_Cucumber%20Salad%20.jpg"
     },
     "story": {
         "heading": "New Indian restaurant in town serving delicious mouth watering unique flavours of India Vegan, vegetarian and non-vegetarian options available. Customizable according to customer requests or allergies. Take-out and dine-in.",

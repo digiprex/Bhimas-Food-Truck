@@ -1,9 +1,10 @@
-import { Component ,Renderer2} from '@angular/core';
+import { Component, Renderer2 } from '@angular/core';
 import { NgImageSliderModule } from 'ng-image-slider';
 import { AppService } from '../app.service';
 import { Router } from '@angular/router';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { DomSanitizer } from '@angular/platform-browser';
+import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-home',
@@ -14,19 +15,20 @@ export class HomeComponent {
   public website: any;
   public sliderImage: any;
   public templatetype: any;
-  public hero:any;
+  public hero: any;
 
   ngOnInit(): void {
-  }
+    this.meta.updateTag({ name: 'title', content: 'Best South Indian Food In Montreal | Mont Everest Masala' });
+    this.meta.updateTag({ name: 'description', content: 'Savor the finest South Indian cuisine at Mont Everest Masala in Montreal. Discover a delectable blend of veg and non-veg specialties. Taste excellence!' });
+    this.meta.updateTag({ name: 'google-site-verification', content: 'nmoJPTBnvKusf3rNSRJlpKwJwj55XPHWmaK1FkxyoPI' });
+   }
 
   // constructor() {
   // }
 
-  constructor(private appService: AppService, private sanitizer: DomSanitizer, private router: Router, private formBuilder: FormBuilder, private renderer: Renderer2) {
+  constructor(private appService: AppService, private sanitizer: DomSanitizer, private router: Router, private formBuilder: FormBuilder, private renderer: Renderer2, private meta: Meta, private title: Title) {
     this.templatetype = this.appService.getContentData('templatetype');
     this.hero = this.appService.getContentData('hero');
-  
-    
   }
 
   homesSliderImage = [

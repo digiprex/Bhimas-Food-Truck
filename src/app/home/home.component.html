@@ -1,9 +1,20 @@
-<main>
-    <app-navbar></app-navbar>
+<head>
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-KPZK7396');</script>
 
-    <meta name="title" content="Best South Indian Food In Montreal | Mont Everest Masala">
-    <meta name="description"
-        content="Savor the finest South Indian cuisine at Mont Everest Masala in Montreal. Discover a delectable blend of veg and non-veg specialties. Taste excellence!">
+</head>
+
+<main>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KPZK7396" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+
+    <app-navbar></app-navbar>
 
     <section class="home-banner">
         <ng-image-slider [images]="homesSliderImage" [infinite]="true" [autoSlide]="1" [imagePopup]="false"
@@ -114,7 +125,7 @@
             <p>1 913-575-8381</p>
         </a>
 
-        <a href="mailTo:test@gmail.com">
+        <a href="mailTo:monteverestmasala@gmail.com">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path
                     d="M1 13V19C1 19.5304 1.21071 20.0391 1.58579 20.4142C1.96086 20.7893 2.46957 21 3 21H21C21.5304 21 22.0391 20.7893 22.4142 20.4142C22.7893 20.0391 23 19.5304 23 19V13"
@@ -124,7 +135,7 @@
                     stroke="#A6674A" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square"></path>
             </svg>
             <h3>{{ 'HOME.ticketinfo' | translate }}</h3>
-            <p>test@gmail.com</p>
+            <p>monteverestmasala@gmail.com</p>
         </a>
     </section>
 

@@ -1,1 +1,61 @@
-<p>blogs works!</p>
+<main>
+  <app-navbar></app-navbar>
+  <section class="home-banner">
+    <h1>Our Blogs</h1>
+  </section>
+
+  <div class="blog">
+    <div class="inner-blog">
+      <div>
+        <img
+          src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/b9eeccbe-d22d-49ae-bccb-50fde7a069e9_Gulab%20jamum.png" />
+        <h3>{{ 'blogs.blogheading1' | translate }}</h3>
+        <p>{{ 'blogs.blogpara1' | translate }}</p>
+        <button routerLink="/post/gulabJamun"> {{ 'blogs.blogbutton1' | translate }} &#8594; </button>
+      </div>
+
+      <div>
+        <img
+          src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/50ca5460-97bb-43e8-ae27-6fd3d7a5f718_Garlic%20Naan%20.png" />
+        <h3>{{ 'blogs.garlicNaanheading' | translate }}</h3>
+        <p>{{ 'blogs.garlicNaanpara2' | translate }}</p>
+        <button routerLink="/post/garlicNaan"> {{ 'blogs.blogbutton1' | translate }} &#8594; </button>
+      </div>
+
+      <div>
+        <img
+          src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/83a4b583-4469-40a9-a208-1aec0d94eb0d_Whole%20Tandoori%20Chicken.jpg" />
+        <h3>{{ 'blogs.tandooriChickenheading' | translate }}</h3>
+        <p>{{ 'blogs.tandooriChickenpara' | translate }}
+        </p>
+        <button routerLink="/post/tandooriChicken">{{ 'blogs.blogbutton1' | translate }} &#8594; </button>
+      </div>
+
+      <div>
+        <img
+          src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/28b55e04-f3c7-4138-848b-bcc3d23d5ba5_masala%20tea.jpg" />
+        <h3>{{ 'blogs.masalaTeaheading' | translate }}</h3>
+        <p>{{ 'blogs.masalaTeapara' | translate }}
+        </p>
+        <button routerLink="/post/masalaTea">{{ 'blogs.blogbutton1' | translate }} &#8594; </button>
+      </div>
+
+      <div>
+        <img
+          src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/42e862df-6710-4502-ba2b-6ed1eefe6506_Beef%20Curry%20.png" />
+          <h3>{{ 'blogs.beefCurryheading' | translate }}</h3>
+        <p>{{ 'blogs.beefCurrypara' | translate }}</p>
+        <button routerLink="/post/beefCurry">{{ 'blogs.blogbutton1' | translate }} &#8594; </button>
+      </div>
+
+      <div>
+        <img
+          src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/81e0f191-23f2-4a03-a606-1f1db30cbeed_Cucumber%20Salad%20.jpg" />
+        <h3>{{ 'blogs.cucumberSaladheading' | translate }}Cucumber Salad</h3>
+        <p>{{ 'blogs.cucumberSaladpara' | translate }}</p>
+        <button routerLink="/post/cucumberSalad">{{ 'blogs.blogbutton1' | translate }} &#8594; </button>
+      </div>
+    </div>
+  </div>
+  <app-footer></app-footer>
+</main>
