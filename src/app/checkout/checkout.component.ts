@@ -51,7 +51,7 @@ export class CheckoutComponent {
       cart: this.cart,
       restaurantName: "Mont Everest Masala",
       restaurantEmail: "utkarsh.malviya@gkcfood.com",
-      restaurantPhone: "+1 913-575-8381",
+      restaurantPhone: "(514) 521-6999",
       totalCartValue: this.totalPrice
     }
     console.log(body);
