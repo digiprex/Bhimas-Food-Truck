@@ -1067,10 +1067,11 @@
         "chickenheading":"Poulet Tandoori Entier",
         "teaheading":"Thé Masala",
         "befheading":"Curry de Boeuf",
+        "cucumberheading":"Salade de concombre",
         "blogheading1": "Comment préparer des Gulab Jamun authentiques à la maison",
         "blogpara1": "Découvrez la recette étape par étape pour réaliser des Gulab Jamun authentiques, un dessert indien classique. Apprenez-en plus sur les ingrédients, la préparation et les variations comme le gâteau et la glace au Gulab Jamun. Parfait pour les fêtes et les célébrations.",
         "blogbutton1": "LIRE LA SUITE",
-        "gulabheading1": "GULAB JAMUN",
+        "gulabheading1": "plat sucré",
         "gulabheading2": "Réaliser des desserts traditionnels indiens : Une recette pour le Gulab Jamun",
         "gulabpara1": "La cuisine indienne est réputée pour sa large gamme de desserts riches et variés, chacun offrant des saveurs et des textures uniques. Parmi ces délices, le Gulab Jamun occupe une place particulière. Ce dessert succulent est un incontournable des festivals, mariages et célébrations indiennes. Si vous avez la dent sucrée et un penchant pour la cuisine indienne, apprendre à préparer des Gulab Jamun est un must. Dans cet article de blog, nous vous guiderons à travers le processus de création de ces boulettes moelleuses imbibées de sirop, dans le confort de votre propre cuisine.",
         "gulabpara2": "Le Gulab Jamun est essentiellement une boule de pâte frite, traditionnellement préparée à partir de solides de lait appelés khoya ou mawa, puis trempée dans un sirop de sucre parfumé à l'eau de rose et à la cardamome. Le nom Gulab Jamun lui-même est dérivé de mots persans et arabes, où Gulab signifie eau de rose et Jamun fait référence à un fruit de taille et de forme similaires. Cette friandise alléchante a une histoire riche et un goût unique qui laisse une impression durable à quiconque la savoure.",
@@ -1297,7 +1298,67 @@
             "De nombreuses recettes traditionnelles de curry de boeuf incluent une variété d'épices telles que le curcuma, le cumin, la coriandre et la cannelle. Ces épices ajoutent non seulement de la saveur et de l'arôme au plat, mais offrent également de nombreux bienfaits pour la santé. Par exemple, le curcuma contient de la curcumine, un antioxydant puissant et un composé anti-inflammatoire qui a été démontré pour réduire l'inflammation, améliorer la digestion et soutenir la santé globale.",
             "Le curry de boeuf comprend souvent des légumes tels que les oignons, les tomates et les poivrons, qui ajoutent des vitamines, des minéraux et des fibres alimentaires importants au plat. Les légumes sont faibles en calories et riches en nutriments, ce qui en fait un excellent ajout à tout repas. Inclure de nombreux légumes dans votre curry de boeuf peut vous aider à atteindre votre apport quotidien recommandé en ces nutriments importants.",
             "En conclusion, le curry de boeuf peut être une partie nutritive et délicieuse d'une alimentation équilibrée lorsqu'il est consommé avec modération. Avec sa teneur élevée en protéines, son abondance de vitamines et de minéraux, ses graisses saines et l'inclusion d'épices et de légumes bénéfiques, le curry de boeuf offre une gamme d'avantages pour la santé. Comme toujours, il est important de choisir des coupes maigres de boeuf et de équilibrer votre repas avec de nombreux légumes et céréales complètes pour une nutrition optimale. Alors, savourez les saveurs du curry de boeuf tout en récoltant les récompenses nutritionnelles!"
-        ]
+        ],
+        "img":"https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/42e862df-6710-4502-ba2b-6ed1eefe6506_Beef%20Curry%20.png"
+    }       
+],
+"BLOG5":[
+    {
+        "name": "Salade de concombre",
+        "heading": "Salade de concombre",
+        "parahead": [
+            "Salade de Concombre : Un Plat Estival Rafraîchissant",
+            "Concombres",
+            "Aneth Frais",
+            "Vinaigre",
+            "Huile d'Olive",
+            "Sel et Poivre",
+            "Sucre (Optionnel)",
+            "Couper le Concombre en Dés",
+            "Conseils de Service pour l'Accompagnement Estival Parfait",
+            "Servir Froid",
+            "Adopter la Couleur",
+            "Garnir avec des Herbes Fraîches",
+            "Utiliser des Vinaigrettes Légères et Vives",
+            "Présenter de Manière Créative",
+            "Offrir de la Variété",
+            "Servir en Bouchées",
+            "Faits Nutritionnels : Avantages de la Salade de Concombre",
+            "Hydratation",
+            "Faible en Calories",
+            "Antioxydants",
+            "Santé Digestive",
+            "Bienfaits pour la Peau",
+            "Polyvalent"
+        ],
+        "para": [
+            "La salade de concombre est un parfait complément à tout repas, surtout pendant les chauds mois d'été. Sa nature croquante, fraîche et rafraîchissante en fait un choix populaire pour les pique-niques, les barbecues, ou simplement comme accompagnement sain. Pour créer la parfaite salade de concombre, vous devrez rassembler les ingrédients les plus frais et les plus savoureux. Voici un guide de ce dont vous avez besoin et pourquoi chaque composant est essentiel pour un plat délicieux.",
+            "Commencez avec des concombres frais et croquants. Optez pour des concombres anglais ou des concombres persans pour une saveur plus douce et moins de graines.",
+            "L'aneth est l'herbe par excellence pour la salade de concombre, offrant une explosion de saveur fraîche et aromatique. Les feuilles d'aneth hachées sont indispensables pour cette recette.",
+            "Le vinaigre de vin blanc ou le vinaigre de riz fonctionne bien pour rehausser l'acidité de la salade. Un peu d'acidité rehausse les saveurs.",
+            "Un filet d'huile d'olive extra vierge de haute qualité apportera un contraste doux et moelleux au vinaigre.",
+            "Assaisonnez avec du sel et du poivre selon votre goût, pour rehausser le profil global de la saveur de la salade.",
+            "Une pincée de sucre peut équilibrer l'acidité et créer un équilibre harmonieux des saveurs.",
+            "Les concombres sont les héros méconnus du monde des légumes. Ils sont croquants, rafraîchissants et polyvalents, ce qui en fait un ajout parfait aux salades, aux sandwiches et même comme collation croquante. Une des façons les plus populaires de préparer les concombres est de les couper en dés. Couper les concombres en dés ajoute non seulement une explosion de saveur fraîche à vos plats mais améliore également leur attrait visuel.",
+            "Pour couper un concombre en dés, commencez par bien le laver et enlever les extrémités. Ensuite, vous pouvez soit peler le concombre, soit laisser la peau, selon votre préférence. Ensuite, coupez le concombre en rondelles et empilez-les soigneusement. Enfin, faites des coupes verticales et horizontales régulières, créant des cubes de concombre parfaitement uniformes.",
+            "Les concombres en dés ajoutent non seulement un croquant délicieux à vos salades, mais ils absorbent également les saveurs des vinaigrettes et des assaisonnements. Donc, que vous prépariez une salade grecque, une salsa de concombre rafraîchissante, ou que vous vouliez simplement une collation saine, couper le concombre en dés est la voie à suivre. Essayez-le, et vous découvrirez un tout nouveau monde de possibilités culinaires avec ce légume humble.",
+            "L'été est synonyme de rassemblements en plein air, de barbecues et de repas délicieux sous le chaud soleil. Lorsqu'il s'agit de créer l'accompagnement estival parfait, quelques simples conseils de service peuvent élever votre création culinaire et impressionner vos invités. Que vous grilliez, pique-niquiez, ou organisiez une fête dans votre jardin, voici quelques conseils de service pour que vos accompagnements estivaux brillent.",
+            "Gardez vos plats d'accompagnement frais et rafraîchissants en les servant froids. Que ce soit une salade de pâtes, une coleslaw, ou une salade de fruits, un accompagnement froid est le choix idéal pour une journée chaude d'été.",
+            "L'été est synonyme de produits frais et vibrants. Créez des accompagnements visuellement attrayants en utilisant une variété de fruits et légumes colorés. Plus votre plat est coloré, plus il est tentant.",
+            "Ajoutez une explosion de saveur et d'arôme en garnissant vos plats d'accompagnement d'herbes fraîches comme le basilic, la menthe, ou la coriandre. Les herbes améliorent non seulement le goût mais apportent également une touche de couleur.",
+            "Optez pour des vinaigrettes légères et vives comme les vinaigrettes ou les options à base d'agrumes pour que vos accompagnements estivaux soient rafraîchissants plutôt que lourds.",
+            "Élevez votre présentation en utilisant des plateaux ou des bols décoratifs, et envisagez d'utiliser des fleurs comestibles ou des brochettes décoratives pour faire ressortir vos plats.",
+            "Offrez une sélection d'accompagnements pour répondre à différents goûts et préférences alimentaires. Incluez des options comme une salade de quinoa, un plateau de fruits, et un assortiment de légumes grillés.",
+            "Servez vos accompagnements estivaux en portions de bouchées, facilitant ainsi pour les invités d'apprécier un peu de tout sans se sentir submergés. En suivant ces conseils de service, vous vous assurerez que vos accompagnements estivaux non seulement ont un goût fantastique mais ajoutent également à l'appréciation générale de vos rassemblements estivaux. Ces petits détails peuvent faire une grande différence, laissant une impression durable sur vos amis et votre famille.",
+            "La salade de concombre est un plat rafraîchissant et nutritif qui offre une pléthore de bienfaits pour la santé. Ce plat simple mais délicieux se compose de tranches de concombre, souvent combinées à d'autres légumes et assaisonnées de divers condiments. Voici quelques-uns des avantages d'ajouter la salade de concombre à votre alimentation.",
+            "Les concombres sont principalement composés d'eau, ce qui rend la salade de concombre un excellent choix pour rester hydraté, surtout les jours chauds.",
+            "La salade de concombre est une option faible en calories, ce qui en fait un excellent choix pour ceux qui cherchent à gérer leur poids.",
+            "Les concombres contiennent des antioxydants comme les flavonoïdes et les tanins, qui peuvent aider à protéger vos cellules contre les dommages.",
+            "Les fibres des concombres soutiennent la santé digestive et peuvent aider à prévenir la constipation.",
+            "Les concombres sont connus pour leurs bienfaits pour la peau. La silice dans les concombres favorise une peau et des cheveux sains.",
+            "La salade de concombre peut être personnalisée avec divers ingrédients, des tomates aux oignons et herbes, vous permettant de créer un plat adapté à votre goût. Incorporer la salade de concombre dans vos repas peut être une façon simple et savoureuse d'améliorer votre santé et d'ajouter une touche de fraîcheur à votre alimentation."
+        ],
+        "img":"https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/81e0f191-23f2-4a03-a606-1f1db30cbeed_Cucumber%20Salad%20.jpg"
     }       
 ]
 }

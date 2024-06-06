@@ -310,136 +310,27 @@
 
     <section class="home-banner"
         style="background-image:linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 60%)), url({{hero.cucumberSalad}});">
-        <h1>Cucumber Salad</h1>
+        <h1>{{ 'blogs.cucumberheading' | translate }}</h1>
     </section>
 
-    <div class="container">
-        <h1>Cucumber Salad</h1>
-        <img
-            src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/81e0f191-23f2-4a03-a606-1f1db30cbeed_Cucumber%20Salad%20.jpg" />
+    <div class="container" *ngFor="let item of ('BLOG5' | translate); let i = index">
+        <h1>{{item.heading | translate}}</h1>
+        <img src="{{item.img}}" />
+
         <div>
 
-            <p>Cucumber salad is a perfect addition to any meal, especially during the hot summer months. Its crisp,
-                cool, and refreshing nature makes it a popular choice for picnics, barbecues, or simply as a healthy
-                side dish. To create the perfect cucumber salad, you'll need to gather the freshest and most flavorful
-                ingredients. Here's a guide to what you'll need and why each component is essential for a delicious
-                dish.
+            <p *ngFor="let g of item.para; let i = index">
+                <span *ngFor="let k of item.parahead; let j = index">
+                    <span *ngIf="i === j">{{ k | translate }}</span>
+                </span>
+                <br>
+                {{ g | translate }}
             </p>
 
-            <p><span>Cucumbers: </span> Start with fresh, crunchy cucumbers. Opt for English cucumbers or Persian
-                cucumbers for a
-                milder flavour and fewer seeds.</p>
-
-            <p><span>Fresh Dill: </span>Dill is the quintessential herb for cucumber salad, providing a burst of
-                fresh, aromatic flavor. Chopped dill leaves are a must for this recipe.
-            </p>
-
-            <p><span>Vinegar : </span>White wine vinegar or rice vinegar works well to enhance the salad's
-                tanginess. A bit of acidity brightens the flavors.
-            </p>
-
-            <p><span>Olive Oil :</span> A drizzle of high-quality extra-virgin olive oil will provide a smooth,
-                mellow contrast to the vinegar.</p>
-
-            <p><span>Salt and Pepper :</span><br> Season with salt and pepper to taste, enhancing the overall flavor
-                profile of the salad.</p>
-
-            <p><span>Sugar (Optional): </span>A pinch of sugar can balance the acidity and create a harmonious flavor
-                balance.
-            </p>
-
-            <p>As you gather these ingredients, make sure they are at their freshest to maximize the salad's appeal.
-                Once you have everything ready, you're on your way to crafting a simple yet delightful cucumber salad
-                that's sure to please your taste buds and keep you cool on those scorching summer days.</p>
-
-            <p><span>Dicing the Cucumber :</span> <br>Cucumbers are the unsung heroes of the vegetable world. They are
-                crisp, refreshing, and versatile, making them a perfect addition to salads, sandwiches, and even as a
-                crunchy snack. One of the most popular ways to prepare cucumbers is by dicing them. Dicing cucumbers not
-                only adds a burst of fresh flavor to your dishes but also enhances their visual appeal.
-            </p>
-            <p>To dice a cucumber, start by washing it thoroughly and removing the ends. Then, you can either peel the
-                cucumber or leave the skin on, depending on your preference. Next, slice the cucumber into rounds and
-                stack them neatly. Finally, make even vertical and horizontal cuts, creating perfectly uniform cucumber
-                cubes.</p>
-            <p>Diced cucumbers not only add a delightful crunch to your salads but also absorb the flavors of dressings
-                and seasonings. So, whether you're making a Greek salad, a refreshing cucumber salsa, or just want a
-                healthy snack, dicing the cucumber is the way to go. Give it a try, and you'll discover a whole new
-                world of culinary possibilities with this humble vegetable.
-            </p>
-
-            <p><span>Serving Tips for the Perfect Summer Side
-                </span></p>
-            <p>Summer is all about outdoor gatherings, barbecues, and enjoying delicious meals in the warm sunshine.
-                When it comes to creating the perfect summer side dish, a few simple serving tips can elevate your
-                culinary creation and impress your guests. Whether you're grilling, picnicking, or hosting a backyard
-                party, here are some serving tips to ensure your summer sides shine.
-            </p>
-
-            <p><span>Serve Chilled:</span> Keep your side dishes cool and refreshing by serving them chilled. Whether
-                it's a pasta salad, coleslaw, or fruit salad, a cold side is the ideal choice for a hot summer day.
-            </p>
-
-            <p><span>Embrace Color: </span>Summer is synonymous with vibrant, fresh produce. Create visually appealing
-                sides by using a variety of colorful fruits and vegetables. The more colorful your dish, the more
-                enticing it looks. </p>
-
-            <p><span>Garnish with Fresh Herbs:</span> Add a burst of flavor and aroma by garnishing your side dishes
-                with fresh herbs like basil, mint, or cilantro. Herbs not only enhance the taste but also provide a pop
-                of color.
-            </p>
-
-            <p><span>Use Bright, Light Dressings:</span> Opt for light and zesty dressings like vinaigrettes or
-                citrus-based options to keep your summer sides feeling refreshing rather than heavy.
-            </p>
-
-            <p><span>Present Creatively:</span> Elevate your presentation by using decorative platters or bowls, and
-                consider using edible flowers or decorative skewers to make your dishes stand out.
-            </p>
-
-            <p><span>Offer Variety:</span> Provide a selection of sides to cater to different tastes and dietary
-                preferences. Include options like a quinoa salad, a fruit platter, and a grilled vegetable medley.
-            </p>
-
-            <p><span>Keep It Bite-Sized:</span> Serve your summer sides in bite-sized portions, making it easier for
-                guests to enjoy a little of everything without feeling overwhelmed.
-                By following these serving tips, you'll ensure that your summer sides not only taste fantastic but also
-                add to the overall enjoyment of your summer gatherings. These small details can make a big difference,
-                leaving a lasting impression on your friends and family.
-            </p>
-
-            <p><span>Nutrition Facts: Benefits of Cucumber Salad
-                </span>Cucumber salad is a refreshing and nutritious dish that offers a plethora of health benefits.
-                This simple yet delicious dish consists of sliced cucumbers, often combined with other vegetables and
-                dressed with various seasonings. Here are some of the advantages of adding cucumber salad to your diet.
-            </p>
-
-            <p><span>Hydration :</span> Cucumbers are primarily composed of water, making cucumber salad an excellent
-                choice to stay hydrated, especially on hot days.</p>
-
-
-            <p><span>Low in Calories :</span> Cucumber salad is a low-calorie option, making it a great choice for
-                those looking to manage their weight.</p>
-
-
-            <p><span>Antioxidants :</span> Cucumbers contain antioxidants like flavonoids and tannins, which can help
-                protect your cells from damage.</p>
-
-
-            <p><span>Digestive Health :</span> The fiber in cucumbers supports digestive health and can help prevent
-                constipation.</p>
-
-
-            <p><span>Skin Benefits :</span> Cucumbers are known for their skincare benefits. The silica in cucumbers
-                promotes healthy skin and hair.</p>
-
-
-            <p><span>Versatile :</span> Cucumber salad can be customized with various ingredients, from tomatoes to
-                onions and herbs, allowing you to create a dish tailored to your taste.
-                Incorporating cucumber salad into your meals can be a simple and tasty way to boost your health and add
-                a burst of freshness to your diet.
-            </p>
         </div>
     </div>
+
+   
 
     <app-footer></app-footer>
 </main>
