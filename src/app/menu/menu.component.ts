@@ -21,90 +21,83 @@ export class MenuComponent {
                     {
                         "category": [
                             {
-                                "categoryName": "Appetizers",
+                                "categoryName": "Apéritifs",
                                 "items": [
                                     {
-                                        "itemName": "Veggie Samosa",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/dc6ef464-b2fd-4766-a24d-76264213c6a2_Veg%20samosas.jpeg",
-                                        "itemDescription": "2 Pcs. Cumin infused potatoes, veggie medley wrapped in organic white flour pastry, and deep fried.",
-                                        "quantity": 0,
+                                        "itemName": "Samosa aux légumes",
+                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                                        "itemDescription": "2 pièces. Pommes de terre infusées de cumin, mélange de légumes enveloppé dans une pâte de farine de blé biologique et frit.",
+                                        "quantity": 1,
                                         "itemPrice": "4.50"
                                     },
                                     {
-                                        "itemName": "Onion Bhajia",
+                                        "itemName": "Bhajia à l'oignon",
                                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "4 Pcs. Seasoned onions coated in chickpea flour and deep fried.",
-                                        "quantity": 0,
+                                        "itemDescription": "4 pièces. Oignons assaisonnés enrobés de farine de pois chiches et frits.",
+                                        "quantity": 1,
                                         "itemPrice": "4.99"
                                     },
                                     {
-                                        "itemName": "Meat Samosa",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e36f4580-6a58-4757-993c-b8d69341b0c0_Meat%20samosas.jpeg",
-                                        "itemDescription": "2 Pcs. Spiced minced chicken and spinach wrapped in organic white flour pastry and deep fried.",
-                                        "quantity": 0,
+                                        "itemName": "Samosa à la viande",
+                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                                        "itemDescription": "2 pièces. Poulet haché épicé et épinards enveloppés dans une pâte de farine de blé biologique et frits.",
+                                        "quantity": 1,
                                         "itemPrice": "5.50"
                                     },
                                     {
-                                        "itemName": "Fish Pakora",
+                                        "itemName": "Pakora de poisson",
                                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "Pcs. Marinated salmon coated in chickpea batter and deep fried.",
-                                        "quantity": 0,
+                                        "itemDescription": "Poissons marinés dans une pâte de pois chiches et frits.",
+                                        "quantity": 1,
                                         "itemPrice": "7.99"
                                     },
                                     {
-                                        "itemName": "Veg Pakora",
+                                        "itemName": "Pakora aux légumes",
                                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "Marinated veggies coated in a chickpea batter and deep fried.",
-                                        "quantity": 0,
+                                        "itemDescription": "Légumes marinés enrobés dans une pâte de pois chiches et frits.",
+                                        "quantity": 1,
                                         "itemPrice": "4.99"
                                     },
                                     {
-                                        "itemName": "Chicken Pakora",
+                                        "itemName": "Pakora au poulet",
                                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "Pcs. Marinated chicken breast coated in chickpea batter and deep fried.",
-                                        "quantity": 0,
+                                        "itemDescription": "Poulet mariné enrobé dans une pâte de pois chiches et frit.",
+                                        "quantity": 1,
                                         "itemPrice": "5.99"
                                     },
                                     {
-                                        "itemName": "Cauliflower Pakora",
+                                        "itemName": "Pakora au chou-fleur",
                                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "6 Pcs. Marinated cauliflower florets coated in a chickpea batter and deep fried.",
-                                        "quantity": 0,
+                                        "itemDescription": "6 pièces. Bouquets de chou-fleur marinés enrobés dans une pâte de pois chiches et frits.",
+                                        "quantity": 1,
                                         "itemPrice": "4.99"
                                     },
                                     {
-                                        "itemName": "Shrimp Pakora",
+                                        "itemName": "Pakora aux crevettes",
                                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "6 Pcs. Marinated shrimp coated in chickpea batter and deep fried.",
-                                        "quantity": 0,
+                                        "itemDescription": "6 pièces. Crevettes marinées enrobées dans une pâte de pois chiches et frites.",
+                                        "quantity": 1,
                                         "itemPrice": "7.99"
                                     },
                                     {
                                         "itemName": "Gobi manchurian",
                                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
                                         "itemDescription": "",
-                                        "quantity": 0,
+                                        "quantity": 1,
                                         "itemPrice": "11.99"
                                     },
                                     {
-                                        "itemName": "",
+                                        "itemName": "Poulet au piment",
                                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
                                         "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "9.99"
-                                    },
-                                    {
-                                        "itemName": "Chilli chicken",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f4508570-49a8-4cfd-b1af-db43f17f9952_Chilli%20chicken.jpeg",
-                                        "itemDescription": "",
-                                        "quantity": 0,
+                                        "quantity": 1,
                                         "itemPrice": "16.99"
                                     },
                                     {
-                                        "itemName": "Chilli panner",
+                                        "itemName": "Paneer au piment",
                                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
                                         "itemDescription": "",
-                                        "quantity": 0,
+                                        "quantity": 1,
                                         "itemPrice": "15.99"
                                     }
                                 ]
@@ -386,14 +379,7 @@ export class MenuComponent {
                             {
                                 "categoryName": "Biryani",
                                 "items": [
-                                    {
-                                        "itemName": "",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "Choix de votre viande cuite aux herbes, riz basmati, noix, et epices.",
-                                        "quantity": 0,
-                                        "itemPrice": ""
-                                    },
-                                    {
+                                   {
                                         "itemName": "CHICKEN",
                                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
                                         "itemDescription": "",
@@ -793,13 +779,6 @@ export class MenuComponent {
                                         "itemDescription": "",
                                         "quantity": 0,
                                         "itemPrice": "3.50"
-                                    },
-                                    {
-                                        "itemName": "",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "3.00"
                                     },
                                     {
                                         "itemName": "Mint chutney",
