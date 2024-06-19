@@ -19,10 +19,10 @@
         <div class="options-tab">
             <div *ngFor="let item of ('MENU.category' | translate); let i = index">
                 <button class="abc" [ngClass]="{ highlight: selectedCategory == i }" (click)="getDiv(i, item)">
-                    {{ item.categoryName | translate }}
+                  {{ item.categoryName | translate }}
                 </button>
                 <div>|</div>
-            </div>
+              </div>
         </div>
 
         <div class="menu-tab" id="{{ product.routeName }}" *ngIf="product">
@@ -54,6 +54,9 @@
             </div>
         </div>
     </section>
+
+    
+      
 
     <app-footer></app-footer>
 </main>
