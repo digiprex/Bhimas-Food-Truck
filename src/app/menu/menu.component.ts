@@ -379,14 +379,7 @@ export class MenuComponent {
                             {
                                 "categoryName": "Biryani",
                                 "items": [
-                                    {
-                                        "itemName": "",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "Choix de votre viande cuite aux herbes, riz basmati, noix, et epices.",
-                                        "quantity": 0,
-                                        "itemPrice": ""
-                                    },
-                                    {
+                                   {
                                         "itemName": "CHICKEN",
                                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
                                         "itemDescription": "",
@@ -786,13 +779,6 @@ export class MenuComponent {
                                         "itemDescription": "",
                                         "quantity": 0,
                                         "itemPrice": "3.50"
-                                    },
-                                    {
-                                        "itemName": "",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "3.00"
                                     },
                                     {
                                         "itemName": "Mint chutney",
