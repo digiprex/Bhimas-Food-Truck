@@ -8,27 +8,27 @@
         <h1>{{ 'MENU.ourmenu' | translate }}</h1>
     </section>
 
-    <section class="cart-floater" (click)="cartPage()">
+    <!-- <section class="cart-floater" (click)="cartPage()">
         <div>
             <i class="material-symbols-outlined"> shopping_cart </i>
             <span>{{ this.cart.length }}</span>
         </div>
-    </section>
+    </section> -->
 
     <section class="mainMenu">
-        <div class="options-tab">
+        <!-- <div class="options-tab">
             <div *ngFor="let item of ('MENU.category' | translate); let i = index">
                 <button class="abc" [ngClass]="{ highlight: selectedCategory == i }" (click)="getDiv(i, item)">
                   {{ item.categoryName | translate }}
                 </button>
                 <div>|</div>
               </div>
-        </div>
+        </div> -->
 
-        <div class="menu-tab" id="{{ product.routeName }}" *ngIf="product">
+        <div class="menu-tab" *ngFor="let product of ('MENU.category' | translate); let i = index">
             <h3>{{ product.categoryName | translate}}</h3>
 
-            <div class="main-container">
+            <div class="main-container" >
                 <div class="inner-container" *ngFor="let p of product.items">
                     <div class="image">
                         <img alt="icon" [src]="p.icon" />
@@ -36,7 +36,9 @@
                     <div class="content">
                         <div class="title">
                             <h3>{{ p.itemName | translate }}</h3>
-                            <span>&#x24;{{ p.itemPrice }}</span>
+                            <span *ngIf="p.itemPrice">&#x24;{{ p.itemPrice }}</span>
+                            <span *ngIf="p.itemPriceSmall">Small : &#x24;{{ p.itemPriceSmall }}</span>
+                            <span *ngIf="p.itemPriceLarge">Large : &#x24;{{ p.itemPriceLarge }}</span>
                         </div>
                         <p>{{ p.itemDescription | translate}}</p>
                     </div>
