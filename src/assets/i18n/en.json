@@ -71,6 +71,7 @@
         "category": [
             {
                 "categoryName": "Appetizers",
+                "routeName": "Appetizers",
                 "items": [
                     {
                         "itemName": "Veggie Samosa",
@@ -153,6 +154,7 @@
             },
             {
                 "categoryName": "Soup and Salad",
+                "routeName": "Soup and Salad",
                 "items": [
                     {
                         "itemName": "Mulligatawny Soup",
@@ -193,6 +195,7 @@
             },
             {
                 "categoryName": "Tandoori",
+                "routeName": "Tandoori",
                 "items": [
                     {
                         "itemName": "House Mixed Grill",
@@ -261,6 +264,7 @@
             },
             {
                 "categoryName": "Meat Delights",
+                "routeName": "Meat Delights",
                 "items": [
                     {
                         "itemName": "Butter Chicken",
@@ -427,6 +431,7 @@
             },
             {
                 "categoryName": "Biryani",
+                "routeName": "Biryani",
                 "items": [
                     {
                         "itemName": "CHICKEN",
@@ -460,6 +465,7 @@
             },
             {
                 "categoryName": "Seafood Delights",
+                "routeName": "Seafood Delights",
                 "items": [
                     {
                         "itemName": "Shrimp Karahi",
@@ -493,6 +499,7 @@
             },
             {
                 "categoryName": "Vegetarian Dishes",
+                "routeName": "Vegetarian Dishes",
                 "items": [
                     {
                         "itemName": "Pois verts sautés / Sauteed green beans",
@@ -631,6 +638,7 @@
             },
             {
                 "categoryName": "Rice Dishes",
+                "routeName": "Rice Dishes",
                 "items": [
                     {
                         "itemName": "Garlic Rice",
@@ -685,6 +693,7 @@
             },
             {
                 "categoryName": "Bread's",
+                "routeName": "Bread's",
                 "items": [
                     {
                         "itemName": "Garlic Naan",
@@ -760,6 +769,7 @@
             },
             {
                 "categoryName": "Beverages",
+                "routeName": "Beverages",
                 "items": [
                     {
                         "itemName": "Lassi: Mango - Sweet - Salt",
@@ -780,7 +790,8 @@
                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
                         "itemDescription": "",
                         "quantity": 1,
-                        "itemPrice": "3.99"
+                        "itemPriceLarge": "3.99",
+                        "itemPriceSmall": "2.99"
                     },
                     {
                         "itemName": "Juice",
@@ -821,6 +832,7 @@
             },
             {
                 "categoryName": "Side orders",
+                "routeName": "Side orders",
                 "items": [
                     {
                         "itemName": "RAITA",
@@ -854,6 +866,7 @@
             },
             {
                 "categoryName": "Dessert",
+                "routeName": "Dessert",
                 "items": [
                     {
                         "itemName": "Ras Malai",
@@ -880,6 +893,7 @@
             },
             {
                 "categoryName": "Combos",
+                "routeName": "Combos",
                 "items": [
                     {
                         "itemName": "Vegetarian",

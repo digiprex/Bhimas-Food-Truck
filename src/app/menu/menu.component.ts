@@ -21,61 +21,62 @@ export class MenuComponent {
                     {
                         "category": [
                             {
-                                "categoryName": "Apéritifs",
+                                "categoryName": "Appetizers",
+                                "routeName": "Appetizers",
                                 "items": [
                                     {
-                                        "itemName": "Samosa aux légumes",
+                                        "itemName": "Veggie Samosa",
                                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "2 pièces. Pommes de terre infusées de cumin, mélange de légumes enveloppé dans une pâte de farine de blé biologique et frit.",
+                                        "itemDescription": "2 Pcs. Cumin infused potatoes, veggie medley wrapped in organic white flour pastry, and deep fried.",
                                         "quantity": 1,
                                         "itemPrice": "4.50"
                                     },
                                     {
-                                        "itemName": "Bhajia à l'oignon",
+                                        "itemName": "Onion Bhajia",
                                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "4 pièces. Oignons assaisonnés enrobés de farine de pois chiches et frits.",
+                                        "itemDescription": "4 Pcs. Seasoned onions coated in chickpea flour and deep fried.",
                                         "quantity": 1,
                                         "itemPrice": "4.99"
                                     },
                                     {
-                                        "itemName": "Samosa à la viande",
+                                        "itemName": "Meat Samosa",
                                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "2 pièces. Poulet haché épicé et épinards enveloppés dans une pâte de farine de blé biologique et frits.",
+                                        "itemDescription": "2 Pcs. Spiced minced chicken and spinach wrapped in organic white flour pastry and deep fried.",
                                         "quantity": 1,
                                         "itemPrice": "5.50"
                                     },
                                     {
-                                        "itemName": "Pakora de poisson",
+                                        "itemName": "Fish Pakora",
                                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "Poissons marinés dans une pâte de pois chiches et frits.",
+                                        "itemDescription": "Pcs. Marinated salmon coated in chickpea batter and deep fried.",
                                         "quantity": 1,
                                         "itemPrice": "7.99"
                                     },
                                     {
-                                        "itemName": "Pakora aux légumes",
+                                        "itemName": "Veg Pakora",
                                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "Légumes marinés enrobés dans une pâte de pois chiches et frits.",
+                                        "itemDescription": "Marinated veggies coated in a chickpea batter and deep fried.",
                                         "quantity": 1,
                                         "itemPrice": "4.99"
                                     },
                                     {
-                                        "itemName": "Pakora au poulet",
+                                        "itemName": "Chicken Pakora",
                                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "Poulet mariné enrobé dans une pâte de pois chiches et frit.",
+                                        "itemDescription": "Pcs. Marinated chicken breast coated in chickpea batter and deep fried.",
                                         "quantity": 1,
                                         "itemPrice": "5.99"
                                     },
                                     {
-                                        "itemName": "Pakora au chou-fleur",
+                                        "itemName": "Cauliflower Pakora",
                                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "6 pièces. Bouquets de chou-fleur marinés enrobés dans une pâte de pois chiches et frits.",
+                                        "itemDescription": "6 Pcs. Marinated cauliflower florets coated in a chickpea batter and deep fried.",
                                         "quantity": 1,
                                         "itemPrice": "4.99"
                                     },
                                     {
-                                        "itemName": "Pakora aux crevettes",
+                                        "itemName": "Shrimp Pakora",
                                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "6 pièces. Crevettes marinées enrobées dans une pâte de pois chiches et frites.",
+                                        "itemDescription": "6 Pcs. Marinated shrimp coated in chickpea batter and deep fried.",
                                         "quantity": 1,
                                         "itemPrice": "7.99"
                                     },
@@ -87,14 +88,14 @@ export class MenuComponent {
                                         "itemPrice": "11.99"
                                     },
                                     {
-                                        "itemName": "Poulet au piment",
+                                        "itemName": "Chilli chicken",
                                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
                                         "itemDescription": "",
                                         "quantity": 1,
                                         "itemPrice": "16.99"
                                     },
                                     {
-                                        "itemName": "Paneer au piment",
+                                        "itemName": "Chilli panner",
                                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
                                         "itemDescription": "",
                                         "quantity": 1,
@@ -104,6 +105,7 @@ export class MenuComponent {
                             },
                             {
                                 "categoryName": "Soup and Salad",
+                                "routeName": "Soup and Salad",
                                 "items": [
                                     {
                                         "itemName": "Mulligatawny Soup",
@@ -144,6 +146,7 @@ export class MenuComponent {
                             },
                             {
                                 "categoryName": "Tandoori",
+                                "routeName": "Tandoori",
                                 "items": [
                                     {
                                         "itemName": "House Mixed Grill",
@@ -212,6 +215,7 @@ export class MenuComponent {
                             },
                             {
                                 "categoryName": "Meat Delights",
+                                "routeName": "Meat Delights",
                                 "items": [
                                     {
                                         "itemName": "Butter Chicken",
@@ -378,6 +382,7 @@ export class MenuComponent {
                             },
                             {
                                 "categoryName": "Biryani",
+                                "routeName": "Biryani",
                                 "items": [
                                    {
                                         "itemName": "CHICKEN",
@@ -411,6 +416,7 @@ export class MenuComponent {
                             },
                             {
                                 "categoryName": "Seafood Delights",
+                                "routeName": "Seafood Delights",
                                 "items": [
                                     {
                                         "itemName": "Shrimp Karahi",
@@ -444,6 +450,7 @@ export class MenuComponent {
                             },
                             {
                                 "categoryName": "Vegetarian Dishes",
+                                "routeName": "Vegetarian Dishes",
                                 "items": [
                                     {
                                         "itemName": "Pois verts sautés / Sauteed green beans",
@@ -582,6 +589,7 @@ export class MenuComponent {
                             },
                             {
                                 "categoryName": "Rice Dishes",
+                                "routeName": "Rice Dishes",
                                 "items": [
                                     {
                                         "itemName": "Garlic Rice",
@@ -636,6 +644,7 @@ export class MenuComponent {
                             },
                             {
                                 "categoryName": "Bread's",
+                                "routeName": "Bread's",
                                 "items": [
                                     {
                                         "itemName": "Garlic Naan",
@@ -711,6 +720,7 @@ export class MenuComponent {
                             },
                             {
                                 "categoryName": "Beverages",
+                                "routeName": "Beverages",
                                 "items": [
                                     {
                                         "itemName": "Lassi: Mango - Sweet - Salt",
@@ -772,6 +782,7 @@ export class MenuComponent {
                             },
                             {
                                 "categoryName": "Side orders",
+                                "routeName": "Side orders",
                                 "items": [
                                     {
                                         "itemName": "RAITA",
@@ -805,6 +816,7 @@ export class MenuComponent {
                             },
                             {
                                 "categoryName": "Dessert",
+                                "routeName": "Dessert",
                                 "items": [
                                     {
                                         "itemName": "Ras Malai",
@@ -831,6 +843,7 @@ export class MenuComponent {
                             },
                             {
                                 "categoryName": "Combos",
+                                "routeName": "Combos",
                                 "items": [
                                     {
                                         "itemName": "Vegetarian",
@@ -916,6 +929,7 @@ export class MenuComponent {
         localStorage.setItem('location', this.host)
         this.cart.push({
             categoryName: category.categoryName,
+            routeName: category.routeName,
             itemName: item.itemName,
             itemIcon: item.icon,
             itemPrice: item.itemPrice,

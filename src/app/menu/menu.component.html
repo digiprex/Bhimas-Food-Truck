@@ -36,7 +36,9 @@
                     <div class="content">
                         <div class="title">
                             <h3>{{ p.itemName | translate }}</h3>
-                            <span>&#x24;{{ p.itemPrice }}</span>
+                            <span *ngIf="p.itemPrice">&#x24;{{ p.itemPrice }}</span>
+                            <span *ngIf="p.itemPriceSmall">Small : &#x24;{{ p.itemPriceSmall }}</span>
+                            <span *ngIf="p.itemPriceLarge">Large : &#x24;{{ p.itemPriceLarge }}</span>
                         </div>
                         <p>{{ p.itemDescription | translate}}</p>
                     </div>
