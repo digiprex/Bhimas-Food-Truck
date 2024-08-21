@@ -32,7 +32,7 @@
         "montreal": "Montreal Dining at Its Finest",
         "montrealPera": "Conveniently located in downtown Montreal, Mont Everest Masala provides a warm and inviting atmosphere perfect for any occasion. Whether you're here for lunch, dinner, or a quick take away, our service and ambiance will make your dining experience exceptional.      ",
         "diversMenu": "Discover Our Diverse Menu",
-        "diversPare": "Indulge in our signature dishes like Butter Chicken, Tandoori Chicken, and the best biryani in Montreal. We also offer a variety of vegetarian options such as Veggie Samosa and Veg Pakora. For South Indian flavors, try our dosa masala and other specialties. Don't miss out on our delicious desserts like Gulab Jamun.",
+        "diversPare": "Indulge in our signature dishes like Butter Chicken, Tandoori Chicken, and the best biryani in Montreal. We also offer a variety of vegetarian options such as Veggie Samosa and Veg Pakora.Don't miss out on our delicious desserts like Gulab Jamun.",
         "viewourmenu": "View Our Menu",
         "ourstory": "Our Story",
         "goodfood": "GOOD FOOD, DRINKS &",
@@ -514,6 +514,7 @@
             },
             {
                 "categoryName": "Rice Dishes",
+                "routeName": "Rice Dishes",
                 "items": [
                     {
                         "itemName": "Plain Rice",
@@ -655,6 +656,7 @@
             },
             {
                 "categoryName": "Beverages",
+                "routeName": "Beverages",
                 "items": [
                     {
                         "itemName": "Juice",
@@ -870,7 +872,7 @@
             },
             {
                 "name": "Order Online",
-                "url": "https://order.online/store/mont-everest-masala-montr%C3%A9al-872851/?delivery=true&hideModal=true&redirected=true",
+                "url": "https://www.order.store/store/mont-everest-masala-plateau/85nkwyr8Tm-5OM7wdUQ_cg",
                 "external": true
             }
         ]
@@ -925,7 +927,7 @@
         "tandooriChickenheading": "Whole Tandoori Chicken",
         "tandooriChickenpara": "Tandoori chicken is a renowned Indian dish known for its vibrant red hue, smoky essence, and robust flavour profile. The origins of this dish can be traced back to the northern region of India, particularly Punjab. The name tandoori is derived from the cooking method itself, which involves using a tandoor, a clay oven that dates back centuries.",
         "masalaTeaheading": "Masala Tea",
-        "masalaTeapara": "Tandoori chicken is a renowned Indian dish known for its vibrant red hue, smoky essence, and robust flavour profile. The origins of this dish can be traced back to the northern region of India, particularly Punjab. The name tandoori is derived from the cooking method itself, which involves using a tandoor, a clay oven that dates back centuries.",
+        "masalaTeapara": "Masala tea, also known as chai masala tea, is a beloved beverage originating from India. Its aromatic blend of spices, robust tea leaves, and comforting warmth has made it a favorite choice for tea enthusiasts worldwide. In this comprehensive guide, we'll delve into the rich flavours, explore the health benefits, and learn how to make this delightful concoction at home.",
         "beefCurryheading": "Beef Curry",
         "beefCurrypara": "Beef curry, with its tantalizing aroma and rich flavors, is a culinary delight that satisfies both meat enthusiasts and spice lovers alike. While a classic beef curry recipe is already delicious on its own, there are countless variations that can take this dish to new heights of flavor and enjoyment. Here, we explore some creative twists and enhancements to make your beef curry even more delectable.",
         "cucumberSaladheading": "Cucumber Salad",
