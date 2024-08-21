@@ -22,95 +22,90 @@ export class MenuComponent {
                         "category": [
                             {
                                 "categoryName": "Appetizers",
+                                "routeName": "Appetizers",
                                 "items": [
                                     {
                                         "itemName": "Veggie Samosa",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/dc6ef464-b2fd-4766-a24d-76264213c6a2_Veg%20samosas.jpeg",
+                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
                                         "itemDescription": "2 Pcs. Cumin infused potatoes, veggie medley wrapped in organic white flour pastry, and deep fried.",
-                                        "quantity": 0,
+                                        "quantity": 1,
                                         "itemPrice": "4.50"
                                     },
                                     {
                                         "itemName": "Onion Bhajia",
                                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
                                         "itemDescription": "4 Pcs. Seasoned onions coated in chickpea flour and deep fried.",
-                                        "quantity": 0,
+                                        "quantity": 1,
                                         "itemPrice": "4.99"
                                     },
                                     {
                                         "itemName": "Meat Samosa",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e36f4580-6a58-4757-993c-b8d69341b0c0_Meat%20samosas.jpeg",
+                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
                                         "itemDescription": "2 Pcs. Spiced minced chicken and spinach wrapped in organic white flour pastry and deep fried.",
-                                        "quantity": 0,
+                                        "quantity": 1,
                                         "itemPrice": "5.50"
                                     },
                                     {
                                         "itemName": "Fish Pakora",
                                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
                                         "itemDescription": "Pcs. Marinated salmon coated in chickpea batter and deep fried.",
-                                        "quantity": 0,
+                                        "quantity": 1,
                                         "itemPrice": "7.99"
                                     },
                                     {
                                         "itemName": "Veg Pakora",
                                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
                                         "itemDescription": "Marinated veggies coated in a chickpea batter and deep fried.",
-                                        "quantity": 0,
+                                        "quantity": 1,
                                         "itemPrice": "4.99"
                                     },
                                     {
                                         "itemName": "Chicken Pakora",
                                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
                                         "itemDescription": "Pcs. Marinated chicken breast coated in chickpea batter and deep fried.",
-                                        "quantity": 0,
+                                        "quantity": 1,
                                         "itemPrice": "5.99"
                                     },
                                     {
                                         "itemName": "Cauliflower Pakora",
                                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
                                         "itemDescription": "6 Pcs. Marinated cauliflower florets coated in a chickpea batter and deep fried.",
-                                        "quantity": 0,
+                                        "quantity": 1,
                                         "itemPrice": "4.99"
                                     },
                                     {
                                         "itemName": "Shrimp Pakora",
                                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
                                         "itemDescription": "6 Pcs. Marinated shrimp coated in chickpea batter and deep fried.",
-                                        "quantity": 0,
+                                        "quantity": 1,
                                         "itemPrice": "7.99"
                                     },
                                     {
                                         "itemName": "Gobi manchurian",
                                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
                                         "itemDescription": "",
-                                        "quantity": 0,
+                                        "quantity": 1,
                                         "itemPrice": "11.99"
                                     },
                                     {
-                                        "itemName": "",
+                                        "itemName": "Chilli chicken",
                                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
                                         "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "9.99"
-                                    },
-                                    {
-                                        "itemName": "Chilli chicken",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f4508570-49a8-4cfd-b1af-db43f17f9952_Chilli%20chicken.jpeg",
-                                        "itemDescription": "",
-                                        "quantity": 0,
+                                        "quantity": 1,
                                         "itemPrice": "16.99"
                                     },
                                     {
                                         "itemName": "Chilli panner",
                                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
                                         "itemDescription": "",
-                                        "quantity": 0,
+                                        "quantity": 1,
                                         "itemPrice": "15.99"
                                     }
                                 ]
                             },
                             {
                                 "categoryName": "Soup and Salad",
+                                "routeName": "Soup and Salad",
                                 "items": [
                                     {
                                         "itemName": "Mulligatawny Soup",
@@ -151,6 +146,7 @@ export class MenuComponent {
                             },
                             {
                                 "categoryName": "Tandoori",
+                                "routeName": "Tandoori",
                                 "items": [
                                     {
                                         "itemName": "House Mixed Grill",
@@ -219,6 +215,7 @@ export class MenuComponent {
                             },
                             {
                                 "categoryName": "Meat Delights",
+                                "routeName": "Meat Delights",
                                 "items": [
                                     {
                                         "itemName": "Butter Chicken",
@@ -385,15 +382,9 @@ export class MenuComponent {
                             },
                             {
                                 "categoryName": "Biryani",
+                                "routeName": "Biryani",
                                 "items": [
-                                    {
-                                        "itemName": "",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "Choix de votre viande cuite aux herbes, riz basmati, noix, et epices.",
-                                        "quantity": 0,
-                                        "itemPrice": ""
-                                    },
-                                    {
+                                   {
                                         "itemName": "CHICKEN",
                                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
                                         "itemDescription": "",
@@ -425,6 +416,7 @@ export class MenuComponent {
                             },
                             {
                                 "categoryName": "Seafood Delights",
+                                "routeName": "Seafood Delights",
                                 "items": [
                                     {
                                         "itemName": "Shrimp Karahi",
@@ -458,6 +450,7 @@ export class MenuComponent {
                             },
                             {
                                 "categoryName": "Vegetarian Dishes",
+                                "routeName": "Vegetarian Dishes",
                                 "items": [
                                     {
                                         "itemName": "Pois verts sautés / Sauteed green beans",
@@ -596,6 +589,7 @@ export class MenuComponent {
                             },
                             {
                                 "categoryName": "Rice Dishes",
+                                "routeName": "Rice Dishes",
                                 "items": [
                                     {
                                         "itemName": "Garlic Rice",
@@ -650,6 +644,7 @@ export class MenuComponent {
                             },
                             {
                                 "categoryName": "Bread's",
+                                "routeName": "Bread's",
                                 "items": [
                                     {
                                         "itemName": "Garlic Naan",
@@ -725,6 +720,7 @@ export class MenuComponent {
                             },
                             {
                                 "categoryName": "Beverages",
+                                "routeName": "Beverages",
                                 "items": [
                                     {
                                         "itemName": "Lassi: Mango - Sweet - Salt",
@@ -786,6 +782,7 @@ export class MenuComponent {
                             },
                             {
                                 "categoryName": "Side orders",
+                                "routeName": "Side orders",
                                 "items": [
                                     {
                                         "itemName": "RAITA",
@@ -793,13 +790,6 @@ export class MenuComponent {
                                         "itemDescription": "",
                                         "quantity": 0,
                                         "itemPrice": "3.50"
-                                    },
-                                    {
-                                        "itemName": "",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "3.00"
                                     },
                                     {
                                         "itemName": "Mint chutney",
@@ -826,6 +816,7 @@ export class MenuComponent {
                             },
                             {
                                 "categoryName": "Dessert",
+                                "routeName": "Dessert",
                                 "items": [
                                     {
                                         "itemName": "Ras Malai",
@@ -852,6 +843,7 @@ export class MenuComponent {
                             },
                             {
                                 "categoryName": "Combos",
+                                "routeName": "Combos",
                                 "items": [
                                     {
                                         "itemName": "Vegetarian",
@@ -937,6 +929,7 @@ export class MenuComponent {
         localStorage.setItem('location', this.host)
         this.cart.push({
             categoryName: category.categoryName,
+            routeName: category.routeName,
             itemName: item.itemName,
             itemIcon: item.icon,
             itemPrice: item.itemPrice,
