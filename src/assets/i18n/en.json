@@ -70,569 +70,550 @@
         "addtocart": "Add to Cart",
         "category": [
             {
-                "categoryName": "Appetizers",
-                "routeName": "Appetizers",
+                "categoryName": "Entrées Appetizers",
                 "items": [
                     {
-                        "itemName": "Veggie Samosa",
+                        "itemName": "Meat Samosa (2PCS)",
                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "2 Pcs. Cumin infused potatoes, veggie medley wrapped in organic white flour pastry, and deep fried.",
+                        "itemDescription": "2 pieces. Spiced ground chicken and spinach wrapped in white flour dough and fried.",
                         "quantity": 1,
-                        "itemPrice": "4.50"
+                        "itemPrice": 5.5
                     },
                     {
-                        "itemName": "Onion Bhajia",
+                        "itemName": "Veggie Samosa (2PCS)",
                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "4 Pcs. Seasoned onions coated in chickpea flour and deep fried.",
+                        "itemDescription": "2 pieces. Cumin-infused potatoes and vegetarian mix wrapped in white flour dough and fried.",
                         "quantity": 1,
-                        "itemPrice": "4.99"
+                        "itemPrice": 4.5
                     },
                     {
-                        "itemName": "Meat Samosa",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "2 Pcs. Spiced minced chicken and spinach wrapped in organic white flour pastry and deep fried.",
+                        "itemName": "Onion Bhaji (4PCS)",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/3b51d6a6-9552-4892-a177-8af55d668afd_Onion%20bhaja.jpg",
+                        "itemDescription": "4 pieces. Seasoned onions coated in chickpea flour and fried.",
                         "quantity": 1,
-                        "itemPrice": "5.50"
+                        "itemPrice": 4.99
                     },
                     {
-                        "itemName": "Fish Pakora",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "Pcs. Marinated salmon coated in chickpea batter and deep fried.",
+                        "itemName": "Chicken Pakora (6PCS)",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/93f7c7cc-c613-4818-ac66-624b2437d21e_Chicken%20pakora.jpg",
+                        "itemDescription": "6 pieces. Marinated chicken breast coated in chickpea batter and fried.",
                         "quantity": 1,
-                        "itemPrice": "7.99"
+                        "itemPrice": 5.99
                     },
                     {
                         "itemName": "Veg Pakora",
                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "Marinated veggies coated in a chickpea batter and deep fried.",
+                        "itemDescription": "Marinated vegetables coated in chickpea batter and fried.",
                         "quantity": 1,
-                        "itemPrice": "4.99"
+                        "itemPrice": 4.99
                     },
                     {
-                        "itemName": "Chicken Pakora",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "Pcs. Marinated chicken breast coated in chickpea batter and deep fried.",
+                        "itemName": "Malai Dumpling (Chicken)",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/2bbe4fda-e774-4751-9582-c6507a71843e_Malai%20dumplings.jpg",
+                        "itemDescription": "Fried dumpling cooked in tomato and cream sauce.",
                         "quantity": 1,
-                        "itemPrice": "5.99"
+                        "itemPrice": 10.99
                     },
                     {
                         "itemName": "Cauliflower Pakora",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "6 Pcs. Marinated cauliflower florets coated in a chickpea batter and deep fried.",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ae25cd6d-028e-4878-b240-3432ebc9298c_Cauliflower%20flowers%20pakora.jpg",
+                        "itemDescription": "6 pieces. Marinated cauliflower florets coated in chickpea batter and fried.",
                         "quantity": 1,
-                        "itemPrice": "4.99"
+                        "itemPrice": 4.99
                     },
                     {
-                        "itemName": "Shrimp Pakora",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "6 Pcs. Marinated shrimp coated in chickpea batter and deep fried.",
+                        "itemName": "Cauliflower Manchurian",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/a9b20622-a2b5-40a8-9152-0dd0a0a70db6_Cauliflower%20manchurian.jpg",
+                        "itemDescription": "Fried cauliflower with corn flour, soy sauce, chili, ginger, and garlic.",
                         "quantity": 1,
-                        "itemPrice": "7.99"
+                        "itemPrice": 10.99
                     },
                     {
-                        "itemName": "Gobi manchurian",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "",
+                        "itemName": "Chilli Dumpling (Chicken)",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/85ed77a0-77e7-4a06-b813-e24325e3ebde_Chilli%20dumplings.jpg",
+                        "itemDescription": "Fried dumpling with garlic, soy sauce, and chilies. With bell peppers, ginger, and onions.",
                         "quantity": 1,
-                        "itemPrice": "11.99"
+                        "itemPrice": 10.99
                     },
                     {
-                        "itemName": "Chilli chicken",
+                        "itemName": "Apollo Fish",
                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "",
+                        "itemDescription": "Basa fish cooked in a garlic, soy, and yogurt sauce. With bell peppers, ginger, and onions.",
                         "quantity": 1,
-                        "itemPrice": "16.99"
+                        "itemPrice": 12.99
                     },
                     {
-                        "itemName": "Chilli panner",
+                        "itemName": "Chicken Magistick",
                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "",
+                        "itemDescription": "Marinated chicken strips, fried and then sautéed with ginger, garlic, ketchup, and a spicy sauce.",
                         "quantity": 1,
-                        "itemPrice": "15.99"
+                        "itemPrice": 12.99
+                    },
+                    {
+                        "itemName": "Cauliflower Mango",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/a359436f-c408-4f81-bab8-62a5f8a3b1a1_Mango%20flower.jpg",
+                        "itemDescription": "Fried cauliflower with mango, corn flour, soy sauce, chili, ginger, and garlic.",
+                        "quantity": 1,
+                        "itemPrice": 9.99
+                    },
+                    {
+                        "itemName": "Chilli Chicken",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/bd42e0f7-c4bf-4516-a5b5-1ec3f5264426_Chill%20chicken.jpg",
+                        "itemDescription": "Seasoned fried chicken breast cubes added to garlic, soy sauce, and chili sauce with diced sautéed bell peppers, ginger, and onion.",
+                        "quantity": 1,
+                        "itemPrice": 12.99
+                    },
+                    {
+                        "itemName": "Chilli Paneer",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/57cc230f-ddc8-401d-92e0-7b0e69d0d951_Chill%20panner.jpg",
+                        "itemDescription": "Fried paneer added to garlic, soy sauce, and chili sauce with diced pepper, ginger, and onion.",
+                        "quantity": 1,
+                        "itemPrice": 12.99
                     }
                 ]
             },
             {
                 "categoryName": "Soup and Salad",
-                "routeName": "Soup and Salad",
                 "items": [
-                    {
-                        "itemName": "Mulligatawny Soup",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "Yellow lentil soup with veggies and minced chicken tikka in a blend of spices.",
-                        "quantity": 1,
-                        "itemPrice": "4.99"
-                    },
                     {
                         "itemName": "Mushroom Soup",
                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "Shitake and creamini mushrooms in a tomato base.",
+                        "itemDescription": "Shiitake and cremini mushrooms in a tomato base.",
                         "quantity": 1,
-                        "itemPrice": "4.99"
+                        "itemPrice": 4.99
+                    },
+                    {
+                        "itemName": "Tomato Soup",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/a7f31f13-094a-47a5-912c-7fa607df60e4_Tomato%20soup.jpg",
+                        "itemDescription": "Blend of tomatoes with a touch of cream.",
+                        "quantity": 1,
+                        "itemPrice": 4.99
+                    },
+                    {
+                        "itemName": "Mulligatawny Soup",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "Yellow lentil soup with vegetables and minced chicken tikka in a spice mix.",
+                        "quantity": 1,
+                        "itemPrice": 4.99
                     },
                     {
                         "itemName": "Khira Raita",
                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "Sliced cucumbers topped with yoghurt.",
+                        "itemDescription": "Cucumber slices topped with homemade yogurt.",
                         "quantity": 1,
-                        "itemPrice": "4.99"
+                        "itemPrice": 4.99
                     },
                     {
                         "itemName": "Kachumber Salad",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "Diced onion, cucumber, carrot, tomatoes, mixed pepper, cilantro, pepper, and lemon juice.",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/4d7c886d-47d4-4299-8e3b-af9c36f53847_Kachumber%20salad.jpg",
+                        "itemDescription": "Diced onion, cucumber, carrot, tomatoes, mixed pepper, coriander, pepper, and lemon juice.",
                         "quantity": 1,
-                        "itemPrice": "4.99"
-                    },
-                    {
-                        "itemName": "Tomato Soup",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "Blended tomatoes with a touch of cream.",
-                        "quantity": 1,
-                        "itemPrice": "4.99"
+                        "itemPrice": 4.99
                     }
                 ]
             },
             {
                 "categoryName": "Tandoori",
-                "routeName": "Tandoori",
                 "items": [
                     {
-                        "itemName": "House Mixed Grill",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "Tandoori chicken, reshmi kebab, thangidi chicken, tandoori prawn and fish, marinated in homemade yogurt, ginger, garlic, spices, lime juice, and cooked in tandoor. Served on a bed of onions and mixed peppers. Served with naan.",
-                        "quantity": 1,
-                        "itemPrice": "23.99"
-                    },
-                    {
-                        "itemName": "Whole Tandoori Chicken [8 PCS]",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "Chicken marinated in yogurt, ginger, garlic, spices, lime juice, and cooked in tandoor. Served on a bed of onions and mixed peppers.",
-                        "quantity": 1,
-                        "itemPrice": "22.99"
-                    },
-                    {
-                        "itemName": "Paneer Tikka [6 PCS]",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "6 Pcs. Cubes of Indian cottage cheese marinated in yogurt, ginger, garlic, spices, lime juice, and cooked in tandoor. Served on a bed of onions and mixed peppers.",
-                        "quantity": 1,
-                        "itemPrice": "16.99"
-                    },
-                    {
-                        "itemName": "Thangidi Kabab [4 PCS]",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "4 Pcs. Chicken legs marinated in yogurt, ginger, garlic, spices, cashew paste, and cooked in tandoor. Served on a bed of onions and mixed peppers.",
-                        "quantity": 1,
-                        "itemPrice": "19.99"
-                    },
-                    {
-                        "itemName": "Half Tandoori Chicken [4 PCS]",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemName": "Tandoori Chicken Legs (8pcs)",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/5c424090-7650-41b2-bef0-527c189b6878_Chicken%20Wings.jpg",
                         "itemDescription": "",
                         "quantity": 1,
-                        "itemPrice": "19.99"
+                        "itemPrice": 17.99
+                    },
+                    {
+                        "itemName": "Tandoori Chicken Legs (4pcs)",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/145dc770-3a75-4386-9d13-ff1ca280e0fb_Tandoori%20chicken%20half.jpg",
+                        "itemDescription": "Chicken marinated in homemade yogurt, ginger, garlic, spices, lime juice, and cooked in a tandoor. Served on a bed of mixed onions and bell peppers.",
+                        "quantity": 1,
+                        "itemPrice": 13.99
+                    },
+                    {
+                        "itemName": "Tandoori Fish (3pcs)",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/4935caba-d49b-42a2-acda-1d47ac345b3b_Tandoori%20fish.jpg",
+                        "itemDescription": "Boneless salmon marinated in homemade yogurt, ginger, garlic, spices, lime juice, and cooked in a tandoor. Served on a bed of mixed onions and bell peppers. Comes with butter naan.",
+                        "quantity": 1,
+                        "itemPrice": 21.99
+                    },
+                    {
+                        "itemName": "Tandoori Prawn (12pcs)",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "Prawns marinated in homemade yogurt, ginger, garlic, spices, lime juice, and cooked in a tandoor. Served on a bed of mixed onions and bell peppers with butter naan.",
+                        "quantity": 1,
+                        "itemPrice": 16.99
+                    },
+                    {
+                        "itemName": "Reshmi Kabab (4pcs)",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ec719282-da1b-4578-b737-aa646ecb11ab_Reshmi%20kabab.jpg",
+                        "itemDescription": "Minced chicken seasoned with a blend of green spices and cooked in a tandoor. Served on a bed of mixed onions and bell peppers.",
+                        "quantity": 1,
+                        "itemPrice": 15.99
+                    },
+                    {
+                        "itemName": "Thangidi Kabab (6pcs)",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/728e4230-3d75-4f0d-80e5-17f5e79b10fc_Thangidi%20chicken%20%281%29.jpg",
+                        "itemDescription": "6 pieces of chicken drumsticks marinated in yogurt, ginger, garlic, spices, cashew nut paste, and cooked in a tandoor. Served on a bed of mixed onions and bell peppers.",
+                        "quantity": 1,
+                        "itemPrice": 15.99
+                    },
+                    {
+                        "itemName": "House Mixed Grill",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/b3a08d63-6ffa-4904-862e-67293fe717ae_House%20mixed%20grill.jpg",
+                        "itemDescription": "Tandoori chicken, reshmi kebab, tandoori prawns, fish marinated in homemade yogurt, ginger, garlic, spices, lime juice, and cooked in a tandoor. Served on a bed of mixed onions and bell peppers (Comes with naan).",
+                        "quantity": 1,
+                        "itemPrice": 22.99
+                    },
+                    {
+                        "itemName": "Paneer Tikka (6pcs)",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/c14ae4da-ab0d-47d3-99bd-ed456c50bb21_Panner%20tikka.jpg",
+                        "itemDescription": "6 pieces of Indian cottage cheese cubes marinated in homemade yogurt, ginger, garlic, spices, lime juice, and cooked in a tandoor. Served on a bed of mixed onions and bell peppers.",
+                        "quantity": 1,
+                        "itemPrice": 16.99
                     },
                     {
                         "itemName": "Tandoori Cauliflower",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "Florets of cauliflower marinated in yogurt, ginger, garlic, spices, lime juice, and cooked in tandoor. Served on a bed of onions and mixed peppers.",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/1998e8c7-505a-4915-aacd-99f0c7c3b1ed_Tandoori%20cauliflower.jpg",
+                        "itemDescription": "Cauliflower florets marinated in homemade yogurt, ginger, garlic, spices, lime juice, and cooked in a tandoor. Served on a bed of mixed onions and bell peppers.",
                         "quantity": 1,
-                        "itemPrice": "14.99"
-                    },
-                    {
-                        "itemName": "Tandoori Fish [3 PCS]",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "3 Pcs. Boneless salmon marinated in homemade yogurt, ginger, garlic, spices, lime juice, and cooked in tandoor. Served on a bed of onions and mixed peppers. Comes with one butter naan.",
-                        "quantity": 1,
-                        "itemPrice": "21.99"
-                    },
-                    {
-                        "itemName": "Tandoori prawn",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "",
-                        "quantity": 1,
-                        "itemPrice": "20.99"
-                    },
-                    {
-                        "itemName": "Reshmi kebab (4)",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "",
-                        "quantity": 1,
-                        "itemPrice": "17.99"
+                        "itemPrice": 14.99
                     }
                 ]
             },
             {
-                "categoryName": "Meat Delights",
-                "routeName": "Meat Delights",
+                "categoryName": "Our Meat Curries",
                 "items": [
                     {
                         "itemName": "Butter Chicken",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "Chicken marinated and baked in the tandoor and then simmered in a creamy tomato gravy.",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/71a10bf3-ff33-4cbb-8c94-c54f50ad36d7_Butter%20chicken.jpg",
+                        "itemDescription": "Tandoori chicken tikka (chicken breast) marinated, cooked in the tandoor, and then simmered in a creamy tomato sauce.",
                         "quantity": 1,
-                        "itemPrice": "19.99"
+                        "itemPrice": 16.99
                     },
                     {
                         "itemName": "Chicken Tikka Masala",
                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "Chicken marinated in yogurt, ginger, garlic, spices, lime juice and cooked in tandoor, then added to a masala gravy with tomato, onion, ginger, garlic, mixed pepper, cilantro, and a touch of yogurt.",
+                        "itemDescription": "Chicken tikka marinated in homemade yogurt, ginger, garlic, spices, and lime juice, cooked in the tandoor, then added to a masala sauce with tomatoes, onions, ginger, garlic, mixed peppers, coriander, and a touch of yogurt.",
                         "quantity": 1,
-                        "itemPrice": "19.99"
+                        "itemPrice": 15.99
                     },
                     {
-                        "itemName": "Chicken Curry",
+                        "itemName": "Curry / Chicken",
                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "",
+                        "itemDescription": "Traditional tomato and onion sauce with a blend of homemade garam masala.",
                         "quantity": 1,
-                        "itemPrice": "18.99"
+                        "itemPrice": 13.99
                     },
                     {
-                        "itemName": "LAMB VINDALOO",
+                        "itemName": "Curry / Beef",
                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "",
+                        "itemDescription": "Traditional tomato and onion sauce with a blend of homemade garam masala.",
                         "quantity": 1,
-                        "itemPrice": "20.99"
+                        "itemPrice": 15.99
                     },
                     {
-                        "itemName": "Lamb Karahi",
+                        "itemName": "Curry Lamb shank",
                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "ooked with mixed peppers, onion, tomato, cilantro and fresh ginger in a masala gravy, and a touch of yogurt.",
+                        "itemDescription": "Traditional tomato and onion sauce with a blend of homemade garam masala.",
                         "quantity": 1,
-                        "itemPrice": "20.99"
+                        "itemPrice": 17.99
                     },
                     {
-                        "itemName": "CHICKEN MUGULAI",
+                        "itemName": "Curry Lamb",
                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "",
+                        "itemDescription": "Traditional tomato and onion sauce with a blend of homemade garam masala.",
                         "quantity": 1,
-                        "itemPrice": "18.99"
+                        "itemPrice": 16.99
                     },
                     {
-                        "itemName": "LAMB MUGULAI",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "",
+                        "itemName": "Karahi / Chicken",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/c6da5235-648d-4227-8abc-5bbf49fdb9c6_Chicken%20karahi.jpg",
+                        "itemDescription": "Cooked with mixed peppers, onions, tomatoes, coriander, and fresh ginger in a masala sauce, with a touch of yogurt.",
                         "quantity": 1,
-                        "itemPrice": "20.99"
+                        "itemPrice": 14.99
                     },
                     {
-                        "itemName": "\nLAMB SAAG",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "",
+                        "itemName": "Karahi / Beef",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/bb81d29b-63dc-4024-b458-806e4bf674e9_Beef%20karahi.jpg",
+                        "itemDescription": "Cooked with mixed peppers, onions, tomatoes, coriander, and fresh ginger in a masala sauce, with a touch of yogurt.",
                         "quantity": 1,
-                        "itemPrice": "20.99"
+                        "itemPrice": 15.99
                     },
                     {
-                        "itemName": "CHICKEN SAAG",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "",
+                        "itemName": "Karahi / Lamb",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/d7ed10cc-6be8-4953-b11c-80fa07e62000_Lamb%20karahi.jpg",
+                        "itemDescription": "Cooked with mixed peppers, onions, tomatoes, coriander, and fresh ginger in a masala sauce, with a touch of yogurt.",
                         "quantity": 1,
-                        "itemPrice": "18.99"
+                        "itemPrice": 16.99
                     },
                     {
-                        "itemName": "BEEF VINDALOO",
+                        "itemName": "Shahi / Chicken",
                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "",
+                        "itemDescription": "Cooked in a creamy coconut milk and a spiced pine nut sauce.",
                         "quantity": 1,
-                        "itemPrice": "19.99"
+                        "itemPrice": 14.99
                     },
                     {
-                        "itemName": "SHAHI CHICKEN",
+                        "itemName": "Shahi / Beef",
                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "",
+                        "itemDescription": "Cooked in a creamy coconut milk and a spiced pine nut sauce.",
                         "quantity": 1,
-                        "itemPrice": "18.99"
+                        "itemPrice": 15.99
                     },
                     {
-                        "itemName": "BEEF MUGULAI",
+                        "itemName": "Shahi / Lamb",
                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "",
+                        "itemDescription": "Cooked in a creamy coconut milk and a spiced pine nut sauce.",
                         "quantity": 1,
-                        "itemPrice": "19.99"
+                        "itemPrice": 16.99
                     },
                     {
-                        "itemName": "CHICKEN MADRAS",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "",
+                        "itemName": "Vindaloo / Chicken",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/6f1bebd9-0fde-4836-8d7d-c0053a5d9113_Chicken%20Vindaloo.jpg",
+                        "itemDescription": "Your choice of meat and potatoes simmered in a tangy, spicy tamarind sauce.",
                         "quantity": 1,
-                        "itemPrice": "18.99"
+                        "itemPrice": 14.99
                     },
                     {
-                        "itemName": "Lamb Curry",
+                        "itemName": "Vindaloo / Beef",
                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "",
+                        "itemDescription": "Your choice of meat and potatoes simmered in a tangy, spicy tamarind sauce.",
                         "quantity": 1,
-                        "itemPrice": "20.99"
+                        "itemPrice": 15.99
                     },
                     {
-                        "itemName": "Chicken Karahi",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "Cooked with mixed peppers, onion, tomato, cilantro and fresh ginger in a masala gravy, and a touch of yogurt.",
+                        "itemName": "Vindaloo / Lamb",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/40ae88c7-681b-4a4f-a48a-57771634c5ad_Lamb%20vindaloo.jpg",
+                        "itemDescription": "Your choice of meat and potatoes simmered in a tangy, spicy tamarind sauce.",
                         "quantity": 1,
-                        "itemPrice": "18.99"
+                        "itemPrice": 16.99
                     },
                     {
-                        "itemName": "LAMB SHAHI",
+                        "itemName": "Mugulai / Chicken",
                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "",
+                        "itemDescription": "Cooked with a blend of spices in a creamy cashew sauce.",
                         "quantity": 1,
-                        "itemPrice": "20.99"
+                        "itemPrice": 14.99
                     },
                     {
-                        "itemName": "LAMB MADRAS",
+                        "itemName": "Mugulai / Beef",
                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "",
+                        "itemDescription": "Cooked with a blend of spices in a creamy cashew sauce.",
                         "quantity": 1,
-                        "itemPrice": "20.99"
+                        "itemPrice": 15.99
                     },
                     {
-                        "itemName": "CHICKEN VINDALOO",
+                        "itemName": "Mugulai / Lamb",
                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "",
+                        "itemDescription": "Cooked with a blend of spices in a creamy cashew sauce.",
                         "quantity": 1,
-                        "itemPrice": "18.99"
+                        "itemPrice": 16.99
                     },
                     {
-                        "itemName": "BEEF KARAHI",
+                        "itemName": "Madras / Chicken",
                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "",
+                        "itemDescription": "Cooked in a coconut milk and yogurt sauce with a blend of South Indian spices. Served with a whole red chili.",
                         "quantity": 1,
-                        "itemPrice": "19.99"
+                        "itemPrice": 14.99
                     },
                     {
-                        "itemName": "BEEF SAAG",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "",
+                        "itemName": "Madras / Beef",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ee4dcfb8-64e8-4e9a-9a6b-19d362ecb38f_Beef%20madras.jpg",
+                        "itemDescription": "Cooked in a coconut milk and yogurt sauce with a blend of South Indian spices. Served with a whole red chili.",
                         "quantity": 1,
-                        "itemPrice": "19.99"
+                        "itemPrice": 15.99
                     },
                     {
-                        "itemName": "Beef Curry",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "",
+                        "itemName": "Madras / Lamb",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/61b334ca-53df-4e28-a3b2-a934206fed4b_Lamb%20madras.jpg",
+                        "itemDescription": "Cooked in a coconut milk and yogurt sauce with a blend of South Indian spices. Served with a whole red chili.",
                         "quantity": 1,
-                        "itemPrice": "19.99"
+                        "itemPrice": 16.99
                     },
                     {
-                        "itemName": "BEEF SHAHI",
+                        "itemName": "Saag / Chicken",
                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "",
+                        "itemDescription": "Pureed spinach, onions, tomatoes, and a touch of cream with fresh ginger.",
                         "quantity": 1,
-                        "itemPrice": "18.99"
+                        "itemPrice": 14.99
                     },
                     {
-                        "itemName": "BEEF MADRAS",
+                        "itemName": "Saag / Beef",
                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "",
+                        "itemDescription": "Pureed spinach, onions, tomatoes, and a touch of cream with fresh ginger.",
                         "quantity": 1,
-                        "itemPrice": "19.99"
+                        "itemPrice": 15.99
+                    },
+                    {
+                        "itemName": "Saag / Lamb",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "Pureed spinach, onions, tomatoes, and a touch of cream with fresh ginger.",
+                        "quantity": 1,
+                        "itemPrice": 16.99
                     }
                 ]
             },
             {
-                "categoryName": "Biryani",
-                "routeName": "Biryani",
+                "categoryName": "Seafood",
                 "items": [
-                    {
-                        "itemName": "CHICKEN",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "",
-                        "quantity": 1,
-                        "itemPrice": "13.99"
-                    },
-                    {
-                        "itemName": "BEEF",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "",
-                        "quantity": 1,
-                        "itemPrice": "14.99"
-                    },
-                    {
-                        "itemName": "LAMB",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "",
-                        "quantity": 1,
-                        "itemPrice": "15.99"
-                    },
-                    {
-                        "itemName": "SHRIMP",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "",
-                        "quantity": 1,
-                        "itemPrice": "16.99"
-                    }
-                ]
-            },
-            {
-                "categoryName": "Seafood Delights",
-                "routeName": "Seafood Delights",
-                "items": [
-                    {
-                        "itemName": "Shrimp Karahi",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "Cooked with mixed peppers, onion, tomato, cilantro and fresh ginger in a masala gravy, and a touch of yogurt.",
-                        "quantity": 1,
-                        "itemPrice": "19.99"
-                    },
-                    {
-                        "itemName": "Shrimp Vindaloo",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "Tiger prawns and seasoned potato and simmered in a sour and tangy tamarind sauce with a blend of spices.",
-                        "quantity": 1,
-                        "itemPrice": "19.99"
-                    },
                     {
                         "itemName": "Fish Curry",
                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "Boneless salmon fish cooked in a tamarind sauce with tomato, yogurt, onion, and light spices.",
+                        "itemDescription": "Boneless salmon cooked in a tamarind sauce, with tomato, yogurt, onion, and mild spices.",
                         "quantity": 1,
-                        "itemPrice": "20.99"
+                        "itemPrice": 15.99
                     },
                     {
                         "itemName": "Shrimp Shahi",
                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "Tiger prawns cooked in a creamy coconut milk and onion gravy with spices.",
+                        "itemDescription": "Tiger prawns cooked in a creamy coconut milk sauce with spiced onions.",
                         "quantity": 1,
-                        "itemPrice": "19.99"
+                        "itemPrice": 15.99
+                    },
+                    {
+                        "itemName": "Shrimp Karahi",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "Cooked with mixed peppers, onions, tomatoes, coriander, and fresh ginger, in a masala sauce with a touch of yogurt.",
+                        "quantity": 1,
+                        "itemPrice": 15.99
+                    },
+                    {
+                        "itemName": "Shrimp Vindaloo",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/465141d1-71e9-472e-aa21-4498bbc3fec8_Shrimp%20vindaloo.jpg",
+                        "itemDescription": "Tiger prawns and potatoes seasoned and simmered in a tangy, spicy tamarind sauce with a blend of spices.",
+                        "quantity": 1,
+                        "itemPrice": 15.99
                     }
                 ]
             },
             {
-                "categoryName": "Vegetarian Dishes",
-                "routeName": "Vegetarian Dishes",
+                "categoryName": "Our Veggie Curries",
                 "items": [
                     {
-                        "itemName": "Pois verts sautés / Sauteed green beans",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "Pois verts sautés avec ine touche de tomates, oignons et épices",
+                        "itemName": "Aloo Gobi",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/098c6130-09ef-43c1-95f1-2dfca610ee2c_Aloo%20gobi%28%20potato%20cauliflower%29.jpg",
+                        "itemDescription": "Cauliflower and potatoes cooked with onion, tomato, and aromatic spices.",
                         "quantity": 1,
-                        "itemPrice": "14.99"
-                    },
-                    {
-                        "itemName": "Channa Aloo",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "Pois chiches et patates cuits avec poivrons, oignons au feut lentavec une sauce masala delicieuse",
-                        "quantity": 1,
-                        "itemPrice": "13.99"
-                    },
-                    {
-                        "itemName": "aag aloo",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "pinards et patates cuits avec tomates, oignons, herbes et une touche de creme",
-                        "quantity": 1,
-                        "itemPrice": "13.99"
+                        "itemPrice": 11.99
                     },
                     {
                         "itemName": "Palak Paneer",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "Cottage cheese, spinach, and tomato with touch of cream.",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/db8fdfe5-da99-4b91-b72c-b7d3d30e63c3_Palak%20panner.jpg",
+                        "itemDescription": "Cottage cheese, spinach, and tomatoes with a touch of cream.",
                         "quantity": 1,
-                        "itemPrice": "15.99"
+                        "itemPrice": 12.99
                     },
                     {
-                        "itemName": "Aloo Gobi",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "Cauliflower and potatoes cooked in onion, tomato, and aromatic spices.",
+                        "itemName": "Mutter Paneer",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/c022334b-658e-4538-b19b-7f2410e1aaaf_Mutter%20panner%20%282%29.jpg",
+                        "itemDescription": "Cottage cheese and green peas cooked in a creamy tomato sauce.",
                         "quantity": 1,
-                        "itemPrice": "13.99"
-                    },
-                    {
-                        "itemName": "Daal with Spinach",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "Split lentils and spinach cooked with tomato seasoned with spices and herbs in Hyderabadi style.",
-                        "quantity": 1,
-                        "itemPrice": "12.99"
-                    },
-                    {
-                        "itemName": "Baingan Bhartha",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "Whole eggplant baked in tandoor, mashed and sauted with onions, tomatoes, touch of cream, and fresh herbs.",
-                        "quantity": 1,
-                        "itemPrice": "14.99"
-                    },
-                    {
-                        "itemName": "PANEER MAKHANI",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "",
-                        "quantity": 1,
-                        "itemPrice": "16.99"
-                    },
-                    {
-                        "itemName": "PANEER TIKKA MASALA",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "",
-                        "quantity": 1,
-                        "itemPrice": "16.99"
-                    },
-                    {
-                        "itemName": "Spinach Fry",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "Spinach sauted with garlic, onions, spices, and lemon.",
-                        "quantity": 1,
-                        "itemPrice": "14.99"
-                    },
-                    {
-                        "itemName": "Aloo Mogulai",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "Seasoned potatoes cooked with a blend of spices in a creamy cashew gravy.",
-                        "quantity": 1,
-                        "itemPrice": "13.99"
+                        "itemPrice": 12.99
                     },
                     {
                         "itemName": "Shahi Paneer",
                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "Indian cottage cheese cooked in a creamy onion and coconut milk gravy and spices.",
+                        "itemDescription": "Indian cottage cheese cooked in a creamy onion and coconut milk sauce with spices.",
                         "quantity": 1,
-                        "itemPrice": "15.99"
-                    },
-                    {
-                        "itemName": "Channa Masala",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "Chickpea cooked in tomato, spices, and herbs to perfection.",
-                        "quantity": 1,
-                        "itemPrice": "13.99"
-                    },
-                    {
-                        "itemName": "Navarathan Mogulai",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "9 vegetables: potato, baby corn, paneer, peas, beans, carrots, broccoli, cauliflower, and mushrooms cooked with a blend of spices in a creamy cashew gravy.",
-                        "quantity": 1,
-                        "itemPrice": "14.99"
-                    },
-                    {
-                        "itemName": "DAAL MAKHANI",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "",
-                        "quantity": 1,
-                        "itemPrice": "15.99"
+                        "itemPrice": 12.99
                     },
                     {
                         "itemName": "Daal Curry",
                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "Split lentils cooked with tomato seasoned with spices and herbs in Hyderabadi style.",
+                        "itemDescription": "Split lentils cooked with tomato and seasoned with spices and herbs in the Hyderabadi style.",
                         "quantity": 1,
-                        "itemPrice": "12.99"
+                        "itemPrice": 9.99
+                    },
+                    {
+                        "itemName": "Daal with Spinach",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "Split lentils and spinach cooked with tomato, seasoned with spices and herbs in the Hyderabadi style.",
+                        "quantity": 1,
+                        "itemPrice": 10.99
+                    },
+                    {
+                        "itemName": "Chana Masala",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/963b99b7-7e10-4d77-8bfc-c65bd2925e14_Chana%20masala.jpg",
+                        "itemDescription": "Chickpeas cooked with tomato, spices, and herbs to perfection.",
+                        "quantity": 1,
+                        "itemPrice": 10.99
+                    },
+                    {
+                        "itemName": "Baingan Bhartha",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/56fab401-9373-41b8-913b-cd54a6ec0082_Baigan%20bhartha.jpg",
+                        "itemDescription": "Whole eggplants cooked in a tandoor, mashed and sautéed with onions, tomatoes, a touch of cream, and fresh herbs.",
+                        "quantity": 1,
+                        "itemPrice": 11.99
                     },
                     {
                         "itemName": "Navrathan Curry",
                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "9 vegetables: potato, baby corn, paneer, peas, beans, carrots, broccoli, cauliflower, and mushrooms cooked with a blend of spices in a curry gravy.",
+                        "itemDescription": "Mixed vegetables: potatoes, baby corn, paneer, peas, beans, carrots, broccoli, cauliflower, and mushrooms cooked with a blend of spices in a curry sauce.",
                         "quantity": 1,
-                        "itemPrice": "13.99"
+                        "itemPrice": 10.99
+                    },
+                    {
+                        "itemName": "Navarathan Mogulai",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "9 vegetables: potatoes, baby corn, paneer, peas, beans, carrots, broccoli, cauliflower, and mushrooms cooked with a blend of spices in a creamy cashew nut sauce.",
+                        "quantity": 1,
+                        "itemPrice": 11.99
+                    },
+                    {
+                        "itemName": "Paneer Tikka Masala",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "Cooked in a tandoor, then added to a masala sauce with a mix of peppers, onion, coriander, and a touch of yogurt.",
+                        "quantity": 1,
+                        "itemPrice": 12.99
+                    },
+                    {
+                        "itemName": "Aloo Mogulai",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "Seasoned potatoes cooked with a blend of spices in a creamy cashew nut sauce.",
+                        "quantity": 1,
+                        "itemPrice": 10.99
                     },
                     {
                         "itemName": "Bhendi Masala",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "Crisp okra prepared with fresh onions, tomatoes, spices, and herbs.",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/d5e4607f-cf5c-45bf-98e4-a20b85cddbf6_Bendhi%20masala%20%28%20lady%20fingers%20masala%29.jpg",
+                        "itemDescription": "Crispy okra prepared with fresh onions, tomatoes, spices, and herbs.",
                         "quantity": 1,
-                        "itemPrice": "14.99"
+                        "itemPrice": 11.99
                     },
                     {
-                        "itemName": "Mutter Paneer",
+                        "itemName": "Paneer Makhani",
                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "Cottage cheese and green peas cooked in cream and tomato sauce.",
+                        "itemDescription": "Cubes of cottage cheese simmered in a tomato and cream sauce.",
                         "quantity": 1,
-                        "itemPrice": "15.99"
+                        "itemPrice": 12.99
+                    },
+                    {
+                        "itemName": "Daal Makhani",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "Whole black lentils cooked with tomato, cream, and herbs in the North Indian style.",
+                        "quantity": 1,
+                        "itemPrice": 12.99
+                    },
+                    {
+                        "itemName": "Sauteed Green Beans",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "Green beans sautéed with a touch of tomatoes, onions, and spices.",
+                        "quantity": 1,
+                        "itemPrice": 10.99
+                    },
+                    {
+                        "itemName": "Saag Aloo",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "Spinach and potatoes cooked with tomatoes, onions, herbs, and a touch of cream.",
+                        "quantity": 1,
+                        "itemPrice": 10.99
+                    },
+                    {
+                        "itemName": "Chana Aloo",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "Chickpeas and potatoes cooked with peppers, onions, in a flavorful masala sauce.",
+                        "quantity": 1,
+                        "itemPrice": 11.99
                     }
                 ]
             },
@@ -641,129 +622,161 @@
                 "routeName": "Rice Dishes",
                 "items": [
                     {
-                        "itemName": "Garlic Rice",
+                        "itemName": "Plain Rice",
                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "Basmati rice mixed with fried garlic, cilantro, and herbs.",
+                        "itemDescription": "Premium quality basmati rice cooked to perfection.",
                         "quantity": 1,
-                        "itemPrice": "4.99"
+                        "itemPrice": 3.99
+                    },
+                    {
+                        "itemName": "Pulao Rice",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "Basmati rice cooked with Indian spices.",
+                        "quantity": 1,
+                        "itemPrice": 4.5
                     },
                     {
                         "itemName": "Saffron Rice",
                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "Saffron infused rice with a touch of cream.",
+                        "itemDescription": "Rice infused with saffron and a touch of cream.",
                         "quantity": 1,
-                        "itemPrice": "5.99"
+                        "itemPrice": 4.99
+                    },
+                    {
+                        "itemName": "Garlic Rice",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "Basmati rice mixed with fried garlic, coriander, and herbs—a Banjara specialty.",
+                        "quantity": 1,
+                        "itemPrice": 4.99
                     },
                     {
                         "itemName": "Jeera Rice",
                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "Basmati rice tampered with cumin seeds.",
+                        "itemDescription": "Basmati rice flavored with cumin seeds.",
                         "quantity": 1,
-                        "itemPrice": "4.99"
+                        "itemPrice": 4.99
                     },
                     {
                         "itemName": "Peas Pulao",
                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "Flavored basmati rice cooked with green peas, sautéed onion, mixed pepper, and yoghurt.",
+                        "itemDescription": "Basmati rice flavored with peas, onions, mixed peppers, and yogurt.",
                         "quantity": 1,
-                        "itemPrice": "5.99"
-                    },
-                    {
-                        "itemName": "Plain Rice",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "Superior quality basmati rice cooked to perfection.",
-                        "quantity": 1,
-                        "itemPrice": "3.99"
+                        "itemPrice": 4.99
                     },
                     {
                         "itemName": "Vegetable Biryani",
                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
                         "itemDescription": "Stewed vegetables mixed with basmati rice, herbs, cashews, and spices.",
                         "quantity": 1,
-                        "itemPrice": "12.99"
-                    },
-                    {
-                        "itemName": "Pulao Rice",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "Basmati rice cooked with onion and Indian spices.",
-                        "quantity": 1,
-                        "itemPrice": "4.50"
+                        "itemPrice": 12.99
                     }
                 ]
             },
             {
-                "categoryName": "Bread's",
-                "routeName": "Bread's",
+                "categoryName": "Rice Biryani Served with Chutney Raita",
                 "items": [
                     {
-                        "itemName": "Garlic Naan",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "Tandoori bread topped with garlic and cilantro.",
+                        "itemName": "Keema Biryani",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/82eb0f72-fba4-44a1-a99f-00eb6e7947c0_Lamb%20keema%20biryani.jpg",
+                        "itemDescription": "Basmati rice cooked with minced lamb, herbs, nuts, and spices.",
                         "quantity": 1,
-                        "itemPrice": "4.50"
+                        "itemPrice": 16.99
+                    },
+                    {
+                        "itemName": "Lamb Shank Biryani",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/73d3e10c-782d-4b86-b6b4-0816ba5ff1c1_Lamb%20shank%20biryani%19s.jpg",
+                        "itemDescription": "Lamb shank cooked with basmati rice, herbs, nuts, and spices.",
+                        "quantity": 1,
+                        "itemPrice": 18.99
+                    },
+                    {
+                        "itemName": "Biryani Chicken",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "Choice of meat cooked with herbs, basmati rice, nuts, and spices.",
+                        "quantity": 1,
+                        "itemPrice": 13.99
+                    },
+                    {
+                        "itemName": "Biryani Beef",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "Choice of meat cooked with herbs, basmati rice, nuts, and spices.",
+                        "quantity": 1,
+                        "itemPrice": 14.99
+                    },
+                    {
+                        "itemName": "Biryani Lamb",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "Choice of meat cooked with herbs, basmati rice, nuts, and spices.",
+                        "quantity": 1,
+                        "itemPrice": 15.99
+                    },
+                    {
+                        "itemName": "Biryani Shrimp",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "Choice of meat cooked with herbs, basmati rice, nuts, and spices.",
+                        "quantity": 1,
+                        "itemPrice": 16.99
+                    }
+                ]
+            },
+            {
+                "categoryName": "Breads",
+                "items": [
+                    {
+                        "itemName": "Plain Naan / Butter Naan",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/5e21b4c1-3658-4fb5-890e-bcbfa04f72a5_Butter%20nann.jpg",
+                        "itemDescription": "Traditional tandoor-cooked bread, with butter or plain.",
+                        "quantity": 1,
+                        "itemPrice": 3.99
+                    },
+                    {
+                        "itemName": "Garlic Naan",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/67fc5931-d003-4601-a711-c3b9f2b93280_Garlic%20bread.jpg",
+                        "itemDescription": "Tandoori bread garnished with garlic and coriander.",
+                        "quantity": 1,
+                        "itemPrice": 4.50
+                    },
+                    {
+                        "itemName": "Chilli Garlic Naan",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "Tandoori bread garnished with garlic, red chili flakes, and coriander.",
+                        "quantity": 1,
+                        "itemPrice": 4.99
                     },
                     {
                         "itemName": "Cheese Naan",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "Tandoori bread stuffed with mozzarella and Cheddar cheese and spices. Great for kids.",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ef9ee869-d7da-4d12-bb51-09bccc7c0342_Cheese%20nann.jpg",
+                        "itemDescription": "Tandoori bread stuffed with mozzarella, cheddar cheese, and spices.",
                         "quantity": 1,
-                        "itemPrice": "6.50"
+                        "itemPrice": 6.50
                     },
                     {
                         "itemName": "Aloo Kulcha",
                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
                         "itemDescription": "Bread stuffed with potatoes and spices.",
                         "quantity": 1,
-                        "itemPrice": "6.50"
+                        "itemPrice": 6.50
                     },
                     {
-                        "itemName": "Chilli Garlic Naan",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "Tandoori bread topped with garlic, red chilli flakes, and cilantro.",
+                        "itemName": "Plain Roti / Butter Roti",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/aeab44e7-ab1a-49fc-b372-895e2cdd3d7e_Butter%20roti.jpg",
+                        "itemDescription": "Whole wheat bread cooked in a tandoor.",
                         "quantity": 1,
-                        "itemPrice": "4.99"
-                    },
-                    {
-                        "itemName": "Butter Roti",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "Whole wheat bread baked in tandoor.",
-                        "quantity": 1,
-                        "itemPrice": "3.50"
-                    },
-                    {
-                        "itemName": "Plain Naan",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "Traditional bread baked in tandoor.",
-                        "quantity": 1,
-                        "itemPrice": "3.99"
-                    },
-                    {
-                        "itemName": "Butter Naan",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "Traditional bread baked in tandoor with butter (butter naan).",
-                        "quantity": 1,
-                        "itemPrice": "3.99"
-                    },
-                    {
-                        "itemName": "Plain Roti",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "Whole wheat bread baked in tandoor.",
-                        "quantity": 1,
-                        "itemPrice": "3.50"
-                    },
-                    {
-                        "itemName": "Bhatura",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "All purpose organic flour bread deep fried (bhatura).",
-                        "quantity": 1,
-                        "itemPrice": "3.99"
+                        "itemPrice": 3.50
                     },
                     {
                         "itemName": "Poori",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "Whole wheat bread deep fried (poori)",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/1a0fdcd1-f351-4381-97fd-d8d738a7d677_Poori.jpg",
+                        "itemDescription": "Fried whole wheat bread (poori).",
                         "quantity": 1,
-                        "itemPrice": "3.99"
+                        "itemPrice": 2.99
+                    },
+                    {
+                        "itemName": "Bhatura",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/d5793baa-f74a-4e11-b18c-95801f2da614_Bhatura.jpg",
+                        "itemDescription": "Fried organic flour bread.",
+                        "quantity": 1,
+                        "itemPrice": 2.99
                     }
                 ]
             },
@@ -772,177 +785,545 @@
                 "routeName": "Beverages",
                 "items": [
                     {
-                        "itemName": "Lassi: Mango - Sweet - Salt",
+                        "itemName": "Juice",
                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "",
+                        "itemDescription": "Mango, Orange, Apple",
                         "quantity": 1,
-                        "itemPrice": "4.99"
+                        "itemPrice": 3.99
+                    },
+                    {
+                        "itemName": "Lassi: Mango - Sweet - Salty",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "Fresh yogurt drink infused with cumin and chat masala. Sweet and fresh yogurt drink infused with cardamom and sugar. Fresh mango yogurt drink.",
+                        "quantity": 1,
+                        "itemPrice": 4.75
                     },
                     {
                         "itemName": "Mango Milk Shake",
                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
                         "itemDescription": "",
                         "quantity": 1,
-                        "itemPrice": "4.99"
-                    },
-                    {
-                        "itemName": "Fiji water",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "",
-                        "quantity": 1,
-                        "itemPriceLarge": "3.99",
-                        "itemPriceSmall": "2.99"
-                    },
-                    {
-                        "itemName": "Juice",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "",
-                        "quantity": 1,
-                        "itemPrice": "3.99"
+                        "itemPrice": 4.99
                     },
                     {
                         "itemName": "Masala Tea",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ca8d43c2-ebd4-4260-a20e-cd5295e98aca_Masala%20chai.jpg",
                         "itemDescription": "Indian milk tea infused with ginger and cardamom.",
                         "quantity": 1,
-                        "itemPrice": "4.50"
+                        "itemPrice": 3.99
                     },
                     {
-                        "itemName": "TEA",
+                        "itemName": "Tea",
                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "",
+                        "itemDescription": "Green-mint-honey lemon - Darjeeling.",
                         "quantity": 1,
-                        "itemPrice": "3.99"
+                        "itemPrice": 3.99
                     },
                     {
                         "itemName": "Soft drink",
                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "Coke - coke diet - nestea - ginger ale - pepsi - sprite - cPlus - soda",
+                        "itemDescription": "Coke - Diet Coke - Nestea - Ginger Ale - Pepsi - Sprite - C Plus - Soda",
                         "quantity": 1,
-                        "itemPrice": "2.99"
+                        "itemPrice": 2.99
                     },
                     {
-                        "itemName": "Small",
+                        "itemName": "Fiji Water",
                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
                         "itemDescription": "",
                         "quantity": 1,
-                        "itemPrice": "2.99"
-                    }
-                ]
-            },
-            {
-                "categoryName": "Side orders",
-                "routeName": "Side orders",
-                "items": [
-                    {
-                        "itemName": "RAITA",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "",
-                        "quantity": 1,
-                        "itemPrice": "3.50"
+                        "itemPrice": 2.99
                     },
                     {
-                        "itemName": "Mint chutney",
+                        "itemName": "Perrier Small",
                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
                         "itemDescription": "",
                         "quantity": 1,
-                        "itemPrice": "3.00"
-                    },
-                    {
-                        "itemName": "Jeera papadam(2 piece)",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "",
-                        "quantity": 1,
-                        "itemPrice": "1.00"
-                    },
-                    {
-                        "itemName": "Homemade yogurt",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "",
-                        "quantity": 1,
-                        "itemPrice": "3.00"
-                    }
-                ]
-            },
-            {
-                "categoryName": "Dessert",
-                "routeName": "Dessert",
-                "items": [
-                    {
-                        "itemName": "Ras Malai",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "",
-                        "quantity": 1,
-                        "itemPrice": "4.99"
-                    },
-                    {
-                        "itemName": "Rice pudding",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "",
-                        "quantity": 1,
-                        "itemPrice": "2.50"
-                    },
-                    {
-                        "itemName": "Gulab jamun",
-                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "",
-                        "quantity": 1,
-                        "itemPrice": "4.50"
+                        "itemPrice": 2.99
                     }
                 ]
             },
             {
                 "categoryName": "Combos",
-                "routeName": "Combos",
+                "categoryNote": "All combos are served with rice, naan bread, daal curry, vegetarian pakora, and gulab jamun.",
                 "items": [
                     {
                         "itemName": "Vegetarian",
                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                        "itemDescription": "",
+                        "itemDescription": "1 vegetarian curry of your choice",
                         "quantity": 1,
-                        "itemPrice": "15.99"
+                        "itemPrice": 12.99
                     },
                     {
-                        "itemName": "Chicken meat choice",
+                        "itemName": "Meat choice: Chicken",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "1 meat curry of your choice",
+                        "quantity": 1,
+                        "itemPrice": 14.99
+                    },
+                    {
+                        "itemName": "Meat choice: Beef",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "1 meat curry of your choice",
+                        "quantity": 1,
+                        "itemPrice": 15.99
+                    },
+                    {
+                        "itemName": "Meat choice: Lamb",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "1 meat curry of your choice",
+                        "quantity": 1,
+                        "itemPrice": 16.99
+                    },
+                    {
+                        "itemName": "Seafood: Shrimp",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "1 seafood curry of your choice",
+                        "quantity": 1,
+                        "itemPrice": 16.99
+                    },
+                    {
+                        "itemName": "Seafood: Fish",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "1 seafood curry of your choice",
+                        "quantity": 1,
+                        "itemPrice": 16.99
+                    }
+                ]
+            },
+            {
+                "categoryName": "Extra",
+                "items": [
+                    {
+                        "itemName": "Mint Chutney",
                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
                         "itemDescription": "",
                         "quantity": 1,
-                        "itemPrice": "17.99"
+                        "itemPrice": 3.00
                     },
                     {
-                        "itemName": "Beef meat choice",
+                        "itemName": "Tamarind Chutney",
                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
                         "itemDescription": "",
                         "quantity": 1,
-                        "itemPrice": "18.99"
+                        "itemPrice": 3.00
                     },
                     {
-                        "itemName": "Lamb meat choice",
+                        "itemName": "Homemade Yogurt",
                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
                         "itemDescription": "",
                         "quantity": 1,
-                        "itemPrice": "19.99"
+                        "itemPrice": 3.00
                     },
                     {
-                        "itemName": "Seafood",
+                        "itemName": "Raita",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/fb62b637-5484-4c00-8c4d-9ff96672281d_Raita.jpg",
+                        "itemDescription": "",
+                        "quantity": 1,
+                        "itemPrice": 3.50
+                    },
+                    {
+                        "itemName": "Jeera Papadam (2)",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/45de1ea9-c7df-451e-be58-8c0bd6953420_Jeera%20pappad.jpg",
+                        "itemDescription": "",
+                        "quantity": 1,
+                        "itemPrice": 1.00
+                    }
+                ]
+            },
+            {
+                "categoryName": "Dessert",
+                "items": [
+                    {
+                        "itemName": "Gulab jamun",
                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
                         "itemDescription": "",
                         "quantity": 1,
-                        "itemPrice": "19.99"
+                        "itemPrice": 4.50
                     },
                     {
-                        "itemName": "Shrimp",
+                        "itemName": "Rasmalai",
                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
                         "itemDescription": "",
                         "quantity": 1,
-                        "itemPrice": "19.99"
-                    },
+                        "itemPrice": 4.99
+                    }
+                ]
+            },
+            {
+                "categoryName": "Wine, Beer, and Spirits",
+                "items": [
                     {
-                        "itemName": "Fish",
+                        "itemName": "White Wine Grewurztra miner hugel alasce - Glass",
                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
                         "itemDescription": "",
                         "quantity": 1,
-                        "itemPrice": "19.99"
+                        "itemPrice": 7.99
+                    },
+                    {
+                        "itemName": "White Wine Grewurztra miner hugel alasce - Half Bottle",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "",
+                        "quantity": 1,
+                        "itemPrice": 24.99
+                    },
+                    {
+                        "itemName": "White Wine Grewurztra miner hugel alasce - Bottle",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "",
+                        "quantity": 1,
+                        "itemPrice": 32.99
+                    },
+                    {
+                        "itemName": "White Wine Inniskillin unoaked chardonnay - Glass",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "",
+                        "quantity": 1,
+                        "itemPrice": 7.99
+                    },
+                    {
+                        "itemName": "White Wine Inniskillin unoaked chardonnay - Half Bottle",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "",
+                        "quantity": 1,
+                        "itemPrice": 24.99
+                    },
+                    {
+                        "itemName": "White Wine Inniskillin unoaked chardonnay - Bottle",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "",
+                        "quantity": 1,
+                        "itemPrice": 32.99
+                    },
+                    {
+                        "itemName": "White Wine Folonari pinot grigio delle venezie - Glass",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "",
+                        "quantity": 1,
+                        "itemPrice": 7.99
+                    },
+                    {
+                        "itemName": "White Wine Folonari pinot grigio delle venezie - Half Bottle",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "",
+                        "quantity": 1,
+                        "itemPrice": 24.99
+                    },
+                    {
+                        "itemName": "White Wine Folonari pinot grigio delle venezie - Bottle",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "",
+                        "quantity": 1,
+                        "itemPrice": 32.99
+                    },
+                    {
+                        "itemName": "Red Wine Sartori Valpolicella Superiore - Glass",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "",
+                        "quantity": 1,
+                        "itemPrice": 7.99
+                    },
+                    {
+                        "itemName": "Red Wine Sartori Valpolicella Superiore - Half Bottle",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "",
+                        "quantity": 1,
+                        "itemPrice": 23.99
+                    },
+                    {
+                        "itemName": "Red Wine Sartori Valpolicella Superiore - Bottle",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "",
+                        "quantity": 1,
+                        "itemPrice": 31.99
+                    },
+                    {
+                        "itemName": "Red Wine Wolf Blass Yellow Label - Glass",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "",
+                        "quantity": 1,
+                        "itemPrice": 7.99
+                    },
+                    {
+                        "itemName": "Red Wine Wolf Blass Yellow Label - Half Bottle",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "",
+                        "quantity": 1,
+                        "itemPrice": 23.99
+                    },
+                    {
+                        "itemName": "Red Wine Wolf Blass Yellow Label - Bottle",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "",
+                        "quantity": 1,
+                        "itemPrice": 31.99
+                    },
+                    {
+                        "itemName": "Red Wine Pfaff Cuvée Bacchus Gewurztraminer - Glass",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "",
+                        "quantity": 1,
+                        "itemPrice": 7.99
+                    },
+                    {
+                        "itemName": "Red Wine Pfaff Cuvée Bacchus Gewurztraminer - Half Bottle",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "",
+                        "quantity": 1,
+                        "itemPrice": 23.99
+                    },
+                    {
+                        "itemName": "Red Wine Pfaff Cuvée Bacchus Gewurztraminer - Bottle",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "",
+                        "quantity": 1,
+                        "itemPrice": 31.99
+                    },
+                    {
+                        "itemName": "Red Wine L'ancien Beaujolais Jean Paul Brun - Glass",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "",
+                        "quantity": 1,
+                        "itemPrice": 7.99
+                    },
+                    {
+                        "itemName": "Red Wine L'ancien Beaujolais Jean Paul Brun - Half Bottle",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "",
+                        "quantity": 1,
+                        "itemPrice": 23.99
+                    },
+                    {
+                        "itemName": "Red Wine L'ancien Beaujolais Jean Paul Brun - Bottle",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "",
+                        "quantity": 1,
+                        "itemPrice": 31.99
+                    },
+                    {
+                        "itemName": "Red Wine Tomassi Valpolicella - Glass",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "",
+                        "quantity": 1,
+                        "itemPrice": 7.99
+                    },
+                    {
+                        "itemName": "Red Wine Tomassi Valpolicella - Half Bottle",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "",
+                        "quantity": 1,
+                        "itemPrice": 23.99
+                    },
+                    {
+                        "itemName": "Red Wine Tomassi Valpolicella - Bottle",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "",
+                        "quantity": 1,
+                        "itemPrice": 31.99
+                    },
+                    {
+                        "itemName": "Red Wine P-Chermatte Griottes - Glass",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "",
+                        "quantity": 1,
+                        "itemPrice": 7.99
+                    },
+                    {
+                        "itemName": "Red Wine P-Chermatte Griottes - Half Bottle",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "",
+                        "quantity": 1,
+                        "itemPrice": 23.99
+                    },
+                    {
+                        "itemName": "Red Wine P-Chermatte Griottes - Bottle",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "",
+                        "quantity": 1,
+                        "itemPrice": 31.99
+                    }
+                ]
+            },
+            {
+                "categoryName": "Beers",
+                "items": [
+                    {
+                        "itemName": "Kingfisher (imported)",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "",
+                        "quantity": 1,
+                        "itemPrice": 7.99
+                    },
+                    {
+                        "itemName": "Red Stripe (imported)",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "",
+                        "quantity": 1,
+                        "itemPrice": 7.99
+                    },
+                    {
+                        "itemName": "Corona Extra",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "",
+                        "quantity": 1,
+                        "itemPrice": 7.99
+                    },
+                    {
+                        "itemName": "Rasmalai",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "",
+                        "quantity": 1,
+                        "itemPrice": 4.99
+                    },
+                    {
+                        "itemName": "Stella Artois",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "",
+                        "quantity": 1,
+                        "itemPrice": 7.99
+                    },
+                    {
+                        "itemName": "Budweiser",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "",
+                        "quantity": 1,
+                        "itemPrice": 6.75
+                    },
+                    {
+                        "itemName": "Bud Light",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "",
+                        "quantity": 1,
+                        "itemPrice": 7.50
+                    }
+                ]
+            },
+            {
+                "categoryName": "Whiskey",
+                "items": [
+                    {
+                        "itemName": "Canadian Club - 1 Peg",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "",
+                        "quantity": 1,
+                        "itemPrice": 4.99
+                    },
+                    {
+                        "itemName": "Johnny Walker Black Label - 1 Peg",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "",
+                        "quantity": 1,
+                        "itemPrice": 7.99
+                    },
+                    {
+                        "itemName": "Johnny Walker Red Label - 1 Peg",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "",
+                        "quantity": 1,
+                        "itemPrice": 4.99
+                    },
+                    {
+                        "itemName": "Glenfiddich Single Malt - 1 Peg",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "",
+                        "quantity": 1,
+                        "itemPrice": 7.99
+                    },
+                    {
+                        "itemName": "Glenfiddich Founder's Single Malt - 1 Peg",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "",
+                        "quantity": 1,
+                        "itemPrice": 7.99
+                    },
+                    {
+                        "itemName": "Crown Royal - 1 Peg",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "",
+                        "quantity": 1,
+                        "itemPrice": 3.99
+                    },
+                    {
+                        "itemName": "Chivas Regal Blended Scotch - 1 Peg",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "",
+                        "quantity": 1,
+                        "itemPrice": 7.99
+                    },
+                    {
+                        "itemName": "Jack Daniel's Old No. American - 1 Peg",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "",
+                        "quantity": 1,
+                        "itemPrice": 5.99
+                    }
+                ]
+            },
+            {
+                "categoryName": "Tequila",
+                "items": [
+                    {
+                        "itemName": "EL Jimador - 1 Peg",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "",
+                        "quantity": 1,
+                        "itemPrice": 6.99
+                    }
+                ]
+            },
+            {
+                "categoryName": "Vodka",
+                "items": [
+                    {
+                        "itemName": "Grey Goose - 1 Peg",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "",
+                        "quantity": 1,
+                        "itemPrice": 7.99
+                    },
+                    {
+                        "itemName": "Smirnoff Vodka Triple Distilled - 1 Peg",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "",
+                        "quantity": 1,
+                        "itemPrice": 4.99
+                    },
+                    {
+                        "itemName": "Absolut Vodka - 1 Peg",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "",
+                        "quantity": 1,
+                        "itemPrice": 3.99
+                    }
+                ]
+            },
+            {
+                "categoryName": "Gin",
+                "items": [
+                    {
+                        "itemName": "Bombay Sapphire Dry Gin - 1 Peg",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "",
+                        "quantity": 1,
+                        "itemPrice": 4.99
+                    },
+                    {
+                        "itemName": "Tanqueray Dry Gin - 1 Peg",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "",
+                        "quantity": 1,
+                        "itemPrice": 4.99
+                    }
+                ]
+            },
+            {
+                "categoryName": "Brandy",
+                "items": [
+                    {
+                        "itemName": "ST Remy VSOP. - 1Peg",
+                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
+                        "itemDescription": "",
+                        "quantity": 1,
+                        "itemPrice": 4.99
                     }
                 ]
             }
@@ -1052,14 +1433,14 @@
         "copyright": "© 2024 Mont Everest Masala. All Rights Reserved"
     },
     "blogs": {
-        "naanheading":"Garlic Naan",
-        "chickenheading":"Whole Tandoori Chicken",
-        "teaheading":"Masala Tea",
-        "befheading":"Beef Curry",
-        "cucumberheading":"Cucumber Salad",
+        "naanheading": "Garlic Naan",
+        "chickenheading": "Whole Tandoori Chicken",
+        "teaheading": "Masala Tea",
+        "befheading": "Beef Curry",
+        "cucumberheading": "Cucumber Salad",
         "blogheading1": "How to Make Authentic Gulab Jamun at Home",
         "blogpara1": "Discover the step-by-step recipe for making authentic Gulab Jamun, a classic Indian dessert. Learn about the ingredients, preparation, and variations like Gulab Jamun cake and ice cream. Perfect for festivals and celebrations.",
-        "blogbutton1":"READ MORE",
+        "blogbutton1": "READ MORE",
         "gulabheading1": "GULAB JAMUN",
         "gulabheading2": "Making Traditional Indian Desserts: A Recipe for Gulab Jamun Recipe",
         "gulabpara1": "Indian cuisine is renowned for its rich and diverse range of desserts, each offering unique flavors and textures.Among these delightful treats, Gulab Jamun holds a special place. This delectable dessert is a staple in Indian festivals, weddings, and celebrations. If you have a sweet tooth and a penchant for Indian cuisine, learning how to make Gulab Jamun is a must. In this blog post, we will guide you through the process of creating these mouthwatering, syrup-soaked dumplings in the comfort of your own kitchen.",
@@ -1128,32 +1509,105 @@
         "blogContent48": "",
         "blogContent49": "",
         "blogContent50": "",
-        "garlicNaanBlogs": [{
-            
-        }]
+        "garlicNaanBlogs": [
+            {}
+        ]
     },
-    "BLOG":[
+    "BLOG": [
         {
-            "name":"Garlic Naan",
-            "heading":"Preparing the Dough for the Best Garlic Naan",
-            "parahead":["Garlic Naan ingredients ","The Yeast Activation","Creating the Dough","The Resting Period","Portioning and Rolling","Cooking the Naan","Variations to Try with Garlic Naan","Garlic and Herb Naan","Cheese-Stuffed Garlic Naan","Spinach and Feta Garlic Naan","Nutty Delight Garlic Naan","Sweet Nutella Garlic Naan","Pesto and Sundried Tomato Garlic Naan","Spicy Jalapeno Garlic Naan","Chocolate Banana Garlic Naan","Storing Garlic Naan","Finding the Best Garlic Naan Restaurant Near Me"],
-        "para":["There's something truly irresistible about biting into a soft and slightly charred piece of garlic naan, isn't there? This delectable Indian flatbread has become a staple in cuisines around the world, and the key to its perfection lies in the dough preparation. Whether you're an amateur home cook or a seasoned chef, mastering the art of preparing naan dough can elevate your culinary skills to new heights.","To create the ideal garlic naan dough, start by assembling the right garlic naan ingredients. You'll need all-purpose flour, warm water, active dry yeast, a pinch of sugar, salt, plain yogurt, and a touch of oil or ghee. Each ingredient plays a crucial role in ensuring your naan turns out just right. For those looking for garlic naan without yeast, you can substitute baking powder for a quick and easy version.","Begins by activating the yeast. Mix warm water with sugar and sprinkle the yeast over it. Allow it to sit for about 5-10 minutes until the mixture becomes frothy. This step is essential as it ensures your dough rises properly","In a large mixing bowl, combine the flour and salt. Gradually pour in the yeast mixture, yogurt, and a spoonful of oil or ghee. Knead the mixture until it forms a soft and smooth dough. If the dough is too sticky, add a bit more flour; if it's too dry, sprinkle in a touch of water. For those making garlic naan without yeast, mix the dry ingredients with the baking powder before adding the wet ingredients","Cover the dough with a damp cloth and let it rest in a warm, draft-free place for about 1-2 hours. This resting period allows the yeast to work its magic, resulting in a light and airy texture.","After the dough has doubled in size, gently punch it down to release excess air. Divide it into smaller portions and roll each piece into a ball. On a floured surface, roll out each ball into a thin oval or round shape, paying attention to maintaining an even thickness.","Traditionally, naan is cooked in a tandoor, a clay oven. However, a hot cast-iron skillet or grill pan can produce similar results. Cook each flattened dough round on a hot surface until it puffs up and develops those characteristic golden-brown spots. For garlic naan, brush the rolled-out dough with minced garlic and melted butter before cooking.","Garlic naan, the beloved Indian flatbread, has captured the hearts and palates of food enthusiasts around the globe. Its soft, chewy texture and ability to pair with a myriad of dishes make it a versatile canvas for culinary creativity. While the classic butter naan is a timeless favorite, there's a world of exciting variations waiting to be discovered.","Elevate your garlic naan experience by infusing minced garlic and fresh herbs like cilantro or parsley into the dough. The aromatic blend creates a harmonious balance of flavors that pairs perfectly with hearty curries or as a standalone appetizer.","For a decadent twist, try stuffing your garlic naan with a generous filling of mozzarella, cheddar, or paneer. The melted cheese oozes out, creating a delightful contrast to the crispy exterior","Incorporate healthful greens into your garlic naan by mixing finely chopped spinach and crumbled feta cheese into the dough. This vibrant variation is not only visually appealing but also adds a burst of earthy flavors.","Add a crunch to your garlic naan by sprinkling a combination of chopped nuts such as almonds, cashews, and pistachios on the surface before baking. The nuts toast as the naan cooks, imparting a delightful nuttiness to every bite.","Indulge your sweet tooth by spreading a layer of Nutella on the garlic naan before folding and toasting. The warm, gooey Nutella combined with the soft naan creates a dessert-like treat that's perfect for satisfying cravings.","Infuse the rich flavors of pesto and tangy sundried tomatoes into your garlic naan for a Mediterranean-inspired twist. This variation is a great accompaniment to salads or a delightful appetizer on its own.","For those who crave heat, consider incorporating finely diced jalapenos into the dough. The slight kick of spice adds a bold dimension to the naan, making it a great companion to spicy dishes.","Embrace innovation by spreading a layer of chocolate ganache and sliced bananas onto your garlic naan. When warmed, the chocolate melts and the bananas caramelize, resulting in a dessert naan that's both comforting and indulgent.","Garlic naan, with its tantalizing aroma and soft, chewy texture, is a beloved accompaniment to many Indian dishes. Whether you've prepared a batch at home or indulged in this delectable treat at a restaurant, there are times when you might find yourself with more garlic naan than you can devour in one sitting. To ensure that none of this culinary masterpiece goes to waste, mastering the art of storing garlic naan is essential.","Storing garlic naan involves a delicate balance between preserving its freshness and retaining its delightful flavors. Firstly, allow the naan to cool to room temperature before attempting to store it. Placing hot naan in an airtight container can create excess moisture and lead to sogginess. Once cooled, wrap the naan in a clean, dry cloth or paper towel. This will help absorb any residual moisture and maintain the naan's characteristic chewiness. Airtight containers are the go-to choice for storing garlic naan. These containers shield the naan from exposure to air, which can cause it to dry out or become tough. Place the wrapped naan in the container, ensuring that they are not stacked too closely together. For added protection against moisture, you can place a small piece of parchment paper between each piece of naan. While garlic naan can be refrigerated, it's important to consume it within a day or two to prevent it from losing its optimal taste and texture. For longer-term storage, freezing is the key. Individually wrap the naan in plastic wrap and then place it in a resealable freezer bag. Frozen garlic naan can be reheated directly on a stovetop or in an oven, allowing you to relish the same flavors and aromas as freshly made naan.","If you're searching for the best garlic naan near me, the best naan in Montreal, or wondering where to buy garlic naan in Montreal, Canada, look no further than renowned establishments like Mont Everest Masala. They offer some of the best garlic naan in Montreal, Canada, ensuring an unforgettable dining experience."],
-        "img":"https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/50ca5460-97bb-43e8-ae27-6fd3d7a5f718_Garlic%20Naan%20.png"
-    }
-],
-    "BLOG2":[
+            "name": "Garlic Naan",
+            "heading": "Preparing the Dough for the Best Garlic Naan",
+            "parahead": [
+                "Garlic Naan ingredients ",
+                "The Yeast Activation",
+                "Creating the Dough",
+                "The Resting Period",
+                "Portioning and Rolling",
+                "Cooking the Naan",
+                "Variations to Try with Garlic Naan",
+                "Garlic and Herb Naan",
+                "Cheese-Stuffed Garlic Naan",
+                "Spinach and Feta Garlic Naan",
+                "Nutty Delight Garlic Naan",
+                "Sweet Nutella Garlic Naan",
+                "Pesto and Sundried Tomato Garlic Naan",
+                "Spicy Jalapeno Garlic Naan",
+                "Chocolate Banana Garlic Naan",
+                "Storing Garlic Naan",
+                "Finding the Best Garlic Naan Restaurant Near Me"
+            ],
+            "para": [
+                "There's something truly irresistible about biting into a soft and slightly charred piece of garlic naan, isn't there? This delectable Indian flatbread has become a staple in cuisines around the world, and the key to its perfection lies in the dough preparation. Whether you're an amateur home cook or a seasoned chef, mastering the art of preparing naan dough can elevate your culinary skills to new heights.",
+                "To create the ideal garlic naan dough, start by assembling the right garlic naan ingredients. You'll need all-purpose flour, warm water, active dry yeast, a pinch of sugar, salt, plain yogurt, and a touch of oil or ghee. Each ingredient plays a crucial role in ensuring your naan turns out just right. For those looking for garlic naan without yeast, you can substitute baking powder for a quick and easy version.",
+                "Begins by activating the yeast. Mix warm water with sugar and sprinkle the yeast over it. Allow it to sit for about 5-10 minutes until the mixture becomes frothy. This step is essential as it ensures your dough rises properly",
+                "In a large mixing bowl, combine the flour and salt. Gradually pour in the yeast mixture, yogurt, and a spoonful of oil or ghee. Knead the mixture until it forms a soft and smooth dough. If the dough is too sticky, add a bit more flour; if it's too dry, sprinkle in a touch of water. For those making garlic naan without yeast, mix the dry ingredients with the baking powder before adding the wet ingredients",
+                "Cover the dough with a damp cloth and let it rest in a warm, draft-free place for about 1-2 hours. This resting period allows the yeast to work its magic, resulting in a light and airy texture.",
+                "After the dough has doubled in size, gently punch it down to release excess air. Divide it into smaller portions and roll each piece into a ball. On a floured surface, roll out each ball into a thin oval or round shape, paying attention to maintaining an even thickness.",
+                "Traditionally, naan is cooked in a tandoor, a clay oven. However, a hot cast-iron skillet or grill pan can produce similar results. Cook each flattened dough round on a hot surface until it puffs up and develops those characteristic golden-brown spots. For garlic naan, brush the rolled-out dough with minced garlic and melted butter before cooking.",
+                "Garlic naan, the beloved Indian flatbread, has captured the hearts and palates of food enthusiasts around the globe. Its soft, chewy texture and ability to pair with a myriad of dishes make it a versatile canvas for culinary creativity. While the classic butter naan is a timeless favorite, there's a world of exciting variations waiting to be discovered.",
+                "Elevate your garlic naan experience by infusing minced garlic and fresh herbs like cilantro or parsley into the dough. The aromatic blend creates a harmonious balance of flavors that pairs perfectly with hearty curries or as a standalone appetizer.",
+                "For a decadent twist, try stuffing your garlic naan with a generous filling of mozzarella, cheddar, or paneer. The melted cheese oozes out, creating a delightful contrast to the crispy exterior",
+                "Incorporate healthful greens into your garlic naan by mixing finely chopped spinach and crumbled feta cheese into the dough. This vibrant variation is not only visually appealing but also adds a burst of earthy flavors.",
+                "Add a crunch to your garlic naan by sprinkling a combination of chopped nuts such as almonds, cashews, and pistachios on the surface before baking. The nuts toast as the naan cooks, imparting a delightful nuttiness to every bite.",
+                "Indulge your sweet tooth by spreading a layer of Nutella on the garlic naan before folding and toasting. The warm, gooey Nutella combined with the soft naan creates a dessert-like treat that's perfect for satisfying cravings.",
+                "Infuse the rich flavors of pesto and tangy sundried tomatoes into your garlic naan for a Mediterranean-inspired twist. This variation is a great accompaniment to salads or a delightful appetizer on its own.",
+                "For those who crave heat, consider incorporating finely diced jalapenos into the dough. The slight kick of spice adds a bold dimension to the naan, making it a great companion to spicy dishes.",
+                "Embrace innovation by spreading a layer of chocolate ganache and sliced bananas onto your garlic naan. When warmed, the chocolate melts and the bananas caramelize, resulting in a dessert naan that's both comforting and indulgent.",
+                "Garlic naan, with its tantalizing aroma and soft, chewy texture, is a beloved accompaniment to many Indian dishes. Whether you've prepared a batch at home or indulged in this delectable treat at a restaurant, there are times when you might find yourself with more garlic naan than you can devour in one sitting. To ensure that none of this culinary masterpiece goes to waste, mastering the art of storing garlic naan is essential.",
+                "Storing garlic naan involves a delicate balance between preserving its freshness and retaining its delightful flavors. Firstly, allow the naan to cool to room temperature before attempting to store it. Placing hot naan in an airtight container can create excess moisture and lead to sogginess. Once cooled, wrap the naan in a clean, dry cloth or paper towel. This will help absorb any residual moisture and maintain the naan's characteristic chewiness. Airtight containers are the go-to choice for storing garlic naan. These containers shield the naan from exposure to air, which can cause it to dry out or become tough. Place the wrapped naan in the container, ensuring that they are not stacked too closely together. For added protection against moisture, you can place a small piece of parchment paper between each piece of naan. While garlic naan can be refrigerated, it's important to consume it within a day or two to prevent it from losing its optimal taste and texture. For longer-term storage, freezing is the key. Individually wrap the naan in plastic wrap and then place it in a resealable freezer bag. Frozen garlic naan can be reheated directly on a stovetop or in an oven, allowing you to relish the same flavors and aromas as freshly made naan.",
+                "If you're searching for the best garlic naan near me, the best naan in Montreal, or wondering where to buy garlic naan in Montreal, Canada, look no further than renowned establishments like Maharaja Montreal. They offer some of the best garlic naan in Montreal, Canada, ensuring an unforgettable dining experience."
+            ],
+            "img": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/50ca5460-97bb-43e8-ae27-6fd3d7a5f718_Garlic%20Naan%20.png"
+        }
+    ],
+    "BLOG2": [
         {
-            "name":"Whole Tandoori Chicken",
-            "heading":"Whole Tandoori Chicken",
-            "parahead":["What is Tandoori Chicken?","How to Make Authentic Whole Tandoori Chicken","Tandoori Chicken Ingredients:","Marination Magic:","Tandoori Cooking :","Serving Delight:","Variations of Tandoori Chicken:","Classic Tandoori Chicken","Malai Tandoori Chicken","Hariyali Tandoori Chicken","Spicy Tandoori Chicken","Fruity Tandoori Chicken","Tandoori Chicken Skewers","Tandoori Chicken Pizza","Air Fryer Whole Tandoori Chicken","Tandoori Chicken Nutrition and Calories","Tandoori Roast Chicken in Genshin Impact"],
-        "para":["When it comes to Indian cuisine, the tantalizing aroma and rich flavors of Tandoori Chicken have captured the hearts and taste buds of people around the world. This iconic dish is a true testament to the artistry of traditional Indian cooking techniques and the masterful use of spices. The marinated chicken is then skewered and placed inside the scorching hot tandoor. The intense heat of the clay oven sears the outer layer of the chicken, creating a tantalizing smoky char and sealing in the succulent juices. The result is a perfectly balanced texture – juicy on the inside and slightly crispy on the outside. Tandoori chicken is not just about its delightful taste; it's also a feast for the eyes. The vibrant reddish-orange colour and enticing grill marks make for a visually appealing dish that's often served with lemon wedges, fresh coriander, and sliced onions. While traditionally enjoyed as a starter or appetizer, tandoori chicken has found its way onto main courses, wraps, and even pizzas in modern times.","When it comes to Indian cuisine, whole Tandoori Chicken stands as an iconic and flavorful dish that has captivated taste buds worldwide. The smoky aroma, tender meat, and tantalizing spices make it a culinary masterpiece. While enjoying this dish at a restaurant is delightful, why not bring the authentic flavours to your kitchen? Here's a step-by-step guide to crafting the perfect homemade whole Tandoori Chicken","Create a marinade by combining Greek yogurt, lemon juice, tandoori masala, ginger-garlic paste, paprika, cumin, coriander, garam masala, kasuri methi, salt, and a touch of mustard oil. Make shallow cuts on the whole chicken to allow the marinade to penetrate better. Coat the chicken thoroughly with the marinade, ensuring every part is covered.","Preheat your oven to its highest temperature (usually around 500°F or 260°C) or use an outdoor grill if you have one. If using an oven, place the marinated whole chicken on a wire rack over a baking tray to catch any drippings. If using a grill, make sure it's preheated and cleaned. Cook the chicken in the oven or grill for about 60-70 minutes, turning halfway through. You'll know it's done when the internal temperature reaches 165°F (74°C) and the chicken is cooked through yet juicy.","Once cooked, remove the whole Tandoori Chicken from the heat source and let it rest for a few minutes. Garnish with fresh cilantro and serve with lemon wedges for an added citrusy punch. Accompany the dish with naan bread, mint chutney, and perhaps a cooling cucumber and yogurt salad for a complete meal. Crafting authentic whole Tandoori Chicken at home might take a bit of effort, but the rewarding flavours are well worth it. The blend of spices and the char from the cooking process creates a symphony of taste that's hard to replicate elsewhere. So, why not embark on this flavorful journey in your own kitchen? Your taste buds will thank you!","Tandoori chicken, a culinary masterpiece originating from the Indian subcontinent, has become a global sensation for its rich flavors and tender texture. This iconic dish is known for its vibrant red hue and distinct smoky aroma that comes from being cooked in a tandoor, a clay oven. While the traditional recipe remains beloved, there's a world of delightful variations that cater to diverse palates.","The original recipe features marinated chicken with yogurt, spices like cumin and coriander, and the quintessential red chilli powder. The result is succulent chicken with a tangy-spicy kick.","This version takes a creamier approach by incorporating fresh cream, cheese, and cashew paste into the marinade. The result is a milder yet indulgent flavor profile that's loved by those seeking a more delicate taste.","The green marinade in this variation includes a mix of cilantro, mint, and other herbs. The chicken emerges with a refreshing herbal essence and a vibrant green color.","Extra spices like red chilli powder or chilli flakes can be added for heat enthusiasts. The result is a fiery, bold flavor that tantalizes taste buds.","This unique twist involves adding fruit juices like pineapple or mango to the marinade. The natural sweetness pairs amazingly with the smoky spices.","Adapting the dish for convenience, bite-sized pieces of marinated chicken are skewered and cooked. Perfect for parties or quick bites!","Yes, this fusion is as delicious as it sounds. Tandoori chicken as a pizza topping brings an Indian touch to a beloved international dish","For a healthier twist, use an air fryer to cook a whole tandoori chicken. It provides the same crispy exterior and juicy interior with less oil.","A whole tandoori chicken's nutrition profile is quite balanced, with high protein content from the chicken and healthy fats from the yogurt and oil. One full tandoori chicken contains approximately 800-900 calories, depending on the size and specific ingredients used. This makes it a satisfying yet nutritious option for a hearty meal","Interestingly, the cultural impact of Tandoori Chicken has even extended to popular video games like Genshin Impact, where a variation called 'Tandoori Roast Chicken' can be crafted, showcasing its global appeal and versatility."],
-        "img":"https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/83a4b583-4469-40a9-a208-1aec0d94eb0d_Whole%20Tandoori%20Chicken.jpg"
-    }
-],
-    "BLOG3":[
+            "name": "Whole Tandoori Chicken",
+            "heading": "Whole Tandoori Chicken",
+            "parahead": [
+                "What is Tandoori Chicken?",
+                "How to Make Authentic Whole Tandoori Chicken",
+                "Tandoori Chicken Ingredients:",
+                "Marination Magic:",
+                "Tandoori Cooking :",
+                "Serving Delight:",
+                "Variations of Tandoori Chicken:",
+                "Classic Tandoori Chicken",
+                "Malai Tandoori Chicken",
+                "Hariyali Tandoori Chicken",
+                "Spicy Tandoori Chicken",
+                "Fruity Tandoori Chicken",
+                "Tandoori Chicken Skewers",
+                "Tandoori Chicken Pizza",
+                "Air Fryer Whole Tandoori Chicken",
+                "Tandoori Chicken Nutrition and Calories",
+                "Tandoori Roast Chicken in Genshin Impact"
+            ],
+            "para": [
+                "When it comes to Indian cuisine, the tantalizing aroma and rich flavors of Tandoori Chicken have captured the hearts and taste buds of people around the world. This iconic dish is a true testament to the artistry of traditional Indian cooking techniques and the masterful use of spices. The marinated chicken is then skewered and placed inside the scorching hot tandoor. The intense heat of the clay oven sears the outer layer of the chicken, creating a tantalizing smoky char and sealing in the succulent juices. The result is a perfectly balanced texture – juicy on the inside and slightly crispy on the outside. Tandoori chicken is not just about its delightful taste; it's also a feast for the eyes. The vibrant reddish-orange colour and enticing grill marks make for a visually appealing dish that's often served with lemon wedges, fresh coriander, and sliced onions. While traditionally enjoyed as a starter or appetizer, tandoori chicken has found its way onto main courses, wraps, and even pizzas in modern times.",
+                "When it comes to Indian cuisine, whole Tandoori Chicken stands as an iconic and flavorful dish that has captivated taste buds worldwide. The smoky aroma, tender meat, and tantalizing spices make it a culinary masterpiece. While enjoying this dish at a restaurant is delightful, why not bring the authentic flavours to your kitchen? Here's a step-by-step guide to crafting the perfect homemade whole Tandoori Chicken",
+                "Create a marinade by combining Greek yogurt, lemon juice, tandoori masala, ginger-garlic paste, paprika, cumin, coriander, garam masala, kasuri methi, salt, and a touch of mustard oil. Make shallow cuts on the whole chicken to allow the marinade to penetrate better. Coat the chicken thoroughly with the marinade, ensuring every part is covered.",
+                "Preheat your oven to its highest temperature (usually around 500°F or 260°C) or use an outdoor grill if you have one. If using an oven, place the marinated whole chicken on a wire rack over a baking tray to catch any drippings. If using a grill, make sure it's preheated and cleaned. Cook the chicken in the oven or grill for about 60-70 minutes, turning halfway through. You'll know it's done when the internal temperature reaches 165°F (74°C) and the chicken is cooked through yet juicy.",
+                "Once cooked, remove the whole Tandoori Chicken from the heat source and let it rest for a few minutes. Garnish with fresh cilantro and serve with lemon wedges for an added citrusy punch. Accompany the dish with naan bread, mint chutney, and perhaps a cooling cucumber and yogurt salad for a complete meal. Crafting authentic whole Tandoori Chicken at home might take a bit of effort, but the rewarding flavours are well worth it. The blend of spices and the char from the cooking process creates a symphony of taste that's hard to replicate elsewhere. So, why not embark on this flavorful journey in your own kitchen? Your taste buds will thank you!",
+                "Tandoori chicken, a culinary masterpiece originating from the Indian subcontinent, has become a global sensation for its rich flavors and tender texture. This iconic dish is known for its vibrant red hue and distinct smoky aroma that comes from being cooked in a tandoor, a clay oven. While the traditional recipe remains beloved, there's a world of delightful variations that cater to diverse palates.",
+                "The original recipe features marinated chicken with yogurt, spices like cumin and coriander, and the quintessential red chilli powder. The result is succulent chicken with a tangy-spicy kick.",
+                "This version takes a creamier approach by incorporating fresh cream, cheese, and cashew paste into the marinade. The result is a milder yet indulgent flavor profile that's loved by those seeking a more delicate taste.",
+                "The green marinade in this variation includes a mix of cilantro, mint, and other herbs. The chicken emerges with a refreshing herbal essence and a vibrant green color.",
+                "Extra spices like red chilli powder or chilli flakes can be added for heat enthusiasts. The result is a fiery, bold flavor that tantalizes taste buds.",
+                "This unique twist involves adding fruit juices like pineapple or mango to the marinade. The natural sweetness pairs amazingly with the smoky spices.",
+                "Adapting the dish for convenience, bite-sized pieces of marinated chicken are skewered and cooked. Perfect for parties or quick bites!",
+                "Yes, this fusion is as delicious as it sounds. Tandoori chicken as a pizza topping brings an Indian touch to a beloved international dish",
+                "For a healthier twist, use an air fryer to cook a whole tandoori chicken. It provides the same crispy exterior and juicy interior with less oil.",
+                "A whole tandoori chicken's nutrition profile is quite balanced, with high protein content from the chicken and healthy fats from the yogurt and oil. One full tandoori chicken contains approximately 800-900 calories, depending on the size and specific ingredients used. This makes it a satisfying yet nutritious option for a hearty meal",
+                "Interestingly, the cultural impact of Tandoori Chicken has even extended to popular video games like Genshin Impact, where a variation called 'Tandoori Roast Chicken' can be crafted, showcasing its global appeal and versatility."
+            ],
+            "img": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/83a4b583-4469-40a9-a208-1aec0d94eb0d_Whole%20Tandoori%20Chicken.jpg"
+        }
+    ],
+    "BLOG3": [
         {
-            "name":"Masala Tea",
-            "heading":"Exploring Masala Tea: Recipes, Benefits, and How to Make It",
+            "name": "Masala Tea",
+            "heading": "Exploring Masala Tea: Recipes, Benefits, and How to Make It",
             "parahead": [
                 "Introduction to Masala Tea",
                 "The Tastes of Masala Tea",
@@ -1177,10 +1631,10 @@
                 "While making masala tea at home is a rewarding experience, sometimes you crave the authentic flavours of a well-brewed cup from your favourite local tea shop or cafe. Explore nearby tea houses and cafes to discover the best masala tea near you. Whether you prefer a traditional preparation or a unique twist on this classic beverage, there's a delightful option waiting to be savoured.",
                 "Masala tea is more than just a beverage—it's a sensory experience that delights the palate and nourishes the body. With its rich flavours, aromatic spices, and health benefits, masala tea offers a delightful respite from the ordinary. Whether you enjoy it hot or cold, at home or at your favourite cafe, embrace the magic of masala tea and savour the joy it brings with every sip. Cheers to the aromatic wonders of masala tea!"
             ],
-            "img":"https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/28b55e04-f3c7-4138-848b-bcc3d23d5ba5_masala%20tea.jpg"
-    }
-],
-    "BLOG4":[
+            "img": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/28b55e04-f3c7-4138-848b-bcc3d23d5ba5_masala%20tea.jpg"
+        }
+    ],
+    "BLOG4": [
         {
             "name": "Beef Curry",
             "heading": "Beef Curry",
@@ -1219,10 +1673,10 @@
                 "Beef curry often includes vegetables such as onions, tomatoes, and peppers, which add important vitamins, minerals, and dietary fiber to the dish. Vegetables are low in calories and high in nutrients, making them an excellent addition to any meal. Including plenty of vegetables in your beef curry can help you meet your daily recommended intake of these important nutrients.",
                 "In conclusion, beef curry can be a nutritious and delicious part of a balanced diet when enjoyed in moderation. With its high protein content, an abundance of vitamins and minerals, healthy fats, and the inclusion of beneficial spices and vegetables, beef curry offers a range of health benefits. As always, it's important to choose lean cuts of beef and balance your meal with plenty of vegetables and whole grains for optimal nutrition. So, go ahead and savor the flavors of beef curry while reaping the nutritional rewards!"
             ],
-            "img":"https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/42e862df-6710-4502-ba2b-6ed1eefe6506_Beef%20Curry%20.png"
-        }        
-],
-    "BLOG5":[
+            "img": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/42e862df-6710-4502-ba2b-6ed1eefe6506_Beef%20Curry%20.png"
+        }
+    ],
+    "BLOG5": [
         {
             "name": "Cucumber Salad",
             "heading": "Cucumber Salad",
@@ -1278,7 +1732,7 @@
                 "Cucumbers are known for their skincare benefits. The silica in cucumbers promotes healthy skin and hair.",
                 "Cucumber salad can be customized with various ingredients, from tomatoes to onions and herbs, allowing you to create a dish tailored to your taste. Incorporating cucumber salad into your meals can be a simple and tasty way to boost your health and add a burst of freshness to your diet."
             ],
-            "img":"https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/81e0f191-23f2-4a03-a606-1f1db30cbeed_Cucumber%20Salad%20.jpg"
-        }        
-]
+            "img": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/81e0f191-23f2-4a03-a606-1f1db30cbeed_Cucumber%20Salad%20.jpg"
+        }
+    ]
 }

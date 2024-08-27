@@ -1,29 +1,10 @@
 <main>
     <app-navbar></app-navbar>
-    <meta name="title" content="Veg & Non-Vegetarian Restaurant In Montreal | Mont Everest Masala">
-    <meta name="description"
-        content="Indulge in a culinary journey at Mont Everest Masala with a diverse menu featuring soups, salads, appetisers, seafood delights, biryanis, and vegetarian dishes!">
-
     <section class="home-banner">
         <h1>{{ 'MENU.ourmenu' | translate }}</h1>
     </section>
 
-    <!-- <section class="cart-floater" (click)="cartPage()">
-        <div>
-            <i class="material-symbols-outlined"> shopping_cart </i>
-            <span>{{ this.cart.length }}</span>
-        </div>
-    </section> -->
-
     <section class="mainMenu">
-        <!-- <div class="options-tab">
-            <div *ngFor="let item of ('MENU.category' | translate); let i = index">
-                <button class="abc" [ngClass]="{ highlight: selectedCategory == i }" (click)="getDiv(i, item)">
-                  {{ item.categoryName | translate }}
-                </button>
-                <div>|</div>
-              </div>
-        </div> -->
 
         <div class="menu-tab" *ngFor="let product of ('MENU.category' | translate); let i = index">
             <h3>{{ product.categoryName | translate}}</h3>

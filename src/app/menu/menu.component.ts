@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
-import { Meta, Title } from '@angular/platform-browser';
+import { Title, Meta } from '@angular/platform-browser';
 
 @Component({
     selector: 'app-menu',
@@ -384,7 +384,7 @@ export class MenuComponent {
                                 "categoryName": "Biryani",
                                 "routeName": "Biryani",
                                 "items": [
-                                   {
+                                    {
                                         "itemName": "CHICKEN",
                                         "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
                                         "itemDescription": "",
@@ -903,16 +903,20 @@ export class MenuComponent {
         ]
     };
 
-    constructor(private router: Router, private meta: Meta, private title: Title) {
+    constructor(private router: Router, private titleService: Title, private metaService: Meta) {
         this.menu = this.menuMasterData['menu'][0];
         this.categories = this.menuMasterData['menu'][0].superCategory[0].category;
         this.host = this.host[this.host.length - 1];
     }
 
     ngOnInit(): void {
-        this.meta.updateTag({ name: 'title', content: 'Veg & Non-Vegetarian Restaurant In Montreal | Mont Everest Masala' });
-        this.meta.updateTag({ name: 'description', content: 'Indulge in a culinary journey at Mont Everest Masala with a diverse menu featuring soups, salads, appetisers, seafood delights, biryanis, and vegetarian dishes!' });
+        this.setTitleAndMetaTags();
         this.getDiv(0, this.categories[0]);
+    }
+
+    setTitleAndMetaTags(): void {
+        this.titleService.setTitle('Veg & Non-Vegetarian Restaurant In Montreal | Mont Everest Masala');
+        this.metaService.updateTag({ name: 'description', content: 'Indulge in a culinary journey at Mont Everest Masala with a diverse menu featuring soups, salads, appetisers, seafood delights, biryanis, and vegetarian dishes!' });
     }
 
     cartPage() {
