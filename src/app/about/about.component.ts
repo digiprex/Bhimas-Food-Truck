@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Meta, Title } from '@angular/platform-browser';
+import { Title, Meta } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-about',
@@ -7,11 +7,14 @@ import { Meta, Title } from '@angular/platform-browser';
   styleUrls: ['./about.component.scss']
 })
 export class AboutComponent {
+  constructor(private titleService: Title, private metaService: Meta) { }
+
   ngOnInit(): void {
-    this.meta.updateTag({ name: 'title', content: 'Top Best French Restaurant In Montreal | Mont Everest Masala' });
-    this.meta.updateTag({ name: 'description', content: 'Experience the flavors of South Indian food at Mont Everest Masala, Montreals top spot for authentic dishes. Indulge in diverse veg and non-veg options today!' });
+    this.setTitleAndMetaTags();
   }
-  
-  constructor(private meta: Meta, private title: Title) {
+
+  setTitleAndMetaTags(): void {
+    this.titleService.setTitle('Top Best French Restaurant In Montreal | Mont Everest Masala');
+    this.metaService.updateTag({ name: 'description', content: 'Experience the flavors of South Indian food at Mont Everest Masala, Montreals top spot for authentic dishes. Indulge in diverse veg and non-veg options today!' });
   }
 }
