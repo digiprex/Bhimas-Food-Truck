@@ -29,7 +29,7 @@ export class AppService {
       type: 'Contact Us'
     };
     return this.http.post(
-      `https://submit-form.com/yv1cmUhty`, requestBody
+      `https://submit-form.com/0NeWUvUcP`, requestBody
     );
   }
 
