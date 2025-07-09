@@ -1,109 +1,180 @@
-main {
+  main {
+    font-family: "Montserrat", sans-serif;
 
-    section.home-banner {
-        background: linear-gradient(rgb(0 0 0 / 30%), rgb(0 0 0 / 30%)), url("https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/b9ba24da-c5ae-440a-9a69-1f843ee0a9c0.webp");
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding: 10rem;
+    .banner-div {
+      background: linear-gradient(100deg, #333333, rgba(0, 0, 0, 0.01)), url('https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/c1b9c6f9-887d-4f3c-b197-632e5c9d5a6e_1.png');
+      align-items: flex-start;
+      display: flex;
+      padding: 10%;
+      background-size: cover;
+      background-position: center center;
+      margin: 0px;
+      flex-direction: column;
+
+      .inner-div {
         display: grid;
-        justify-content: center;
-        gap: 20px;
-        height: 50vh;
-        align-items: center;
+        width: 100%;
 
         h1 {
-            font-family: "Fraunces", serif;
-            font-size: 40px;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-            text-transform: uppercase;
-            color: #fff;
-            text-align: center;
+          color: #fff;
+          font-size: 50px;
+          font-weight: 600;
+          line-height: 1.14;
+          letter-spacing: 0;
+          text-align: left;
+          font-family: "krona one";
+          text-transform: uppercase;
+
+          span {
+            color: #ffcc4c;
+          }
         }
+
+        p {
+          color: #fff;
+          font-size: 17px;
+          font-weight: 400;
+          line-height: 25px;
+          text-align: left;
+          line-height: 1.8;
+          letter-spacing: 3px;
+          text-transform: uppercase;
+        }
+      }
     }
 
-    .container {
-        width: 100%;
-        padding: 0px;
-        margin: 0px;
+    .about-us {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 60px;
+      padding: 5rem 10rem;
 
-        h1 {
-            font-size: 40px;
-            text-align: center;
-            color: #000;
-            font-weight: 400;
-            font-family: "Fraunces", serif;
+      .left {
+        width: 50%;
+
+        h6 {
+          color: #333;
+          font-size: 18px;
+          font-weight: 600;
+          margin: 0;
+          font-family: "krona one";
+        }
+
+        h2 {
+         color: #334834;
+          font-size: 32px;
+          font-weight: 400;
+          font-family: "krona one";
+        }
+
+        p {
+          color: #333;
+          font-size: 16px;
+          font-weight: 400;
+        }
+
+        button {
+          padding: 5px 10px;
+          border: 1px solid #334834;
+          background-color: #fff;
+          color: #334834;
+          margin: 5px;
+          font-size: 14px;
+          font-weight: 600;
+          border-radius: 2px;
+          text-shadow: -1px 0px 0px rgba(0, 0, 0, 0);
+          padding: 0.5rem 1rem;
+          box-shadow: 6px 6px #000;
+          cursor: pointer;
+
+          &:hover {
+            border-color: #334834;
+            background-color: #334834;
+            color: #ffffff;
+          }
         }
 
         img {
-            width: 100%;
-            padding: 1% 15%;
-            height: 65vh;
-            object-fit: cover;
+          width: 100%;
+          border-radius: 5px;
+          object-fit: cover;
+        }
+      }
+
+      .right {
+        width: 50%;
+
+        img {
+          width: 100%;
+          border-radius: 5px;
+          object-fit: cover;
         }
 
-        div {
-            width: 100%;
-            padding: 2% 15%;
-
-            h2 {
-                font-size: 30px;
-                line-height: 1.5;
-                font-weight: 700;
-                color: #231E41;
-            }
-
-            span {
-                font-size: 16px;
-                line-height: 1.5;
-                letter-spacing: normal;
-                font-weight: 600;
-                color: #000;
-                font-family: "Fraunces", serif;
-            }
-
-            h3 {
-                font-size: 18px;
-                line-height: 1.5;
-                font-weight: 700;
-                color: #231E41;
-            }
-
-            p {
-                letter-spacing: 0.15rem;
-                font-size: 16px;
-                color: #5f5f5f;
-                font-weight: 400;
-                font-family: "DM Sans", sans-serif;
-            }
+        h6 {
+          color: #333;
+          font-size: 18px;
+          font-weight: 600;
+          margin: 0;
+          font-family: "krona one";
         }
+
+        h2 {
+          color: #334834;
+          font-size: 32px;
+          font-weight: 400;
+          font-family: "krona one";
+        }
+
+        p {
+          color: #333;
+          font-size: 16px;
+          font-weight: 400;
+        }
+
+        button {
+          padding: 5px 10px;
+          border: 1px solid #334834;
+          background-color: #fff;
+          color: #334834;
+          margin: 5px;
+          font-size: 14px;
+          font-weight: 600;
+          border-radius: 2px;
+          text-shadow: -1px 0px 0px rgba(0, 0, 0, 0);
+          padding: 0.5rem 1rem;
+          box-shadow: 6px 6px #000;
+          cursor: pointer;
+
+          &:hover {
+            border-color: #334834;
+            background-color: #334834;
+            color: #ffffff;
+          }
+        }
+      }
     }
-}
+  }
 
-// Tablet
-@media only screen and (max-device-width: 768px) {}
-
-// Mobile
-@media only screen and (max-device-width: 480px) {
+  @media only screen and (max-device-width: 480px) {
     main {
-        .header {
-            img:nth-child(2) {
-                left: 200px;
-            }
 
-            h1 {
-                font: normal 28px/28px "tiepolo-bold", serif;
-            }
+      .banner-div {
+        padding: 40% 10%;
+      }
+
+      .about-us {
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px;
+
+        .left {
+          width: 100%;
         }
 
-        .container {
-            img {
-                padding: 10px;
-            }
-
-            div {
-                width: 100%;
-                padding: 10px;
-            }
+        .right {
+          width: 100%;
         }
+      }
     }
-}
+  }

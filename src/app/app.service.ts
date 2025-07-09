@@ -1,16 +1,14 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-import * as mounteverestmasalacomData from 'mounteverest.com.json';
-
-
+import * as bhimasfoodtruckomData from 'bhimasfoodtruck.com.json';
 @Injectable({
   providedIn: 'root'
 })
 
 export class AppService {
   public apiUrl = 'https://yejrescws7.execute-api.ap-south-1.amazonaws.com/staging';
-  public data = mounteverestmasalacomData;
+  public data = bhimasfoodtruckomData;
   constructor(private http: HttpClient) { }
 
   cartCheckout(data: any): Observable<any> {
@@ -38,6 +36,5 @@ export class AppService {
   getContentData(key: any) : any{
     console.log("data",(this.data as any)[key]);
     return (this.data as any)[key];
-    
   }
 }

@@ -1,336 +1,40 @@
-<main *ngIf="host =='gulabJamun'">
-    <app-navbar></app-navbar>
-    <meta name="title" content="How to Make Authentic Gulab Jamun at Home | Traditional Indian Dessert Recipe">
-    <meta name="description"
-        content="Discover the step-by-step recipe for making authentic Gulab Jamun, a classic Indian dessert. Learn about the ingredients, preparation, and variations like Gulab Jamun cake and ice cream. Perfect for festivals and celebrations.">
+<main>
+  <app-navbar></app-navbar>
+  <div class="banner-div">
+    <div class="inner-div">
+      <h1>Catering Services <span>by Bhimas Food Truck</span></h1>
+      <p>
+        Bring the Taste of India
+        <br />
+        to Your Next Event!
+      </p>
+    </div>
+  </div>
 
-    <section class="home-banner"
-        style="background-image:linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 60%)), url({{hero.gulabJamun}});">
-        <h1>{{ 'blogs.gulabheading1' | translate }}</h1>
-    </section>
-
-    <div class="container">
-        <h1>{{ 'blogs.gulabheading2' | translate }}</h1>
-        <img
-            src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/b9eeccbe-d22d-49ae-bccb-50fde7a069e9_Gulab%20jamum.png" />
-        <div>
-            <p>{{ 'blogs.gulabpara1' | translate }}</p>
-            <p>{{ 'blogs.gulabpara2' | translate }}</p>
-            <p>{{ 'blogs.gulabpara3' | translate }}</p>
-
-            <p><span>{{ 'blogs.blogContent1' | translate }}:</span> <br>{{ 'blogs.blogContent2' | translate }}
-            </p>
-
-            <p>• {{ 'blogs.blogContent3' | translate }}</p>
-            <p>• {{ 'blogs.blogContent4' | translate }}</p>
-            <p>• {{ 'blogs.blogContent5' | translate }}</p>
-            <p>• {{ 'blogs.blogContent6' | translate }}</p>
-            <p>• {{ 'blogs.blogContent7' | translate }} </p>
-            <p>• {{ 'blogs.blogContent8' | translate }} </p>
-            <p>• {{ 'blogs.blogContent9' | translate }} </p>
-            <p>• {{ 'blogs.blogContent10' | translate }} </p>
-            <p>• {{ 'blogs.blogContent11' | translate }}</p>
-
-            <p> {{ 'blogs.blogContent12' | translate }}</p>
-
-            <span>{{ 'blogs.blogContent13' | translate }}</span>
-
-            <span>{{ 'blogs.blogContent14' | translate }}:</span>
-
-            <p>• {{ 'blogs.blogContent15' | translate }} </p>
-            <p>• {{ 'blogs.blogContent16' | translate }}</p>
-            <p>• {{ 'blogs.blogContent17' | translate }}</p>
-
-
-            <span> {{ 'blogs.blogContent18' | translate }}: </span>
-            <p>• {{ 'blogs.blogContent19' | translate }}</p>
-
-            <p><span> {{ 'blogs.blogContent20' | translate }}:</span></p>
-
-            <p>• {{ 'blogs.blogContent21' | translate }}</p>
-            <p>• {{ 'blogs.blogContent22' | translate }}</p>
-
-
-            <span> {{ 'blogs.blogContent23' | translate }} </span>
-            <p>• {{ 'blogs.blogContent24' | translate }}</p>
-
-
-            <span>{{ 'blogs.blogContent25' | translate }}: </span>
-            <p>• {{ 'blogs.blogContent26' | translate }}</p>
-
-            <span>{{ 'blogs.blogContent27' | translate }}:</span>
-
-            <p>• {{ 'blogs.blogContent28' | translate }}</p>
-
-            <span> {{ 'blogs.blogContent29' | translate }}</span>
-
-            <p> {{ 'blogs.blogContent30' | translate }}
-            </p>
-
-            <p><span> {{ 'blogs.blogContent31' | translate }}</span><br> {{ 'blogs.blogContent32' | translate }}</p>
-            <p>{{ 'blogs.blogContent33' | translate }}</p>
-
-            <p>{{ 'blogs.blogContent34' | translate }}</p>
-
-            <p><span>{{ 'blogs.blogContent35' | translate }}</span> <br> {{ 'blogs.blogContent36' | translate }}</p>
-
-            <p><span>{{ 'blogs.blogContent37' | translate }}
-                </span><br>{{ 'blogs.blogContent38' | translate }}</p>
-
-            <p>• {{ 'blogs.blogContent39' | translate }}</p>
-            <p>• {{ 'blogs.blogContent40' | translate }} </p>
-            <p>• {{ 'blogs.blogContent41' | translate }}</p>
-            <p>• {{ 'blogs.blogContent42' | translate }}
-            </p>
-
-            <p>{{ 'blogs.blogContent43' | translate }}</p>
-
-            <p>{{ 'blogs.blogContent45' | translate }}</p>
-        </div>
+  <div
+    *ngFor="let truck of hero.trucks"
+    class="about-us"
+    [ngStyle]="truck.reverse ? { background: '#f9fafc' } : {}"
+  >
+    <div class="left" *ngIf="!truck.reverse">
+      <h2>{{ truck.id }}. {{ truck.title }}</h2>
+      <p *ngFor="let i of truck.description">{{ i }}</p>
+      <button routerLink="/contact-us">Book It Now</button>
+    </div>
+    <div class="right" *ngIf="!truck.reverse">
+      <img [src]="truck.image" alt="{{ truck.title }}" />
     </div>
 
-    <app-footer></app-footer>
-</main>
-
-<main *ngIf="host =='garlicNaan'">
-    <app-navbar></app-navbar>
-    <meta name="title" content="Best Garlic Naan: Recipes, Variations, and Storage Tips">
-    <meta name="description"
-        content="Discover mouthwatering garlic naan recipes, creative variations, and expert storage tips to enjoy the best garlic naan at home or find the top spots in Montreal.">
-
-    <section class="home-banner"
-        style="background-image:linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 60%)), url({{hero.garlicNaan}});">
-        <h1>{{ 'blogs.naanheading' | translate }}</h1>
-    </section>
-
-    <div class="container" *ngFor="let item of ('BLOG' | translate); let i = index">
-        <h1>{{item.heading | translate}}</h1>
-        <img src="{{item.img}}" />
-        <div>
-
-            <p *ngFor="let g of item.para; let i = index">
-                <span *ngFor="let k of item.parahead; let j = index">
-                    <span *ngIf="i === j">{{ k | translate }}</span>
-                </span>
-                <br>
-                {{ g | translate }}
-            </p>
-
-        </div>
-    </div>
-
-    <app-footer></app-footer>
-</main>
-
-<main *ngIf="host =='tandooriChicken'">
-    <app-navbar></app-navbar>
-    <meta name="title" content="Authentic Whole Tandoori Chicken Recipe & Variations | Cooking Guide">
-    <meta name="description"
-        content="Discover authentic whole tandoori chicken at home with our step-by-step recipe guide. Explore delicious variations, nutrition facts, and cooking tips. Embark on a flavorful journey with this iconic Indian dish">
-
-    <section class="home-banner"
-        style="background-image:linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 60%)), url({{hero.tandooriChicken}});">
-        <h1>{{ 'blogs.chickenheading' | translate }}</h1>
-    </section>
-
-    <div class="container" *ngFor="let item of ('BLOG2' | translate); let i = index">
-        <h1>{{item.heading | translate}}</h1>
-        <img src="{{item.img}}" />
-
-        <div>
-
-            <p *ngFor="let g of item.para; let i = index">
-                <span *ngFor="let k of item.parahead; let j = index">
-                    <span *ngIf="i === j">{{ k | translate }}</span>
-                </span>
-                <br>
-                {{ g | translate }}
-            </p>
-
-        </div>
-    </div>
-
-    <app-footer></app-footer>
-</main>
-
-<main *ngIf="host =='masalaTea'">
-    <app-navbar></app-navbar>
-    <meta name="title" content="Mastering the Art of Masala Tea: A Flavorful Journey">
-    <meta name="description"
-        content="Explore the rich flavors and aromatic spices of masala tea with our comprehensive guide. Learn how to make masala tea at home, discover its benefits, and find the best masala tea recipes. Join us on a flavorful journey through the world of chai masala tea!.">
-
-    <section class="home-banner"
-        style="background-image:linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 60%)), url({{hero.masalaTea}});">
-        <h1>{{ 'blogs.teaheading' | translate }}</h1>
-    </section>
-
-    <div class="container" *ngFor="let item of ('BLOG3' | translate); let i = index">
-        <h1>{{item.heading | translate}}</h1>
-        <img src="{{item.img}}" />
-
-        <div>
-
-            <p *ngFor="let g of item.para; let i = index">
-                <span *ngFor="let k of item.parahead; let j = index">
-                    <span *ngIf="i === j">{{ k | translate }}</span>
-                </span>
-                <br>
-                {{ g | translate }}
-            </p>
-
-        </div>
-    </div>
-
-    <!-- <div class="container">
-        <h1>Exploring Masala Tea: Recipes, Benefits, and How to Make It</h1>
-        <img
-            src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/28b55e04-f3c7-4138-848b-bcc3d23d5ba5_masala%20tea.jpg" />
-        <div>
-
-            <p><span>Introduction to Masala Tea</span> <br>Masala tea, also known as chai masala tea, is a beloved
-                beverage originating from India. Its aromatic blend of spices, robust tea leaves, and comforting warmth
-                has made it a favorite choice for tea enthusiasts worldwide. In this comprehensive guide, we'll delve
-                into the rich flavours, explore the health benefits, and learn how to make this delightful concoction at
-                home.</p>
-
-            <p><span>The Tastes of Masala Tea</span> <br>At the heart of masala tea lies black tea, typically Assam or
-                Darjeeling tea, prized for its bold flavours and robustness. As you take your first sip, you'll
-                experience the earthy undertones of the tea, balanced by a subtle bitterness that forms the foundation
-                of this cherished beverage</p>
-
-            <p>The magic of masala tea lies in its aromatic spice blend. Common spices used include cardamom, cinnamon,
-                ginger, cloves, and black pepper. Each spice contributes its unique essence, creating a symphony of
-                flavours that dance on your palate. Whether it's the warmth of cinnamon, the citrusy notes of cardamom,
-                or the subtle kick of ginger, masala tea offers a delightful sensory experience with every sip.
-            </p>
-
-            <p><span>Health Benefits of Masala Tea</span> <br> Beyond its rich flavours, masala tea offers a range of
-                health benefits. The spices used in masala tea are packed with antioxidants and anti-inflammatory
-                properties, making it a soothing and nourishing beverage for the body and mind.</p>
-
-            <p>Cardamom, for example, is known for its digestive properties and can help alleviate digestive issues
-                such as bloating and indigestion. Ginger, another key ingredient in masala tea, has anti-nausea
-                properties and can aid in digestion and alleviate nausea.</p>
-
-            <p>Cinnamon, cloves, and black pepper are also rich in antioxidants, which help fight inflammation and
-                boost immunity. Additionally, the caffeine content in black tea provides a gentle energy boost, making
-                masala tea the perfect beverage to kickstart your day or provide a mid-afternoon pick-me-up.
-            </p>
-
-            <p><span>Masala Tea Recipe</span> <br>While masala tea is readily available at cafes and tea shops, making
-                it at home allows you to customize the blend to suit your taste preferences. Here's a simple recipe to
-                help you get started:</p>
-
-            <p><span>Masala Tea Ingredients:</span></p>
-
-            <p>• cups water</p>
-            <p>• 1cup milk</p>
-            <p>• teaspoons black tea leaves</p>
-            <p>• green cardamom pods, lightly crushed</p>
-            <p>• cinnamon stick</p>
-            <p>• inch piece of fresh ginger, grated</p>
-            <p>• cloves</p>
-            <p>• teaspoons sugar or honey (optional)</p>
-
-            <p><span>Instructions:</span></p>
-
-            <p>• Boil Water: Begin by bringing 2 cups of water to a boil in a saucepan.</p>
-
-            <p>• Add Ingredients: Once the water reaches a boil, add 2-3 teaspoons of black tea leaves, crushed green
-                cardamom pods, a cinnamon stick, grated fresh ginger, and cloves to the saucepan.</p>
-
-            <p>• Simmer: Reduce the heat and let the tea simmer for 3-4 minutes. This allows the flavours of the spices
-                to infuse into the water.</p>
-
-            <p>• Add Milk and Sweetener: After simmering, add 1 cup of milk to the saucepan. You can also add sugar or
-                honey according to your taste preference (optional). Simmer for an additional 2-3 minutes to blend the
-                flavors.</p>
-
-            <p>• Strain and Serve: Once the tea is ready, strain it into cups to remove the tea leaves and whole spices.
-                Serve the masala tea hot and enjoy</p>
-
-            <p>Feel free to adjust the spice levels and sweetness according to your preference. Experiment with
-                different spice combinations and proportions to create your perfect cup of masala tea.</p>
-
-
-            <p><span>Finding Masala Tea Near You</span><br>While making masala tea at home is a rewarding experience,
-                sometimes you crave the authentic flavours of a well-brewed cup from your favourite local tea shop or
-                cafe. Explore nearby tea houses and cafes to discover the best masala tea near you. Whether you prefer a
-                traditional preparation or a unique twist on this classic beverage, there's a delightful option waiting
-                to be savoured.</p>
-
-            <p>Masala tea is more than just a beverage—it's a sensory experience that delights the palate and nourishes
-                the body. With its rich flavours, aromatic spices, and health benefits, masala tea offers a delightful
-                respite from the ordinary. Whether you enjoy it hot or cold, at home or at your favourite cafe, embrace
-                the magic of masala tea and savour the joy it brings with every sip. Cheers to the aromatic wonders of
-                masala tea!
-            </p>
-        </div>
-    </div> -->
-
-    <app-footer></app-footer>
-</main>
-
-<main *ngIf="host =='beefCurry'">
-    <app-navbar></app-navbar>
-    <meta name="title" content="Elevate Your Beef Curry Experience: Delicious Variations and Nutritional Benefits">
-    <meta name="description"
-        content="Explore creative variations to enhance your beef curry, from marinating the meat to homemade curry pastes, and discover the nutritional benefits of this flavorful dish. Savour the rich flavours while reaping the health rewards!">
-
-    <section class="home-banner"
-        style="background-image:linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 60%)), url({{hero.beefCurry}});">
-        <h1>{{ 'blogs.befheading' | translate }}</h1>
-    </section>
-
-    <div class="container" *ngFor="let item of ('BLOG4' | translate); let i = index">
-        <h1>{{item.heading | translate}}</h1>
-        <img src="{{item.img}}" />
-
-        <div>
-
-            <p *ngFor="let g of item.para; let i = index">
-                <span *ngFor="let k of item.parahead; let j = index">
-                    <span *ngIf="i === j">{{ k | translate }}</span>
-                </span>
-                <br>
-                {{ g | translate }}
-            </p>
-
-        </div>
-    </div>
-
-    <app-footer></app-footer>
-</main>
-
-<main *ngIf="host =='cucumberSalad'">
-    <app-navbar></app-navbar>
-    <meta name="title" content="Fresh and Flavorful Cucumber Salad: A Refreshing Summer Side Dish">
-    <meta name="description"
-        content="Discover how to create the perfect cucumber salad with crisp cucumbers, red onions, fresh dill, and a tangy dressing. Learn serving tips and the nutritional benefits of this hydrating and low-calorie dish!">
-
-    <section class="home-banner"
-        style="background-image:linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 60%)), url({{hero.cucumberSalad}});">
-        <h1>{{ 'blogs.cucumberheading' | translate }}</h1>
-    </section>
-
-    <div class="container" *ngFor="let item of ('BLOG5' | translate); let i = index">
-        <h1>{{item.heading | translate}}</h1>
-        <img src="{{item.img}}" />
-
-        <div>
-
-            <p *ngFor="let g of item.para; let i = index">
-                <span *ngFor="let k of item.parahead; let j = index">
-                    <span *ngIf="i === j">{{ k | translate }}</span>
-                </span>
-                <br>
-                {{ g | translate }}
-            </p>
-
-        </div>
-    </div>
-
-   
-
-    <app-footer></app-footer>
+    <ng-container *ngIf="truck.reverse">
+      <div class="left">
+        <img [src]="truck.image" alt="{{ truck.title }}" />
+      </div>
+      <div class="right">
+        <h2>{{ truck.id }}. {{ truck.title }}</h2>
+        <p *ngFor="let i of truck.description">{{ i }}</p>
+        <button routerLink="/contact-us">Book It Now</button>
+      </div>
+    </ng-container>
+  </div>
+  <app-footer></app-footer>
 </main>

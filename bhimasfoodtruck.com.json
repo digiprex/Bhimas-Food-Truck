@@ -1,0 +1,1197 @@
+{
+  "logo": "",
+  "footerlogo": "",
+  "footerText": "Established in 2018, Wava Halal Grill brings the bold flavors of New York street food to the Metroplex with fresh ingredients and signature recipes. We’re known for our delicious dishes and warm, welcoming hospitality. ",
+  "brandName": "Bhimas Food Truck",
+  "address": "238 Station Rd, Monroe Township, NJ 08831, United States",
+  "contact": "9087701184",
+  "type": "template1264",
+  "email": "gobhimas@gmail.com",
+  "social": {
+    "fb": "https://www.facebook.com/people/Bhimas-Food-Truck/100067004820979/",
+    "insta": "https://www.instagram.com/bhimas_4rm_gruham/",
+    "onlinelink": "tel:9087701184",
+    "hrefPhone": "tel:9087701184",
+    "hrefEmail": "mailto:gobhimas@gmail.com",
+    "map": "https://maps.app.goo.gl/4zpfKRpdnEmhWLTT8"
+  },
+  "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3029.3793898148006!2d-96.75025962487038!3d32.96227607449641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c1f6045f40ca5%3A0xf840492644b718a6!2s804%20West%20Shore%20Dr%2C%20Richardson%2C%20TX%2075080%2C%20USA!5e1!3m2!1sen!2sin!4v1738832816761!5m2!1sen!2sin",
+  "css": {
+    "footerBg": "background-color: #2d3e2e; color: #fff; border: none; padding: 3rem 10rem;",
+    "footerClosingLiner": "background-color: #fff !important; color: #000;",
+    "footerCss": "color: #887f52 !important;",
+    "footerText": "display: flex !important; font-family: Montserrat, sans-serif; color: #fff !important; align-items: center !important; justify-content: center !important; text-align: center !important; text-decoration: none !important; font-size: 18px !important; line-height: 26px !important; letter-spacing: 2px !important; text-transform: capitalize;",
+    "logoSize": "width: 80px; object-fit:contain;",
+    "logoWidth": "width: 80px; object-fit:contain;",
+    "imgSize": "width: 350px; margin: 0px;",
+    "headerCss": "background: #ffffff; color: 000000",
+    "headingh1": "color: #000000; font-size: 60px; font-family: Bebas Neue, sans-serif;text-align: center;",
+    "logo": "width: 290px;",
+    "navbar": "background-color: #263a00;",
+    "icon": "color: #fff; background: #fff;",
+    "btnCss": "border-radius: 2px; text-shadow: -1px 0px 0px rgba(0, 0, 0, 0); padding: 0.5rem 1rem; box-shadow: 6px 6px #000;",
+    "navbarTextColor": "color: #fff; text-transform: capitalize; font-size: 16px; text-align: center; font-weight: 400; letter-spacing: 2px;"
+  },
+  "orderonline": "https://slicelife.com/restaurants/tx/dallas/75206/wava-halal-grill-dallas/menu?utm_campaign=order_now_button&utm_medium=referral&utm_source=wavahalalgrill.com/home&utm_content=slice_button",
+  "testimonials": [
+    {
+      "name": "Haneef Khan",
+      "message": "Authentic Hyderabadi mutton dum biryani, chicken 65. I also like dum ka chicken with rumali roti. Great taste"
+    },
+    {
+      "name": "Lady In Blue",
+      "message": "Had mutton dum biryani and chicken 65. Amazing food and taste is authentic. Would definitely recommend."
+    },
+    {
+      "name": "Mr. Khan",
+      "message": "Authentic Hyderabadi dum biryani. Absolutely loved it."
+    }
+  ],
+  "navbar": {
+    "links": [
+      {
+        "text": "Home",
+        "link": "/home",
+        "type": "internal",
+        "options": []
+      },
+      {
+        "text": "Menu",
+        "link": "/menutwo/all",
+        "type": "internal",
+        "options": []
+      },
+      {
+        "text": "About Us",
+        "link": "/about-us",
+        "type": "internal",
+        "options": []
+      },
+      {
+        "text": "Contact Us",
+        "link": "/contact-us",
+        "type": "internal",
+        "options": []
+      },
+      {
+        "text": "Service",
+        "link": "/service/all",
+        "type": "internal",
+        "options": []
+      },
+      {
+        "text": "Order Online",
+        "link": "",
+        "type": "external",
+        "options": []
+      }
+    ]
+  },
+  "lovedDishes": {
+    "left": [
+      {
+        "itemImg": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/cab77fbd-a30c-4ccd-ab63-b2c3d80340d6.jpg",
+        "itemName": "Chicken Biryani",
+        "description": "",
+        "price": 6.99
+      },
+      {
+        "itemImg": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/01b8a3de-7961-4811-95d6-2ed06d4a641e.jpg",
+        "itemName": "Tandoori Chicken",
+        "description": "",
+        "price": 10.99
+      },
+      {
+        "itemImg": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/b6ec0ecd-4d53-4f83-a6ea-1c0c7be3f20e.jpg",
+        "itemName": "Chicken Chapli Kebab",
+        "description": "",
+        "price": 9.99
+      },
+      {
+        "itemImg": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/3c0ca5e2-6bd2-429c-aaa9-356aa3cfa8c8.jpg",
+        "itemName": "Rice",
+        "description": "",
+        "price": 3.99
+      }
+    ],
+    "right": [
+      {
+        "itemImg": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/65a2e134-b24e-437c-a845-a7e80bc73ffd.jpg",
+        "itemName": "Chicken Jalfrezi",
+        "description": "",
+        "price": 12.99
+      },
+      {
+        "itemImg": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/18430b01-f38d-4540-b757-f2755d60cb04.jpg",
+        "itemName": "Palak Paneer",
+        "description": "",
+        "price": 10.99
+      },
+      {
+        "itemImg": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/02e164f2-51f7-4fd2-9617-9325a73fdb94.jpg",
+        "itemName": "Chicken Seekh Kebab",
+        "description": "",
+        "price": 9.99
+      },
+      {
+        "itemImg": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/d1f11de2-e368-4542-9335-a42a5c9f4b04.jpg",
+        "itemName": "Dal Makhni",
+        "description": "",
+        "price": 11.99
+      }
+    ]
+  },
+  "hero": {
+    "homecontent": [
+      {
+        "heading": "Welcome to Bhimas Food Truck – A Journey of Flavor on Wheels!",
+        "homepara": [
+          "At Bhimas Food Truck, we bring the heart of authentic Indian cuisine straight to your neighborhood. Inspired by traditional family recipes and spiced with a modern twist, our food truck is your go-to spot for bold flavors, vibrant colors, and mouthwatering meals served fresh every single day.",
+          "Whether you’re craving classic South Indian delicacies, fiery street food favorites, or fusion dishes that surprise your palate, Bhimas has something for everyone. We use high-quality ingredients, time-honored cooking methods, and a generous dash of love to deliver unforgettable bites that taste like home."
+        ],
+        "link": "/menutwo/all",
+        "button": "View Menu"
+      },
+      {
+        "heading": "Wherever You Are, We Roll to You",
+        "homepara": [
+          "From bustling events to casual lunch breaks and late-night cravings, we serve at multiple locations throughout the week. Follow us on social media to track our route and catch us near you!"
+        ],
+        "link": "/menutwo/all",
+        "button": "Explore"
+      }
+    ],
+    "socialLinks": [
+      {
+        "name": "9087701184",
+        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/762e137f-b1a6-48ae-8979-242772f48feb_call.png",
+        "url": "tel:9087701184"
+      },
+      {
+        "name": "238 Station Rd, Monroe Township, NJ 08831, United States",
+        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/7fdb9082-97fc-43b6-91d7-add57c0c7ed4_address.png",
+        "url": "https://maps.app.goo.gl/gc6GDxSzDyNBeEvJ8"
+      },
+      {
+        "name": "gobhimas@gmail.com",
+        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/65e2538e-ffe6-4e36-9cf0-c5631dd86001_mail.png",
+        "url": "mailto:gobhimas@gmail.com"
+      },
+      {
+        "name": "Instagram",
+        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ff30ce59-9ead-45ba-9f4f-db86376bac55_insta.png",
+        "url": "https://www.instagram.com/bhimas_4rm_gruham/"
+      },
+      {
+        "name": "Facebook",
+        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/3b7a3355-5fe5-410e-b764-39db29a4f875_fb.png",
+        "url": "https://www.facebook.com/people/Bhimas-Food-Truck/100067004820979/"
+      }
+    ],
+    "trucks": [
+      {
+        "id": 1,
+        "title": "Authentic Indian Cuisine made fresh on-site",
+        "description": [
+          "Make your special occasions even more memorable with the rich, flavorful experience of Bhimas Food Truck Catering. Whether it's a wedding, corporate event, birthday, festival, or private party, we bring our signature dishes, vibrant energy, and warm hospitality right to your venue.",
+          "From traditional South Indian favorites to spicy street food and unique fusion bites, our menu is fully customizable to match your event’s theme and your guests’ preferences.",
+          "Whether you're planning an intimate gathering or a large celebration, Bhimas delivers an unforgettable culinary experience, right from our kitchen on wheels to your guests' plates."
+        ],
+        "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/2cc551bd-c8db-4214-8ceb-f33821a8f361_8.png",
+        "reverse": false
+      },
+      {
+        "id": 2,
+        "title": "Customized Menus for all group sizes and dietary needs",
+        "description": [
+          "Make your special occasions even more memorable with the rich, flavorful experience of Bhimas Food Truck Catering. Whether it's a wedding, corporate event, birthday, festival, or private party, we bring our signature dishes, vibrant energy, and warm hospitality right to your venue.",
+          "From traditional South Indian favorites to spicy street food and unique fusion bites, our menu is fully customizable to match your event’s theme and your guests’ preferences.",
+          "Whether you're planning an intimate gathering or a large celebration, Bhimas delivers an unforgettable culinary experience, right from our kitchen on wheels to your guests' plates."
+        ],
+        "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/7a00e65a-f89a-4b1c-abd6-e5f8f3c34664_9.png",
+        "reverse": true
+      },
+      {
+        "id": 3,
+        "title": "Live Food Truck Experience that adds fun and flair",
+        "description": [
+          "Make your special occasions even more memorable with the rich, flavorful experience of Bhimas Food Truck Catering. Whether it's a wedding, corporate event, birthday, festival, or private party, we bring our signature dishes, vibrant energy, and warm hospitality right to your venue.",
+          "From traditional South Indian favorites to spicy street food and unique fusion bites, our menu is fully customizable to match your event’s theme and your guests’ preferences.",
+          "Whether you're planning an intimate gathering or a large celebration, Bhimas delivers an unforgettable culinary experience, right from our kitchen on wheels to your guests' plates."
+        ],
+        "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/8962bbd1-d759-493e-a5e5-7c02cd3bfb74_11.png",
+        "reverse": false
+      },
+      {
+        "id": 4,
+        "title": "Professional & Friendly Team that ensures smooth service",
+        "description": [
+          "Make your special occasions even more memorable with the rich, flavorful experience of Bhimas Food Truck Catering. Whether it's a wedding, corporate event, birthday, festival, or private party, we bring our signature dishes, vibrant energy, and warm hospitality right to your venue.",
+          "From traditional South Indian favorites to spicy street food and unique fusion bites, our menu is fully customizable to match your event’s theme and your guests’ preferences.",
+          "Whether you're planning an intimate gathering or a large celebration, Bhimas delivers an unforgettable culinary experience, right from our kitchen on wheels to your guests' plates."
+        ],
+        "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/144a195f-627e-494f-94fb-fe7d1cf9d242_7.png",
+        "reverse": true
+      },
+      {
+        "id": 5,
+        "title": "Flexible Packages tailored to your budget and event style",
+        "description": [
+          "Make your special occasions even more memorable with the rich, flavorful experience of Bhimas Food Truck Catering. Whether it's a wedding, corporate event, birthday, festival, or private party, we bring our signature dishes, vibrant energy, and warm hospitality right to your venue.",
+          "From traditional South Indian favorites to spicy street food and unique fusion bites, our menu is fully customizable to match your event’s theme and your guests’ preferences.",
+          "Whether you're planning an intimate gathering or a large celebration, Bhimas delivers an unforgettable culinary experience, right from our kitchen on wheels to your guests' plates."
+        ],
+        "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/fc8787f2-5062-4377-817f-f8c9775352ca_4.png",
+        "reverse": false
+      }
+    ],
+    "aboutContent": [
+      "At Bhimas Food Truck, our story is rooted in a deep love for Indian cuisine and a passion for sharing it with the world—one street, one city, one bite at a time.",
+      "Founded by a team of food enthusiasts with a vision to bring authentic Indian flavors to the streets, Bhimas Food Truck is more than just a mobile kitchen—it’s a moving celebration of tradition, taste, and togetherness. Inspired by the rich culinary heritage of India, we combine traditional recipes with a modern food truck experience, offering meals that are bold, flavorful, and always freshly prepared.",
+      "From sizzling dosas to fragrant biryanis, spicy chaats to refreshing beverages, every item on our menu reflects our commitment to quality, authenticity, and innovation.",
+      "<strong>Our Mission</strong>",
+      "To serve delicious, high-quality Indian food that connects people through flavor and culture—right from our truck to your plate.",
+      "<strong>What Sets Us Apart</strong>",
+      "<strong>Authentic Flavors:</strong> Recipes passed down through generations, made with love and tradition.",
+      "<strong>Fresh Ingredients:</strong> Sourced locally and prepared daily.",
+      "<strong>Friendly Service:</strong> A warm, welcoming vibe wherever we park.",
+      "<strong>Flexible Locations:</strong> Serving at events, office spaces, and neighborhoods throughout the city.",
+      "Join us on this flavorful journey. Whether you’re a first-timer or a regular, at Bhimas, there’s always something new to discover—and always a reason to come back."
+    ],
+    "banners": [
+      {
+        "leftImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/9ec6e56f-df4e-4a0d-888c-31bd842d7387_image1.jpg",
+        "rightBgPattern": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e4daf3cc-0554-469c-9897-e1bc369fbea8_image2.png",
+        "title": "FOOD TRUCK SERVICES",
+        "subtitle": "Explore the Food Truck Services we Offer",
+        "buttonText": "VISIT NOW",
+        "buttonLink": "/service/all"
+      }
+    ],
+    "aboutparagraphs": [
+      "Located on Columbia Pike, City Kabob & Curry House opened its doors at the end of 2015 with a vision to serve flavor-packed, from-scratch cooked Indian and Pakistani dishes to the locals and others in the Northern Virginia and DC area.",
+      "We use only the 100% Fresh and 100% Halal ingredients in our dishes to provide superior flavor and authenticity.",
+      "We offer a calm and casual environment that is good for dining with friends, family members and co workers for up to 35 people.",
+      "Our main objective is to ensure that your dining experience becomes a pleasant one. All of our staff looks forward to welcoming you at City Kabob & Curry House."
+    ],
+    "backgroundImg": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/85910101-1977-4b9f-9ddc-ae6dd498ae6a.jpg",
+    "aboutusleft": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/d1a1c46c-3e02-4ce8-b9e7-4a9a2f216b64.jpg",
+    "aboutusright": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/8663d4f4-0e55-40ba-978b-1d3ab8a5b24a.jpg",
+    "bottomImg": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/0a27b514-6bbf-4c77-ac2d-2bbe89c88243_slide01-11.png",
+    "heading": "Wava Halal Grill is the meeting of New York city’s street food with Texas’s unique culture, bringing together the best of both worlds. Our dishes are rooted in tradition and filled with next-level ingredients that blend nostalgic and unexpected flavours. Our unconventional dishes showcase our love for great New York street-style cooking. We strive at sourcing local, sustainable, and organic ingredients. We cook everything from scratch with love and bring an unconventional twist to traditional dishes with a blend of street-style cooking, bold flavours and exotic tastes. Our unconventional dishes showcase our impeccable attention to detail along with a pursuit of what tastes delicious. Our dishes are rooted in tradition and are filled with next-level ingredients that combine nostalgic flavours with unexpected combinations. At Wava Halal Grill, our goal is to offer the most unique, delicious and interactive experience to our guests. With our menu items and service, we hope to provide that comfort feeling where you will feel right at home with like-minded individuals and enjoy your time with us. ",
+    "subheading": "",
+    "img1": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/6bd60f24-0cb3-4d80-9586-3cbdaaa76370.jpg",
+    "img2": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/43330b2e-c4ac-4b3d-958a-fed9620b9ddf.jpg",
+    "cta": [
+      {
+        "text": "",
+        "link": ""
+      }
+    ]
+  },
+  "story": {
+    "heading": "Our story",
+    "subheading": "LOVE FOR FOOD",
+    "content": [
+      "Founded in 2018, Wava Halal Grill is dedicated to delivering exceptional food and unforgettable experiences. Nestled in the heart of the Metroplex, Wava offers a culinary escape inspired by the bold, flavorful essence of New York-style street food.",
+      "Our approach is simple—use the finest, freshest ingredients, traditional spices, and sauces sourced directly from the iconic street vendors of New York. Every dish is thoughtfully prepared to blend authentic recipes with our own creative twist, resulting in a menu that’s both familiar and refreshingly unique.",
+      "Step into our vibrant, welcoming space designed to reflect the energy and spirit of the streets of New York. At Wava Halal Grill, we pride ourselves not only on great food, but also on warm hospitality that makes every visit feel like home."
+    ],
+    "img1": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/8c2b834f-0fc3-43a2-a8cf-5bc8dfa544ea.jpg",
+    "img2": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/3f17bbed-3b66-4130-969f-5fcb0e683aea.jpg",
+    "img3": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/7535d703-4b2f-4a5b-8bed-b0f1c11f42da.jpg",
+    "abutImg1": "",
+    "carrerHeading": "Careers",
+    "carrerPara": "We appreciate your interest in applying for a position at Wava Halal Grill. To begin the application process, please fill out the form below. We carefully review all applications and will contact qualified candidates for a formal interview."
+  },
+  "reservation": {
+    "heading": "Visit us for A Royal Dining Experience",
+    "subheading": "AMBIANCE TO COMPLEMENT THE ROYAL MEAL",
+    "head": "Get in touch with us",
+    "para1": "We value our customers and strive to deliver a high quality dining experience. With a large variety of restaurants to choose from, we appreciate your choice to dine with us.",
+    "para2": "From questions about our online ordering, catering service, to special events to customer-care and feedback we invite any questions, comments or inquiries.",
+    "para3": "We look forward to your next visit."
+  },
+  "openingTimes": [
+    {
+      "Monday - Sunday": "11am - 3am"
+    }
+  ],
+  "slider": [
+    {
+      "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e7b5bf2a-3138-4f1d-a168-84ea2b0e4a87_8c2b834f-0fc3-43a2-a8cf-5bc8dfa544ea.jpg",
+      "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e7b5bf2a-3138-4f1d-a168-84ea2b0e4a87_8c2b834f-0fc3-43a2-a8cf-5bc8dfa544ea.jpg"
+    },
+    {
+      "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e6b65032-b8a1-432d-aaab-637b9249f4e7_3f17bbed-3b66-4130-969f-5fcb0e683aea.jpg",
+      "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e6b65032-b8a1-432d-aaab-637b9249f4e7_3f17bbed-3b66-4130-969f-5fcb0e683aea.jpg"
+    },
+    {
+      "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/432c352c-bb16-4526-b81a-024701fadf22_7535d703-4b2f-4a5b-8bed-b0f1c11f42da.jpg",
+      "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/432c352c-bb16-4526-b81a-024701fadf22_7535d703-4b2f-4a5b-8bed-b0f1c11f42da.jpg"
+    }
+  ],
+  "menu": [
+    {
+      "backgroundImg": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ebd308ec-f19c-480c-84fc-554aebdfb60d_menubanner1.jpg",
+      "heading": "Delicious Cuisine",
+      "subheading": "DISCOVER OUR MENU",
+      "type": "boxed",
+      "menu": [
+        {
+          "superCategory": [
+            {
+              "category": [
+                {
+                  "categoryName": "House Special Beverages",
+                  "routeName": "House Special Beverages",
+                  "items": [
+                    {
+                      "itemName": "Soft Drinks",
+                      "itemDescription": "Coke / Diet Coke / Dr. Pepper / Sprite / Lemonade",
+                      "quantity": 1,
+                      "itemPrice": "2.00"
+                    },
+                    {
+                      "itemName": "Tea",
+                      "itemDescription": "Sweet Tea / Unsweet Tea",
+                      "quantity": 1,
+                      "itemPrice": "2.00"
+                    },
+                    {
+                      "itemName": "Lassi",
+                      "itemDescription": "Sweet Lassi, Salt Lassi, Mango Lassi",
+                      "quantity": 1,
+                      "itemPrice": "4.00"
+                    },
+                    {
+                      "itemName": "Homemade Shakes",
+                      "itemDescription": "Rose Milk, Masala Chaas (Majjiga)",
+                      "quantity": 1,
+                      "itemPrice": "3.00"
+                    },
+                    {
+                      "itemName": "Kids Special",
+                      "itemDescription": "Pink Lemonade / Chocolate Milk / Kids Juice",
+                      "quantity": 1,
+                      "itemPrice": ""
+                    }
+                  ]
+                },
+                {
+                  "categoryName": "Appetizers - Vegetarian",
+                  "routeName": "Appetizers - Vegetarian",
+                  "items": [
+                    {
+                      "itemName": "Chilly Gobi / Paneer",
+                      "quantity": 1,
+                      "itemPrice": "9"
+                    },
+                    {
+                      "itemName": "Manchurian Gobi / Paneer",
+                      "quantity": 1,
+                      "itemPrice": "9"
+                    },
+                    {
+                      "itemName": "65 Gobi / Paneer",
+                      "quantity": 1,
+                      "itemPrice": "9"
+                    },
+                    {
+                      "itemName": "Mixed Veg / Onion / Spinach Pakoras",
+                      "quantity": 1,
+                      "itemPrice": "6"
+                    },
+                    {
+                      "itemName": "Cut Mirchi (Spicy) / Potato / Plantain",
+                      "quantity": 1,
+                      "itemPrice": "6"
+                    },
+                    {
+                      "itemName": "Veg. Samosa (2 Pieces)",
+                      "quantity": 1,
+                      "itemPrice": "4"
+                    },
+                    {
+                      "itemName": "Crispy Pepper Corn Masala",
+                      "quantity": 1,
+                      "itemPrice": "9"
+                    }
+                  ]
+                },
+                {
+                  "categoryName": "Appetizers - Non Vegetarian",
+                  "routeName": "Appetizers - Non Vegetarian",
+                  "items": [
+                    {
+                      "itemName": "Chilly Chicken / Fish / Shrimp",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    },
+                    {
+                      "itemName": "Manchurian Chicken / Fish / Shrimp",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    },
+                    {
+                      "itemName": "65 Chicken / Fish/ Shrimp",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    },
+                    {
+                      "itemName": "Sukha Chicken / Goat / Shrimp / Lamb",
+                      "quantity": 1,
+                      "itemPrice": ""
+                    },
+                    {
+                      "itemName": "Fry Piece / Kodi Vepudu",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    },
+                    {
+                      "itemName": "Roasted Chicken Sticks",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    },
+                    {
+                      "itemName": "Chicken Keema Samosa",
+                      "quantity": 1,
+                      "itemPrice": "5"
+                    }
+                  ]
+                },
+                {
+                  "categoryName": "Tandoori Sizzlers - Vegetarian",
+                  "routeName": "Tandoori Sizzlers - Vegetarian",
+                  "items": [
+                    {
+                      "itemName": "Paneer Tikka",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    },
+                    {
+                      "itemName": "Mix Veg Grill",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    },
+                    {
+                      "itemName": "Grilled Potato wedges",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    }
+                  ]
+                },
+                {
+                  "categoryName": "Tandoori Sizzlers - Non-Vegetarian",
+                  "routeName": "Tandoori Sizzlers - Non-Vegetarian",
+                  "items": [
+                    {
+                      "itemName": "Chicken Tikka",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    },
+                    {
+                      "itemName": "Tandoori Chicken",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    },
+                    {
+                      "itemName": "Mix Meat Grill",
+                      "quantity": 1,
+                      "itemPrice": "12"
+                    },
+                    {
+                      "itemName": "Chicken Malai Kabab",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    },
+                    {
+                      "itemName": "Lamb Shish Kebab",
+                      "quantity": 1,
+                      "itemPrice": "14"
+                    },
+                    {
+                      "itemName": "Grilled Pomfret fish",
+                      "quantity": 1,
+                      "itemPrice": "14"
+                    }
+                  ]
+                },
+                {
+                  "categoryName": "Entrees (Non- Vegetarian) - Chicken",
+                  "routeName": "Entrees (Non- Vegetarian) - Chicken",
+                  "items": [
+                    {
+                      "itemName": "Chicken Curry",
+                      "quantity": 1,
+                      "itemPrice": "12"
+                    },
+                    {
+                      "itemName": "Kadai Chicken",
+                      "quantity": 1,
+                      "itemPrice": "12"
+                    },
+                    {
+                      "itemName": "Palak / Mint / Curry Leaf Chicken",
+                      "quantity": 1,
+                      "itemPrice": "12"
+                    },
+                    {
+                      "itemName": "Chicken Korma",
+                      "quantity": 1,
+                      "itemPrice": "12"
+                    },
+                    {
+                      "itemName": "Chicken Vindaloo",
+                      "quantity": 1,
+                      "itemPrice": "12"
+                    },
+                    {
+                      "itemName": "Chicken Tikka Masala",
+                      "quantity": 1,
+                      "itemPrice": "12"
+                    },
+                    {
+                      "itemName": "Butter Chicken",
+                      "quantity": 1,
+                      "itemPrice": "12"
+                    },
+                    {
+                      "itemName": "Chicken Chettinad (Bone in)",
+                      "quantity": 1,
+                      "itemPrice": "12"
+                    },
+                    {
+                      "itemName": "Gongura Chicken (Bone in)",
+                      "quantity": 1,
+                      "itemPrice": "12"
+                    }
+                  ]
+                },
+                {
+                  "categoryName": "Entrees (Non- Vegetarian) - Fish / Shrimp",
+                  "routeName": "Entrees (Non- Vegetarian) - Fish / Shrimp",
+                  "items": [
+                    {
+                      "itemName": "Andhra Style Chepala Pulusu",
+                      "quantity": 1,
+                      "itemPrice": "12"
+                    },
+                    {
+                      "itemName": "Kerala Fish Curry",
+                      "quantity": 1,
+                      "itemPrice": "12"
+                    },
+                    {
+                      "itemName": "Fish / Shrimp Masala",
+                      "quantity": 1,
+                      "itemPrice": "12"
+                    },
+                    {
+                      "itemName": "Fish / Shrimp Chettinad",
+                      "quantity": 1,
+                      "itemPrice": "12"
+                    },
+                    {
+                      "itemName": "Fish / Shrimp Vindaloo",
+                      "quantity": 1,
+                      "itemPrice": "12"
+                    },
+                    {
+                      "itemName": "Fish / Shrimp Tikka Masala",
+                      "quantity": 1,
+                      "itemPrice": "12"
+                    },
+                    {
+                      "itemName": "Palak Fish / Shrimp",
+                      "quantity": 1,
+                      "itemPrice": "12"
+                    }
+                  ]
+                },
+                {
+                  "categoryName": "Entrees (Non- Vegetarian) - Lamb / Goat",
+                  "routeName": "Entrees (Non- Vegetarian) - Lamb / Goat",
+                  "items": [
+                    {
+                      "itemName": "Goat / Lamb Curry",
+                      "quantity": 1,
+                      "itemPrice": "13"
+                    },
+                    {
+                      "itemName": "Kadai Gosht Goat / Lamb",
+                      "quantity": 1,
+                      "itemPrice": "13"
+                    },
+                    {
+                      "itemName": "Palak Goat / Lamb",
+                      "quantity": 1,
+                      "itemPrice": "13"
+                    },
+                    {
+                      "itemName": "Goat / Lamb Korma",
+                      "quantity": 1,
+                      "itemPrice": "13"
+                    },
+                    {
+                      "itemName": "Goat / Lamb Vindaloo",
+                      "quantity": 1,
+                      "itemPrice": "13"
+                    },
+                    {
+                      "itemName": "Goat / Lamb Chettinad",
+                      "quantity": 1,
+                      "itemPrice": "13"
+                    },
+                    {
+                      "itemName": "Gongura Goat / Lamb",
+                      "quantity": 1,
+                      "itemPrice": "13"
+                    },
+                    {
+                      "itemName": "Goat / Lamb Tikka Masala",
+                      "quantity": 1,
+                      "itemPrice": "13"
+                    }
+                  ]
+                },
+                {
+                  "categoryName": "Entrees (Vegetarian)- Dry",
+                  "routeName": "Entrees (Vegetarian)- Dry",
+                  "items": [
+                    {
+                      "itemName": "Bhindi Fry (South Indian)",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    },
+                    {
+                      "itemName": "Tindora Fry (Crispy / Baked)",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    },
+                    {
+                      "itemName": "Aloo Fry fine Chopped",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    },
+                    {
+                      "itemName": "Aloo Gobi (Vegan)",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    },
+                    {
+                      "itemName": "Egg Bhurji",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    },
+                    {
+                      "itemName": "Paneer Bhurji",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    }
+                  ]
+                },
+                {
+                  "categoryName": "Entrees (Vegetarian) - Gravy",
+                  "routeName": "Entrees (Vegetarian) - Gravy",
+                  "items": [
+                    {
+                      "itemName": "Dal Makhani",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    },
+                    {
+                      "itemName": "Dal Tadka (Vegan)",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    },
+                    {
+                      "itemName": "Malai Kofta",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    },
+                    {
+                      "itemName": "Malai Paneer",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    },
+                    {
+                      "itemName": "Palak Aloo / Gobi / Paneer",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    },
+                    {
+                      "itemName": "Saag Gobi (Cauliflower)",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    },
+                    {
+                      "itemName": "Kadai Paneer",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    },
+                    {
+                      "itemName": "Aloo (Potato) / Gobi Mutter",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    },
+                    {
+                      "itemName": "Egg Masala",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    }
+                  ]
+                },
+                {
+                  "categoryName": "Entrees (Vegetarian) - Masala",
+                  "routeName": "Entrees (Vegetarian) - Masala",
+                  "items": [
+                    {
+                      "itemName": "Bhindi (Okra) Masala",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    },
+                    {
+                      "itemName": "Chana Masala",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    },
+                    {
+                      "itemName": "Mutter Paneer",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    },
+                    {
+                      "itemName": "Bendakaya pulusu",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    },
+                    {
+                      "itemName": "Sorakaya pulusu",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    },
+                    {
+                      "itemName": "Egg Pulusu",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    },
+                    {
+                      "itemName": "Paneer Butter Masala",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    },
+                    {
+                      "itemName": "Navratan Korma",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    },
+                    {
+                      "itemName": "Bagara Baingan",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    }
+                  ]
+                },
+                {
+                  "categoryName": "South Indian Tiffins - Steam",
+                  "routeName": "South Indian Tiffins - Steam",
+                  "items": [
+                    {
+                      "itemName": "Idly (4pc)",
+                      "quantity": 1,
+                      "itemPrice": "6"
+                    },
+                    {
+                      "itemName": "Idly with Sambar (2pc)",
+                      "quantity": 1,
+                      "itemPrice": "7"
+                    },
+                    {
+                      "itemName": "Ghee Idly (3pc)",
+                      "quantity": 1,
+                      "itemPrice": "7"
+                    },
+                    {
+                      "itemName": "Podi Idly (3pc)",
+                      "quantity": 1,
+                      "itemPrice": "6"
+                    },
+                    {
+                      "itemName": "Upma",
+                      "quantity": 1,
+                      "itemPrice": "6"
+                    }
+                  ]
+                },
+                {
+                  "categoryName": "South Indian Tiffins - Tawa",
+                  "routeName": "South Indian Tiffins - Tawa",
+                  "items": [
+                    {
+                      "itemName": "Plain Dosa",
+                      "quantity": 1,
+                      "itemPrice": "9"
+                    },
+                    {
+                      "itemName": "Masala / Paneer Dosa",
+                      "quantity": 1,
+                      "itemPrice": "12"
+                    },
+                    {
+                      "itemName": "Ghee Karam / Onion / Mysore Dosa",
+                      "quantity": 1,
+                      "itemPrice": "11"
+                    },
+                    {
+                      "itemName": "Set Dosa / Uttapam",
+                      "quantity": 1,
+                      "itemPrice": "9"
+                    },
+                    {
+                      "itemName": "Plain / Kothu Paratha",
+                      "quantity": 1,
+                      "itemPrice": "9"
+                    }
+                  ]
+                },
+                {
+                  "categoryName": "South Indian Tiffins - Fry",
+                  "routeName": "South Indian Tiffins - Fry",
+                  "items": [
+                    {
+                      "itemName": "Chole Bhature",
+                      "quantity": 1,
+                      "itemPrice": "9"
+                    },
+                    {
+                      "itemName": "Poori (3pc)",
+                      "quantity": 1,
+                      "itemPrice": "9"
+                    },
+                    {
+                      "itemName": "Medu Vada (4pc)",
+                      "quantity": 1,
+                      "itemPrice": "9"
+                    },
+                    {
+                      "itemName": "Mysore Bonda",
+                      "quantity": 1,
+                      "itemPrice": "9"
+                    },
+                    {
+                      "itemName": "Plantain Bajji",
+                      "quantity": 1,
+                      "itemPrice": "9"
+                    }
+                  ]
+                },
+                {
+                  "categoryName": "Rice Specialities - Flavored Rice",
+                  "routeName": "Rice Specialities - Flavored Rice",
+                  "items": [
+                    {
+                      "itemName": "Lemon Rice",
+                      "quantity": 1,
+                      "itemPrice": "7"
+                    },
+                    {
+                      "itemName": "Sambar Rice",
+                      "quantity": 1,
+                      "itemPrice": "7"
+                    },
+                    {
+                      "itemName": "Biryani Rice",
+                      "quantity": 1,
+                      "itemPrice": "7"
+                    },
+                    {
+                      "itemName": "Tamarind Rice",
+                      "quantity": 1,
+                      "itemPrice": "7"
+                    },
+                    {
+                      "itemName": "Yogurt Rice",
+                      "quantity": 1,
+                      "itemPrice": "7"
+                    },
+                    {
+                      "itemName": "Coconut Rice",
+                      "quantity": 1,
+                      "itemPrice": "7"
+                    }
+                  ]
+                },
+                {
+                  "categoryName": "Rice Specialities - Biryani",
+                  "routeName": "Rice Specialities - Biryani",
+                  "items": [
+                    {
+                      "itemName": "Hyderabadi Chicken Dum",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    },
+                    {
+                      "itemName": "Hyderabadi Goat Dum",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    },
+                    {
+                      "itemName": "Bezwada Chicken",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    },
+                    {
+                      "itemName": "Vegetable Dum",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    },
+                    {
+                      "itemName": "Lamb",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    },
+                    {
+                      "itemName": "Shrimp",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    },
+                    {
+                      "itemName": "Egg",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    },
+                    {
+                      "itemName": "Paneer Biryani",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    }
+                  ]
+                },
+                {
+                  "categoryName": "Rice Specialities - Pulao",
+                  "routeName": "Rice Specialities - Pulao",
+                  "items": [
+                    {
+                      "itemName": "Fry piece chicken",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    },
+                    {
+                      "itemName": "Fried Fish",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    },
+                    {
+                      "itemName": "Goat",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    },
+                    {
+                      "itemName": "Fried Shrimp",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    },
+                    {
+                      "itemName": "Raju gari Kodi",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    },
+                    {
+                      "itemName": "Mix Meat",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    },
+                    {
+                      "itemName": "Vegetable",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    },
+                    {
+                      "itemName": "Jackfruit / Minced Paneer",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    }
+                  ]
+                },
+                {
+                  "categoryName": "Rice Specialities - Street Style",
+                  "routeName": "Rice Specialities - Street Style",
+                  "items": [
+                    {
+                      "itemName": "Veg Fried Rice / Noodle",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    },
+                    {
+                      "itemName": "Chicken Fried Rice / Noodle",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    },
+                    {
+                      "itemName": "Egg Fried Rice / Noodle",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    },
+                    {
+                      "itemName": "Shrimp Fried Rice / Noodle",
+                      "quantity": 1,
+                      "itemPrice": "10"
+                    }
+                  ]
+                },
+                {
+                  "categoryName": "Breads",
+                  "routeName": "Breads",
+                  "items": [
+                    {
+                      "itemName": "Naan",
+                      "quantity": 1,
+                      "itemPrice": "2"
+                    },
+                    {
+                      "itemName": "Butter Naan",
+                      "quantity": 1,
+                      "itemPrice": "2.5"
+                    },
+                    {
+                      "itemName": "Garlic Naan",
+                      "quantity": 1,
+                      "itemPrice": "3"
+                    },
+                    {
+                      "itemName": "Roti",
+                      "quantity": 1,
+                      "itemPrice": "2"
+                    },
+                    {
+                      "itemName": "Onion Kulcha",
+                      "quantity": 1,
+                      "itemPrice": "3"
+                    },
+                    {
+                      "itemName": "Paneer Kulcha",
+                      "quantity": 1,
+                      "itemPrice": "3"
+                    },
+                    {
+                      "itemName": "Bullet Naan (Spicy)",
+                      "quantity": 1,
+                      "itemPrice": "3"
+                    }
+                  ]
+                },
+                {
+                  "categoryName": "Side Orders",
+                  "routeName": "Side Orders",
+                  "items": [
+                    {
+                      "itemName": "Steamed Rice",
+                      "quantity": 1,
+                      "itemPrice": "2"
+                    },
+                    {
+                      "itemName": "Roasted Papad",
+                      "quantity": 1,
+                      "itemPrice": "2"
+                    },
+                    {
+                      "itemName": "Plain Yogurt",
+                      "quantity": 1,
+                      "itemPrice": "2"
+                    },
+                    {
+                      "itemName": "Raita",
+                      "quantity": 1,
+                      "itemPrice": "2"
+                    },
+                    {
+                      "itemName": "Sambar",
+                      "quantity": 1,
+                      "itemPrice": "5"
+                    },
+                    {
+                      "itemName": "Onions and Lemon",
+                      "quantity": 1,
+                      "itemPrice": "Free"
+                    },
+                    {
+                      "itemName": "Mint & Tamarind Sauce Free",
+                      "quantity": 1,
+                      "itemPrice": "Free"
+                    }
+                  ]
+                },
+                {
+                  "categoryName": "Desserts",
+                  "routeName": "Desserts",
+                  "items": [
+                    {
+                      "itemName": "Rasmalai",
+                      "quantity": 1,
+                      "itemPrice": "4"
+                    },
+                    {
+                      "itemName": "Gulab Jamun",
+                      "quantity": 1,
+                      "itemPrice": "3"
+                    },
+                    {
+                      "itemName": "Rasgulla",
+                      "quantity": 1,
+                      "itemPrice": "3"
+                    },
+                    {
+                      "itemName": "Gajar Halwa",
+                      "quantity": 1,
+                      "itemPrice": "3"
+                    },
+                    {
+                      "itemName": "Rice Kheer",
+                      "quantity": 1,
+                      "itemPrice": "3"
+                    },
+                    {
+                      "itemName": "Semiya payasam",
+                      "quantity": 1,
+                      "itemPrice": "3"
+                    },
+                    {
+                      "itemName": "Kesar Halwa",
+                      "quantity": 1,
+                      "itemPrice": "3"
+                    }
+                  ]
+                },
+                {
+                  "categoryName": "Speciality Ice-creams",
+                  "routeName": "Speciality Ice-creams",
+                  "items": [
+                    {
+                      "itemName": "Falooda Shakes",
+                      "itemDescription": "Bhadshahi, Malai, Kesar Pista, Chikoo, Mango",
+                      "quantity": 1,
+                      "itemPrice": "9.00"
+                    },
+                    {
+                      "itemName": "Ice-cream Shakes",
+                      "itemDescription": "Chocalate, Chikoo, Mango, Pistachio, Vanilla",
+                      "quantity": 1,
+                      "itemPrice": "8.00"
+                    },
+                    {
+                      "itemName": "Ice-cream Desserts",
+                      "itemDescription": "Gulab Jamun Ice-cream, Rasmalai Ice-cream",
+                      "quantity": 1,
+                      "itemPrice": "6.00"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

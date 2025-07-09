@@ -1,45 +1,54 @@
 <main>
-    <app-navbar></app-navbar>
-    <section class="home-banner">
-        <h1>{{ 'MENU.ourmenu' | translate }}</h1>
-    </section>
+  <app-navbar></app-navbar>
+  <div class="banner-image">
+    <div class="banner-content">
+      <h2>Our Menu</h2>
+    </div>
+  </div>
 
-    <section class="mainMenu">
+  <div class="mainMenu main-bg">
+    <div class="inner-div">
+      <button class="scroll-left" (click)="scrollLeft()">&#8249;</button>
 
-        <div class="menu-tab" *ngFor="let product of ('MENU.category' | translate); let i = index">
-            <h3>{{ product.categoryName | translate}}</h3>
-
-            <div class="main-container" >
-                <div class="inner-container" *ngFor="let p of product.items">
-                    <div class="image">
-                        <img alt="icon" [src]="p.icon" />
-                    </div>
-                    <div class="content">
-                        <div class="title">
-                            <h3>{{ p.itemName | translate }}</h3>
-                            <span *ngIf="p.itemPrice">&#x24;{{ p.itemPrice }}</span>
-                            <span *ngIf="p.itemPriceSmall">Small : &#x24;{{ p.itemPriceSmall }}</span>
-                            <span *ngIf="p.itemPriceLarge">Large : &#x24;{{ p.itemPriceLarge }}</span>
-                        </div>
-                        <p>{{ p.itemDescription | translate}}</p>
-                    </div>
-                    <!-- <div class="utility">
-                        <button>
-                            <span (click)="subQuantity(p)"> - </span>
-                            <input type="text" value="{{ p.quantity }}" />
-                            <span (click)="addQuantity(p)"> + </span>
-                        </button>
-                        <button [disabled]="p.quantity == 0" (click)="addToCart(p, product)">
-                            {{ 'MENU.addtocart' | translate }}
-                        </button>
-                    </div> -->
-                </div>
-            </div>
+      <div class="options-tab">
+        <div
+          *ngFor="let item of categories; let i = index"
+          [routerLink]="['/menu', host]"
+          [fragment]="item.routeName"
+        >
+          <button
+            class="abc"
+            [ngClass]="{ highlighted: selectedCategory === i }"
+            (click)="getDiv(i, item)"
+          >
+            {{ item.categoryName }}
+          </button>
         </div>
-    </section>
+      </div>
 
-    
-      
+      <button class="scroll-right" (click)="scrollRight()">&#8250;</button>
+    </div>
 
-    <app-footer></app-footer>
+    <div class="exp">
+      <div *ngIf="product" [attr.id]="product.routeName">
+        <h3>{{ product.categoryName }}</h3>
+        <p *ngIf="product.categoryNote">{{ product.categoryNote }}</p>
+
+        <div class="main-container">
+          <div class="inner-container" *ngFor="let p of product.items">
+            <div class="heading3">
+              <div class="items-main-div">
+                <h4 [style]="css.itemNameCss">{{ p.itemName }}</h4>
+                <p>{{ p.itemDescription }}</p>
+              </div>
+              <span *ngIf="p.itemPrice" [style]="css.itemPriceCss">
+                &#36;{{ p.itemPrice }}
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <app-footer></app-footer>
 </main>

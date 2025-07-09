@@ -3,954 +3,951 @@ import { Router } from '@angular/router';
 import { Title, Meta } from '@angular/platform-browser';
 
 @Component({
-    selector: 'app-menu',
-    templateUrl: './menu.component.html',
-    styleUrls: ['./menu.component.scss']
+  selector: 'app-menu',
+  templateUrl: './menu.component.html',
+  styleUrls: ['./menu.component.scss'],
 })
 export class MenuComponent {
-    public menu: any;
-    public categories: any;
-    public selectedCategory: any;
-    public product: any;
-    public host: any = [];
-    public cart: any = [];
-    public menuMasterData: any = {
-        "menu": [
-            {
-                "superCategory": [
-                    {
-                        "category": [
-                            {
-                                "categoryName": "Appetizers",
-                                "routeName": "Appetizers",
-                                "items": [
-                                    {
-                                        "itemName": "Veggie Samosa",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "2 Pcs. Cumin infused potatoes, veggie medley wrapped in organic white flour pastry, and deep fried.",
-                                        "quantity": 1,
-                                        "itemPrice": "4.50"
-                                    },
-                                    {
-                                        "itemName": "Onion Bhajia",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "4 Pcs. Seasoned onions coated in chickpea flour and deep fried.",
-                                        "quantity": 1,
-                                        "itemPrice": "4.99"
-                                    },
-                                    {
-                                        "itemName": "Meat Samosa",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "2 Pcs. Spiced minced chicken and spinach wrapped in organic white flour pastry and deep fried.",
-                                        "quantity": 1,
-                                        "itemPrice": "5.50"
-                                    },
-                                    {
-                                        "itemName": "Fish Pakora",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "Pcs. Marinated salmon coated in chickpea batter and deep fried.",
-                                        "quantity": 1,
-                                        "itemPrice": "7.99"
-                                    },
-                                    {
-                                        "itemName": "Veg Pakora",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "Marinated veggies coated in a chickpea batter and deep fried.",
-                                        "quantity": 1,
-                                        "itemPrice": "4.99"
-                                    },
-                                    {
-                                        "itemName": "Chicken Pakora",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "Pcs. Marinated chicken breast coated in chickpea batter and deep fried.",
-                                        "quantity": 1,
-                                        "itemPrice": "5.99"
-                                    },
-                                    {
-                                        "itemName": "Cauliflower Pakora",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "6 Pcs. Marinated cauliflower florets coated in a chickpea batter and deep fried.",
-                                        "quantity": 1,
-                                        "itemPrice": "4.99"
-                                    },
-                                    {
-                                        "itemName": "Shrimp Pakora",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "6 Pcs. Marinated shrimp coated in chickpea batter and deep fried.",
-                                        "quantity": 1,
-                                        "itemPrice": "7.99"
-                                    },
-                                    {
-                                        "itemName": "Gobi manchurian",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "",
-                                        "quantity": 1,
-                                        "itemPrice": "11.99"
-                                    },
-                                    {
-                                        "itemName": "Chilli chicken",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "",
-                                        "quantity": 1,
-                                        "itemPrice": "16.99"
-                                    },
-                                    {
-                                        "itemName": "Chilli panner",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "",
-                                        "quantity": 1,
-                                        "itemPrice": "15.99"
-                                    }
-                                ]
-                            },
-                            {
-                                "categoryName": "Soup and Salad",
-                                "routeName": "Soup and Salad",
-                                "items": [
-                                    {
-                                        "itemName": "Mulligatawny Soup",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "Yellow lentil soup with veggies and minced chicken tikka in a blend of spices.",
-                                        "quantity": 0,
-                                        "itemPrice": "4.99"
-                                    },
-                                    {
-                                        "itemName": "Mushroom Soup",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "Shitake and creamini mushrooms in a tomato base.",
-                                        "quantity": 0,
-                                        "itemPrice": "4.99"
-                                    },
-                                    {
-                                        "itemName": "Khira Raita",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "Sliced cucumbers topped with yoghurt.",
-                                        "quantity": 0,
-                                        "itemPrice": "4.99"
-                                    },
-                                    {
-                                        "itemName": "Kachumber Salad",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "Diced onion, cucumber, carrot, tomatoes, mixed pepper, cilantro, pepper, and lemon juice.",
-                                        "quantity": 0,
-                                        "itemPrice": "4.99"
-                                    },
-                                    {
-                                        "itemName": "Tomato Soup",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "Blended tomatoes with a touch of cream.",
-                                        "quantity": 0,
-                                        "itemPrice": "4.99"
-                                    }
-                                ]
-                            },
-                            {
-                                "categoryName": "Tandoori",
-                                "routeName": "Tandoori",
-                                "items": [
-                                    {
-                                        "itemName": "House Mixed Grill",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/b7125b9c-80b2-4fd4-99f7-43576f8ec8a1_House%20mixed%20grill.jpeg",
-                                        "itemDescription": "Tandoori chicken, reshmi kebab, thangidi chicken, tandoori prawn and fish, marinated in homemade yogurt, ginger, garlic, spices, lime juice, and cooked in tandoor. Served on a bed of onions and mixed peppers. Served with naan.",
-                                        "quantity": 0,
-                                        "itemPrice": "23.99"
-                                    },
-                                    {
-                                        "itemName": "Whole Tandoori Chicken [8 PCS]",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/abf7ca1a-6082-44e9-8097-44d27c6fd272_Tandoori%20chicken.jpeg",
-                                        "itemDescription": "Chicken marinated in yogurt, ginger, garlic, spices, lime juice, and cooked in tandoor. Served on a bed of onions and mixed peppers.",
-                                        "quantity": 0,
-                                        "itemPrice": "22.99"
-                                    },
-                                    {
-                                        "itemName": "Paneer Tikka [6 PCS]",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/39b4df5f-21bc-4cc5-8c59-23bf1c751eb1_Panner%20tikka.jpeg",
-                                        "itemDescription": "6 Pcs. Cubes of Indian cottage cheese marinated in yogurt, ginger, garlic, spices, lime juice, and cooked in tandoor. Served on a bed of onions and mixed peppers.",
-                                        "quantity": 0,
-                                        "itemPrice": "16.99"
-                                    },
-                                    {
-                                        "itemName": "Thangidi Chicken [4 PCS]",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/6afc41f6-855a-4433-b9ff-c5bcbefacb7f_Tangdi%20chicken.jpeg",
-                                        "itemDescription": "4 Pcs. Chicken legs marinated in yogurt, ginger, garlic, spices, cashew paste, and cooked in tandoor. Served on a bed of onions and mixed peppers.",
-                                        "quantity": 0,
-                                        "itemPrice": "19.99"
-                                    },
-                                    {
-                                        "itemName": "Half Tandoori Chicken [4 PCS]",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/abf7ca1a-6082-44e9-8097-44d27c6fd272_Tandoori%20chicken.jpeg",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "19.99"
-                                    },
-                                    {
-                                        "itemName": "Tandoori Cauliflower",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "Florets of cauliflower marinated in yogurt, ginger, garlic, spices, lime juice, and cooked in tandoor. Served on a bed of onions and mixed peppers.",
-                                        "quantity": 0,
-                                        "itemPrice": "14.99"
-                                    },
-                                    {
-                                        "itemName": "Tandoori Fish [3 PCS]",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "3 Pcs. Boneless salmon marinated in homemade yogurt, ginger, garlic, spices, lime juice, and cooked in tandoor. Served on a bed of onions and mixed peppers. Comes with one butter naan.",
-                                        "quantity": 0,
-                                        "itemPrice": "21.99"
-                                    },
-                                    {
-                                        "itemName": "Tandoori prawn",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "20.99"
-                                    },
-                                    {
-                                        "itemName": "Reshmi kebab (4)",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "17.99"
-                                    }
-                                ]
-                            },
-                            {
-                                "categoryName": "Meat Delights",
-                                "routeName": "Meat Delights",
-                                "items": [
-                                    {
-                                        "itemName": "Butter Chicken",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/16a06268-2c68-4b3d-8137-dd6fb4392bfc_Butter%20%20chicken.jpeg",
-                                        "itemDescription": "Chicken marinated and baked in the tandoor and then simmered in a creamy tomato gravy.",
-                                        "quantity": 0,
-                                        "itemPrice": "19.99"
-                                    },
-                                    {
-                                        "itemName": "Chicken Tikka Masala",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "Chicken marinated in yogurt, ginger, garlic, spices, lime juice and cooked in tandoor, then added to a masala gravy with tomato, onion, ginger, garlic, mixed pepper, cilantro, and a touch of yogurt.",
-                                        "quantity": 0,
-                                        "itemPrice": "19.99"
-                                    },
-                                    {
-                                        "itemName": "Chicken Curry",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "18.99"
-                                    },
-                                    {
-                                        "itemName": "LAMB VINDALOO",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "20.99"
-                                    },
-                                    {
-                                        "itemName": "Lamb Karahi",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "ooked with mixed peppers, onion, tomato, cilantro and fresh ginger in a masala gravy, and a touch of yogurt.",
-                                        "quantity": 0,
-                                        "itemPrice": "20.99"
-                                    },
-                                    {
-                                        "itemName": "CHICKEN MUGULAI",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "18.99"
-                                    },
-                                    {
-                                        "itemName": "LAMB MUGULAI",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "20.99"
-                                    },
-                                    {
-                                        "itemName": "\nLAMB SAAG",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "20.99"
-                                    },
-                                    {
-                                        "itemName": "CHICKEN SAAG",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "18.99"
-                                    },
-                                    {
-                                        "itemName": "BEEF VINDALOO",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "19.99"
-                                    },
-                                    {
-                                        "itemName": "SHAHI CHICKEN",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "18.99"
-                                    },
-                                    {
-                                        "itemName": "BEEF MUGULAI",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "19.99"
-                                    },
-                                    {
-                                        "itemName": "CHICKEN MADRAS",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "18.99"
-                                    },
-                                    {
-                                        "itemName": "Lamb Curry",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "20.99"
-                                    },
-                                    {
-                                        "itemName": "Chicken Karahi",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/4c4bc61e-63af-4ae5-8ff3-1185a0682a55_Chicken%20karahi.jpeg",
-                                        "itemDescription": "Cooked with mixed peppers, onion, tomato, cilantro and fresh ginger in a masala gravy, and a touch of yogurt.",
-                                        "quantity": 0,
-                                        "itemPrice": "18.99"
-                                    },
-                                    {
-                                        "itemName": "LAMB SHAHI",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "20.99"
-                                    },
-                                    {
-                                        "itemName": "LAMB MADRAS",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/cdbd89ee-36ec-4ac6-a813-cd72543458f3_Lamb%20madras.jpeg",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "20.99"
-                                    },
-                                    {
-                                        "itemName": "CHICKEN VINDALOO",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "18.99"
-                                    },
-                                    {
-                                        "itemName": "BEEF KARAHI",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "19.99"
-                                    },
-                                    {
-                                        "itemName": "BEEF SAAG",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "19.99"
-                                    },
-                                    {
-                                        "itemName": "Beef Curry",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "19.99"
-                                    },
-                                    {
-                                        "itemName": "BEEF SHAHI",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "18.99"
-                                    },
-                                    {
-                                        "itemName": "BEEF MADRAS",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e80cd219-c5b7-4d70-8e4b-273ae4945d40_Beef%20madra.jpeg",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "19.99"
-                                    }
-                                ]
-                            },
-                            {
-                                "categoryName": "Biryani",
-                                "routeName": "Biryani",
-                                "items": [
-                                    {
-                                        "itemName": "CHICKEN",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "13.99"
-                                    },
-                                    {
-                                        "itemName": "BEEF",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "14.99"
-                                    },
-                                    {
-                                        "itemName": "LAMB",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "15.99"
-                                    },
-                                    {
-                                        "itemName": "SHRIMP",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "16.99"
-                                    }
-                                ]
-                            },
-                            {
-                                "categoryName": "Seafood Delights",
-                                "routeName": "Seafood Delights",
-                                "items": [
-                                    {
-                                        "itemName": "Shrimp Karahi",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "Cooked with mixed peppers, onion, tomato, cilantro and fresh ginger in a masala gravy, and a touch of yogurt.",
-                                        "quantity": 0,
-                                        "itemPrice": "19.99"
-                                    },
-                                    {
-                                        "itemName": "Shrimp Vindaloo",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "Tiger prawns and seasoned potato and simmered in a sour and tangy tamarind sauce with a blend of spices.",
-                                        "quantity": 0,
-                                        "itemPrice": "19.99"
-                                    },
-                                    {
-                                        "itemName": "Fish Curry",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "Boneless salmon fish cooked in a tamarind sauce with tomato, yogurt, onion, and light spices.",
-                                        "quantity": 0,
-                                        "itemPrice": "20.99"
-                                    },
-                                    {
-                                        "itemName": "Shrimp Shahi",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "Tiger prawns cooked in a creamy coconut milk and onion gravy with spices.",
-                                        "quantity": 0,
-                                        "itemPrice": "19.99"
-                                    }
-                                ]
-                            },
-                            {
-                                "categoryName": "Vegetarian Dishes",
-                                "routeName": "Vegetarian Dishes",
-                                "items": [
-                                    {
-                                        "itemName": "Pois verts sautés / Sauteed green beans",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "Pois verts sautés avec ine touche de tomates, oignons et épices",
-                                        "quantity": 0,
-                                        "itemPrice": "14.99"
-                                    },
-                                    {
-                                        "itemName": "Channa Aloo",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "Pois chiches et patates cuits avec poivrons, oignons au feut lentavec une sauce masala delicieuse",
-                                        "quantity": 0,
-                                        "itemPrice": "13.99"
-                                    },
-                                    {
-                                        "itemName": "aag aloo",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "pinards et patates cuits avec tomates, oignons, herbes et une touche de creme",
-                                        "quantity": 0,
-                                        "itemPrice": "13.99"
-                                    },
-                                    {
-                                        "itemName": "Palak Paneer",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "Cottage cheese, spinach, and tomato with touch of cream.",
-                                        "quantity": 0,
-                                        "itemPrice": "15.99"
-                                    },
-                                    {
-                                        "itemName": "Aloo Gobi",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/3b9e0938-4bad-40ca-96a2-c2afd8a718c1_Aloo%20gobi.jpeg",
-                                        "itemDescription": "Cauliflower and potatoes cooked in onion, tomato, and aromatic spices.",
-                                        "quantity": 0,
-                                        "itemPrice": "13.99"
-                                    },
-                                    {
-                                        "itemName": "Daal with Spinach",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/a1b7804f-bc71-4fb5-9daf-690c0879c278_Dhall%20with%20spinach.jpeg",
-                                        "itemDescription": "Split lentils and spinach cooked with tomato seasoned with spices and herbs in Hyderabadi style.",
-                                        "quantity": 0,
-                                        "itemPrice": "12.99"
-                                    },
-                                    {
-                                        "itemName": "Baingan Bhartha",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "Whole eggplant baked in tandoor, mashed and sauted with onions, tomatoes, touch of cream, and fresh herbs.",
-                                        "quantity": 0,
-                                        "itemPrice": "14.99"
-                                    },
-                                    {
-                                        "itemName": "PANEER MAKHANI",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "16.99"
-                                    },
-                                    {
-                                        "itemName": "PANEER TIKKA MASALA",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/39b4df5f-21bc-4cc5-8c59-23bf1c751eb1_Panner%20tikka.jpeg",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "16.99"
-                                    },
-                                    {
-                                        "itemName": "Spinach Fry",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "Spinach sauted with garlic, onions, spices, and lemon.",
-                                        "quantity": 0,
-                                        "itemPrice": "14.99"
-                                    },
-                                    {
-                                        "itemName": "Aloo Mogulai",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "Seasoned potatoes cooked with a blend of spices in a creamy cashew gravy.",
-                                        "quantity": 0,
-                                        "itemPrice": "13.99"
-                                    },
-                                    {
-                                        "itemName": "Shahi Paneer",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "Indian cottage cheese cooked in a creamy onion and coconut milk gravy and spices.",
-                                        "quantity": 0,
-                                        "itemPrice": "15.99"
-                                    },
-                                    {
-                                        "itemName": "Channa Masala",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "Chickpea cooked in tomato, spices, and herbs to perfection.",
-                                        "quantity": 0,
-                                        "itemPrice": "13.99"
-                                    },
-                                    {
-                                        "itemName": "Navarathan Mogulai",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "9 vegetables: potato, baby corn, paneer, peas, beans, carrots, broccoli, cauliflower, and mushrooms cooked with a blend of spices in a creamy cashew gravy.",
-                                        "quantity": 0,
-                                        "itemPrice": "14.99"
-                                    },
-                                    {
-                                        "itemName": "DAAL MAKHANI",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "15.99"
-                                    },
-                                    {
-                                        "itemName": "Daal Curry",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "Split lentils cooked with tomato seasoned with spices and herbs in Hyderabadi style.",
-                                        "quantity": 0,
-                                        "itemPrice": "12.99"
-                                    },
-                                    {
-                                        "itemName": "Navrathan Curry",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "9 vegetables: potato, baby corn, paneer, peas, beans, carrots, broccoli, cauliflower, and mushrooms cooked with a blend of spices in a curry gravy.",
-                                        "quantity": 0,
-                                        "itemPrice": "13.99"
-                                    },
-                                    {
-                                        "itemName": "Bhendi Masala",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "Crisp okra prepared with fresh onions, tomatoes, spices, and herbs.",
-                                        "quantity": 0,
-                                        "itemPrice": "14.99"
-                                    },
-                                    {
-                                        "itemName": "Mutter Paneer",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "Cottage cheese and green peas cooked in cream and tomato sauce.",
-                                        "quantity": 0,
-                                        "itemPrice": "15.99"
-                                    }
-                                ]
-                            },
-                            {
-                                "categoryName": "Rice Dishes",
-                                "routeName": "Rice Dishes",
-                                "items": [
-                                    {
-                                        "itemName": "Garlic Rice",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "Basmati rice mixed with fried garlic, cilantro, and herbs.",
-                                        "quantity": 0,
-                                        "itemPrice": "4.99"
-                                    },
-                                    {
-                                        "itemName": "Saffron Rice",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "Saffron infused rice with a touch of cream.",
-                                        "quantity": 0,
-                                        "itemPrice": "5.99"
-                                    },
-                                    {
-                                        "itemName": "Jeera Rice",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "Basmati rice tampered with cumin seeds.",
-                                        "quantity": 0,
-                                        "itemPrice": "4.99"
-                                    },
-                                    {
-                                        "itemName": "Peas Pulao",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "Flavored basmati rice cooked with green peas, sautéed onion, mixed pepper, and yoghurt.",
-                                        "quantity": 0,
-                                        "itemPrice": "5.99"
-                                    },
-                                    {
-                                        "itemName": "Plain Rice",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "Superior quality basmati rice cooked to perfection.",
-                                        "quantity": 0,
-                                        "itemPrice": "3.99"
-                                    },
-                                    {
-                                        "itemName": "Vegetable Biryani",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "Stewed vegetables mixed with basmati rice, herbs, cashews, and spices.",
-                                        "quantity": 0,
-                                        "itemPrice": "12.99"
-                                    },
-                                    {
-                                        "itemName": "Pulao Rice",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "Basmati rice cooked with onion and Indian spices.",
-                                        "quantity": 0,
-                                        "itemPrice": "4.50"
-                                    }
-                                ]
-                            },
-                            {
-                                "categoryName": "Bread's",
-                                "routeName": "Bread's",
-                                "items": [
-                                    {
-                                        "itemName": "Garlic Naan",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/8ff72337-805e-4b5e-8a88-e1b1f928b5f6_Garlic%20nann.jpeg",
-                                        "itemDescription": "Tandoori bread topped with garlic and cilantro.",
-                                        "quantity": 0,
-                                        "itemPrice": "4.50"
-                                    },
-                                    {
-                                        "itemName": "Cheese Naan",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "Tandoori bread stuffed with mozzarella and Cheddar cheese and spices. Great for kids.",
-                                        "quantity": 0,
-                                        "itemPrice": "6.50"
-                                    },
-                                    {
-                                        "itemName": "Aloo Kulcha",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "Bread stuffed with potatoes and spices.",
-                                        "quantity": 0,
-                                        "itemPrice": "6.50"
-                                    },
-                                    {
-                                        "itemName": "Chilli Garlic Naan",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "Tandoori bread topped with garlic, red chilli flakes, and cilantro.",
-                                        "quantity": 0,
-                                        "itemPrice": "4.99"
-                                    },
-                                    {
-                                        "itemName": "Butter Roti",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "Whole wheat bread baked in tandoor.",
-                                        "quantity": 0,
-                                        "itemPrice": "3.50"
-                                    },
-                                    {
-                                        "itemName": "Plain Naan",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "Traditional bread baked in tandoor.",
-                                        "quantity": 0,
-                                        "itemPrice": "3.99"
-                                    },
-                                    {
-                                        "itemName": "Butter Naan",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "Traditional bread baked in tandoor with butter (butter naan).",
-                                        "quantity": 0,
-                                        "itemPrice": "3.99"
-                                    },
-                                    {
-                                        "itemName": "Plain Roti",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "Whole wheat bread baked in tandoor.",
-                                        "quantity": 0,
-                                        "itemPrice": "3.50"
-                                    },
-                                    {
-                                        "itemName": "Bhatura",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "All purpose organic flour bread deep fried (bhatura).",
-                                        "quantity": 0,
-                                        "itemPrice": "3.99"
-                                    },
-                                    {
-                                        "itemName": "Poori",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "Whole wheat bread deep fried (poori)",
-                                        "quantity": 0,
-                                        "itemPrice": "3.99"
-                                    }
-                                ]
-                            },
-                            {
-                                "categoryName": "Beverages",
-                                "routeName": "Beverages",
-                                "items": [
-                                    {
-                                        "itemName": "Lassi: Mango - Sweet - Salt",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/0930595b-c520-40fc-9c9d-c4c0ed69cf76_Mango%20lassi.jpeg",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "4.99"
-                                    },
-                                    {
-                                        "itemName": "Mango Milk Shake",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "4.99"
-                                    },
-                                    {
-                                        "itemName": "Fiji water",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "3.99"
-                                    },
-                                    {
-                                        "itemName": "Juice",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "3.99"
-                                    },
-                                    {
-                                        "itemName": "Masala Tea",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "Indian milk tea infused with ginger and cardamom.",
-                                        "quantity": 0,
-                                        "itemPrice": "4.50"
-                                    },
-                                    {
-                                        "itemName": "TEA",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "3.99"
-                                    },
-                                    {
-                                        "itemName": "Soft drink",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "Coke - coke diet - nestea - ginger ale - pepsi - sprite - cPlus - soda",
-                                        "quantity": 0,
-                                        "itemPrice": "2.99"
-                                    },
-                                    {
-                                        "itemName": "Small",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "2.99"
-                                    }
-                                ]
-                            },
-                            {
-                                "categoryName": "Side orders",
-                                "routeName": "Side orders",
-                                "items": [
-                                    {
-                                        "itemName": "RAITA",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "3.50"
-                                    },
-                                    {
-                                        "itemName": "Mint chutney",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "3.00"
-                                    },
-                                    {
-                                        "itemName": "Jeera papadam(2 piece)",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "1.00"
-                                    },
-                                    {
-                                        "itemName": "Homemade yogurt",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "3.00"
-                                    }
-                                ]
-                            },
-                            {
-                                "categoryName": "Dessert",
-                                "routeName": "Dessert",
-                                "items": [
-                                    {
-                                        "itemName": "Ras Malai",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "4.99"
-                                    },
-                                    {
-                                        "itemName": "Rice pudding",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "2.50"
-                                    },
-                                    {
-                                        "itemName": "Gulab jamun",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "4.50"
-                                    }
-                                ]
-                            },
-                            {
-                                "categoryName": "Combos",
-                                "routeName": "Combos",
-                                "items": [
-                                    {
-                                        "itemName": "Vegetarian",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/4f580f21-d0ef-4920-80e6-e546864ebaf7_Combo.jpeg",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "15.99"
-                                    },
-                                    {
-                                        "itemName": "Chicken meat choice",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "17.99"
-                                    },
-                                    {
-                                        "itemName": "Beef meat choice",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "18.99"
-                                    },
-                                    {
-                                        "itemName": "Lamb meat choice",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "19.99"
-                                    },
-                                    {
-                                        "itemName": "Seafood",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "19.99"
-                                    },
-                                    {
-                                        "itemName": "Shrimp",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "19.99"
-                                    },
-                                    {
-                                        "itemName": "Fish",
-                                        "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png",
-                                        "itemDescription": "",
-                                        "quantity": 0,
-                                        "itemPrice": "19.99"
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    };
+  public menu: any;
+  public css: any = {
+    itemNameCss: 'font-weight: bold; font-size: 16px;',
+    itemPriceCss: 'font-weight: 500; color: green;',
+  };
 
-    constructor(private router: Router, private titleService: Title, private metaService: Meta) {
-        this.menu = this.menuMasterData['menu'][0];
-        this.categories = this.menuMasterData['menu'][0].superCategory[0].category;
-        this.host = this.host[this.host.length - 1];
-    }
+  public categories: any[] = [];
+  public selectedCategory: number = 0;
+  public product: any;
+  public host: string = 'all';
+  public cart: any[] = [];
 
-    ngOnInit(): void {
-        this.setTitleAndMetaTags();
-        this.getDiv(0, this.categories[0]);
-    }
+  public menuMasterData: any = {
+    menu: [
+      {
+        superCategory: [
+          {
+            category: [
+              {
+                categoryName: 'House Special Beverages',
+                routeName: 'House Special Beverages',
+                items: [
+                  {
+                    itemName: 'Soft Drinks',
+                    itemDescription:
+                      'Coke / Diet Coke / Dr. Pepper / Sprite / Lemonade',
+                    quantity: 1,
+                    itemPrice: '2.00',
+                  },
+                  {
+                    itemName: 'Tea',
+                    itemDescription: 'Sweet Tea / Unsweet Tea',
+                    quantity: 1,
+                    itemPrice: '2.00',
+                  },
+                  {
+                    itemName: 'Lassi',
+                    itemDescription: 'Sweet Lassi, Salt Lassi, Mango Lassi',
+                    quantity: 1,
+                    itemPrice: '4.00',
+                  },
+                  {
+                    itemName: 'Homemade Shakes',
+                    itemDescription: 'Rose Milk, Masala Chaas (Majjiga)',
+                    quantity: 1,
+                    itemPrice: '3.00',
+                  },
+                  {
+                    itemName: 'Kids Special',
+                    itemDescription:
+                      'Pink Lemonade / Chocolate Milk / Kids Juice',
+                    quantity: 1,
+                    itemPrice: '',
+                  },
+                ],
+              },
+              {
+                categoryName: 'Appetizers - Vegetarian',
+                routeName: 'Appetizers - Vegetarian',
+                items: [
+                  {
+                    itemName: 'Chilly Gobi / Paneer',
+                    quantity: 1,
+                    itemPrice: '9',
+                  },
+                  {
+                    itemName: 'Manchurian Gobi / Paneer',
+                    quantity: 1,
+                    itemPrice: '9',
+                  },
+                  {
+                    itemName: '65 Gobi / Paneer',
+                    quantity: 1,
+                    itemPrice: '9',
+                  },
+                  {
+                    itemName: 'Mixed Veg / Onion / Spinach Pakoras',
+                    quantity: 1,
+                    itemPrice: '6',
+                  },
+                  {
+                    itemName: 'Cut Mirchi (Spicy) / Potato / Plantain',
+                    quantity: 1,
+                    itemPrice: '6',
+                  },
+                  {
+                    itemName: 'Veg. Samosa (2 Pieces)',
+                    quantity: 1,
+                    itemPrice: '4',
+                  },
+                  {
+                    itemName: 'Crispy Pepper Corn Masala',
+                    quantity: 1,
+                    itemPrice: '9',
+                  },
+                ],
+              },
+              {
+                categoryName: 'Appetizers - Non Vegetarian',
+                routeName: 'Appetizers - Non Vegetarian',
+                items: [
+                  {
+                    itemName: 'Chilly Chicken / Fish / Shrimp',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                  {
+                    itemName: 'Manchurian Chicken / Fish / Shrimp',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                  {
+                    itemName: '65 Chicken / Fish/ Shrimp',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                  {
+                    itemName: 'Sukha Chicken / Goat / Shrimp / Lamb',
+                    quantity: 1,
+                    itemPrice: '',
+                  },
+                  {
+                    itemName: 'Fry Piece / Kodi Vepudu',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                  {
+                    itemName: 'Roasted Chicken Sticks',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                  {
+                    itemName: 'Chicken Keema Samosa',
+                    quantity: 1,
+                    itemPrice: '5',
+                  },
+                ],
+              },
+              {
+                categoryName: 'Tandoori Sizzlers - Vegetarian',
+                routeName: 'Tandoori Sizzlers - Vegetarian',
+                items: [
+                  {
+                    itemName: 'Paneer Tikka',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                  {
+                    itemName: 'Mix Veg Grill',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                  {
+                    itemName: 'Grilled Potato wedges',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                ],
+              },
+              {
+                categoryName: 'Tandoori Sizzlers - Non-Vegetarian',
+                routeName: 'Tandoori Sizzlers - Non-Vegetarian',
+                items: [
+                  {
+                    itemName: 'Chicken Tikka',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                  {
+                    itemName: 'Tandoori Chicken',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                  {
+                    itemName: 'Mix Meat Grill',
+                    quantity: 1,
+                    itemPrice: '12',
+                  },
+                  {
+                    itemName: 'Chicken Malai Kabab',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                  {
+                    itemName: 'Lamb Shish Kebab',
+                    quantity: 1,
+                    itemPrice: '14',
+                  },
+                  {
+                    itemName: 'Grilled Pomfret fish',
+                    quantity: 1,
+                    itemPrice: '14',
+                  },
+                ],
+              },
+              {
+                categoryName: 'Entrees (Non- Vegetarian) - Chicken',
+                routeName: 'Entrees (Non- Vegetarian) - Chicken',
+                items: [
+                  {
+                    itemName: 'Chicken Curry',
+                    quantity: 1,
+                    itemPrice: '12',
+                  },
+                  {
+                    itemName: 'Kadai Chicken',
+                    quantity: 1,
+                    itemPrice: '12',
+                  },
+                  {
+                    itemName: 'Palak / Mint / Curry Leaf Chicken',
+                    quantity: 1,
+                    itemPrice: '12',
+                  },
+                  {
+                    itemName: 'Chicken Korma',
+                    quantity: 1,
+                    itemPrice: '12',
+                  },
+                  {
+                    itemName: 'Chicken Vindaloo',
+                    quantity: 1,
+                    itemPrice: '12',
+                  },
+                  {
+                    itemName: 'Chicken Tikka Masala',
+                    quantity: 1,
+                    itemPrice: '12',
+                  },
+                  {
+                    itemName: 'Butter Chicken',
+                    quantity: 1,
+                    itemPrice: '12',
+                  },
+                  {
+                    itemName: 'Chicken Chettinad (Bone in)',
+                    quantity: 1,
+                    itemPrice: '12',
+                  },
+                  {
+                    itemName: 'Gongura Chicken (Bone in)',
+                    quantity: 1,
+                    itemPrice: '12',
+                  },
+                ],
+              },
+              {
+                categoryName: 'Entrees (Non- Vegetarian) - Fish / Shrimp',
+                routeName: 'Entrees (Non- Vegetarian) - Fish / Shrimp',
+                items: [
+                  {
+                    itemName: 'Andhra Style Chepala Pulusu',
+                    quantity: 1,
+                    itemPrice: '12',
+                  },
+                  {
+                    itemName: 'Kerala Fish Curry',
+                    quantity: 1,
+                    itemPrice: '12',
+                  },
+                  {
+                    itemName: 'Fish / Shrimp Masala',
+                    quantity: 1,
+                    itemPrice: '12',
+                  },
+                  {
+                    itemName: 'Fish / Shrimp Chettinad',
+                    quantity: 1,
+                    itemPrice: '12',
+                  },
+                  {
+                    itemName: 'Fish / Shrimp Vindaloo',
+                    quantity: 1,
+                    itemPrice: '12',
+                  },
+                  {
+                    itemName: 'Fish / Shrimp Tikka Masala',
+                    quantity: 1,
+                    itemPrice: '12',
+                  },
+                  {
+                    itemName: 'Palak Fish / Shrimp',
+                    quantity: 1,
+                    itemPrice: '12',
+                  },
+                ],
+              },
+              {
+                categoryName: 'Entrees (Non- Vegetarian) - Lamb / Goat',
+                routeName: 'Entrees (Non- Vegetarian) - Lamb / Goat',
+                items: [
+                  {
+                    itemName: 'Goat / Lamb Curry',
+                    quantity: 1,
+                    itemPrice: '13',
+                  },
+                  {
+                    itemName: 'Kadai Gosht Goat / Lamb',
+                    quantity: 1,
+                    itemPrice: '13',
+                  },
+                  {
+                    itemName: 'Palak Goat / Lamb',
+                    quantity: 1,
+                    itemPrice: '13',
+                  },
+                  {
+                    itemName: 'Goat / Lamb Korma',
+                    quantity: 1,
+                    itemPrice: '13',
+                  },
+                  {
+                    itemName: 'Goat / Lamb Vindaloo',
+                    quantity: 1,
+                    itemPrice: '13',
+                  },
+                  {
+                    itemName: 'Goat / Lamb Chettinad',
+                    quantity: 1,
+                    itemPrice: '13',
+                  },
+                  {
+                    itemName: 'Gongura Goat / Lamb',
+                    quantity: 1,
+                    itemPrice: '13',
+                  },
+                  {
+                    itemName: 'Goat / Lamb Tikka Masala',
+                    quantity: 1,
+                    itemPrice: '13',
+                  },
+                ],
+              },
+              {
+                categoryName: 'Entrees (Vegetarian)- Dry',
+                routeName: 'Entrees (Vegetarian)- Dry',
+                items: [
+                  {
+                    itemName: 'Bhindi Fry (South Indian)',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                  {
+                    itemName: 'Tindora Fry (Crispy / Baked)',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                  {
+                    itemName: 'Aloo Fry fine Chopped',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                  {
+                    itemName: 'Aloo Gobi (Vegan)',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                  {
+                    itemName: 'Egg Bhurji',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                  {
+                    itemName: 'Paneer Bhurji',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                ],
+              },
+              {
+                categoryName: 'Entrees (Vegetarian) - Gravy',
+                routeName: 'Entrees (Vegetarian) - Gravy',
+                items: [
+                  {
+                    itemName: 'Dal Makhani',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                  {
+                    itemName: 'Dal Tadka (Vegan)',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                  {
+                    itemName: 'Malai Kofta',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                  {
+                    itemName: 'Malai Paneer',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                  {
+                    itemName: 'Palak Aloo / Gobi / Paneer',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                  {
+                    itemName: 'Saag Gobi (Cauliflower)',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                  {
+                    itemName: 'Kadai Paneer',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                  {
+                    itemName: 'Aloo (Potato) / Gobi Mutter',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                  {
+                    itemName: 'Egg Masala',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                ],
+              },
+              {
+                categoryName: 'Entrees (Vegetarian) - Masala',
+                routeName: 'Entrees (Vegetarian) - Masala',
+                items: [
+                  {
+                    itemName: 'Bhindi (Okra) Masala',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                  {
+                    itemName: 'Chana Masala',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                  {
+                    itemName: 'Mutter Paneer',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                  {
+                    itemName: 'Bendakaya pulusu',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                  {
+                    itemName: 'Sorakaya pulusu',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                  {
+                    itemName: 'Egg Pulusu',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                  {
+                    itemName: 'Paneer Butter Masala',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                  {
+                    itemName: 'Navratan Korma',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                  {
+                    itemName: 'Bagara Baingan',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                ],
+              },
+              {
+                categoryName: 'South Indian Tiffins - Steam',
+                routeName: 'South Indian Tiffins - Steam',
+                items: [
+                  {
+                    itemName: 'Idly (4pc)',
+                    quantity: 1,
+                    itemPrice: '6',
+                  },
+                  {
+                    itemName: 'Idly with Sambar (2pc)',
+                    quantity: 1,
+                    itemPrice: '7',
+                  },
+                  {
+                    itemName: 'Ghee Idly (3pc)',
+                    quantity: 1,
+                    itemPrice: '7',
+                  },
+                  {
+                    itemName: 'Podi Idly (3pc)',
+                    quantity: 1,
+                    itemPrice: '6',
+                  },
+                  {
+                    itemName: 'Upma',
+                    quantity: 1,
+                    itemPrice: '6',
+                  },
+                ],
+              },
+              {
+                categoryName: 'South Indian Tiffins - Tawa',
+                routeName: 'South Indian Tiffins - Tawa',
+                items: [
+                  {
+                    itemName: 'Plain Dosa',
+                    quantity: 1,
+                    itemPrice: '9',
+                  },
+                  {
+                    itemName: 'Masala / Paneer Dosa',
+                    quantity: 1,
+                    itemPrice: '12',
+                  },
+                  {
+                    itemName: 'Ghee Karam / Onion / Mysore Dosa',
+                    quantity: 1,
+                    itemPrice: '11',
+                  },
+                  {
+                    itemName: 'Set Dosa / Uttapam',
+                    quantity: 1,
+                    itemPrice: '9',
+                  },
+                  {
+                    itemName: 'Plain / Kothu Paratha',
+                    quantity: 1,
+                    itemPrice: '9',
+                  },
+                ],
+              },
+              {
+                categoryName: 'South Indian Tiffins - Fry',
+                routeName: 'South Indian Tiffins - Fry',
+                items: [
+                  {
+                    itemName: 'Chole Bhature',
+                    quantity: 1,
+                    itemPrice: '9',
+                  },
+                  {
+                    itemName: 'Poori (3pc)',
+                    quantity: 1,
+                    itemPrice: '9',
+                  },
+                  {
+                    itemName: 'Medu Vada (4pc)',
+                    quantity: 1,
+                    itemPrice: '9',
+                  },
+                  {
+                    itemName: 'Mysore Bonda',
+                    quantity: 1,
+                    itemPrice: '9',
+                  },
+                  {
+                    itemName: 'Plantain Bajji',
+                    quantity: 1,
+                    itemPrice: '9',
+                  },
+                ],
+              },
+              {
+                categoryName: 'Rice Specialities - Flavored Rice',
+                routeName: 'Rice Specialities - Flavored Rice',
+                items: [
+                  {
+                    itemName: 'Lemon Rice',
+                    quantity: 1,
+                    itemPrice: '7',
+                  },
+                  {
+                    itemName: 'Sambar Rice',
+                    quantity: 1,
+                    itemPrice: '7',
+                  },
+                  {
+                    itemName: 'Biryani Rice',
+                    quantity: 1,
+                    itemPrice: '7',
+                  },
+                  {
+                    itemName: 'Tamarind Rice',
+                    quantity: 1,
+                    itemPrice: '7',
+                  },
+                  {
+                    itemName: 'Yogurt Rice',
+                    quantity: 1,
+                    itemPrice: '7',
+                  },
+                  {
+                    itemName: 'Coconut Rice',
+                    quantity: 1,
+                    itemPrice: '7',
+                  },
+                ],
+              },
+              {
+                categoryName: 'Rice Specialities - Biryani',
+                routeName: 'Rice Specialities - Biryani',
+                items: [
+                  {
+                    itemName: 'Hyderabadi Chicken Dum',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                  {
+                    itemName: 'Hyderabadi Goat Dum',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                  {
+                    itemName: 'Bezwada Chicken',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                  {
+                    itemName: 'Vegetable Dum',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                  {
+                    itemName: 'Lamb',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                  {
+                    itemName: 'Shrimp',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                  {
+                    itemName: 'Egg',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                  {
+                    itemName: 'Paneer Biryani',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                ],
+              },
+              {
+                categoryName: 'Rice Specialities - Pulao',
+                routeName: 'Rice Specialities - Pulao',
+                items: [
+                  {
+                    itemName: 'Fry piece chicken',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                  {
+                    itemName: 'Fried Fish',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                  {
+                    itemName: 'Goat',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                  {
+                    itemName: 'Fried Shrimp',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                  {
+                    itemName: 'Raju gari Kodi',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                  {
+                    itemName: 'Mix Meat',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                  {
+                    itemName: 'Vegetable',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                  {
+                    itemName: 'Jackfruit / Minced Paneer',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                ],
+              },
+              {
+                categoryName: 'Rice Specialities - Street Style',
+                routeName: 'Rice Specialities - Street Style',
+                items: [
+                  {
+                    itemName: 'Veg Fried Rice / Noodle',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                  {
+                    itemName: 'Chicken Fried Rice / Noodle',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                  {
+                    itemName: 'Egg Fried Rice / Noodle',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                  {
+                    itemName: 'Shrimp Fried Rice / Noodle',
+                    quantity: 1,
+                    itemPrice: '10',
+                  },
+                ],
+              },
+              {
+                categoryName: 'Breads',
+                routeName: 'Breads',
+                items: [
+                  {
+                    itemName: 'Naan',
+                    quantity: 1,
+                    itemPrice: '2',
+                  },
+                  {
+                    itemName: 'Butter Naan',
+                    quantity: 1,
+                    itemPrice: '2.5',
+                  },
+                  {
+                    itemName: 'Garlic Naan',
+                    quantity: 1,
+                    itemPrice: '3',
+                  },
+                  {
+                    itemName: 'Roti',
+                    quantity: 1,
+                    itemPrice: '2',
+                  },
+                  {
+                    itemName: 'Onion Kulcha',
+                    quantity: 1,
+                    itemPrice: '3',
+                  },
+                  {
+                    itemName: 'Paneer Kulcha',
+                    quantity: 1,
+                    itemPrice: '3',
+                  },
+                  {
+                    itemName: 'Bullet Naan (Spicy)',
+                    quantity: 1,
+                    itemPrice: '3',
+                  },
+                ],
+              },
+              {
+                categoryName: 'Side Orders',
+                routeName: 'Side Orders',
+                items: [
+                  {
+                    itemName: 'Steamed Rice',
+                    quantity: 1,
+                    itemPrice: '2',
+                  },
+                  {
+                    itemName: 'Roasted Papad',
+                    quantity: 1,
+                    itemPrice: '2',
+                  },
+                  {
+                    itemName: 'Plain Yogurt',
+                    quantity: 1,
+                    itemPrice: '2',
+                  },
+                  {
+                    itemName: 'Raita',
+                    quantity: 1,
+                    itemPrice: '2',
+                  },
+                  {
+                    itemName: 'Sambar',
+                    quantity: 1,
+                    itemPrice: '5',
+                  },
+                  {
+                    itemName: 'Onions and Lemon',
+                    quantity: 1,
+                    itemPrice: 'Free',
+                  },
+                  {
+                    itemName: 'Mint & Tamarind Sauce Free',
+                    quantity: 1,
+                    itemPrice: 'Free',
+                  },
+                ],
+              },
+              {
+                categoryName: 'Desserts',
+                routeName: 'Desserts',
+                items: [
+                  {
+                    itemName: 'Rasmalai',
+                    quantity: 1,
+                    itemPrice: '4',
+                  },
+                  {
+                    itemName: 'Gulab Jamun',
+                    quantity: 1,
+                    itemPrice: '3',
+                  },
+                  {
+                    itemName: 'Rasgulla',
+                    quantity: 1,
+                    itemPrice: '3',
+                  },
+                  {
+                    itemName: 'Gajar Halwa',
+                    quantity: 1,
+                    itemPrice: '3',
+                  },
+                  {
+                    itemName: 'Rice Kheer',
+                    quantity: 1,
+                    itemPrice: '3',
+                  },
+                  {
+                    itemName: 'Semiya payasam',
+                    quantity: 1,
+                    itemPrice: '3',
+                  },
+                  {
+                    itemName: 'Kesar Halwa',
+                    quantity: 1,
+                    itemPrice: '3',
+                  },
+                ],
+              },
+              {
+                categoryName: 'Speciality Ice-creams',
+                routeName: 'Speciality Ice-creams',
+                items: [
+                  {
+                    itemName: 'Falooda Shakes',
+                    itemDescription:
+                      'Bhadshahi, Malai, Kesar Pista, Chikoo, Mango',
+                    quantity: 1,
+                    itemPrice: '9.00',
+                  },
+                  {
+                    itemName: 'Ice-cream Shakes',
+                    itemDescription:
+                      'Chocalate, Chikoo, Mango, Pistachio, Vanilla',
+                    quantity: 1,
+                    itemPrice: '8.00',
+                  },
+                  {
+                    itemName: 'Ice-cream Desserts',
+                    itemDescription:
+                      'Gulab Jamun Ice-cream, Rasmalai Ice-cream',
+                    quantity: 1,
+                    itemPrice: '6.00',
+                  },
+                ],
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  };
 
-    setTitleAndMetaTags(): void {
-        this.titleService.setTitle('Veg & Non-Vegetarian Restaurant In Montreal | Mont Everest Masala');
-        this.metaService.updateTag({ name: 'description', content: 'Indulge in a culinary journey at Mont Everest Masala with a diverse menu featuring soups, salads, appetisers, seafood delights, biryanis, and vegetarian dishes!' });
-    }
+  constructor(
+    private router: Router,
+    private titleService: Title,
+    private metaService: Meta
+  ) {}
 
-    cartPage() {
-        this.router.navigate(['/cart']);
-    }
+  ngOnInit(): void {
+    this.setTitleAndMetaTags();
 
-    addQuantity(item: any) {
-        item.quantity = item.quantity + 1;
-    }
-    subQuantity(item: any) {
-        item.quantity = item.quantity < 1 ? 0 : item.quantity - 1;
-    }
-    addToCart(item: any, category: any) {
-        localStorage.setItem('location', this.host)
-        this.cart.push({
-            categoryName: category.categoryName,
-            routeName: category.routeName,
-            itemName: item.itemName,
-            itemIcon: item.icon,
-            itemPrice: item.itemPrice,
-            itemQuantity: item.quantity
-        })
-        localStorage.setItem('cart', JSON.stringify(this.cart));
-    }
+    this.menu = this.menuMasterData.menu[0];
+    this.categories = this.menu.superCategory[0].category;
 
-    getDiv(index: any, item: any) {
-        if (item.items.length) {
-            this.product = item;
-            this.selectedCategory = index;
-            this.router.navigate([`/menu/${this.host}`], { fragment: item.routeName });
-        } else {
-            this.product = undefined;
-            this.selectedCategory = index;
-            this.router.navigate([`/menu/${this.host}`]);
-        }
+    this.product = this.categories[0]; // Show first category by default
+    this.selectedCategory = 0;
+  }
+
+  setTitleAndMetaTags(): void {
+    this.titleService.setTitle('');
+    this.metaService.updateTag({
+      name: 'description',
+      content: '',
+    });
+  }
+
+  getDiv(index: number, item: any): void {
+    this.selectedCategory = index;
+    this.product = item;
+
+    if (item.items.length) {
+      this.router.navigate([`/menu/${this.host}`], {
+        fragment: item.routeName,
+      });
+    } else {
+      this.router.navigate([`/menu/${this.host}`]);
     }
+  }
+
+  scrollLeft(): void {
+    const container = document.querySelector('.options-tab') as HTMLElement;
+    container.scrollBy({ left: -200, behavior: 'smooth' });
+  }
+
+  scrollRight(): void {
+    const container = document.querySelector('.options-tab') as HTMLElement;
+    container.scrollBy({ left: 200, behavior: 'smooth' });
+  }
+
+  addQuantity(item: any): void {
+    item.quantity += 1;
+  }
+
+  subQuantity(item: any): void {
+    item.quantity = Math.max(0, item.quantity - 1);
+  }
+
+  addToCart(item: any, category: any): void {
+    localStorage.setItem('location', this.host);
+    this.cart.push({
+      categoryName: category.categoryName,
+      routeName: category.routeName,
+      itemName: item.itemName,
+      itemIcon: item.icon,
+      itemPrice: item.itemPrice,
+      itemQuantity: item.quantity,
+    });
+    localStorage.setItem('cart', JSON.stringify(this.cart));
+  }
 }
