@@ -19,7 +19,7 @@
     <div class="left" *ngIf="!truck.reverse">
       <h2>{{ truck.id }}. {{ truck.title }}</h2>
       <p *ngFor="let i of truck.description">{{ i }}</p>
-      <button routerLink="/contact-us">Book It Now</button>
+      <button routerLink="/contact">Book It Now</button>
     </div>
     <div class="right" *ngIf="!truck.reverse">
       <img [src]="truck.image" alt="{{ truck.title }}" />
@@ -32,7 +32,7 @@
       <div class="right">
         <h2>{{ truck.id }}. {{ truck.title }}</h2>
         <p *ngFor="let i of truck.description">{{ i }}</p>
-        <button routerLink="/contact-us">Book It Now</button>
+        <button routerLink="/contact">Book It Now</button>
       </div>
     </ng-container>
   </div>

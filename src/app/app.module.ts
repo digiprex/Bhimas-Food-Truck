@@ -12,17 +12,11 @@ import { AboutComponent } from './about/about.component';
 import { BlogsComponent } from './blogs/blogs.component';
 import { PostsComponent } from './posts/posts.component';
 import { GalleryComponent } from './gallery/gallery.component';
-import { CartComponent } from './cart/cart.component';
-import { CheckoutComponent } from './checkout/checkout.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
-import { TestimonialsComponent } from './testimonials/testimonials.component';
-import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
-import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { CommonModule } from '@angular/common';
 
 export function HttpLoaderFactory(httpClient: HttpClient) {
-  return new TranslateHttpLoader(httpClient);
 }
 
 @NgModule({
@@ -36,10 +30,7 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
     AboutComponent,
     BlogsComponent,
     PostsComponent,
-    GalleryComponent,
-    CartComponent,
-    CheckoutComponent,
-    TestimonialsComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,
@@ -49,13 +40,6 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
-    TranslateModule.forRoot({
-      loader: {
-        provide: TranslateLoader,
-        useFactory: HttpLoaderFactory,
-        deps: [HttpClient],
-      },
-    }),
   ],
   providers: [],
   bootstrap: [AppComponent],

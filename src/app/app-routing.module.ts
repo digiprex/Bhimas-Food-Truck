@@ -4,11 +4,8 @@ import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { MenuComponent } from './menu/menu.component';
 import { AboutComponent } from './about/about.component';
-import { BlogsComponent } from './blogs/blogs.component';
 import { PostsComponent } from './posts/posts.component';
 import { GalleryComponent } from './gallery/gallery.component';
-import { CartComponent } from './cart/cart.component';
-import { CheckoutComponent } from './checkout/checkout.component';
 
 const routes: Routes = [
   {
@@ -37,21 +34,9 @@ const routes: Routes = [
     component: GalleryComponent
   },
   {
-    path: `blogs`,
-    component: BlogsComponent
-  },
-  {
     path: `post/:name`,
     component: PostsComponent
   },
-  {
-    path: `cart`,
-    component: CartComponent
-  },
-  {
-    path: `checkout`,
-    component: CheckoutComponent
-  }
 ];
 
 @NgModule({

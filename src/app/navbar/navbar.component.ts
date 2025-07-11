@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild, HostListener } from '@angular/core';
+import { Component, OnInit, HostListener } from '@angular/core';
 import { AppService } from '../app.service';
 
 @Component({
@@ -7,52 +7,21 @@ import { AppService } from '../app.service';
   styleUrls: ['./navbar.component.scss'],
 })
 export class NavbarComponent implements OnInit {
-  public close: any;
-  public brandName: any;
-  public isdropDownOpen = false;
-  isDropdownOpen = false;
-  showTopBar = true;
-  isScrolled = false;
-  isNavbarHidden = false;
-  lastScrollTop = 0;
+  public close: boolean = false;
+  public brandName: string = '';
+  public isDropdownOpen = false;
+  public showTopBar = true;
+  public isScrolled = false;
+  public isNavbarHidden = false;
+  private lastScrollTop = 0;
 
   public links = [
-    {
-      name: 'Home',
-      url: '/home',
-      type: 'internal',
-      options: [],
-    },
-    {
-      name: 'Menu',
-      url: '/menutwo/all',
-      type: 'internal',
-      options: [],
-    },
-    {
-      name: 'About Us',
-      url: '/about-us',
-      type: 'internal',
-      options: [],
-    },
-    {
-      name: 'Contact Us',
-      url: '/contact-us',
-      type: 'internal',
-      options: [],
-    },
-    {
-      name: 'Service',
-      url: '/service/all',
-      type: 'internal',
-      options: [],
-    },
-    {
-      name: 'Order Online',
-      url: '',
-      type: 'external',
-      options: [],
-    }
+    { name: 'Home', url: '/home', type: 'internal' },
+    { name: 'Menu', url: '/menu', type: 'internal' },
+    { name: 'About Us', url: '/about', type: 'internal' },
+    { name: 'Contact Us', url: '/contact', type: 'internal' },
+    { name: 'Service', url: '/post/all', type: 'internal' },
+    { name: 'Order Online', url: '/', type: 'internal' },
   ];
 
   constructor(private appService: AppService) {
@@ -61,41 +30,8 @@ export class NavbarComponent implements OnInit {
 
   ngOnInit(): void {}
 
-  change(comm: any) {
-    this.close = comm;
-  }
-
-  @HostListener('window:scroll', [])
-  onWindowScroll() {
-    const offset =
-      window.pageYOffset ||
-      document.documentElement.scrollTop ||
-      document.body.scrollTop ||
-      0;
-    this.isScrolled = offset > 50; // (Optional for other purposes)
-    this.isNavbarHidden = offset > 0;
-    const currentScroll =
-      window.pageYOffset || document.documentElement.scrollTop;
-    const topBar = document.getElementById('top-bar');
-
-    if (!this.showTopBar) return;
-
-    if (currentScroll > this.lastScrollTop) {
-      // scrolling down
-      if (topBar) topBar.style.top = '-50px';
-    } else {
-      // scrolling up
-      if (topBar) topBar.style.top = '0';
-    }
-
-    this.lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
-  }
-  @HostListener('document:click', ['$event.target'])
-  onClickOutside(target: HTMLElement) {
-    const insideNavbar = target.closest('.navbar-nav');
-    if (!insideNavbar) {
-      this.closeDropdown();
-    }
+  change(value: boolean) {
+    this.close = value;
   }
 
   closeDropdown() {
@@ -104,5 +40,29 @@ export class NavbarComponent implements OnInit {
 
   closeTopBar() {
     this.showTopBar = false;
+  }
+
+  @HostListener('window:scroll', [])
+  onWindowScroll() {
+    const currentScroll =
+      window.pageYOffset || document.documentElement.scrollTop || 0;
+
+    this.isScrolled = currentScroll > 50;
+    this.isNavbarHidden = currentScroll > 0;
+
+    const topBar = document.getElementById('top-bar');
+    if (this.showTopBar && topBar) {
+      topBar.style.top = currentScroll > this.lastScrollTop ? '-50px' : '0';
+    }
+
+    this.lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
+  }
+
+  @HostListener('document:click', ['$event.target'])
+  onClickOutside(target: HTMLElement) {
+    const insideNavbar = target.closest('.navbar-nav');
+    if (!insideNavbar) {
+      this.closeDropdown();
+    }
   }
 }

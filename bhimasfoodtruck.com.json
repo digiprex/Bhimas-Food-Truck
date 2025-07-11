@@ -57,7 +57,7 @@
       },
       {
         "text": "Menu",
-        "link": "/menutwo/all",
+        "link": "/menu",
         "type": "internal",
         "options": []
       },
@@ -75,7 +75,7 @@
       },
       {
         "text": "Service",
-        "link": "/service/all",
+        "link": "/post/all",
         "type": "internal",
         "options": []
       },
@@ -149,7 +149,7 @@
           "At Bhimas Food Truck, we bring the heart of authentic Indian cuisine straight to your neighborhood. Inspired by traditional family recipes and spiced with a modern twist, our food truck is your go-to spot for bold flavors, vibrant colors, and mouthwatering meals served fresh every single day.",
           "Whether you’re craving classic South Indian delicacies, fiery street food favorites, or fusion dishes that surprise your palate, Bhimas has something for everyone. We use high-quality ingredients, time-honored cooking methods, and a generous dash of love to deliver unforgettable bites that taste like home."
         ],
-        "link": "/menutwo/all",
+        "link": "/menu",
         "button": "View Menu"
       },
       {
@@ -157,7 +157,7 @@
         "homepara": [
           "From bustling events to casual lunch breaks and late-night cravings, we serve at multiple locations throughout the week. Follow us on social media to track our route and catch us near you!"
         ],
-        "link": "/menutwo/all",
+        "link": "/menu",
         "button": "Explore"
       }
     ],
@@ -265,7 +265,7 @@
         "title": "FOOD TRUCK SERVICES",
         "subtitle": "Explore the Food Truck Services we Offer",
         "buttonText": "VISIT NOW",
-        "buttonLink": "/service/all"
+        "buttonLink": "/post/all"
       }
     ],
     "aboutparagraphs": [
